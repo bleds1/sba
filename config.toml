@@ -25,9 +25,24 @@ This website is still under construction..Be patient.
       href = "/about"
 
     [[params.links.link]]
+      name = "Posts"
+      href = "/posts"
+
+
+    [[params.links.link]]
+      name = "Gallery"
+      href = "/gallery"
+
+    [[params.links.link]]
       name = "Email"
       href = "/contact"
       smart_email_link = true
+
+
+    [[params.links.link]]
+      name = "Etsy"
+      href = "https://etsy.co.uk/"
+      new_tab = true
 
     [[params.links.link]]
       name = "Instagram"
