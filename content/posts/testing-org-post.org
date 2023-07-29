@@ -1,0 +1,21 @@
+---
+title: "Testing and Org Post"
+date: 2023-07-29T17:37:25+01:00
+---
+
+* Testing writing a post in org for hugo
+
+Here is some text.
+Here is some more text.
+
+*Bold Text*
+
+** Level 2 Header
+and more text over here..
+
+
+** TODO This is a todo
+
+#+begin_src sh
+cd ~/
+#+end_src
