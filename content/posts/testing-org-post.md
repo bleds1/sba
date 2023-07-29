@@ -10,7 +10,7 @@ Here is some more text and more writing, writing, writing.
 
 This is some **bold** this is some *italics*
 
-![Image 1](/static/doom-emacs-icon-128x128.png)
+![Image 1](/doom-emacs-icon-128x128.png)
 
 ## Level 2 Header
 and more text over here..
