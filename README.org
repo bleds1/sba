@@ -1,0 +1,7 @@
+#+TITLE: README.org
+#+ID: 2023-07-29-1632
+#+FILETAGS:
+#+LAST_MOD:[2023-07-29 16:33]
+---
+
+* New readme.org for Hugo static site project
