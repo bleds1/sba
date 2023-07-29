@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sbart.netlify.app/</loc>
+    <lastmod>2023-07-29T21:53:49+01:00</lastmod>
+  </url><url>
+    <loc>https://sbart.netlify.app/pages/about/</loc>
+    <lastmod>2023-07-29T21:34:59+01:00</lastmod>
+  </url><url>
+    <loc>https://sbart.netlify.app/pages/</loc>
+    <lastmod>2023-07-29T21:34:59+01:00</lastmod>
+  </url><url>
+    <loc>https://sbart.netlify.app/tags/personal/</loc>
+    <lastmod>2023-07-29T21:34:59+01:00</lastmod>
+  </url><url>
+    <loc>https://sbart.netlify.app/tags/</loc>
+    <lastmod>2023-07-29T21:34:59+01:00</lastmod>
+  </url><url>
+    <loc>https://sbart.netlify.app/tags/updates/</loc>
+    <lastmod>2023-07-29T21:34:59+01:00</lastmod>
+  </url><url>
+    <loc>https://sbart.netlify.app/posts/</loc>
+    <lastmod>2023-07-29T17:37:25+01:00</lastmod>
+  </url><url>
+    <loc>https://sbart.netlify.app/posts/testing-org-post/</loc>
+    <lastmod>2023-07-29T17:37:25+01:00</lastmod>
+  </url><url>
+    <loc>https://sbart.netlify.app/categories/</loc>
+  </url>
+</urlset>

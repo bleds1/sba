@@ -1,5 +1,5 @@
 ---
-title: "Testing Markdown Post"
+title: "This is a test post"
 date: 2023-07-29T17:37:25+01:00
 ---
 

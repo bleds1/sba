@@ -2,6 +2,7 @@ baseURL = 'https://sbart.netlify.app/'
 languageCode = 'en-us'
 title = 'sba'
 theme = 'rocinante'
+paginate = 3
 
 [markup]
   [markup.highlight]
@@ -11,22 +12,25 @@ theme = 'rocinante'
 
 [params]
   mainSections = ["posts", "photos"]
-  email = "mail@example.com"
+  email = "info@example.com"
   favicon = "icons/favicon.png"
   about = """
-This site is currently under construction...
+This website is still under construction..Be patient.
 """
 
   [[params.links]]
+
+    [[params.links.link]]
+      name = "About"
+      href = "/about"
+
     [[params.links.link]]
       name = "Email"
       href = "/contact"
       smart_email_link = true
+
     [[params.links.link]]
       name = "Instagram"
       href = "https://instagram.com/"
       new_tab = true
-    [[params.links.link]]
-      name = "Etsy"
-      href = "https://etsy.co.uk/"
-      new_tab = true
+

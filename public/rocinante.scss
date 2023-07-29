@@ -1,13 +1,12 @@
 @import 'includes';
 
 /* https://markdotto.com/2018/02/07/github-system-fonts/ */
-$fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "JetBrainsMono";
+$fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 body {
-	font-family: "JetBrainsMono";
-	background: #151515 ;
-	color: #d8d8d8 ;
-  font-size: 14px;
+  font-family: $fonts;
+  color: #333;
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -55,11 +54,11 @@ h4, h5, h6 {
 }
 
 a {
-  color: #C280A0;
+  color: #2200CC;
   transition: color 0.1s ease;
 
   &:hover {
-    color: #8C8DFF;
+    color: #5544FF;
   }
 }
 
@@ -93,13 +92,13 @@ pre, code {
   border-radius: 3px;
 }
 code {
-  background: #282C37;
+  background: #f9f9f9;
   font-size: 0.9em;
   padding: 0.25em 0.5em;
   color: #9E525A;
 }
 pre code {
-  background: #282C37;
+  background: #f9f9f9;
   display: block;
   margin: 1em 0;
   padding: 0.75em 1em;
@@ -175,14 +174,14 @@ header h2 {
   a {
     text-decoration: none;
     border: none;
-    color: #8C8DFF !important;
+    color: #77f !important;
 
     &:hover {
-      color: #C280A0 !important;
+      color: #f77 !important;
     }
 
     &:active {
-      color: #80C2A2 !important;
+      color: #2a2 !important;
     }
   }
 }
@@ -216,7 +215,7 @@ header h2 {
 footer {
   margin-top: 3em;
   .content-container {
-    background: #151515;
+    background: #eee;
     padding: 2em 0;
     .content {
       max-width: 740px;
@@ -250,7 +249,7 @@ footer {
     border: none;
 
     &:hover {
-      color: #8C8DFF;
+      color: #5544FF;
     }
   }
   .read-more {

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on sba</title>
+    <link>https://sbart.netlify.app/pages/</link>
+    <description>Recent content in Pages on sba</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Jul 2023 21:34:59 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://sbart.netlify.app/pages/about/</link>
+      <pubDate>Sat, 29 Jul 2023 21:34:59 +0100</pubDate>
+      
+      <guid>https://sbart.netlify.app/pages/about/</guid>
+      <description>This is a Hugo website under construction..
+Be patient..
+I&amp;rsquo;m figuring it out.</description>
+    </item>
+    
+  </channel>
+</rss>
