@@ -10,7 +10,7 @@ Here is some more text and more writing, writing, writing.
 
 This is some *Bold Text* this is some /italics/
 
-
+[file:~/sba/content/assets/doom-emacs-icon-128x128.png]
 
 ** Level 2 Header
 and more text over here..
