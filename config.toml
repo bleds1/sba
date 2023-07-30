@@ -14,9 +14,9 @@ paginate = 3
   mainSections = ["posts", "photos"]
   email = "info@example.com"
   favicon = "icons/favicon.png"
-  about = """
-This website is still under construction..Be patient.
-"""
+#   about = """
+# This website is still under construction..Be patient.
+# """
 
   [[params.links]]
 
@@ -25,16 +25,16 @@ This website is still under construction..Be patient.
       href = "/about"
 
     [[params.links.link]]
-      name = "Posts"
+      name = "News"
       href = "/posts"
 
 
     [[params.links.link]]
       name = "Gallery"
-      href = "/gallery"
+      href = "/photos"
 
     [[params.links.link]]
-      name = "Email"
+      name = "Contact"
       href = "/contact"
       smart_email_link = true
 
@@ -49,3 +49,6 @@ This website is still under construction..Be patient.
       href = "https://instagram.com/"
       new_tab = true
 
+    [[params.links.link]]
+      name = "Links"
+      href = "/links"
