@@ -243,3 +243,7 @@ Find below resources I found useful and stole a lot of stuff from for my config.
 [Rainer Koenig's Blog (Org-mode)](https://koenig-haunstetten.de/)
 
 [Rainer Koenig's Videos on Org-mode](https://piped.kavin.rocks/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
+
+## Related Posts
+
+[How to install Doom Emacs on Termux](/posts/2023-07-23-how-to-install-doom-emacs-on-termux/)

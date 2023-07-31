@@ -46,3 +46,9 @@ _- Just started on this book and I’ve just got that feeling that it’s going 
 [The Blindboy Podcast](https://open.spotify.com/show/7HinkS0WZqDuMXYh02EUY1)
 
 _- My favourite podcast at the moment. Blindboy is just a very smart and entertaining story teller. Love the ‘hot take’ episodes._
+
+## Related Posts
+
+[Moving Pictures @ City Screen, York](/posts/2022-03-12-moving-pictures-now-showing/)
+
+[Shelby Brothers in Oil](/posts/2022-02-19-shelby-brothers/)

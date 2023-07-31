@@ -16,7 +16,7 @@ customCSS = ["css/custom_style.css"]
     unsafe= true
 
 [params]
-  mainSections = ["posts", "photos"]
+  mainSections = ["posts"]
   email = "info@stevebeadleart.com"
   favicon = "icons/favicon.png"
 #   about = """
@@ -36,9 +36,9 @@ customCSS = ["css/custom_style.css"]
       href = "/posts"
 
 
-    [[params.links.link]]
-      name = "Gallery"
-      href = "/photos"
+    # [[params.links.link]]
+    #   name = "Gallery"
+    #   href = "/photos"
 
     [[params.links.link]]
       name = "Contact"

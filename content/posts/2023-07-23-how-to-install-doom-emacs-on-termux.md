@@ -75,3 +75,7 @@ That's about it for now. This should be enough to get you up and running. Enjoy 
 [Termux Github](https://github.com/termux/termux-app)
 
 [Termux on F-Droid](https://f-droid.org/packages/com.termux/)
+
+## Related Posts
+
+[Getting Started with Doom Emacs](/posts/2023-01-27-getting-started-with-doom-emacs/)

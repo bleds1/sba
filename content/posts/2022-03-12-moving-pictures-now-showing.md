@@ -28,3 +28,11 @@ Follow us on Instagram [@navigatorsart](https://instagram.com/navigatorsart)
 [@timothy_.morrison](https://instagram.com/timothy_.morrison)
 
 [Eventbrite](https://bit.ly/Navigators-eventbrite)
+
+## Related Posts
+
+[Living Treasures Live Performance @ The Basement, City Screen York](/posts/2023-06-07-living-treasures-live-performance/)
+
+[Moving Pictures II @ Helmsley Arts Centre](/posts/2023-01-09-moving-pictures-2-helmsley-arts-centre/)
+
+[Lost Boys Painting Step by Step](/posts/2023-01-17-lost-boys-painting-step-by-step/)

@@ -12,3 +12,11 @@ tags: ['painting','oil']
 
 
 Little oil studies of elderly folk..
+
+## Related Posts
+
+[Small Gouache People](/posts/2023-02-18-small-gouache-people/)
+
+[Village Elder](/posts/2022-03-12-village-elder/)
+
+[Ripley Painting](/posts/2022-06-17-ripley-painting/)

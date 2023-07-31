@@ -15,3 +15,11 @@ I'll be showing some work soon at [City Screen Picturehouse,York](https://www.pi
 - Launch night!! drinks and chat (Sunday 19th March 1930 until 2100)
 
 Come along and see you there!
+
+## Related Posts
+
+[Hidden Treasures @ York Explore & City Screen](/posts/2023-06-05-hidden-treasures-york-explore/)
+
+[Moving Pictures @ City Screen, York](/posts/2022-03-12-moving-pictures-now-showing)
+
+[Living Treasures Live Performance @ The Basement, City Screen York](/posts/2023-06-07-living-treasures-live-performance/)
