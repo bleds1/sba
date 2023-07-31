@@ -2,30 +2,37 @@ baseURL = 'https://sbart.netlify.app/'
 languageCode = 'en-us'
 title = 'sba'
 theme = 'rocinante'
-paginate = 3
+paginate = 6
+customCSS = ["css/custom_style.css"]
+
+[Author]
+  name = "Steve Beadle"
+  email = "info@stevebeadleart.com"
 
 [markup]
   [markup.highlight]
-    style = "monokailight"
+    style = "monokaidark"
   [markup.goldmark.renderer]
     unsafe= true
 
 [params]
   mainSections = ["posts", "photos"]
-  email = "info@example.com"
+  email = "info@stevebeadleart.com"
   favicon = "icons/favicon.png"
 #   about = """
 # This website is still under construction..Be patient.
 # """
+ google_fonts = ["//fonts.googleapis.com/css?family=JetBrains+Mono"]
+ body_font = "JetBrains+Mono"
 
-  [[params.links]]
+[[params.links]]
 
     [[params.links.link]]
       name = "About"
       href = "/about"
 
     [[params.links.link]]
-      name = "News"
+      name = "Posts"
       href = "/posts"
 
 
@@ -41,12 +48,12 @@ paginate = 3
 
     [[params.links.link]]
       name = "Etsy"
-      href = "https://etsy.co.uk/"
+      href = "https://www.etsy.com/uk/shop/stevebeadleart/"
       new_tab = true
 
     [[params.links.link]]
       name = "Instagram"
-      href = "https://instagram.com/"
+      href = "https://instagram.com/stevebeadleart/"
       new_tab = true
 
     [[params.links.link]]

@@ -6,22 +6,186 @@
     <description>Recent content in Tags on sba</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jul 2023 21:34:59 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>info@stevebeadleart.com (Steve Beadle)</managingEditor>
+    <webMaster>info@stevebeadleart.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Sun, 23 Jul 2023 15:00:18 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>personal</title>
-      <link>https://sbart.netlify.app/tags/personal/</link>
-      <pubDate>Sat, 29 Jul 2023 21:34:59 +0100</pubDate>
-      
-      <guid>https://sbart.netlify.app/tags/personal/</guid>
+      <title>android</title>
+      <link>https://sbart.netlify.app/tags/android/</link>
+      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>updates</title>
-      <link>https://sbart.netlify.app/tags/updates/</link>
-      <pubDate>Sat, 29 Jul 2023 21:34:59 +0100</pubDate>
-      
-      <guid>https://sbart.netlify.app/tags/updates/</guid>
+      <title>emacs</title>
+      <link>https://sbart.netlify.app/tags/emacs/</link>
+      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pencil</title>
+      <link>https://sbart.netlify.app/tags/pencil/</link>
+      <pubDate>Sun, 16 Jul 2023 12:26:03 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/pencil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sketchbook</title>
+      <link>https://sbart.netlify.app/tags/sketchbook/</link>
+      <pubDate>Sun, 16 Jul 2023 12:26:03 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/sketchbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>navigators</title>
+      <link>https://sbart.netlify.app/tags/navigators/</link>
+      <pubDate>Mon, 10 Jul 2023 12:23:41 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/navigators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shows</title>
+      <link>https://sbart.netlify.app/tags/shows/</link>
+      <pubDate>Mon, 10 Jul 2023 12:23:41 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/shows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>digital painting</title>
+      <link>https://sbart.netlify.app/tags/digital-painting/</link>
+      <pubDate>Sat, 17 Jun 2023 12:28:07 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/digital-painting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>krita</title>
+      <link>https://sbart.netlify.app/tags/krita/</link>
+      <pubDate>Sat, 17 Jun 2023 12:28:07 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/krita/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ballpoint</title>
+      <link>https://sbart.netlify.app/tags/ballpoint/</link>
+      <pubDate>Tue, 25 Apr 2023 12:33:24 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/ballpoint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oil</title>
+      <link>https://sbart.netlify.app/tags/oil/</link>
+      <pubDate>Tue, 11 Apr 2023 12:35:36 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/oil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>painting</title>
+      <link>https://sbart.netlify.app/tags/painting/</link>
+      <pubDate>Tue, 11 Apr 2023 12:35:36 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/painting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gouache</title>
+      <link>https://sbart.netlify.app/tags/gouache/</link>
+      <pubDate>Sat, 18 Feb 2023 12:37:02 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/gouache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://sbart.netlify.app/tags/linux/</link>
+      <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>etsy</title>
+      <link>https://sbart.netlify.app/tags/etsy/</link>
+      <pubDate>Tue, 21 Jul 2020 16:41:31 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/etsy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example</title>
+      <link>https://sbart.netlify.app/tags/example/</link>
+      <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samples</title>
+      <link>https://sbart.netlify.app/tags/samples/</link>
+      <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/samples/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Something</title>
+      <link>https://sbart.netlify.app/tags/something/</link>
+      <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/something/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Specimen</title>
+      <link>https://sbart.netlify.app/tags/specimen/</link>
+      <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/specimen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prototype</title>
+      <link>https://sbart.netlify.app/tags/prototype/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/prototype/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chimichanga</title>
+      <link>https://sbart.netlify.app/tags/chimichanga/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/tags/chimichanga/</guid>
       <description></description>
     </item>
     

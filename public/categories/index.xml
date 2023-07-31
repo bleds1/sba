@@ -5,6 +5,8 @@
     <link>https://sbart.netlify.app/categories/</link>
     <description>Recent content in Categories on sba</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://sbart.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <managingEditor>info@stevebeadleart.com (Steve Beadle)</managingEditor>
+    <webMaster>info@stevebeadleart.com (Steve Beadle)</webMaster><atom:link href="https://sbart.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

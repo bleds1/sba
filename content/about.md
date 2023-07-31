@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2023-07-29T21:34:59+01:00
-tags: ['updates','personal']
+layout: "about"
 draft: false
 ---
 This is a Hugo website under construction..

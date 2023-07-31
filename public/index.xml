@@ -1,34 +1,565 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SBA on sba</title>
-    <link>https://sbart.netlify.app/</link>
-    <description>Recent content in SBA on sba</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jul 2023 21:53:49 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://sbart.netlify.app/pages/about/</link>
-      <pubDate>Sat, 29 Jul 2023 21:34:59 +0100</pubDate>
-      
-      <guid>https://sbart.netlify.app/pages/about/</guid>
-      <description>This is a Hugo website under construction..
-Be patient..
-I&amp;rsquo;m figuring it out.</description>
-    </item>
+	<title>sba</title>
+	<link>https://sbart.netlify.app/</link>
+	<description>Recent content on sba</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<managingEditor>info@stevebeadleart.com (Steve Beadle)</managingEditor>
+	<webMaster>info@stevebeadleart.com (Steve Beadle)</webMaster>
+	<lastBuildDate>Sun, 23 Jul 2023 15:00:18 +0100</lastBuildDate>
     
-    <item>
-      <title>This is a test post</title>
-      <link>https://sbart.netlify.app/posts/testing-org-post/</link>
-      <pubDate>Sat, 29 Jul 2023 17:37:25 +0100</pubDate>
-      
-      <guid>https://sbart.netlify.app/posts/testing-org-post/</guid>
-      <description>Testing writing a post in org for hugo Here is some text. Lots of text, writing and writing. Here is some more text and more writing, writing, writing.
-This is some bold this is some italics
-Level 2 Header and more text over here..
-cd ~/ </description>
-    </item>
+        <atom:link href="https://sbart.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Links</title>
+		<link>https://sbart.netlify.app/links/</link>
+		<pubDate>Sun, 30 Jul 2023 00:24:54 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/links/</guid>
+		<description></description>
+	</item>
+	
+	<item>
+		<title>About</title>
+		<link>https://sbart.netlify.app/about/</link>
+		<pubDate>Sat, 29 Jul 2023 21:34:59 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/about/</guid>
+		<description>&lt;p&gt;This is a Hugo website under construction..&lt;/p&gt;
+&lt;p&gt;Be patient..&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m figuring it out.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>How to Install Doom Emacs on Termux</title>
+		<link>https://sbart.netlify.app/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</link>
+		<pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-07-23-how-to-install-doom-emacs-on-termux/2023-07-23-doom-emacs-termux-screenshot.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I used to think having Emacs on a phone was a bit much..but recently I&amp;rsquo;ve just started using Emacs and Org mode for nearly everything.. There&amp;rsquo;s not a great selection of apps on Android for accessing Org files, the best solution to me was to just get Emacs with it&amp;rsquo;s fully fledged Org on mobile. The newish GUI Android Emacs app is a bit strange and I swiftly uninstalled it. The Termux terminal version however, works much better. There&amp;rsquo;s not a whole load of info out there about how to run Doom Emacs on Termux but I managed to figure it out and have been impressed with how well it works. I&amp;rsquo;m not a &lt;em&gt;massive&lt;/em&gt; phone user and do the bulk of stuff on a laptop but It is pretty nice to be able to view my Org agenda or add something quick to my daily note from mobile. I&amp;rsquo;m also a big fan of just launching into a blank &amp;ldquo;&lt;em&gt;scratch&lt;/em&gt;&amp;rdquo; buffer to do any writing, drafting or quick capture.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.  Install Emacs on Termux&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t have Termux already, bookmark this post and get yourself set up with that from F-Droid. You may want to get to know it a little before getting into this stuff. When you&amp;rsquo;re ready for Emacs then..&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;    pkg install emacs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;2.  Install dependencies&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s possible you might be asked for some others depending on what you already have in your Termux installation.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;    pkg install gh fd ripgrep
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;3.  Install Doom&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll need to do things a bit differently from the usual install instructions on Github as Termux Emacs uses different directories..&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;    git clone --depth &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt; https://github.com/doomemacs/doomemacs ~/.emacs.d
     
-  </channel>
+    ~/.emacs.d/bin/doom install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;4.  Setup your config files (config.el packages.el init.el)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you already have a config file on desktop I&amp;rsquo;d suggest rather than just dumping the whole thing into Termux, you take it chunk by chunk. The default included config is pretty much good to go if you haven&amp;rsquo;t used Doom before. Start with your basic settings and introduce elements to it gradually and make sure it works at each step with a doom sync or doom/reload. If you have a really complicated set up you may run into things that don’t work on mobile but I was surprised at how much works perfectly. Maybe you want to set up some slightly simpler keybinds in the mobile environment or live without certain packages. For example I haven’t yet dared install the Org-Roam package on mobile as I&amp;rsquo;m worried about conflicting database issues. I can still access and edit all those .org notes however and that&amp;rsquo;s totally enough for me.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5.  Set up some convienient aliases&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Adding something like this to your shell config can save a few keypresses on that fiddly litte keyboard. I use zsh so in my .zshrc I have..&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;alias&lt;/span&gt; doomsync=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;~/.emacs.d/bin/doom sync&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;alias&lt;/span&gt; emd=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;emacs --daemon&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;alias&lt;/span&gt; em=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;emacsclient -nw&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You&amp;rsquo;ll want to doom sync on the command line after adding any new packages. With most changes to config.el you can just hot reload &amp;ldquo;SPC-h-r-r&amp;rdquo; or &amp;ldquo;M-x doom/reload&amp;rdquo; and you should see your configuration changes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6.  Bonus&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Termux Extras&lt;/strong&gt;
+If you install some Termux extras - API and widgets. You can just set up a script which acts as a home screen app launcher with a custom icon. Install both from F-Droid, also install termux-api in Termux.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;    pkg install termux-api
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Vterm&lt;/strong&gt;
+The Vterm pop up terminal is pretty useful in Termux because of the lack of screen space. I didn&amp;rsquo;t expect it to work but it totally does. Uncomment it in packages.el, exit and doom sync. When you try to open it Doom will let you know it needs to compile the package so you&amp;rsquo;ll need the following build dependencies.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;    pkg install cmake libvterm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Keeping files in sync&lt;/strong&gt;
+I use Dropbox with Dropsync because the official Dropbox app on Android is weird and won’t let you store the directory offline on your device.. Syncthing would be another option to use here but you will only be able sync your files on a local wifi.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s about it for now. This should be enough to get you up and running. Enjoy your tiny little Emacs.&lt;/p&gt;
+&lt;h1 id=&#34;links&#34;&gt;Links&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/doomemacs/doomemacs&#34; target=&#34;_blank&#34;&gt;Doom Emacs Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/termux/termux-app&#34; target=&#34;_blank&#34;&gt;Termux Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://f-droid.org/packages/com.termux/&#34; target=&#34;_blank&#34;&gt;Termux on F-Droid&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>2023-07-16 Sketchbook Stuff</title>
+		<link>https://sbart.netlify.app/posts/2023-07-16-sketchbook-stuff/</link>
+		<pubDate>Sun, 16 Jul 2023 12:26:03 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-07-16-sketchbook-stuff/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-07-16-sketchbook-stuff/2023-06-30-0952-sketchbook-scans-1.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-07-16-sketchbook-stuff/2023-06-30-0952-sketchbook-scans-2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-07-16-sketchbook-stuff/2023-06-30-0952-sketchbook-scans-3.png&#34; alt=&#34;Image 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Recent sketchbook pages.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Call out for Art: Punk Jazz</title>
+		<link>https://sbart.netlify.app/posts/2023-07-10-punk-jazz-call-out/</link>
+		<pubDate>Mon, 10 Jul 2023 12:23:41 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-07-10-punk-jazz-call-out/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-07-10-punk-jazz-call-out/2023-07-10-punk-jazz-call-out-screenshot.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Call out for Art/Artists/Performers!&lt;/p&gt;
+&lt;p&gt;🧷 Punk/Jazz 🎷&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Can you do an art?&lt;/li&gt;
+&lt;li&gt;Would you like to do an art for us?&lt;/li&gt;
+&lt;li&gt;Do you perform?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://linktr.ee/navigatorsart&#34; target=&#34;_blank&#34;&gt;Navigators Art&lt;/a&gt; are looking for submissions for a visual art show with a supporting live musical performance night. See &lt;a href=&#34;https://instagram.com/navigatorsart&#34; target=&#34;_blank&#34;&gt;@navigatorsart&lt;/a&gt; 👈 over there or message for more details..&lt;/p&gt;
+&lt;p&gt;🚨 Submission deadline 17th July&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Living Treasures Live Performance @ The Basement, City Screen York</title>
+		<link>https://sbart.netlify.app/posts/2023-06-07-living-treasures-live-performance/</link>
+		<pubDate>Fri, 07 Jul 2023 12:30:29 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-06-07-living-treasures-live-performance/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-06-07-living-treasures-live-performance/2023-06-07-living-treasures-live-performance-flyer.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;🚨 This weekend! We&amp;rsquo;ve still got some tickets left for the Live performance night (Sat) and Film (Sun).&lt;/p&gt;
+&lt;p&gt;Get on it pretty quick sharp and let the good peoples know about it as the live show at &lt;a href=&#34;https://www.picturehouses.com/cinema/city-screen-picturehouse&#34; target=&#34;_blank&#34;&gt;City Screen Picturehouse&lt;/a&gt; is going to be something a little bit special..&lt;/p&gt;
+&lt;p&gt;Check &lt;a href=&#34;https://instagram.com/navigatorsart&#34; target=&#34;_blank&#34;&gt;@navigatorsart&lt;/a&gt; for more info flow. Accompanying art is on show at &lt;a href=&#34;https://exploreyork.org.uk/&#34; target=&#34;_blank&#34;&gt;York Explore&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See you down there ✌️&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>2023-06-14 Girl Study in Krita</title>
+		<link>https://sbart.netlify.app/posts/2023-06-14-girl-study-in-krita/</link>
+		<pubDate>Sat, 17 Jun 2023 12:28:07 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-06-14-girl-study-in-krita/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-06-14-girl-study-in-krita/2023-06-14-girl-study-in-krita-1.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-06-14-girl-study-in-krita/2023-06-14-girl-study-in-krita-2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Hidden/Living Treasures @ York Explore &amp; City Screen</title>
+		<link>https://sbart.netlify.app/posts/2023-06-05-1859-hidden-treasures-york-explore/</link>
+		<pubDate>Mon, 05 Jun 2023 18:59:31 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-06-05-1859-hidden-treasures-york-explore/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-06-05-1859-hidden-treasures-york-explore/2023-06-05-1859-hidden-treasures-york-explore-image.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We are live! New HIDDEN TREASURES exhibition at &lt;a href=&#34;https://exploreyork.org.uk/&#34; target=&#34;_blank&#34;&gt;York Explore Library&lt;/a&gt; as a part of the &lt;a href=&#34;https://yorkfestivalofideas.com/2023/throughout/hidden-treasures/&#34; target=&#34;_blank&#34;&gt;York Festival of Ideas&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Inspired by local streets and sights (though not the obvious ones!) as well as by works in York Art Gallery and elsewhere.&lt;/p&gt;
+&lt;p&gt;Open daily during library hours and free - but make sure you book for our other very special Festival events soon! 👍&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-06-07-living-treasures-live-performance/2023-06-07-living-treasures-live-performance-flyer.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;At City Screen Picturehouse York:
+LIVING TREASURES - live performance 10 June&lt;/p&gt;
+&lt;p&gt;Info: &lt;a href=&#34;https://yorkfestivalofideas.com/2023/calendar/living-treasures/&#34; target=&#34;_blank&#34;&gt;Living Treasures | York Festival of Ideas&lt;/a&gt;
+Booking: &lt;a href=&#34;https://www.eventbrite.co.uk/e/living-treasures-tickets&#34; target=&#34;_blank&#34;&gt;Eventbrite Tickets&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-06-05-1859-hidden-treasures-york-explore/2023-06-05-1859-hidden-treasures-another-country.png&#34; alt=&#34;Image 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;THERE&amp;rsquo;S ANOTHER COUNTRY a film by Martin Nichols - film screening 11 June&lt;/p&gt;
+&lt;p&gt;Info &amp;amp; booking: &lt;a href=&#34;https://www.picturehouses.com/movie-details/000/HO00012927/there-s-another-country&#34; target=&#34;_blank&#34;&gt;There&amp;rsquo;s Another Country | Picturehouses.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ARTICLE &amp;amp; INTERVIEW: &lt;a href=&#34;https://charleshutchpress.co.uk/navigators-art-to-participate-in-2023-york-festival-of-ideas-with-triple-venture-of-art-music-words-and-film-projects/&#34; target=&#34;_blank&#34;&gt;Navigators Art to Participate in 2023 York Festival of Ideas | charleshutchpress.co.uk&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>2023-04-25 Sketchbook Stuff</title>
+		<link>https://sbart.netlify.app/posts/2023-04-25-sketchbook-stuff/</link>
+		<pubDate>Tue, 25 Apr 2023 12:33:24 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-04-25-sketchbook-stuff/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-04-25-sketchbook-stuff/2023-04-25-clash-sketchbook-1.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-04-25-sketchbook-stuff/2023-04-25-clash-sketchbook-2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-04-25-sketchbook-stuff/2023-04-25-lady-sketchbook.png&#34; alt=&#34;Image 3&#34;&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Oil Studies of Elders</title>
+		<link>https://sbart.netlify.app/posts/2023-04-11-oil-studies-of-elders/</link>
+		<pubDate>Tue, 11 Apr 2023 12:35:36 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-04-11-oil-studies-of-elders/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-04-11-oil-studies-of-elders/2023-04-11-oil-scans-1.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-04-11-oil-studies-of-elders/2023-04-11-oil-scans-2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-04-11-oil-studies-of-elders/2023-04-11-oil-scans-3.png&#34; alt=&#34;Image 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Little oil studies of elderly folk..&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Dreamtime Now Showing @ City Screen York</title>
+		<link>https://sbart.netlify.app/posts/2023-03-15-dreamtime-now-showing-city-screen-york/</link>
+		<pubDate>Wed, 15 Mar 2023 17:34:56 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-03-15-dreamtime-now-showing-city-screen-york/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-03-15-dreamtime-now-showing-city-screen-york/2023-03-03-dreamtime-promo-flyer-navigators.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be showing some work soon at &lt;a href=&#34;https://www.picturehouses.com/cinema/city-screen-picturehouse&#34; target=&#34;_blank&#34;&gt;City Screen Picturehouse,York&lt;/a&gt; alongside fellow &lt;a href=&#34;https://linktr.ee/navigatorsart&#34; target=&#34;_blank&#34;&gt;Navigators&lt;/a&gt; from 12th March until 21st April&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Preview night will be in the upstairs gallery (from March 12)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Full show in gallery and bar (from March 19)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Launch night!! drinks and chat (Sunday 19th March 1930 until 2100)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Come along and see you there!&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Small Gouache People</title>
+		<link>https://sbart.netlify.app/posts/2023-02-18-small-gouache-people/</link>
+		<pubDate>Sat, 18 Feb 2023 12:37:02 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-02-18-small-gouache-people/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-02-18-small-gouache-people/2023-02-18-small-gouache-people-1.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-02-18-small-gouache-people/2023-02-18-small-gouache-people-2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-02-18-small-gouache-people/2023-02-18-small-gouache-people-3.png&#34; alt=&#34;Image 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Doing little studies like this can really take the pressure off from the bigger or more important pieces. These are about 5 inch tall and I try..&amp;lsquo;try&amp;rsquo; to not spend too long on each. I&amp;rsquo;d recommend working small and moving on quickly if you&amp;rsquo;re trying to build a daily habit.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>A Beginners Guide: Getting Started With Doom Emacs</title>
+		<link>https://sbart.netlify.app/posts/2023-01-27-getting-started-with-doom-emacs/</link>
+		<pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-01-27-getting-started-with-doom-emacs/</guid>
+		<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-27-getting-started-with-doom-emacs/dashboard-doom-emacs.png&#34; alt=&#34;Image 1&#34;&gt;
+&lt;img src=&#34;https://sbart.netlify.app/2023-01-27-getting-started-with-doom-emacs/dashboard-doom-emacs-2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If your first thought on this is &lt;em&gt;“Urrggh, really Emacs??.. Not for me..It&amp;rsquo;s ancient, bloated, complicated, full of features I don&amp;rsquo;t need..just give me a simple plain text editor“&lt;/em&gt;. Well that was me too. I was very much the Vim user because I&amp;rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits. This tribal mentality that you must be on one team or the other seems massively dumb to me. So what turned me the way of Emacs? The short answer is Org-mode but I think that&amp;rsquo;s going to have to wait for another post..&lt;/p&gt;
+&lt;p&gt;So, I&amp;rsquo;m not a coder or programmer and all I know about Elisp is it&amp;rsquo;s got a hell of a lot of semicolons. I hack on a few Linux config files but I&amp;rsquo;m coming at Emacs from the perspective of a note taker. I mostly use it for writing, reading, digital notetaking and task organization.&lt;/p&gt;
+&lt;p&gt;Because Emacs is such a huge topic I&amp;rsquo;ll probably just give an &lt;em&gt;‘as brief as I can overview’&lt;/em&gt;* of some of the reasons and features I use in it. There’s a lot of info out there if it peeks your interest. This first post will be a total beginners guide and link to some resources at the end if you want to go further down the rabbit hole. I&amp;rsquo;ll talk more about the juicy specifics in future posts. I&amp;rsquo;m going to make the presumption that you, dear reader know a few things already. Like what Vim and the terminal is and what Emacs is. There is an internet if you need to get up to speed.&lt;/p&gt;
+&lt;p&gt;It started for me with Vim motions. I use Vim motions everywhere possible, any editor or browser must have them for me. If I hadn&amp;rsquo;t learnt Vim motions prior, I probably wouldn&amp;rsquo;t have got into Emacs at all. Doom Emacs uses the evil key bindings from Vim. I tried installing vanilla Emacs and was totally lost, it felt like an alien world. Doom makes a lot of sense to me because it&amp;rsquo;s Vimcentric. Doom is essentially a framework with a ton of configuration on top of base Emacs. They have done so much work and optimization for you it&amp;rsquo;s actually quite simple to get started with.&lt;/p&gt;
+&lt;p&gt;Another app on my road to Emacs that I previously thought was &amp;lsquo;the one&amp;rsquo; is Obsidian. I still think it’s super great actually and could easily go back to it one day. I&amp;rsquo;m very much into the idea of keeping all your files and projects in plain text or markdown, offline, without using some kind of paid syncing or subscription service. With Emacs you are in control of your files, it&amp;rsquo;s free software and your life in text feels safe and future proof. Obsidian has a lot of cool features for linking ideas together in your vault. I also liked that you can just edit the notes with any other text editor that can handle the markdown format. I would use Vim a lot to take my quick notes and Obsidian would be the master vault where I organize them into some kind of a system. Through learning Obsidian I learnt about the Zettlekasten method, PKM and &amp;lsquo;Building a Second Brain&amp;rsquo;. This in turn led to learning that Emacs can do all this stuff and much, much more..&lt;/p&gt;
+&lt;h2 id=&#34;how-to-install-doom-emacs&#34;&gt;How to install Doom Emacs&lt;/h2&gt;
+&lt;p&gt;Be sure to have Vanilla Emacs installed first and then git clone Doom Emacs;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;git clone --depth &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt; https://github.com/doomemacs/doomemacs ~/.emacs.d ~/.emacs.d/bin/doom install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You may want to set up an alias, keyboard shortcut or startup script for launching Emacs with the emacsclient. It&amp;rsquo;s the best and fastest way to use Emacs trust me..&lt;/p&gt;
+&lt;p&gt;Start the daemon for the emacsclient from your terminal with;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;/usr/bin/emacs --daemon &amp;amp;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Run the Emacs client;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;emacsclient -c -a &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;emacs&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you’re not on Linux you can find alternate install and setup instructions for Mac &amp;amp; Windows &lt;a href=&#34;https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;basic-configuration&#34;&gt;Basic configuration&lt;/h2&gt;
+&lt;h3 id=&#34;configel&#34;&gt;config.el&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-27-getting-started-with-doom-emacs/terminal-dir-doom-emacs.png&#34; alt=&#34;Image 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Most of your configuration will be taking place in &lt;strong&gt;~/.doom.d/config.el&lt;/strong&gt; You can run &lt;strong&gt;‘doom sync’&lt;/strong&gt; after any changes for them to take effect with &lt;strong&gt;(Space-h-r-r)&lt;/strong&gt;. That&amp;rsquo;s a keybind you&amp;rsquo;ll use a lot. I remember it as &lt;em&gt;&amp;ldquo;Hey, Reload, Reload!&amp;quot;&lt;/em&gt;. You don&amp;rsquo;t need to exit Doom when you make changes to this file but you will if you add any new packages. If you’ve added new packages to Doom you&amp;rsquo;ll want to exit and kill the daemon and run &lt;strong&gt;‘doom sync’&lt;/strong&gt; at the terminal.&lt;/p&gt;
+&lt;h3 id=&#34;initel&#34;&gt;init.el&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-27-getting-started-with-doom-emacs/init-doom-emacs.png&#34; alt=&#34;Image 4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This file lists a bunch of modules/packages that are Doom ready just comment out those ;; things with &lt;strong&gt;x&lt;/strong&gt; to delete the character. Restart, sync as mentioned previously.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;(org
+ +journal
++pretty
++roam2)
+hl-todo
+treemacs
+word-wrap
+syntax
+pdf
+markdown
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;These above are the most important ones for emulating my set up that I have activated. You may want to activate programming languages you often use for nice coloured syntax here.&lt;/p&gt;
+&lt;h3 id=&#34;packagesel&#34;&gt;packages.el&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-27-getting-started-with-doom-emacs/packages-doom-emacs.png&#34; alt=&#34;Image 5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Any other packages are installed in packages.el. You add a package with (package! example) then exit Doom and run ‘doom sync’ in the terminal.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s some packages I enable;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Beacon&lt;/strong&gt; &lt;a href=&#34;https://github.com/Malabarba/beacon&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;(beacon! focus)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;This makes a cool little graphical pulse to show what line number you are on when you switch file or window.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Focus&lt;/strong&gt; &lt;a href=&#34;https://github.com/larstvei/Focus&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;(package! focus)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-27-getting-started-with-doom-emacs/focus-doom-emacs.png&#34; alt=&#34;Image 6&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;M-x focus-mode&lt;/strong&gt; - greys out text in a file apart from the few lines you are editing. &lt;a href=&#34;https://obsidian.md/&#34; target=&#34;_blank&#34;&gt;Obsidian&lt;/a&gt; and &lt;a href=&#34;https://github.com/junegunn/limelight.vim&#34; target=&#34;_blank&#34;&gt;limelight.vim&lt;/a&gt; do something similar. I will be refering to the key &lt;strong&gt;META&lt;/strong&gt; from here as &lt;strong&gt;M&lt;/strong&gt; which is also known as &lt;strong&gt;ALT&lt;/strong&gt;. You can think of it as a leader key, &lt;strong&gt;Space&lt;/strong&gt; is the other main leader key.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;set-your-font&#34;&gt;Set your font&lt;/h2&gt;
+&lt;p&gt;I use &lt;a href=&#34;https://www.jetbrains.com/lp/mono/&#34; target=&#34;_blank&#34;&gt;Jet Brains Mono&lt;/a&gt;. Your font of choice needs to be already installed on your system. You can set a larger version or different font to be used in different modes such as writeroom-mode.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; doom-font (font-spec &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:family&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;JetBrains Mono&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:size&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;13&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:weight&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;Medium&lt;/span&gt;)
+      doom-big-font (font-spec &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:family&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;JetBrains Mono&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:size&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;14&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:weight&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;Medium&lt;/span&gt;)
+      doom-variable-pitch-font (font-spec &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:family&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;JetBrains Mono&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:size&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;14&lt;/span&gt;))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;disable-line-numbers&#34;&gt;Disable Line Numbers&lt;/h2&gt;
+&lt;p&gt;I used to really like relative line numbers in Vim but because I&amp;rsquo;m doing more prose writing in Doom I disable them. It&amp;rsquo;s very easy to reactivate them if needs be with &lt;strong&gt;Space-t-l&lt;/strong&gt; or &lt;strong&gt;M-x toggle-line-numbers&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; display-line-numbers-type nil)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;set-a-theme&#34;&gt;Set a Theme&lt;/h2&gt;
+&lt;p&gt;We’ll be needing a cool theme if we&amp;rsquo;re going to use this thing regularly. I use an inbuilt doom-theme ‘wilmersdorf’. The default background for that is dark blue and I like it even darker than that so I add a few lines to make it a dark, dark grey.&lt;/p&gt;
+&lt;p&gt;Type &lt;strong&gt;M-x&lt;/strong&gt; and then &lt;strong&gt;load-theme&lt;/strong&gt;. You will see a list of availible themes in the buffer at the bottom of the screen. If you want to just change the background colour you can type &lt;strong&gt;M-x set-background-color&lt;/strong&gt;. These changes won&amp;rsquo;t be permanent until you add the commands to your config.el.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; doom-theme &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;doom-wilmersdorf&lt;/span&gt;)
+(custom-set-faces
+&amp;#39;(default ((t (&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:background&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;#1a1a1a&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:foreground&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;#a9b1d6&amp;#34;&lt;/span&gt;)))))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;modeline&#34;&gt;Modeline&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-27-getting-started-with-doom-emacs/modeline-doom-emacs.png&#34; alt=&#34;Image 7&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll want to get that Doom modeline at the bottom of the screen looking sweet too. Here&amp;rsquo;s the tweaks I use as there’s a bit too much going on down there by default for my taste..&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;(after! doom-modeline
+(remove-hook &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;doom-modeline-mode-hook&lt;/span&gt; #&amp;#39;size-indication-mode) &lt;span style=&#34;color:#007f7f&#34;&gt;; removes filesize from modeline&lt;/span&gt;
+(remove-hook &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;doom-modeline-mode-hook&lt;/span&gt; #&amp;#39;column-number-mode)   &lt;span style=&#34;color:#007f7f&#34;&gt;; removes cursor column in modeline&lt;/span&gt;
+(line-number-mode &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;-1&lt;/span&gt;)
+(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; doom-modeline-buffer-encoding nil))
+(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; doom-modeline-enable-word-count t) &lt;span style=&#34;color:#007f7f&#34;&gt;; show word count in md &amp;amp; txt&lt;/span&gt;
+(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; display-time-default-load-average nil) &lt;span style=&#34;color:#007f7f&#34;&gt;; remove load average&lt;/span&gt;
+(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; doom-modeline-height &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;15&lt;/span&gt;) &lt;span style=&#34;color:#007f7f&#34;&gt;; shorter bar height&lt;/span&gt;
+(display-time-mode &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#007f7f&#34;&gt;; show time and date&lt;/span&gt;
+(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; display-time-format &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;%Y-%m-%d %H:%M&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#007f7f&#34;&gt;; time and date format&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;keybinds-and-basic-navigation&#34;&gt;Keybinds and basic navigation&lt;/h2&gt;
+&lt;p&gt;Here’s some very basic beginner key binds to get you started. Thankfully Doom has which-key. This makes learning the key binds so much easier. Doom is based around having a leader key followed by a key chord. They are all quite literate for example;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space (the leader key) o-a&lt;/strong&gt; = Open Org-agenda - open (o)rg (a)genda.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space n-j&lt;/strong&gt; = (n)ew (j)ournal entry.&lt;/p&gt;
+&lt;p&gt;There are many more examples of this so when you know what you want to do these chords become memorable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space .&lt;/strong&gt; will get you into the file explorer to open any file or directory on your system.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space Enter&lt;/strong&gt; will access bookmarks. You can set bookmarks with &lt;strong&gt;M-x bookmark-set&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;M-x&lt;/strong&gt; is very powerful. This is the best way to learn because a lot of commands will have a keyboard shortcut shown next to it in the buffer at the bottom of the screen..or you can set one for it in your config. You can go crazy here because the auto completion works really well.. that&amp;rsquo;s how I picked up so much - try for example;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;M-x tetris&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-27-getting-started-with-doom-emacs/which-key-doom-emacs.png&#34; alt=&#34;Image 8&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Every thing you open is a buffer. Even if it&amp;rsquo;s not on screen it&amp;rsquo;s open in the background as a buffer. To navigate buffers you can;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space b-n&lt;/strong&gt; - think (b)uffer (n)ext&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space b-p&lt;/strong&gt; - think (b)uffer (p)revious&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space b-k&lt;/strong&gt; - b(uffer) (k)ill&lt;/p&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space b-i&lt;/strong&gt; to list all your open buffers.&lt;/p&gt;
+&lt;p&gt;Start writing, editing, Using the Vim keys - &lt;strong&gt;i and esc&lt;/strong&gt; to switch from INSERT mode to NORMAL mode. In normal mode you use &lt;strong&gt;h,j,k,l&lt;/strong&gt; to navigate around.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;:w&lt;/strong&gt; - save&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;:wa&lt;/strong&gt; - save all open buffers&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;:wq&lt;/strong&gt; - to save and quit&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;:q!&lt;/strong&gt; - quit without saving&lt;/p&gt;
+&lt;h2 id=&#34;outro&#34;&gt;Outro&lt;/h2&gt;
+&lt;p&gt;That&amp;rsquo;s probably enough word count for this first post about Doom Emacs. This should get you started at least. I&amp;rsquo;ll pick up where we left off in future posts because now we’re past the super basics I’m excited to talk about the killer feature that is &lt;strong&gt;org-mode&lt;/strong&gt; and &lt;strong&gt;org-agenda&lt;/strong&gt;. I&amp;rsquo;ll try to show you how I set up my GTD task system and the quick capture templates to make note taking and writing a quick and easy process.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s &lt;em&gt;quite the vast topic&lt;/em&gt;.. If you&amp;rsquo;ve got any questions, I&amp;rsquo;ll try my best to answer.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-27-getting-started-with-doom-emacs/doom-icon-128x128.png&#34; alt=&#34;Image 9&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+&lt;p&gt;Find below resources I found useful and stole a lot of stuff from for my config. Maybe bookmark this for later.. Thanks for reading!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/doomemacs/doomemacs&#34; target=&#34;_blank&#34;&gt;Doom Emacs on Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://discourse.doomemacs.org/t/emacs-for-writing-prose/515&#34; target=&#34;_blank&#34;&gt;Emacs For Writing prose : A guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://discourse.doomemacs.org/c/guides/5&#34; target=&#34;_blank&#34;&gt;Doom Emacs Discourse&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://tecosaur.github.io/emacs-config/config.html&#34; target=&#34;_blank&#34;&gt;Tecosaur&amp;rsquo;s Doom Emacs Config&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://piped.kavin.rocks/channel/UCVls1GmFKf6WlTraIb_IaJg&#34; target=&#34;_blank&#34;&gt;Distrotube has many useful videos about Doom Emacs for beginners&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/&#34; target=&#34;_blank&#34;&gt;Zzamboni &amp;lsquo;My Doom Emacs configuration with commentary&amp;rsquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://tasshin.com/blog/implementing-a-second-brain-in-emacs-and-org-mode&#34; target=&#34;_blank&#34;&gt;Tasshin on Emacs and building a second brain&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://jethrokuan.github.io/org-roam-guide/&#34; target=&#34;_blank&#34;&gt;Jethro Kuan - &amp;lsquo;How I Take Notes with Org-Roam&amp;rsquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://doc.norang.ca/org-mode.html&#34; target=&#34;_blank&#34;&gt;A Comprehensive Org config&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://orgmode.org/org.html&#34; target=&#34;_blank&#34;&gt;The Org-mode Manual&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://hugocisneros.com/org-config&#34; target=&#34;_blank&#34;&gt;Hugo Cisneros&#39; Org config&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://koenig-haunstetten.de/&#34; target=&#34;_blank&#34;&gt;Rainer Koenig&amp;rsquo;s Blog (Org-mode)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://piped.kavin.rocks/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE&#34; target=&#34;_blank&#34;&gt;Rainer Koenig&amp;rsquo;s Videos on Org-mode&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Lost Boys Painting: A Step by Step Process</title>
+		<link>https://sbart.netlify.app/posts/2023-01-17-lost-boys-painting-step-by-step/</link>
+		<pubDate>Tue, 17 Jan 2023 14:00:35 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-01-17-lost-boys-painting-step-by-step/</guid>
+		<description>&lt;h2 id=&#34;part-1-sketchbooklinework&#34;&gt;Part 1 Sketchbook/Linework&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-17-lost-boys-painting-step-by-step/frogs-lost-boys-sketchbook-scans.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I am quite overdue on making this post. I’ve been meaning to get this blog rolling for a while. Hopefully now this little update is live we can a get some regularity going.&lt;/p&gt;
+&lt;p&gt;I’ve been working on this project a while and the weeks have slowly slipped by me. I&amp;rsquo;ve repeatedly told my self..the work&amp;rsquo;s not ready to show..make it better! get further down the line with it..keep shush til it’s done…what if I end up messing it up? Well..let&amp;rsquo;s be honest perfection is pointless and drawing and painting can take a really long time (especially if you work the way I do). Sharing something publicly can give you some momentum. Anyway - I&amp;rsquo;m actually well ahead in the process of what I will show you so far today.. this piece has been a particularly long road. I started with the intention of making a Lost Boys piece over a year ago now around Halloween..&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been wanting to do a Lost Boys painting because most of all - me and lot of friends growing up absolutely love this movie..and oh my word..the soundtrack..I’m sure we&amp;rsquo;ll get to that. My direction with my art work recently is trying to push my portrait drawings and paintings in to the world of film posters, comic cover type montage images. As an 80&amp;rsquo;s kid I&amp;rsquo;m pretty nostalgic about the era and I also love the spookier side of things..old pulp horror covers, creatures and stuff. Lost Boys seems to sum up something of what I&amp;rsquo;m about as a subject matter.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-17-lost-boys-painting-step-by-step/michael-lost-boys-sketchbook-scans.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I’ll start anything like this by studying each character in the sketchbook in pencil. It helps me to choose a pose, capture a likeness and begin to think about how I might compose the full piece. The sketchbook is where I think and figure things out. You could say &lt;a href=&#34;https://piped.kavin.rocks/watch?v=eTviNc52igI&#34; target=&#34;_blank&#34;&gt;faces just seem to come out of the rain..when you&amp;rsquo;re strange..&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The paper I particularly like to use is that quite light, off tone stuff that you get in ludicrously overpriced &lt;em&gt;Leutchtterm1917&lt;/em&gt; and &lt;em&gt;Moleskine&lt;/em&gt; books. It&amp;rsquo;s incredibly smooth and good for working details. My pencils of choice are 2H for roughing out and a HB for true-ing things up. I tend to us a lead-holder for sketching and sometimes introduce a mechanical pencil for those tighter lines and details. I made a study of every character&amp;rsquo;s portrait to be included in the painting, some of which I include here. The idea at this point isn&amp;rsquo;t actually completion..they can be a bit rough and wonky. I just take them to a point where they feel like a fairly solid likeness but can also be improved upon in later stages. By leaving things a little unfinished I feel like there&amp;rsquo;s still some challenge to pick up and work on further down the road.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-17-lost-boys-painting-step-by-step/grandpa-lost-boys-sketchbook-scans.png&#34; alt=&#34;Image 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The weird thing that happened with this piece is that I thought I was going to do it digitally at first. I scanned all my sketches in and arranged them in Photoshop into a composition and continued to work the characters up there. In fact I went waaayy down the line with it. I did a monochrome under-painting and started on the colours even. Life happened, stuff happened and I got really burned out working on the computer with it. I’m very conflicted about digital work actually, despite having done a lot of it. I think I realised it could be quite a good piece and really wanted to paint it traditionally like the old painted movie posters. So..yep&amp;hellip; I abandoned it..let it sit and moved onto something else..for about a year actually..&lt;a href=&#34;https://piped.kavin.rocks/watch?v=9mk9MWei8MI&#34; target=&#34;_blank&#34;&gt;lost in the shadows..lost in the loneliness.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When I finally decided to go back to work on this project, it was like seeing it with fresh eyes. The composition was already worked out for the final and I just needed to resize and transfer my line-work to a board. The piece will be on ivory mount board that&amp;rsquo;s 45x64 cm. There are 12 characters in total. Printing a large image like this across sheets of A4 paper on your home printer can be a bit of a process. After some flustering about I read online that Microsoft Paint is a good option if you want to print a large picture across A4 sheets so I used a friends Windows machine to print it off. Good ol&#39; Paint is still good for something. &lt;a href=&#34;https://www.digitalcitizen.life/print-large-image-multiple-pages-4-steps-using-microsoft-paint/&#34; target=&#34;_blank&#34;&gt;How to print a large image using Microsoft-Paint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I feel like I should maybe be showing the entire linework but I’m not quite ready to reveal the composition in the this post, but &lt;a href=&#34;https://piped.kavin.rocks/watch?v=mrMLMV6E4CM&#34; target=&#34;_blank&#34;&gt;don&amp;rsquo;t cry little sister&lt;/a&gt; because we&amp;rsquo;ll be going through the process in more depth next time. It&amp;rsquo;s going to be a painted poster in acrylic and maybe oils. I want to document the process and techniques as much as I can and if you have any questions, I&amp;rsquo;m very happy to answer. Next up - Line-work to board &amp;gt; The monochrome under-painting, a sweaty sexy sax man, what brushes will I use? and how the hell do you do backgrounds? etc.. &lt;strong&gt;See you next time!&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-17-lost-boys-painting-step-by-step/sam-lost-boys-sketchbook-scans.png&#34; alt=&#34;Image 4&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;three-things&#34;&gt;Three things:&lt;/h3&gt;
+&lt;p&gt;I’ll try and end my posts with 3 random things that are kind of on my radar currently..&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://piped.video/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE&#34; target=&#34;_blank&#34;&gt;Rainer Konigs Org-mode Videos&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;- I’m going all in with Doom Emacs as my writing, hacking and productivity system this year. I found Rainer&amp;rsquo;s videos really useful for learning how Org-mode works.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.goodreads.com/en/book/show/1232.The_Shadow_of_the_Wind&#34; target=&#34;_blank&#34;&gt;‘The Shadow of the Wind’ by Carlos Ruiz Zafon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;- Just started on this book and I’ve just got that feeling that it’s going to be a good one..&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://open.spotify.com/show/7HinkS0WZqDuMXYh02EUY1&#34; target=&#34;_blank&#34;&gt;The Blindboy Podcast&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;- My favourite podcast at the moment. Blindboy is just a very smart and entertaining story teller. Love the ‘hot take’ episodes.&lt;/em&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Coney St Jam Ending Soon</title>
+		<link>https://sbart.netlify.app/posts/2023-01-13-coney-st-jam-ending-soon/</link>
+		<pubDate>Fri, 13 Jan 2023 12:39:25 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-01-13-coney-st-jam-ending-soon/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-13-coney-st-jam-ending-soon/coney-st-art-intervention-flyer-navigators.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s been a good ol&#39; run down at Coney St. but all things must come to an end. If you&amp;rsquo;ve not caught the show yet this is the final weekend coming up. This Saturday 14th from 10-5pm grab yourself a unique piece of original art, postcard, print or zine at a kind of impromptu Art Market in the space. Thanks a ton to &lt;a href=&#34;https://www.streetlifeyork.uk/&#34; target=&#34;_blank&#34;&gt;StreetLife York&lt;/a&gt; for having us and check out this piece on &lt;a href=&#34;https://www.instagram.com/charleshutchpress/&#34; target=&#34;_blank&#34;&gt;@charleshutchpress&lt;/a&gt; (link below) to find out what &lt;a href=&#34;https://linktr.ee/navigatorsart&#34; target=&#34;_blank&#34;&gt;Navigators Art&lt;/a&gt; are up to next..&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-13-coney-st-jam-ending-soon/2022-10-31-1543-coney-st-navigators.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://charleshutchpress.co.uk/navigators-art-artists-follow-up-coney-street-intervention-with-helmsley-arts-centre-and-city-screen-shows/&#34; target=&#34;_blank&#34;&gt;Navigators Coney St, Helmsley Arts Centre and City Screen shows | charleshutchpress.co.uk&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Now Showing @ Helmsley Arts Centre</title>
+		<link>https://sbart.netlify.app/posts/2023-01-11-helmsley-arts-centre-now-showing/</link>
+		<pubDate>Wed, 11 Jan 2023 20:40:56 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-01-11-helmsley-arts-centre-now-showing/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-11-helmsley-arts-centre-now-showing/helmsley-moving-pictures-2-flyer-navigators.png&#34; alt=&#34;Image 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Pleased to be showing some of my works alongside fellow &lt;a href=&#34;https://instagram.com/navigatorsart&#34; target=&#34;_blank&#34;&gt;Navigators | @navigatorsart&lt;/a&gt; at the &lt;a href=&#34;https://www.helmsleyarts.co.uk/&#34; target=&#34;_blank&#34;&gt;Helmsley Arts Centre&lt;/a&gt; &lt;strong&gt;Moving Pictures II&lt;/strong&gt; runs until the 3rd March 2023.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Setting up Moving Pictures II @ Helmsley Arts Centre</title>
+		<link>https://sbart.netlify.app/posts/2023-01-09-moving-pictures-2-helmsley-arts-centre/</link>
+		<pubDate>Mon, 09 Jan 2023 12:43:50 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2023-01-09-moving-pictures-2-helmsley-arts-centre/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-09-moving-pictures-2-helmsley-arts-centre/2023-01-08-1204-helmsley-setup-1.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-09-moving-pictures-2-helmsley-arts-centre/2023-01-08-1204-helmsley-setup-2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2023-01-09-moving-pictures-2-helmsley-arts-centre/2023-01-08-1204-helmsley-setup-3.png&#34; alt=&#34;Image 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Getting the year started with a lil show alongside fellow &lt;a href=&#34;https://instagram.com/navigatorsart&#34; target=&#34;_blank&#34;&gt;Navigators | @navigatorsart&lt;/a&gt; at &lt;a href=&#34;https://www.helmsleyarts.co.uk/&#34; target=&#34;_blank&#34;&gt;Helmsley Arts Centre&lt;/a&gt;. Huge thanks to the volunteers there who got the whole thing up and looking great with amazing speed and efficiency. &lt;strong&gt;Moving Pictures II&lt;/strong&gt; is open until 3rd March&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Now Showing @ StreetLife, Coney St, York</title>
+		<link>https://sbart.netlify.app/posts/2022-11-01-coney-st-now-showing/</link>
+		<pubDate>Tue, 01 Nov 2022 19:08:12 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2022-11-01-coney-st-now-showing/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2022-11-01-coney-st-now-showing/coney-st-now-showing-flyer.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;We are very excited to invite you down to Coney Street to see what we&amp;rsquo;ve been working on:&lt;/p&gt;
+&lt;p&gt;StreetLife presents CONEY ST JAM: an art intervention by Navigators Art&lt;/p&gt;
+&lt;p&gt;OPENING on Mon, 17 OCT 2022
+ENDING Sat, 19 NOV 2022&lt;/p&gt;
+&lt;p&gt;(10am – 5pm Mon-Sat except Weds, &amp;amp; Sun 11-4pm)
+29-31 Coney Street, York&lt;/p&gt;
+&lt;p&gt;&amp;lsquo;Inspired by StreetLife’s research and findings, this collective of 12 local artists are mounting a celebratory closing exhibition for the Project. Their mixed media show is a creative response to Coney Street past, present and future and will include visual art, photography, 3D pieces, projections, music and poetry. The opening evening will feature a live performance by York architect, poet &amp;amp; musician Thomas Pearson.
+No booking is necessary. Please note that access to the exhibition space is by one set of stairs.&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://instagram.com/navigatorsart&#34; target=&#34;_blank&#34;&gt;@navigatorsart&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.streetlifeyork.uk/&#34; target=&#34;_blank&#34;&gt;StreetLife York&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pleased to be showing alongside some brilliant artists in Navigators in an amazing space at the Streetlife Hub, Coney St., York. The show is open to the public now until the end of November. Be sure to get along to a finale night of performance, poetry and music on the 19th November. You can read more about the project here in the Charles Hutchinson Press. &lt;a href=&#34;https://charleshutchpress.co.uk/navigators-arts-art-intervention-coney-st-jam-goes-on-show-at-streetlife-project-hub/&#34; target=&#34;_blank&#34;&gt;Navigators Art&amp;rsquo;s art intervention Coney St Jam goes on show at StreetLife project hub | charleshutchpress&lt;/a&gt;. I&amp;rsquo;m showing some small oil paintings.&lt;/p&gt;
+&lt;p&gt;Open Now
+until the end of November
+(10am – 5pm Mon-Sat except Weds, &amp;amp; Sun 11-4pm)
+StreetLife Hub,
+29-31 Coney Street, York&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Moving Pictures @ City Screen, York</title>
+		<link>https://sbart.netlify.app/posts/2022-03-12-moving-pictures-now-showing/</link>
+		<pubDate>Sat, 12 Mar 2022 20:40:05 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2022-03-12-moving-pictures-now-showing/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2022-03-12-moving-pictures-now-showing/moving-pictures-flyer-navigators.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Pleased to announce that I will have some art work up in this group show, do come along!&lt;/p&gt;
+&lt;p&gt;MOVING PICTURES at City Screen York&lt;/p&gt;
+&lt;p&gt;13th March - 15th April 2022&lt;/p&gt;
+&lt;p&gt;The first week from 13th March is a preview in the cafe with a selection of works&lt;/p&gt;
+&lt;p&gt;LAUNCH NIGHT for the extended show is on Sunday 20th March 19:30 - 21:00 with wine, snacks and chat.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.picturehouses.com/cinema/city-screen-picturehouse&#34; target=&#34;_blank&#34;&gt;City Screen Picturehouse, York&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Follow us on Facebook &lt;a href=&#34;https://facebook.com/navigatorsart&#34; target=&#34;_blank&#34;&gt;@navigatorsart&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Follow us on Instagram &lt;a href=&#34;https://instagram.com/navigatorsart&#34; target=&#34;_blank&#34;&gt;@navigatorsart&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://instagram.com/stevebeadleart&#34; target=&#34;_blank&#34;&gt;@stevebeadleart&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://instagram.com/richardkitchenart&#34; target=&#34;_blank&#34;&gt;@richardkitchenart&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://instagram.com/timothy_.morrison&#34; target=&#34;_blank&#34;&gt;@timothy_.morrison&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bit.ly/Navigators-eventbrite&#34; target=&#34;_blank&#34;&gt;Eventbrite&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Now Showing @ Piccadilly Pop Up, York</title>
+		<link>https://sbart.netlify.app/posts/2020-09-04-piccadilly-pop-up-york-now-showing/</link>
+		<pubDate>Fri, 04 Sep 2020 11:29:44 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2020-09-04-piccadilly-pop-up-york-now-showing/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2020-09-04-piccadilly-pop-up-york-now-showing/piccadilly-pop-up-flyer-navigators.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;PICCADILLY POP UP
+&amp;ldquo;Art - at - tax&amp;rdquo; creative gallery &amp;amp; artists&#39; studios
+Every Saturday 12-6pm
+FREE ENTRY&lt;/p&gt;
+&lt;p&gt;Open studios, local artists exhibiting and selling work.
+Originals - Prints - Postcards - Photography - Books - Poetry - plus artefacts rare and strange …
+Come along this SATURDAY AND EVERY SATURDAY!&lt;/p&gt;
+&lt;p&gt;@23 Piccadilly, York, YO1 9PG
+Swinson House (the old tax office just past SPARK)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://facebook.com/events/s/piccadilly-pop-up-art-gallery-/764246864370746&#34; target=&#34;_blank&#34;&gt;Facebook Event&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Etsy Shop Now Open!</title>
+		<link>https://sbart.netlify.app/posts/2020-07-21-etsy-shop-now-open/</link>
+		<pubDate>Tue, 21 Jul 2020 16:41:31 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2020-07-21-etsy-shop-now-open/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2020-07-21-etsy-shop-now-open/etsy-postcards-steve-beadle-art.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Some of my ink and watercolour pieces are now available as postcards and my Etsy store is open!&lt;/p&gt;
+&lt;p&gt;All postcards are high quality digital prints on Smooth White Silk Card 350gsm. They have a blank reverse and arrive sealed in a transparent plastic wrapper. I&amp;rsquo;m offering free delivery within the UK and all international postage for just £1.50. Larger prints and framed/unframed originals coming soon!&lt;/p&gt;
+&lt;p&gt;Check it out, thanks :)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.etsy.co.uk/stevebeadleart&#34; target=&#34;_blank&#34;&gt;Etsy Store&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2020-07-21-etsy-shop-now-open/etsy-postcards-steve-beadle-art-2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2020-07-21-etsy-shop-now-open/etsy-postcards-steve-beadle-art-3.png&#34; alt=&#34;Image 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2020-07-21-etsy-shop-now-open/etsy-postcards-steve-beadle-art-4.png&#34; alt=&#34;Image 4&#34;&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Navigators Close to the Edge, MA Fine Art Final Show</title>
+		<link>https://sbart.netlify.app/posts/2019-09-17-navigators-close-to-the-edge/</link>
+		<pubDate>Tue, 17 Sep 2019 07:18:37 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2019-09-17-navigators-close-to-the-edge/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2019-09-17-navigators-close-to-the-edge/navigators-close-to-the-edge-smaller.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Pleased to announce I will be showing some mixed media paintings and sculpture in this show in York with fellow MA Fine Art students from &lt;a href=&#34;https://www.yorksj.ac.uk/&#34; target=&#34;_blank&#34;&gt;York St John University&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Opening tonight! 17th September @5pm. The show runs until Friday 20th September 2019 and we will be moving on to take part with the Global Strike. We have a schedule of spoken word poetry performances and musical contribution on the opening night, with free wine and all that good stuff. Will be great to see you there for our final send off.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/events/486158658846160&#34; target=&#34;_blank&#34;&gt;MA Fine Art Final Exhibition | Facebook&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Navigators Crossing the Line @ Spark, York</title>
+		<link>https://sbart.netlify.app/posts/2019-06-04-navigators-crossing-the-line/</link>
+		<pubDate>Tue, 04 Jun 2019 14:27:54 +0100</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/posts/2019-06-04-navigators-crossing-the-line/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;https://sbart.netlify.app/2019-06-04-navigators-crossing-the-line/navigators-crossing-the-line-flyer.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Pleased to announce I will be showing some recent paintings in this art show at &lt;a href=&#34;https://www.sparkyork.org/&#34; target=&#34;_blank&#34;&gt;SPARK*&lt;/a&gt; in York with fellow MA Fine Art students from &lt;a href=&#34;https://www.yorksj.ac.uk/&#34; target=&#34;_blank&#34;&gt;York St John University&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Opening night is 5th June @7pm with free wine and snacks for our first arrivals. The show runs until 11th June (10am&amp;gt;10pm). We have performances and contributions on Wednesday and Friday evening. Will be great to see you there! ✌️&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Drawings</title>
+		<link>https://sbart.netlify.app/photos/drawings/</link>
+		<pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/photos/drawings/</guid>
+		<description>&lt;p&gt;Here are some photos for your viewing pleasure.&lt;/p&gt;</description>
+	</item>
+	
+	<item>
+		<title>Urban Sketching</title>
+		<link>https://sbart.netlify.app/photos/urban-sketching/</link>
+		<pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/photos/urban-sketching/</guid>
+		<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;</description>
+	</item>
+	
+	<item>
+		<title>Paintings</title>
+		<link>https://sbart.netlify.app/photos/paintings/</link>
+		<pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/photos/paintings/</guid>
+		<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.&lt;/p&gt;</description>
+	</item>
+	
+	<item>
+		<title>Digital Painting</title>
+		<link>https://sbart.netlify.app/photos/digital-painting/</link>
+		<pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+		<author>info@stevebeadleart.com (Steve Beadle)</author>
+		<guid>https://sbart.netlify.app/photos/digital-painting/</guid>
+		<description>&lt;p&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;</description>
+	</item>
+	
+	</channel>
 </rss>

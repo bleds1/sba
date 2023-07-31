@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prototype on sba</title>
+    <link>https://sbart.netlify.app/tags/prototype/</link>
+    <description>Recent content in Prototype on sba</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>info@stevebeadleart.com (Steve Beadle)</managingEditor>
+    <webMaster>info@stevebeadleart.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Tue, 08 Aug 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://sbart.netlify.app/tags/prototype/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paintings</title>
+      <link>https://sbart.netlify.app/photos/paintings/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/photos/paintings/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Digital Painting</title>
+      <link>https://sbart.netlify.app/photos/digital-painting/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/photos/digital-painting/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

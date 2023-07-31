@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html><head><link rel="alternate" type="application/rss+xml" href="https://sbart.netlify.app//feed.xml" title="sba">
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>How to Install Doom Emacs on Termux · sba</title>
+
+
+
+<link rel="stylesheet" href="/css/rocinante.css" />
+<link rel="shortcut icon" href="icons/favicon.png">
+
+
+<body>
+    <header><link rel="alternate"
+      type="application/rss+xml"
+      href="https://sbart.netlify.app//index.xml"
+      title="sba">
+
+<h2>
+  
+    <a href="https://sbart.netlify.app/">‹ sba</a>
+  
+</h2>
+</header>
+    <main>
+
+    <div class="post">
+        <div class="title-group">
+            <div class="title">
+                <h1>How to Install Doom Emacs on Termux</h1>
+            </div>
+            <div class="date"><h5>Jul 23, 2023</h5></div>
+        </div>
+        <article class="content">
+            <p><img src="/2023-07-23-how-to-install-doom-emacs-on-termux/2023-07-23-doom-emacs-termux-screenshot.png" alt="Image 1"></p>
+<p>I used to think having Emacs on a phone was a bit much..but recently I&rsquo;ve just started using Emacs and Org mode for nearly everything.. There&rsquo;s not a great selection of apps on Android for accessing Org files, the best solution to me was to just get Emacs with it&rsquo;s fully fledged Org on mobile. The newish GUI Android Emacs app is a bit strange and I swiftly uninstalled it. The Termux terminal version however, works much better. There&rsquo;s not a whole load of info out there about how to run Doom Emacs on Termux but I managed to figure it out and have been impressed with how well it works. I&rsquo;m not a <em>massive</em> phone user and do the bulk of stuff on a laptop but It is pretty nice to be able to view my Org agenda or add something quick to my daily note from mobile. I&rsquo;m also a big fan of just launching into a blank &ldquo;<em>scratch</em>&rdquo; buffer to do any writing, drafting or quick capture.</p>
+<p><strong>1.  Install Emacs on Termux</strong></p>
+<p>If you don&rsquo;t have Termux already, bookmark this post and get yourself set up with that from F-Droid. You may want to get to know it a little before getting into this stuff. When you&rsquo;re ready for Emacs then..</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">    pkg install emacs
+</code></pre></div><p><strong>2.  Install dependencies</strong></p>
+<p>It&rsquo;s possible you might be asked for some others depending on what you already have in your Termux installation.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">    pkg install gh fd ripgrep
+</code></pre></div><p><strong>3.  Install Doom</strong></p>
+<p>You&rsquo;ll need to do things a bit differently from the usual install instructions on Github as Termux Emacs uses different directories..</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">    git clone --depth <span style="color:#ff0;font-weight:bold">1</span> https://github.com/doomemacs/doomemacs ~/.emacs.d
+    
+    ~/.emacs.d/bin/doom install
+</code></pre></div><p><strong>4.  Setup your config files (config.el packages.el init.el)</strong></p>
+<p>If you already have a config file on desktop I&rsquo;d suggest rather than just dumping the whole thing into Termux, you take it chunk by chunk. The default included config is pretty much good to go if you haven&rsquo;t used Doom before. Start with your basic settings and introduce elements to it gradually and make sure it works at each step with a doom sync or doom/reload. If you have a really complicated set up you may run into things that don’t work on mobile but I was surprised at how much works perfectly. Maybe you want to set up some slightly simpler keybinds in the mobile environment or live without certain packages. For example I haven’t yet dared install the Org-Roam package on mobile as I&rsquo;m worried about conflicting database issues. I can still access and edit all those .org notes however and that&rsquo;s totally enough for me.</p>
+<p><strong>5.  Set up some convienient aliases</strong></p>
+<p>Adding something like this to your shell config can save a few keypresses on that fiddly litte keyboard. I use zsh so in my .zshrc I have..</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">    <span style="color:#fff;font-weight:bold">alias</span> doomsync=<span style="color:#0ff;font-weight:bold">&#34;~/.emacs.d/bin/doom sync&#34;</span>
+    <span style="color:#fff;font-weight:bold">alias</span> emd=<span style="color:#0ff;font-weight:bold">&#34;emacs --daemon&#34;</span>
+    <span style="color:#fff;font-weight:bold">alias</span> em=<span style="color:#0ff;font-weight:bold">&#34;emacsclient -nw&#34;</span>
+</code></pre></div><p>You&rsquo;ll want to doom sync on the command line after adding any new packages. With most changes to config.el you can just hot reload &ldquo;SPC-h-r-r&rdquo; or &ldquo;M-x doom/reload&rdquo; and you should see your configuration changes.</p>
+<p><strong>6.  Bonus</strong></p>
+<p><strong>Termux Extras</strong>
+If you install some Termux extras - API and widgets. You can just set up a script which acts as a home screen app launcher with a custom icon. Install both from F-Droid, also install termux-api in Termux.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">    pkg install termux-api
+</code></pre></div><p><strong>Vterm</strong>
+The Vterm pop up terminal is pretty useful in Termux because of the lack of screen space. I didn&rsquo;t expect it to work but it totally does. Uncomment it in packages.el, exit and doom sync. When you try to open it Doom will let you know it needs to compile the package so you&rsquo;ll need the following build dependencies.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">    pkg install cmake libvterm
+</code></pre></div><p><strong>Keeping files in sync</strong>
+I use Dropbox with Dropsync because the official Dropbox app on Android is weird and won’t let you store the directory offline on your device.. Syncthing would be another option to use here but you will only be able sync your files on a local wifi.</p>
+<p>That&rsquo;s about it for now. This should be enough to get you up and running. Enjoy your tiny little Emacs.</p>
+<h1 id="links">Links</h1>
+<p><a href="https://github.com/doomemacs/doomemacs" target="_blank">Doom Emacs Github</a></p>
+<p><a href="https://github.com/termux/termux-app" target="_blank">Termux Github</a></p>
+<p><a href="https://f-droid.org/packages/com.termux/" target="_blank">Termux on F-Droid</a></p>
+
+        </article>
+        
+            <div class="tags">
+                <span title="Tags">🏷</span>
+                <div class="horizontal-links links">
+                    <a href="/tags/emacs/">emacs</a><a href="/tags/android/">android</a>
+                </div>
+            </div>
+        
+    </article>
+<strong><a href="mailto:info@stevebeadleart.com?cc=mail@example.com&subject=How%20to%20Install%20Doom%20Emacs%20on%20Termux">✉️ Reply by Email </a></strong>
+</div>
+<strong><a href="https://ko-fi.com/stevebeadleart">🍵 Buy Me A Coffee</a></strong>
+
+    </main>
+    <footer>
+  <div class="content-container">
+    <div class="content">
+
+
+  <p class="horizontal-links"><a href="/about"
+       
+       
+      >About</a><a href="/posts"
+       
+       
+      >Posts</a><a href="/photos"
+       
+       
+      >Gallery</a><a href="/contact"
+       
+        class="email-hook" id="about-email" title="Click to show email" 
+      >Contact</a><a href="https://www.etsy.com/uk/shop/stevebeadleart/"
+        target="_blank" 
+       
+      >Etsy</a><a href="https://instagram.com/stevebeadleart/"
+        target="_blank" 
+       
+      >Instagram</a><a href="/links"
+       
+       
+      >Links</a></p>
+
+</div>
+  </div>
+</footer>
+    
+    <script>
+      const emailId = atob("aW5mb0BzdGV2ZWJlYWRsZWFydC5jb20=");
+    </script>
+      <script src="/js/rocinante.min.js"></script></body>
+</html>

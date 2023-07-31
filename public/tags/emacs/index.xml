@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>emacs on sba</title>
+    <link>https://sbart.netlify.app/tags/emacs/</link>
+    <description>Recent content in emacs on sba</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>info@stevebeadleart.com (Steve Beadle)</managingEditor>
+    <webMaster>info@stevebeadleart.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Sun, 23 Jul 2023 15:00:18 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Install Doom Emacs on Termux</title>
+      <link>https://sbart.netlify.app/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</link>
+      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</guid>
+      <description>I used to think having Emacs on a phone was a bit much..but recently I&amp;rsquo;ve just started using Emacs and Org mode for nearly everything.. There&amp;rsquo;s not a great selection of apps on Android for accessing Org files, the best solution to me was to just get Emacs with it&amp;rsquo;s fully fledged Org on mobile. The newish GUI Android Emacs app is a bit strange and I swiftly uninstalled it. The Termux terminal version however, works much better.</description>
+    </item>
+    
+    <item>
+      <title>A Beginners Guide: Getting Started With Doom Emacs</title>
+      <link>https://sbart.netlify.app/posts/2023-01-27-getting-started-with-doom-emacs/</link>
+      <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-01-27-getting-started-with-doom-emacs/</guid>
+      <description>Introduction If your first thought on this is “Urrggh, really Emacs??.. Not for me..It&amp;rsquo;s ancient, bloated, complicated, full of features I don&amp;rsquo;t need..just give me a simple plain text editor“. Well that was me too. I was very much the Vim user because I&amp;rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits.</description>
+    </item>
+    
+  </channel>
+</rss>

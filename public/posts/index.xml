@@ -6,17 +6,226 @@
     <description>Recent content in Posts on sba</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jul 2023 17:37:25 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>info@stevebeadleart.com (Steve Beadle)</managingEditor>
+    <webMaster>info@stevebeadleart.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Sun, 23 Jul 2023 15:00:18 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>This is a test post</title>
-      <link>https://sbart.netlify.app/posts/testing-org-post/</link>
-      <pubDate>Sat, 29 Jul 2023 17:37:25 +0100</pubDate>
-      
-      <guid>https://sbart.netlify.app/posts/testing-org-post/</guid>
-      <description>Testing writing a post in org for hugo Here is some text. Lots of text, writing and writing. Here is some more text and more writing, writing, writing.
-This is some bold this is some italics
-Level 2 Header and more text over here..
-cd ~/ </description>
+      <title>How to Install Doom Emacs on Termux</title>
+      <link>https://sbart.netlify.app/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</link>
+      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</guid>
+      <description>I used to think having Emacs on a phone was a bit much..but recently I&amp;rsquo;ve just started using Emacs and Org mode for nearly everything.. There&amp;rsquo;s not a great selection of apps on Android for accessing Org files, the best solution to me was to just get Emacs with it&amp;rsquo;s fully fledged Org on mobile. The newish GUI Android Emacs app is a bit strange and I swiftly uninstalled it. The Termux terminal version however, works much better.</description>
+    </item>
+    
+    <item>
+      <title>2023-07-16 Sketchbook Stuff</title>
+      <link>https://sbart.netlify.app/posts/2023-07-16-sketchbook-stuff/</link>
+      <pubDate>Sun, 16 Jul 2023 12:26:03 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-07-16-sketchbook-stuff/</guid>
+      <description>Recent sketchbook pages.</description>
+    </item>
+    
+    <item>
+      <title>Call out for Art: Punk Jazz</title>
+      <link>https://sbart.netlify.app/posts/2023-07-10-punk-jazz-call-out/</link>
+      <pubDate>Mon, 10 Jul 2023 12:23:41 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-07-10-punk-jazz-call-out/</guid>
+      <description>Call out for Art/Artists/Performers!
+🧷 Punk/Jazz 🎷
+ Can you do an art? Would you like to do an art for us? Do you perform?  Navigators Art are looking for submissions for a visual art show with a supporting live musical performance night. See @navigatorsart 👈 over there or message for more details..
+🚨 Submission deadline 17th July</description>
+    </item>
+    
+    <item>
+      <title>Living Treasures Live Performance @ The Basement, City Screen York</title>
+      <link>https://sbart.netlify.app/posts/2023-06-07-living-treasures-live-performance/</link>
+      <pubDate>Fri, 07 Jul 2023 12:30:29 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-06-07-living-treasures-live-performance/</guid>
+      <description>🚨 This weekend! We&amp;rsquo;ve still got some tickets left for the Live performance night (Sat) and Film (Sun).
+Get on it pretty quick sharp and let the good peoples know about it as the live show at City Screen Picturehouse is going to be something a little bit special..
+Check @navigatorsart for more info flow. Accompanying art is on show at York Explore
+See you down there ✌️</description>
+    </item>
+    
+    <item>
+      <title>2023-06-14 Girl Study in Krita</title>
+      <link>https://sbart.netlify.app/posts/2023-06-14-girl-study-in-krita/</link>
+      <pubDate>Sat, 17 Jun 2023 12:28:07 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-06-14-girl-study-in-krita/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hidden/Living Treasures @ York Explore &amp; City Screen</title>
+      <link>https://sbart.netlify.app/posts/2023-06-05-1859-hidden-treasures-york-explore/</link>
+      <pubDate>Mon, 05 Jun 2023 18:59:31 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-06-05-1859-hidden-treasures-york-explore/</guid>
+      <description>We are live! New HIDDEN TREASURES exhibition at York Explore Library as a part of the York Festival of Ideas
+Inspired by local streets and sights (though not the obvious ones!) as well as by works in York Art Gallery and elsewhere.
+Open daily during library hours and free - but make sure you book for our other very special Festival events soon! 👍
+At City Screen Picturehouse York: LIVING TREASURES - live performance 10 June</description>
+    </item>
+    
+    <item>
+      <title>2023-04-25 Sketchbook Stuff</title>
+      <link>https://sbart.netlify.app/posts/2023-04-25-sketchbook-stuff/</link>
+      <pubDate>Tue, 25 Apr 2023 12:33:24 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-04-25-sketchbook-stuff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oil Studies of Elders</title>
+      <link>https://sbart.netlify.app/posts/2023-04-11-oil-studies-of-elders/</link>
+      <pubDate>Tue, 11 Apr 2023 12:35:36 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-04-11-oil-studies-of-elders/</guid>
+      <description>Little oil studies of elderly folk..</description>
+    </item>
+    
+    <item>
+      <title>Dreamtime Now Showing @ City Screen York</title>
+      <link>https://sbart.netlify.app/posts/2023-03-15-dreamtime-now-showing-city-screen-york/</link>
+      <pubDate>Wed, 15 Mar 2023 17:34:56 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-03-15-dreamtime-now-showing-city-screen-york/</guid>
+      <description>I&amp;rsquo;ll be showing some work soon at City Screen Picturehouse,York alongside fellow Navigators from 12th March until 21st April
+  Preview night will be in the upstairs gallery (from March 12)
+  Full show in gallery and bar (from March 19)
+  Launch night!! drinks and chat (Sunday 19th March 1930 until 2100)
+  Come along and see you there!</description>
+    </item>
+    
+    <item>
+      <title>Small Gouache People</title>
+      <link>https://sbart.netlify.app/posts/2023-02-18-small-gouache-people/</link>
+      <pubDate>Sat, 18 Feb 2023 12:37:02 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-02-18-small-gouache-people/</guid>
+      <description>Doing little studies like this can really take the pressure off from the bigger or more important pieces. These are about 5 inch tall and I try..&amp;lsquo;try&amp;rsquo; to not spend too long on each. I&amp;rsquo;d recommend working small and moving on quickly if you&amp;rsquo;re trying to build a daily habit.</description>
+    </item>
+    
+    <item>
+      <title>A Beginners Guide: Getting Started With Doom Emacs</title>
+      <link>https://sbart.netlify.app/posts/2023-01-27-getting-started-with-doom-emacs/</link>
+      <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-01-27-getting-started-with-doom-emacs/</guid>
+      <description>Introduction If your first thought on this is “Urrggh, really Emacs??.. Not for me..It&amp;rsquo;s ancient, bloated, complicated, full of features I don&amp;rsquo;t need..just give me a simple plain text editor“. Well that was me too. I was very much the Vim user because I&amp;rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits.</description>
+    </item>
+    
+    <item>
+      <title>Lost Boys Painting: A Step by Step Process</title>
+      <link>https://sbart.netlify.app/posts/2023-01-17-lost-boys-painting-step-by-step/</link>
+      <pubDate>Tue, 17 Jan 2023 14:00:35 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-01-17-lost-boys-painting-step-by-step/</guid>
+      <description>Part 1 Sketchbook/Linework I am quite overdue on making this post. I’ve been meaning to get this blog rolling for a while. Hopefully now this little update is live we can a get some regularity going.
+I’ve been working on this project a while and the weeks have slowly slipped by me. I&amp;rsquo;ve repeatedly told my self..the work&amp;rsquo;s not ready to show..make it better! get further down the line with it.</description>
+    </item>
+    
+    <item>
+      <title>Coney St Jam Ending Soon</title>
+      <link>https://sbart.netlify.app/posts/2023-01-13-coney-st-jam-ending-soon/</link>
+      <pubDate>Fri, 13 Jan 2023 12:39:25 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-01-13-coney-st-jam-ending-soon/</guid>
+      <description>It&amp;rsquo;s been a good ol&#39; run down at Coney St. but all things must come to an end. If you&amp;rsquo;ve not caught the show yet this is the final weekend coming up. This Saturday 14th from 10-5pm grab yourself a unique piece of original art, postcard, print or zine at a kind of impromptu Art Market in the space. Thanks a ton to StreetLife York for having us and check out this piece on @charleshutchpress (link below) to find out what Navigators Art are up to next.</description>
+    </item>
+    
+    <item>
+      <title>Now Showing @ Helmsley Arts Centre</title>
+      <link>https://sbart.netlify.app/posts/2023-01-11-helmsley-arts-centre-now-showing/</link>
+      <pubDate>Wed, 11 Jan 2023 20:40:56 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-01-11-helmsley-arts-centre-now-showing/</guid>
+      <description>Pleased to be showing some of my works alongside fellow Navigators | @navigatorsart at the Helmsley Arts Centre Moving Pictures II runs until the 3rd March 2023.</description>
+    </item>
+    
+    <item>
+      <title>Setting up Moving Pictures II @ Helmsley Arts Centre</title>
+      <link>https://sbart.netlify.app/posts/2023-01-09-moving-pictures-2-helmsley-arts-centre/</link>
+      <pubDate>Mon, 09 Jan 2023 12:43:50 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2023-01-09-moving-pictures-2-helmsley-arts-centre/</guid>
+      <description>Getting the year started with a lil show alongside fellow Navigators | @navigatorsart at Helmsley Arts Centre. Huge thanks to the volunteers there who got the whole thing up and looking great with amazing speed and efficiency. Moving Pictures II is open until 3rd March</description>
+    </item>
+    
+    <item>
+      <title>Now Showing @ StreetLife, Coney St, York</title>
+      <link>https://sbart.netlify.app/posts/2022-11-01-coney-st-now-showing/</link>
+      <pubDate>Tue, 01 Nov 2022 19:08:12 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2022-11-01-coney-st-now-showing/</guid>
+      <description>&amp;ldquo;We are very excited to invite you down to Coney Street to see what we&amp;rsquo;ve been working on:
+StreetLife presents CONEY ST JAM: an art intervention by Navigators Art
+OPENING on Mon, 17 OCT 2022 ENDING Sat, 19 NOV 2022
+(10am – 5pm Mon-Sat except Weds, &amp;amp; Sun 11-4pm) 29-31 Coney Street, York
+&amp;lsquo;Inspired by StreetLife’s research and findings, this collective of 12 local artists are mounting a celebratory closing exhibition for the Project.</description>
+    </item>
+    
+    <item>
+      <title>Moving Pictures @ City Screen, York</title>
+      <link>https://sbart.netlify.app/posts/2022-03-12-moving-pictures-now-showing/</link>
+      <pubDate>Sat, 12 Mar 2022 20:40:05 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2022-03-12-moving-pictures-now-showing/</guid>
+      <description>Pleased to announce that I will have some art work up in this group show, do come along!
+MOVING PICTURES at City Screen York
+13th March - 15th April 2022
+The first week from 13th March is a preview in the cafe with a selection of works
+LAUNCH NIGHT for the extended show is on Sunday 20th March 19:30 - 21:00 with wine, snacks and chat.
+City Screen Picturehouse, York</description>
+    </item>
+    
+    <item>
+      <title>Now Showing @ Piccadilly Pop Up, York</title>
+      <link>https://sbart.netlify.app/posts/2020-09-04-piccadilly-pop-up-york-now-showing/</link>
+      <pubDate>Fri, 04 Sep 2020 11:29:44 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2020-09-04-piccadilly-pop-up-york-now-showing/</guid>
+      <description>PICCADILLY POP UP &amp;ldquo;Art - at - tax&amp;rdquo; creative gallery &amp;amp; artists&#39; studios Every Saturday 12-6pm FREE ENTRY
+Open studios, local artists exhibiting and selling work. Originals - Prints - Postcards - Photography - Books - Poetry - plus artefacts rare and strange … Come along this SATURDAY AND EVERY SATURDAY!
+@23 Piccadilly, York, YO1 9PG Swinson House (the old tax office just past SPARK)
+Facebook Event</description>
+    </item>
+    
+    <item>
+      <title>Etsy Shop Now Open!</title>
+      <link>https://sbart.netlify.app/posts/2020-07-21-etsy-shop-now-open/</link>
+      <pubDate>Tue, 21 Jul 2020 16:41:31 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2020-07-21-etsy-shop-now-open/</guid>
+      <description>Some of my ink and watercolour pieces are now available as postcards and my Etsy store is open!
+All postcards are high quality digital prints on Smooth White Silk Card 350gsm. They have a blank reverse and arrive sealed in a transparent plastic wrapper. I&amp;rsquo;m offering free delivery within the UK and all international postage for just £1.50. Larger prints and framed/unframed originals coming soon!
+Check it out, thanks :)</description>
+    </item>
+    
+    <item>
+      <title>Navigators Close to the Edge, MA Fine Art Final Show</title>
+      <link>https://sbart.netlify.app/posts/2019-09-17-navigators-close-to-the-edge/</link>
+      <pubDate>Tue, 17 Sep 2019 07:18:37 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2019-09-17-navigators-close-to-the-edge/</guid>
+      <description>Pleased to announce I will be showing some mixed media paintings and sculpture in this show in York with fellow MA Fine Art students from York St John University
+Opening tonight! 17th September @5pm. The show runs until Friday 20th September 2019 and we will be moving on to take part with the Global Strike. We have a schedule of spoken word poetry performances and musical contribution on the opening night, with free wine and all that good stuff.</description>
+    </item>
+    
+    <item>
+      <title>Navigators Crossing the Line @ Spark, York</title>
+      <link>https://sbart.netlify.app/posts/2019-06-04-navigators-crossing-the-line/</link>
+      <pubDate>Tue, 04 Jun 2019 14:27:54 +0100</pubDate>
+      <author>info@stevebeadleart.com (Steve Beadle)</author>
+      <guid>https://sbart.netlify.app/posts/2019-06-04-navigators-crossing-the-line/</guid>
+      <description>Pleased to announce I will be showing some recent paintings in this art show at SPARK* in York with fellow MA Fine Art students from York St John University
+Opening night is 5th June @7pm with free wine and snacks for our first arrivals. The show runs until 11th June (10am&amp;gt;10pm). We have performances and contributions on Wednesday and Friday evening. Will be great to see you there! ✌️</description>
     </item>
     
   </channel>
