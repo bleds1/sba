@@ -8,9 +8,9 @@ tags: ['watercolour','portraits']
 
 ## Related Posts
 
-[Moving Pictures @ City Screen, York](/posts/2022-03-12-moving-pictures-now-showing/)
+[Vikings Watercolour WIP](/posts/2021-05-28-vikings-watercolour-wip/)
 
-[Shelby Brothers in Oil](/posts/2022-02-19-shelby-brothers/)
+[Moving Pictures @ City Screen, York](/posts/2022-03-12-moving-pictures-now-showing/)
 
 [Lost Boys Painting step by step](/posts/2023-01-17-lost-boys-painting-step-by-step/)
 
