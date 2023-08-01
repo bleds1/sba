@@ -3,7 +3,7 @@ title: "About"
 date: 2023-07-29T21:34:59+01:00
 layout: "about"
 ---
-![Image](/profile-photo-steve-beadle-art.png)
+![Image](/profile-photo-steve-beadle-art-3.png)
 
 - Steve Beadle (@stevebeadleart) is currently a York, U.K based artist originally from Hull.
 - I've spent time living in Hull, Germany, Leeds, Manchester and York in that order. 
