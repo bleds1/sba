@@ -1,7 +1,7 @@
 ---
 title: "Village Elder"
 date: 2022-03-12T15:56:18+01:00
-tags: ['oil','painting','portrait']
+tags: ['oil','painting','portraits']
 ---
 ![Image 1](/2022-03-12-village-elder/village-elder-oil-painting-steve-beadle-art.png)
 
