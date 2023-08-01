@@ -57,5 +57,5 @@ customCSS = ["css/custom_style.css"]
       new_tab = true
 
     [[params.links.link]]
-      name = "Links"
+      name = "Links/Resources"
       href = "/links"

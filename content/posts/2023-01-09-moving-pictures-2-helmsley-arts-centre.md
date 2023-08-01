@@ -15,6 +15,6 @@ Getting the year started with a lil show alongside fellow [Navigators | @navigat
 
 [Moving Pictures @ City Screen, York](/posts/2022-03-12-moving-pictures-now-showing)
 
-[Living Treasures Live Performance @ The Basement, City Screen York](/posts/2023-06-07-living-treasuures-live-performance/)
+[Living Treasures Live Performance @ The Basement, City Screen York](/posts/2023-06-07-living-treasures-live-performance/)
 
 [The North Water](/posts/2021-11-17-the-north-water/)
