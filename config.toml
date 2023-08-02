@@ -41,7 +41,7 @@ customCSS = ["css/custom_style.css"]
     #   href = "/photos"
 
     [[params.links.link]]
-      name = "Contact"
+      name = "Email"
       href = "/contact"
       smart_email_link = true
 
@@ -57,5 +57,10 @@ customCSS = ["css/custom_style.css"]
       new_tab = true
 
     [[params.links.link]]
-      name = "Links/Resources"
+      name = "Navigators"
+      href = "/navigators"
+      new_tab = true
+
+    [[params.links.link]]
+      name = "Links"
       href = "/links"
