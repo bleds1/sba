@@ -1,10 +1,10 @@
 ---
 title: "Self Portrait in Oils"
-date: 2023-08-01T18:54:52+01:00
+date: 2021-07-07T18:54:52+01:00
 tags: ['portraits','oils']
 draft: true
 ---
-![Image](//.png)
+![Image 1](/2021-07-07-self-portrait-in-oils/self-portrait-in-oil-steve-beadle-art.png)
 
 ## Related Posts
 [](/posts//)
