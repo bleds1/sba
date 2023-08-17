@@ -8,7 +8,7 @@ customCSS = ["css/custom_style.css"]
 
 [Author]
   name = "Steve Beadle"
-  email = "info@stevebeadleart.com"
+  email = "stevebeadleart@pm.me"
 
 [markup]
   [markup.highlight]
@@ -18,7 +18,7 @@ customCSS = ["css/custom_style.css"]
 
 [params]
   mainSections = ["posts"]
-  email = "info@stevebeadleart.com"
+  email = "stevebeadleart@pm.me"
   favicon = "icons/favicon.png"
 #   about = """
 # This website is still under construction..Be patient.
