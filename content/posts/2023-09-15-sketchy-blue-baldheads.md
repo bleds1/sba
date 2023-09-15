@@ -5,6 +5,9 @@ tags: ['portraits','sketchbook']
 ---
 ![Image](/2023-09-15-sketchy-blue-baldheads/2023-09-15-sketchy-blue-baldheads.png)
 
+Sketchbook stuff in blue pencils
+
+
 
 ## Related Posts
 
