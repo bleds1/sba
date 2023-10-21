@@ -18,6 +18,6 @@ layout: "about"
 - I have some prints and postcards availible on [Etsy](https://www.etsy.com/uk/shop/stevebeadleart/) and if you see me at a market or show.
 - I'll be listing some works for sale on this site with a price but many that do not have a price may still be availible for purchase or print so just shoot me a message if there's something you like.
 
-- There is no tracking, cookies or analytics here. I have no idea how many visitors I get so your feedback is valuable..I'm not keen on trying to implement some kind of comment system that will get invaded by bots. Shares are always appreciated if credited with a link back to me and clearly attributed.
+- There is no tracking, cookies or analytics here. I have no idea how many visitors I get so your feedback is valuable..Shares are always appreciated if credited with a link back to me clearly attributed.
 
 - Click the link to reply via email confidentially at the bottom of any post. I'm happy to answer any questions, I'd like to hear from you.
