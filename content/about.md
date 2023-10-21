@@ -18,8 +18,6 @@ layout: "about"
 - I have some prints and postcards availible on [Etsy](https://www.etsy.com/uk/shop/stevebeadleart/) and if you see me at a market or show.
 - I'll be listing some works for sale on this site with a price but many that do not have a price may still be availible for purchase or print so just shoot me a message if there's something you like.
 
-- This site is very much an ongoing work in progress. I wanted my own little space that harks back to the old times of the internet. I've grown to dislike most of the modern social medias as platforms for sharing work. I see this as an interlinking 'Digital garden' to be tended to and added to over time rather than a polished piece. Posts without much written word may or may not be fleshed out over time..so bookmark and check back in every now and then. 
-
 - There is no tracking, cookies or analytics here. I have no idea how many visitors I get so your feedback is valuable..I'm not keen on trying to implement some kind of comment system that will get invaded by bots. Shares are always appreciated if credited with a link back to me and clearly attributed.
 
 - Click the link to reply via email confidentially at the bottom of any post. I'm happy to answer any questions, I'd like to hear from you.
