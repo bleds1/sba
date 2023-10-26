@@ -33,7 +33,7 @@ SHOW 19:30 - 22:30
 
 ENTRY £8 
 
-TICKETS through [EVENTBRITE](https://bit.ly/nav-punkjazz)
+LIMITED NUMBER OF TICKETS Only availible through [EVENTBRITE](https://bit.ly/nav-punkjazz)
 (book ahead to avoid disappointment!) 
 
 [@navigatorsart](https://www.instagram.com/navigatorsart)
