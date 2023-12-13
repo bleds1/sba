@@ -4,7 +4,6 @@ date: 2023-12-01T18:05:18Z
 tags: ['emacs']
 ---
 
-## Intro
 
 So what is it? Let me introduce you because of course, there's far too much to cover in one post. I would like to get into the more advanced stuff ideally. One of the things that annoys me is that there are a ton of _"Getting Started with the Basics"_ types posts and videos and not enough that go deeper into the features. It feels like I've absorbed a lot of the content that's out there, however..it only feels right to start with the basics and then build on top of that.
 
