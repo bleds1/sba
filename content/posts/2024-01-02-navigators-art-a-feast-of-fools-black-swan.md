@@ -1,7 +1,6 @@
 ---
 title: "A Feast of Fools @ The Black Swan York (6th Jan 2024)"
 date: 2024-01-02T18:20:14Z
-draft: true
 tags: ['navigators','shows']
 ---
 
