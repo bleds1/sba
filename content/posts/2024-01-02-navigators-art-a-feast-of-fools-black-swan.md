@@ -14,36 +14,37 @@ Devised by [Navigators Art](https://www.instagram.com/navigatorsart) & [White Sa
 _The final festivity, when lords become servants, beggars rule and convention goes to the dogs.
 Summon the Green Man! Hail the Lord of Misrule!_
 
-Featuring Wiccan singer-songwriter 
-
+_Featuring Wiccan singer-songwriter_
 [Cai Moriarty](https://soundcloud.com/cai-moriarty-158204065)
 
-Alternative folk from 
+_Alternative folk from_
 
 [Wire Worms](https://wireworms.bandcamp.com/)
 
-Spellbinding verse by poet, architect and musician
+_Spellbinding verse by poet, architect and musician_
 
 [Thomas Pearson](http://nospinoza.co.uk/)
 
-Story & song from
+_Story & song from_
 
 [Adderstone](https://www.instagram.com/adderstone.duo/)
 
-and multi-instrumental celebrants of nature, history and heritage, local legends
+_and multi-instrumental celebrants of nature, history and heritage, local legends_
 
 [White Sail](https://whitesailband.com/)
 
 
+
 **SAT 6th JANUARY 2024**
 
-7:30 pm
+**7:30 pm**
 
-THE BLACK SWAN, YORK
+**THE BLACK SWAN, YORK**
 
-TICKETSOURCE BOOKINGS £10
+**TICKETSOURCE BOOKINGS £10**
 
 ✨ [bit.ly/nav-feast](bit.ly/nav-feast) ✨
+
 
 
 ## Related
