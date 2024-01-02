@@ -9,7 +9,7 @@ tags: ['portraits','krita']
 More head studies in Krita. I think of this kind of thing as digital sketchbook work. Space seemed to be the way to go for experimenting with a brighter colour palette. 
 
 
-## Related Posts
+## Related
 
 [2023-08-19 Head Practice](/posts/2023-08-19-head-practice/)
 

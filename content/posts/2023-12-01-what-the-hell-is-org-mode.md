@@ -83,7 +83,7 @@ This post is intended to be a primer for my Emacs/Org-mode series. I've previous
 Did I mention I can write and code for this website, read emails, books, news feeds, browse the web and view images? Hopefully this serves as a nice intro to Org/and or Emacs and maybe you can start to see how with all this under one roof you might be able to construct quite a powerful way of working. 
 
 
-### Related Posts
+### Related 
 
 [Getting Started with Doom Emacs](/posts/2023-01-27-getting-started-with-doom-emacs/)
 

@@ -27,7 +27,7 @@ small prints, postcards and some X-mas gifts & good stuff
 **All welcome!**
 
 
-## Related Posts
+## Related
 
 [Basement Sesssions #1 @ City Screen York](/posts/2023-11-18-navigators-art-basement-sessions-1-city-screen)
 

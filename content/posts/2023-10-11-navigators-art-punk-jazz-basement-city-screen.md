@@ -40,7 +40,7 @@ LIMITED NUMBER OF TICKETS Only availible through [EVENTBRITE](https://bit.ly/nav
 [@cityscreenyork](https://www.instagram.com/cityscreenyork) [@_thebricksband_](https://www.instagram.com/thebricksband) [@teleostband](https://www.instagram.com/teleostband) [@thingsfoundandmade](https://www.instagram.com/thingsfoundandmade) [@inkwells_and_imaginations](https://www.instagram.com/inkwells_and_imaginations) [@richardkitchenart](https://www.instagram.com/richardkitchenart) [@kookybunkering](https://www.instagram.com/kookybunkering)
 
 
-## Related Posts
+## Related 
 
 [Punk/Jazz @ Micklegate Social](/posts/2023-09-28-navigators-art-punk-jazz-micklegate-fossgate-socials/)
 

@@ -1,6 +1,6 @@
 ---
-title: "Shelby Brothers in Oil"
-date: 2022-02-19T16:10:12+01:00
+title: "Shelby Brothers Oil on Paper"
+date: 2023-12-23T16:10:12+01:00
 tags: ['oil','painting','peakyblinders','portraits']
 ---
 
@@ -8,9 +8,9 @@ tags: ['oil','painting','peakyblinders','portraits']
 ![Image](/2022-02-19-shelby-brothers/tommy-peaky-blinders-oil-steve-beadle-art.png)
 ![Image](/2022-02-19-shelby-brothers/john-peaky-blinders-oil-steve-beadle-art.png)
 
-Close ups of some Shelby brothers from Peaky Blinders in oils & colour pencil on paper.
+Close ups crops of the Shelby brothers from Peaky Blinders. I painted these lads in oils & colour pencil on paper. I think I've finally excepted that you can quite reasonably paint with oils on paper in a sketchbook. Sometimes it can feel like a big block of resistance - the idea that we have to stretch, prime and prepare a surface or canvas for working with oil. It's not really the case. I made these in a budget sketchbook with just a quick wash of Gesso to prime the surface. Of course you will need to keep the sketchbook pinned open until it's dry. 
 
-## Related Posts
+## Related
 
 [Oil Studies of Elders](/posts/2023-04-11-oil-studies-of-elders/)
 

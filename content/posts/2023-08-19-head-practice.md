@@ -11,7 +11,7 @@ tags: ['portraits','krita']
 Head practice. I've been having a tough time with hair-do's and beards. I can get absolutely lost in them sometimes and never feel like the painting is finished. Much like real hair do's I suppose, you've got to set a time limit on how long you can fiddle around with it and then just move on and get out the house.
 
 
-## Related Posts
+## Related
 
 [Girl Study in Krita](/posts/2023-06-14-girl-study-in-krita/)
 

@@ -1,6 +1,6 @@
 ---
 title: "Sketchy Blue Baldheads"
-date: 2023-09-15T11:35:57+01:00
+date: 2023-09-29T11:35:57+01:00
 tags: ['portraits','sketchbook']
 ---
 ![Image](/2023-09-15-sketchy-blue-baldheads/2023-09-15-sketchy-blue-baldheads.png)
@@ -9,7 +9,7 @@ Sketchbook stuff in blue pencils
 
 
 
-## Related Posts
+## Related
 
 [Head Practice](/posts/2023-08-19-head-practice/)
 

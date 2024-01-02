@@ -38,7 +38,7 @@ Ticket Booking [HERE](https://bit.ly/nav-base-1)
 
 The Basement @ City Screen Picturehouse, York, YO1 9QL
 
-## Related Posts
+## Related
 
 [Punk/Jazz @ The Basement City Screen](/posts/2023-10-11-navigators-art-punk-jazz-basement-city-screen/)
 

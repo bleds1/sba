@@ -7,7 +7,7 @@ tags: ['watercolour','gouache','portraits']
 
 I ended up taking [this Joe Strummer sketch](/posts/2023-04-25-sketchbook-stuff/) to a painting with Paynes Grey Watercolour and white Gouache. Unfortunately the paper got all chewy, which is unusual because this was on some very decent Hahnemuhle stuff. You may not be able to tell from the scan. There's some parts I'd like to fix but I got to a point where it feels like I overcooked it, loaded it with too much water and indecision at some point. I'll do better next time.
 
-## Related Posts
+## Related
 
 [2023-04-25 Sketchbook Stuff](/posts/2023-04-25-sketchbook-stuff/)
 

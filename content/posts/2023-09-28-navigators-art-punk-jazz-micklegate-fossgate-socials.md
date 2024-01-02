@@ -56,7 +56,7 @@ Chalkie the Yorkie
 & more
 
 
-## Related Posts
+## Related
 
 [Call out for Art Punk/Jazz](/posts/2023-07-10-punk-jazz-call-out/)
 
