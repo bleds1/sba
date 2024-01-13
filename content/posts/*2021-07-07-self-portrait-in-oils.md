@@ -1,6 +1,6 @@
 ---
 title: "Self Portrait in Oils"
-date: 2021-07-07T18:54:52+01:00
+date: 2021-07-0T18:54:52+01:00
 tags: ['portraits','oils']
 draft: true
 ---
