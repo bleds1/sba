@@ -1,9 +1,11 @@
 ---
-title: "Basement Sessions #3 @ City Screen York (27th Jan 2024)"
+title: "Postponed: Basement Sessions #3 @ City Screen York (23rd Feb 2024)"
 date: 2024-01-22T18:56:34Z
 tags: ['navigators','shows']
 ---
-![Image](/2024-01-22-navigators-art-basement-sessions-3/2024-01-22-navigators-basement-sessions-3-city-screen-flyer.png)
+![Image](/2024-01-22-navigators-art-basement-sessions-3/2024-01-22-navigators-basement-sessions-3-city-screen-flyer-postponed.png)
+
+EDIT: Due to flooding of the Basement at City Screen this gig has now been **POSTPONED/REARRANGED FOR THE 23rd FEBRUARY**.
 
 **Continuing on from our last sell-out show..**
 
@@ -15,7 +17,7 @@ The Basement Sessions returns..
 
 Starring:
 
-**PERCY** - *left-field indie faves delivering dark and spiky post-punk: think Stranglers, Magazine, Gang of Four, Idles, Fontaines DC*
+**THE NEW SOLAR DRONES** - *adventurous indie band with a prog edge and inventive percussion* 
 
 **DANAE** - *a welcome return by this spellbinding poet and actor from Mexico via York*
 
@@ -31,7 +33,9 @@ Starring:
 
 **BASEMENT SESSIONS #3**
 
-**SAT 27th JANUARY**
+**~~SAT 27th JANUARY~~**
+
+**FRI 23rd FEBRUARY**
 
 **THE BASEMENT, CITY SCREEN, YORK**
 
