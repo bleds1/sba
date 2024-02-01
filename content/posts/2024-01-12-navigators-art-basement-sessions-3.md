@@ -1,11 +1,10 @@
 ---
-title: "Postponed: Basement Sessions #3 @ City Screen York (23rd Feb 2024)"
+title: "Basement Sessions #3 @ City Screen York 23rd Feb 2024"
 date: 2024-01-22T18:56:34Z
 tags: ['navigators','shows']
 ---
-![Image](/2024-01-22-navigators-art-basement-sessions-3/2024-01-22-navigators-basement-sessions-3-city-screen-flyer-postponed.png)
 
-EDIT: Due to flooding of the Basement at City Screen this gig has now been **POSTPONED/REARRANGED FOR THE 23rd FEBRUARY**.
+![Image](/2024-01-22-navigators-art-basement-sessions-3/2024-01-22-navigators-basement-sessions-3-city-screen-flyer-square.png)
 
 **Continuing on from our last sell-out show..**
 
@@ -30,10 +29,7 @@ Starring:
 **WILL GLITCH** - *a new young comedian from Norwich via Hull (which is quite funny already)*
 
 
-
 **BASEMENT SESSIONS #3**
-
-**~~SAT 27th JANUARY~~**
 
 **FRI 23rd FEBRUARY**
 
@@ -46,6 +42,9 @@ Starring:
 **£10**
 
 ✨ [bit.ly/nav-base-3](bit.ly/nav-base-3) ✨
+
+
+*This show was postponed and re-arranged from 27th Jan to 23rd February due to flooding at City Screen.*
 
 
 ## Related
@@ -62,4 +61,3 @@ Starring:
 [Ticketsource booking](https://bit.ly/nav-base-3/)
 
 [Navigators confirm Basement Sessions 3 and plans for International Womens Week at City Screen Picturehouse | charleshutchpress.co.uk](https://charleshutchpress.co.uk/navigators-art-confirms-basement-session3-line-up-and-plans-for-york-international-womens-week-at-city-screen-picturehouse/)
-
