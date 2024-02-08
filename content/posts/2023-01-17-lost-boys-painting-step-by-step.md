@@ -31,21 +31,7 @@ I feel like I should maybe be showing the entire linework but I’m not quite re
 
 ![Image 4](/2023-01-17-lost-boys-painting-step-by-step/sam-lost-boys-sketchbook-scans.png)
 
-### Three things:
 
-I’ll try and end my posts with 3 random things that are kind of on my radar currently..
-
-[Rainer Konigs Org-mode Videos](https://piped.video/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
-
-_- I’m going all in with Doom Emacs as my writing, hacking and productivity system this year. I found Rainer's videos really useful for learning how Org-mode works._
-
-[‘The Shadow of the Wind’ by Carlos Ruiz Zafon](https://www.goodreads.com/en/book/show/1232.The_Shadow_of_the_Wind)
-
-_- Just started on this book and I’ve just got that feeling that it’s going to be a good one.._
-
-[The Blindboy Podcast](https://open.spotify.com/show/7HinkS0WZqDuMXYh02EUY1)
-
-_- My favourite podcast at the moment. Blindboy is just a very smart and entertaining story teller. Love the ‘hot take’ episodes._
 
 ## Related Posts
 
