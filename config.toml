@@ -1,7 +1,7 @@
 #baseURL = 'https://sbart.netlify.app/'
 baseURL = 'https://www.stevebeadleart.com/'
 languageCode = 'en-us'
-title = 'sba'
+title = '@stevebeadleart'
 theme = 'rocinante'
 paginate = 6
 customCSS = ["css/custom_style.css"]
