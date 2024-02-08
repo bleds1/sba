@@ -2,7 +2,6 @@
 title: "Watercolour & Gouache Portraits"
 date: 2024-02-01T10:56:19Z
 tags: ['portraits','gouache','watercolour']
-draft: true
 ---
 ![Image](/2024-02-08-watercolour-gouache-portraits/2024-02-08-watercolour-gouache-portraits.png/)
 
