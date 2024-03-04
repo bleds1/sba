@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ink on @stevebeadleart</title>
+    <link>http://localhost:1313/tags/ink/</link>
+    <description>Recent content in Ink on @stevebeadleart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
+    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Tue, 05 Jul 2022 14:30:07 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ink/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scruffy Street Sketches</title>
+      <link>http://localhost:1313/posts/2022-07-05-scruffy-street-sketch/</link>
+      <pubDate>Tue, 05 Jul 2022 14:30:07 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-07-05-scruffy-street-sketch/</guid>
+      <description>Pen and ink sketches of the area around Coney Street, York.</description>
+    </item>
+  </channel>
+</rss>

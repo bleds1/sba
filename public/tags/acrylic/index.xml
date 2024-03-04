@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Acrylic on @stevebeadleart</title>
+    <link>http://localhost:1313/tags/acrylic/</link>
+    <description>Recent content in Acrylic on @stevebeadleart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
+    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Tue, 15 Nov 2022 14:28:43 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/acrylic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nora Durst</title>
+      <link>http://localhost:1313/posts/2022-11-15-nora-durst/</link>
+      <pubDate>Tue, 15 Nov 2022 14:28:43 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-11-15-nora-durst/</guid>
+      <description>Acrylic painting of Nora Durst from the show &amp;lsquo;The Leftovers&amp;rsquo;.&#xA;Related Posts Oil Studies of Elders&#xA;Gracias Marcelo</description>
+    </item>
+    <item>
+      <title>Gracias Marcelo</title>
+      <link>http://localhost:1313/posts/2022-02-27-gracias-marcelo/</link>
+      <pubDate>Sun, 27 Feb 2022 16:03:48 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-02-27-gracias-marcelo/</guid>
+      <description>Thank you Marcelo..much more than a manager.&#xA;Related Posts Nora Durst&#xA;Shelby Brothers in Oil&#xA;Female Head in Oils</description>
+    </item>
+  </channel>
+</rss>

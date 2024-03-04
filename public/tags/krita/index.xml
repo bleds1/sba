@@ -1,22 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>krita on sba</title>
-    <link>https://sbart.netlify.app/tags/krita/</link>
-    <description>Recent content in krita on sba</description>
+    <title>Krita on @stevebeadleart</title>
+    <link>http://localhost:1313/tags/krita/</link>
+    <description>Recent content in Krita on @stevebeadleart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>info@stevebeadleart.com (Steve Beadle)</managingEditor>
-    <webMaster>info@stevebeadleart.com (Steve Beadle)</webMaster>
-    <lastBuildDate>Sat, 17 Jun 2023 12:28:07 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/tags/krita/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
+    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Tue, 29 Aug 2023 12:45:32 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/krita/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2023-06-14 Girl Study in Krita</title>
-      <link>https://sbart.netlify.app/posts/2023-06-14-girl-study-in-krita/</link>
-      <pubDate>Sat, 17 Jun 2023 12:28:07 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-06-14-girl-study-in-krita/</guid>
-      <description></description>
+      <title>Spacer Girls</title>
+      <link>http://localhost:1313/posts/2023-08-29-spacer-girls/</link>
+      <pubDate>Tue, 29 Aug 2023 12:45:32 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-08-29-spacer-girls/</guid>
+      <description>More head studies in Krita. I think of this kind of thing as digital sketchbook work. Space seemed to be the way to go for experimenting with a brighter colour palette.&#xA;Related 2023-08-19 Head Practice&#xA;Girl Study in Krita</description>
     </item>
-    
+    <item>
+      <title>2023-08-19 Head Practice</title>
+      <link>http://localhost:1313/posts/2023-08-19-head-practice/</link>
+      <pubDate>Sat, 19 Aug 2023 09:59:10 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-08-19-head-practice/</guid>
+      <description>Head practice. I&amp;rsquo;ve been having a tough time with hair-do&amp;rsquo;s and beards. I can get absolutely lost in them sometimes and never feel like the painting is finished. Much like real hair do&amp;rsquo;s I suppose, you&amp;rsquo;ve got to set a time limit on how long you can fiddle around with it and then just move on and get out the house.&#xA;Related Girl Study in Krita&#xA;The North Water</description>
+    </item>
+    <item>
+      <title>Girl Study in Krita</title>
+      <link>http://localhost:1313/posts/2023-06-14-girl-study-in-krita/</link>
+      <pubDate>Sat, 17 Jun 2023 12:28:07 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-06-14-girl-study-in-krita/</guid>
+      <description>Digital painting study of a girl in Krita. I often take this approach of making a monochrome underpainting and laying colour on top once I&amp;rsquo;ve got some solid values in place.&#xA;Related Posts Shadow of the Vampire Study&#xA;Smokey and Michelle&#xA;The North Water</description>
+    </item>
   </channel>
 </rss>

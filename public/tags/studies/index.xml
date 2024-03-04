@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Studies on @stevebeadleart</title>
+    <link>http://localhost:1313/tags/studies/</link>
+    <description>Recent content in Studies on @stevebeadleart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
+    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Tue, 24 Aug 2021 21:52:52 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/studies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rockwell Sketchbook Studies</title>
+      <link>http://localhost:1313/posts/2021-08-24-rockwell-sketchbook-studies/</link>
+      <pubDate>Tue, 24 Aug 2021 21:52:52 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-08-24-rockwell-sketchbook-studies/</guid>
+      <description>Related Posts 2023-04-25 Sketchbook Stuff&#xA;2023-07-16 Sketchbook Stuff</description>
+    </item>
+  </channel>
+</rss>

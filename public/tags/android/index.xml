@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>android on sba</title>
-    <link>https://sbart.netlify.app/tags/android/</link>
-    <description>Recent content in android on sba</description>
+    <title>Android on @stevebeadleart</title>
+    <link>http://localhost:1313/tags/android/</link>
+    <description>Recent content in Android on @stevebeadleart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>info@stevebeadleart.com (Steve Beadle)</managingEditor>
-    <webMaster>info@stevebeadleart.com (Steve Beadle)</webMaster>
-    <lastBuildDate>Sun, 23 Jul 2023 15:00:18 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
+    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Sun, 23 Jul 2023 15:00:18 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Install Doom Emacs on Termux</title>
-      <link>https://sbart.netlify.app/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</link>
-      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</guid>
-      <description>I used to think having Emacs on a phone was a bit much..but recently I&amp;rsquo;ve just started using Emacs and Org mode for nearly everything.. There&amp;rsquo;s not a great selection of apps on Android for accessing Org files, the best solution to me was to just get Emacs with it&amp;rsquo;s fully fledged Org on mobile. The newish GUI Android Emacs app is a bit strange and I swiftly uninstalled it. The Termux terminal version however, works much better.</description>
+      <link>http://localhost:1313/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</link>
+      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</guid>
+      <description>I used to think having Emacs on a phone was a bit much..but recently I&amp;rsquo;ve just started using Emacs and Org mode for nearly everything.. There&amp;rsquo;s not a great selection of apps on Android for accessing Org files, the best solution to me was to just get Emacs with it&amp;rsquo;s fully fledged Org on mobile. The newish GUI Android Emacs app is a bit strange and I swiftly uninstalled it.</description>
     </item>
-    
   </channel>
 </rss>

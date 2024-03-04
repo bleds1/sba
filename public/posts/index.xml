@@ -1,232 +1,413 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on sba</title>
-    <link>https://sbart.netlify.app/posts/</link>
-    <description>Recent content in Posts on sba</description>
+    <title>Posts on @stevebeadleart</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on @stevebeadleart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>info@stevebeadleart.com (Steve Beadle)</managingEditor>
-    <webMaster>info@stevebeadleart.com (Steve Beadle)</webMaster>
-    <lastBuildDate>Sun, 23 Jul 2023 15:00:18 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
+    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Fri, 16 Feb 2024 09:56:24 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Returning to Neovim and Obsidian</title>
+      <link>http://localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</link>
+      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</guid>
+      <description>Neovim&#xA;I&amp;rsquo;ve been giving Logseq a really good go since the beginning of the year. I love the way it works actually but the thing that has made me return to Obsidian is VIM. Logseq lacks decent vim motions and all of those indented bullet points are not all that useful if you want to access your markdown elsewhere. I recently discovered the project obsidian.nvim and it really bridges a gap for me.</description>
+    </item>
+    <item>
+      <title>Callout: GUNA: Views and Voices Deadline 25th Feb 2024</title>
+      <link>http://localhost:1313/posts/2024-02-03-guna-views-and-voices/</link>
+      <pubDate>Sat, 03 Feb 2024 17:58:07 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2024-02-03-guna-views-and-voices/</guid>
+      <description>Navigators Art are inviting submissions from visual artists based in York for our forthcoming exhibition between 10th March and 6th April 2024.&#xA;GUNA is a version of the ancient Greek word for &amp;lsquo;woman&amp;rsquo; and the show forms part of the city&amp;rsquo;s International Women&amp;rsquo;s Week activities.&#xA;York Collective Navigators Art &amp;amp; Performance will accept submissions from visual artists based in York for our forthcoming exhibition at the City Screen Picturehouse gallery between 10th March and 6th April 2024.</description>
+    </item>
+    <item>
+      <title>Watercolour &amp; Gouache Portraits</title>
+      <link>http://localhost:1313/posts/2024-02-08-watercolour-gouache-portraits/</link>
+      <pubDate>Thu, 01 Feb 2024 10:56:19 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2024-02-08-watercolour-gouache-portraits/</guid>
+      <description>Small studies painted with 90% watercolour and a little white Gouache. The white Gouache just helps for a few opaques and highlights and you can veer away from the more traditional watercolour technique of leaving your white highlights as untouched paper. Trying to get back into the flow of regular daily painting and watercolour is very easy to just pick up and dive right into. I have oil paintings on the go but it takes a little bit more cognitive load and resistance to get into that process.</description>
+    </item>
+    <item>
+      <title>Basement Sessions #3 @ City Screen York 23rd Feb 2024</title>
+      <link>http://localhost:1313/posts/2024-01-12-navigators-art-basement-sessions-3/</link>
+      <pubDate>Mon, 22 Jan 2024 18:56:34 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2024-01-12-navigators-art-basement-sessions-3/</guid>
+      <description>Continuing on from our last sell-out show..&#xA;The Basement Sessions returns..&#xA;LIVE, LOCAL AND LOUD!&#xA;Navigators Art and Performance presents a very special lineup of local performers selected for their spirit of experimentality and community - and of course for being excellent!&#xA;Starring:&#xA;THE NEW SOLAR DRONES - adventurous indie band with a prog edge and inventive percussion&#xA;DANAE - a welcome return by this spellbinding poet and actor from Mexico via York</description>
+    </item>
+    <item>
+      <title>Pet Semetary Judd Crandall Oil on Board</title>
+      <link>http://localhost:1313/posts/2024-01-12-pet-semetary-judd-crandall-oil-painting/</link>
+      <pubDate>Fri, 12 Jan 2024 12:00:31 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2024-01-12-pet-semetary-judd-crandall-oil-painting/</guid>
+      <description>Watched Pet Sematary 1989 again recently and was quite struck by the face of Judd Crandall aka Fred Gwynne aka Herman Munster. Those Zelda scenes still creep me out. Quite often I need a bit of escapism from this crazy old techno future we find ourselves in and a slightly crappy 80&amp;rsquo;s/90&amp;rsquo;s movie seems to hit just the right spot.&#xA;I&amp;rsquo;m working with oils at the moment and this horrific thing keeps happening whereby I think something&amp;rsquo;s starting to look pretty decent so I take a photo.</description>
+    </item>
+    <item>
+      <title>A Feast of Fools @ The Black Swan York (6th Jan 2024)</title>
+      <link>http://localhost:1313/posts/2024-01-02-navigators-art-a-feast-of-fools-black-swan/</link>
+      <pubDate>Tue, 02 Jan 2024 18:20:14 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2024-01-02-navigators-art-a-feast-of-fools-black-swan/</guid>
+      <description>A FEAST OF FOOLS: folk music and words to celebrate Old Christmas &amp;amp; Twelfth Night&#xA;Devised by Navigators Art &amp;amp; White Sail Band&#xA;The final festivity, when lords become servants, beggars rule and convention goes to the dogs. Summon the Green Man! Hail the Lord of Misrule!&#xA;Featuring Wiccan singer-songwriter Cai Moriarty&#xA;Alternative folk from&#xA;Wire Worms&#xA;Spellbinding verse by poet, architect and musician&#xA;Thomas Pearson&#xA;Story &amp;amp; song from</description>
+    </item>
+    <item>
+      <title>Shelby Brothers Oil on Paper</title>
+      <link>http://localhost:1313/posts/2022-02-19-shelby-brothers/</link>
+      <pubDate>Sat, 23 Dec 2023 16:10:12 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-02-19-shelby-brothers/</guid>
+      <description>Close ups crops of the Shelby brothers from Peaky Blinders. I painted these lads in oils &amp;amp; colour pencil on paper. I think I&amp;rsquo;ve finally excepted that you can quite reasonably paint with oils on paper in a sketchbook. Sometimes it can feel like a big block of resistance - the idea that we have to stretch, prime and prepare a surface or canvas for working with oil. It&amp;rsquo;s not really the case.</description>
+    </item>
+    <item>
+      <title>York Zine Fest @ The Crescent York (16th Dec 2023)</title>
+      <link>http://localhost:1313/posts/2023-12-13-york-zine-fest-the-crescent/</link>
+      <pubDate>Wed, 13 Dec 2023 12:35:10 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-12-13-york-zine-fest-the-crescent/</guid>
+      <description>We will be navigating our way down to York Zine Fest this weekend!&#xA;with a new edition of the Navigators Zine &amp;lsquo;Feast of Bones&amp;rsquo;&#xA;small prints, postcards and some X-mas gifts &amp;amp; good stuff&#xA;York Zine Fest&#xA;The Crescent, York&#xA;This Saturday&#xA;16th December&#xA;12-4pm&#xA;Free entry! All welcome!&#xA;Related Basement Sesssions #1 @ City Screen York&#xA;Punk/Jazz @ The Basement City Screen&#xA;Punk/Jazz @ Micklegate Social</description>
+    </item>
+    <item>
+      <title>What the Hell Is Org Mode?</title>
+      <link>http://localhost:1313/posts/2023-12-01-what-the-hell-is-org-mode/</link>
+      <pubDate>Fri, 01 Dec 2023 18:05:18 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-12-01-what-the-hell-is-org-mode/</guid>
+      <description>So what is it? Let me introduce you because of course, there&amp;rsquo;s far too much to cover in one post. I would like to get into the more advanced stuff ideally. One of the things that annoys me is that there are a ton of &amp;ldquo;Getting Started with the Basics&amp;rdquo; types posts and videos and not enough that go deeper into the features. It feels like I&amp;rsquo;ve absorbed a lot of the content that&amp;rsquo;s out there, however.</description>
+    </item>
+    <item>
+      <title>Oil Practice: Elderly Faces</title>
+      <link>http://localhost:1313/posts/2023-04-11-oil-studies-of-elders/</link>
+      <pubDate>Wed, 22 Nov 2023 12:35:36 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-04-11-oil-studies-of-elders/</guid>
+      <description>Little oil studies of elderly folk. I seem to be quite drawn to studying older faces. Cracks and wrinkles, a gnarlier texture seems more absorbing to me. These painting are no more than 5 or so inches tall and intended to be quick studies I don&amp;rsquo;t spend too much time over. It&amp;rsquo;s kinda nice to have a sheet of little studies..when you get stuck on one or need to wait for something to dry you can jump across to another and keep engaged with painting.</description>
+    </item>
+    <item>
+      <title>Navigators Art Presents: Basement Sessions #1 @ City Screen York (25th Nov 2023)</title>
+      <link>http://localhost:1313/posts/2023-11-18-navigators-art-basement-sessions-1-city-screen/</link>
+      <pubDate>Sat, 18 Nov 2023 13:36:32 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-11-18-navigators-art-basement-sessions-1-city-screen/</guid>
+      <description>I&amp;rsquo;ll be back to posting some artwork soon. That feels long overdue and very much looking forward to it actually. Most of what I&amp;rsquo;ve been doing has been personal sketchbook study that doesn&amp;rsquo;t feel ready for public consumption anyway to be honest. Recent times have been taken up with organising a series of local events at City Screen, Picture House in York with Navigators Art. Last month Punk/Jazz was a really fun night and a lot of folks turned out.</description>
+    </item>
+    <item>
+      <title>Coming Soon: Navigators Art Presents - Punk/Jazz @ The Basement City Screen Picturehouse (28th Oct 2023)</title>
+      <link>http://localhost:1313/posts/2023-10-11-navigators-art-punk-jazz-basement-city-screen/</link>
+      <pubDate>Wed, 11 Oct 2023 13:21:43 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-10-11-navigators-art-punk-jazz-basement-city-screen/</guid>
+      <description>Navigators Art &amp;amp; Performance Presents:&#xA;In tandem with the Punk/Jazz art exhibition at Micklegate Social&#xA;PUNK/JAZZ: Contrasts &amp;amp; Connections..&#xA;A specially curated performance evening&#xA;LIVE MUSIC, SPOKEN WORD and COMEDY&#xA;@ The Basement, City Screen, Picturehouse, York&#xA;Expect experiments, improvisation and noise..&#xA;PUNK/JAZZ IS A STATE OF MIND!&#xA;FEATURING:&#xA;THE BRICKS, TELEOST, THINGS FOUND AND MADE (DUNMADA), ROSE DREW, SAETH WHEELER and more!&#xA;SATURDAY OCTOBER 28th&#xA;DOORS 19:00&#xA;SHOW 19:30 - 22:30</description>
+    </item>
+    <item>
+      <title>Sketchy Blue Baldheads</title>
+      <link>http://localhost:1313/posts/2023-09-15-sketchy-blue-baldheads/</link>
+      <pubDate>Fri, 29 Sep 2023 11:35:57 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-09-15-sketchy-blue-baldheads/</guid>
+      <description>Sketchbook stuff in blue pencils&#xA;Related Head Practice&#xA;Rockwell Sketchbook Studies&#xA;2023-07-16 Sketchbook Stuff</description>
+    </item>
+    <item>
+      <title>Coming Soon: Navigators Art Presents - Punk/Jazz @ Micklegate &amp; Fossgate Socials (21st Oct 2023)</title>
+      <link>http://localhost:1313/posts/2023-09-28-navigators-art-punk-jazz-micklegate-fossgate-socials/</link>
+      <pubDate>Thu, 28 Sep 2023 19:47:50 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-09-28-navigators-art-punk-jazz-micklegate-fossgate-socials/</guid>
+      <description>Navigators Art &amp;amp; Performance are back in the water and making waves with a striking new exhibition and live event.&#xA;A Love Supreme or No Future? Are Punk &amp;amp; Jazz at odds or two sides of a coin? Each can be controversial, uncompromising, confrontational. The best of each is groundbreaking, pushing conventions to the limit. Both can hurt. Both can heal.&#xA;PUNK/JAZZ explores genres, contrasts and connections through music, painting, drawing, collage, print, words, sculpture and photography.</description>
+    </item>
+    <item>
+      <title>Spacer Girls</title>
+      <link>http://localhost:1313/posts/2023-08-29-spacer-girls/</link>
+      <pubDate>Tue, 29 Aug 2023 12:45:32 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-08-29-spacer-girls/</guid>
+      <description>More head studies in Krita. I think of this kind of thing as digital sketchbook work. Space seemed to be the way to go for experimenting with a brighter colour palette.&#xA;Related 2023-08-19 Head Practice&#xA;Girl Study in Krita</description>
+    </item>
+    <item>
+      <title>2023-08-19 Head Practice</title>
+      <link>http://localhost:1313/posts/2023-08-19-head-practice/</link>
+      <pubDate>Sat, 19 Aug 2023 09:59:10 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-08-19-head-practice/</guid>
+      <description>Head practice. I&amp;rsquo;ve been having a tough time with hair-do&amp;rsquo;s and beards. I can get absolutely lost in them sometimes and never feel like the painting is finished. Much like real hair do&amp;rsquo;s I suppose, you&amp;rsquo;ve got to set a time limit on how long you can fiddle around with it and then just move on and get out the house.&#xA;Related Girl Study in Krita&#xA;The North Water</description>
+    </item>
+    <item>
+      <title>Joe Strummer Gouache Painting</title>
+      <link>http://localhost:1313/posts/2023-08-08-joe-strummer-gouache-painting/</link>
+      <pubDate>Tue, 08 Aug 2023 13:38:11 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-08-08-joe-strummer-gouache-painting/</guid>
+      <description>I ended up taking this Joe Strummer sketch to a painting with Paynes Grey Watercolour and white Gouache. Unfortunately the paper got all chewy, which is unusual because this was on some very decent Hahnemuhle stuff. You may not be able to tell from the scan. There&amp;rsquo;s some parts I&amp;rsquo;d like to fix but I got to a point where it feels like I overcooked it, loaded it with too much water and indecision at some point.</description>
+    </item>
     <item>
       <title>How to Install Doom Emacs on Termux</title>
-      <link>https://sbart.netlify.app/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</link>
-      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</guid>
-      <description>I used to think having Emacs on a phone was a bit much..but recently I&amp;rsquo;ve just started using Emacs and Org mode for nearly everything.. There&amp;rsquo;s not a great selection of apps on Android for accessing Org files, the best solution to me was to just get Emacs with it&amp;rsquo;s fully fledged Org on mobile. The newish GUI Android Emacs app is a bit strange and I swiftly uninstalled it. The Termux terminal version however, works much better.</description>
+      <link>http://localhost:1313/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</link>
+      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</guid>
+      <description>I used to think having Emacs on a phone was a bit much..but recently I&amp;rsquo;ve just started using Emacs and Org mode for nearly everything.. There&amp;rsquo;s not a great selection of apps on Android for accessing Org files, the best solution to me was to just get Emacs with it&amp;rsquo;s fully fledged Org on mobile. The newish GUI Android Emacs app is a bit strange and I swiftly uninstalled it.</description>
     </item>
-    
     <item>
-      <title>2023-07-16 Sketchbook Stuff</title>
-      <link>https://sbart.netlify.app/posts/2023-07-16-sketchbook-stuff/</link>
-      <pubDate>Sun, 16 Jul 2023 12:26:03 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-07-16-sketchbook-stuff/</guid>
-      <description>Recent sketchbook pages.</description>
+      <title>Sketchbook Stuff</title>
+      <link>http://localhost:1313/posts/2023-07-16-sketchbook-stuff/</link>
+      <pubDate>Sun, 16 Jul 2023 12:26:03 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-07-16-sketchbook-stuff/</guid>
+      <description>Recent sketchbook pages.&#xA;Related Posts 2023-04-25 Sketchbook Stuff&#xA;2021-11-19 Sketchbook Stuff</description>
     </item>
-    
     <item>
-      <title>Call out for Art: Punk Jazz</title>
-      <link>https://sbart.netlify.app/posts/2023-07-10-punk-jazz-call-out/</link>
-      <pubDate>Mon, 10 Jul 2023 12:23:41 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-07-10-punk-jazz-call-out/</guid>
-      <description>Call out for Art/Artists/Performers!
-🧷 Punk/Jazz 🎷
- Can you do an art? Would you like to do an art for us? Do you perform?  Navigators Art are looking for submissions for a visual art show with a supporting live musical performance night. See @navigatorsart 👈 over there or message for more details..
-🚨 Submission deadline 17th July</description>
+      <title>Call out for Art: Punk/Jazz</title>
+      <link>http://localhost:1313/posts/2023-07-10-punk-jazz-call-out/</link>
+      <pubDate>Mon, 10 Jul 2023 12:23:41 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-07-10-punk-jazz-call-out/</guid>
+      <description>Call out for Art/Artists/Performers!&#xA;🧷 Punk/Jazz 🎷&#xA;Can you do an art? Would you like to do an art for us? Do you perform? Navigators Art are looking for submissions for a visual art show with a supporting live musical performance night. See @navigatorsart 👈 over there or message for more details..&#xA;🚨 Submission deadline 17th July&#xA;Related Posts Living Treasures Live Performance @ The Basement, City Screen York</description>
     </item>
-    
     <item>
       <title>Living Treasures Live Performance @ The Basement, City Screen York</title>
-      <link>https://sbart.netlify.app/posts/2023-06-07-living-treasures-live-performance/</link>
-      <pubDate>Fri, 07 Jul 2023 12:30:29 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-06-07-living-treasures-live-performance/</guid>
-      <description>🚨 This weekend! We&amp;rsquo;ve still got some tickets left for the Live performance night (Sat) and Film (Sun).
-Get on it pretty quick sharp and let the good peoples know about it as the live show at City Screen Picturehouse is going to be something a little bit special..
-Check @navigatorsart for more info flow. Accompanying art is on show at York Explore
-See you down there ✌️</description>
+      <link>http://localhost:1313/posts/2023-06-07-living-treasures-live-performance/</link>
+      <pubDate>Fri, 07 Jul 2023 12:30:29 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-06-07-living-treasures-live-performance/</guid>
+      <description>🚨 This weekend! We&amp;rsquo;ve still got some tickets left for the Live performance night (Sat) and Film (Sun).&#xA;Get on it pretty quick sharp and let the good peoples know about it as the live show at City Screen Picturehouse is going to be something a little bit special..&#xA;Check @navigatorsart for more info flow. Accompanying art is on show at York Explore&#xA;See you down there ✌️&#xA;Related Posts Call out for Art: Punk/Jazz</description>
     </item>
-    
     <item>
-      <title>2023-06-14 Girl Study in Krita</title>
-      <link>https://sbart.netlify.app/posts/2023-06-14-girl-study-in-krita/</link>
-      <pubDate>Sat, 17 Jun 2023 12:28:07 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-06-14-girl-study-in-krita/</guid>
-      <description></description>
+      <title>Girl Study in Krita</title>
+      <link>http://localhost:1313/posts/2023-06-14-girl-study-in-krita/</link>
+      <pubDate>Sat, 17 Jun 2023 12:28:07 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-06-14-girl-study-in-krita/</guid>
+      <description>Digital painting study of a girl in Krita. I often take this approach of making a monochrome underpainting and laying colour on top once I&amp;rsquo;ve got some solid values in place.&#xA;Related Posts Shadow of the Vampire Study&#xA;Smokey and Michelle&#xA;The North Water</description>
     </item>
-    
     <item>
       <title>Hidden/Living Treasures @ York Explore &amp; City Screen</title>
-      <link>https://sbart.netlify.app/posts/2023-06-05-1859-hidden-treasures-york-explore/</link>
-      <pubDate>Mon, 05 Jun 2023 18:59:31 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-06-05-1859-hidden-treasures-york-explore/</guid>
-      <description>We are live! New HIDDEN TREASURES exhibition at York Explore Library as a part of the York Festival of Ideas
-Inspired by local streets and sights (though not the obvious ones!) as well as by works in York Art Gallery and elsewhere.
-Open daily during library hours and free - but make sure you book for our other very special Festival events soon! 👍
-At City Screen Picturehouse York: LIVING TREASURES - live performance 10 June</description>
+      <link>http://localhost:1313/posts/2023-06-05-hidden-treasures-york-explore/</link>
+      <pubDate>Mon, 05 Jun 2023 18:59:31 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-06-05-hidden-treasures-york-explore/</guid>
+      <description>We are live! New HIDDEN TREASURES exhibition at York Explore Library as a part of the York Festival of Ideas&#xA;Inspired by local streets and sights (though not the obvious ones!) as well as by works in York Art Gallery and elsewhere.&#xA;Open daily during library hours and free - but make sure you book for our other very special Festival events soon! 👍&#xA;At City Screen Picturehouse York: LIVING TREASURES - live performance 10 June</description>
     </item>
-    
     <item>
-      <title>2023-04-25 Sketchbook Stuff</title>
-      <link>https://sbart.netlify.app/posts/2023-04-25-sketchbook-stuff/</link>
-      <pubDate>Tue, 25 Apr 2023 12:33:24 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-04-25-sketchbook-stuff/</guid>
-      <description></description>
+      <title>Sketchbook Stuff</title>
+      <link>http://localhost:1313/posts/2023-04-25-sketchbook-stuff/</link>
+      <pubDate>Tue, 25 Apr 2023 12:33:24 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-04-25-sketchbook-stuff/</guid>
+      <description>Ballpoint pen sketches of Joe Strummer and Paul Simonon from The Clash and a pencil drawing of a random model from Pinterest. From my sketchbook.&#xA;Related Posts 2023-07-16 Sketchbook Stuff&#xA;2021-11-19 Sketchbook Stuff</description>
     </item>
-    
-    <item>
-      <title>Oil Studies of Elders</title>
-      <link>https://sbart.netlify.app/posts/2023-04-11-oil-studies-of-elders/</link>
-      <pubDate>Tue, 11 Apr 2023 12:35:36 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-04-11-oil-studies-of-elders/</guid>
-      <description>Little oil studies of elderly folk..</description>
-    </item>
-    
     <item>
       <title>Dreamtime Now Showing @ City Screen York</title>
-      <link>https://sbart.netlify.app/posts/2023-03-15-dreamtime-now-showing-city-screen-york/</link>
-      <pubDate>Wed, 15 Mar 2023 17:34:56 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-03-15-dreamtime-now-showing-city-screen-york/</guid>
-      <description>I&amp;rsquo;ll be showing some work soon at City Screen Picturehouse,York alongside fellow Navigators from 12th March until 21st April
-  Preview night will be in the upstairs gallery (from March 12)
-  Full show in gallery and bar (from March 19)
-  Launch night!! drinks and chat (Sunday 19th March 1930 until 2100)
-  Come along and see you there!</description>
+      <link>http://localhost:1313/posts/2023-03-15-dreamtime-now-showing-city-screen-york/</link>
+      <pubDate>Wed, 15 Mar 2023 17:34:56 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-03-15-dreamtime-now-showing-city-screen-york/</guid>
+      <description>I&amp;rsquo;ll be showing some work soon at City Screen Picturehouse,York alongside fellow Navigators from 12th March until 21st April&#xA;Preview night will be in the upstairs gallery (from March 12)&#xA;Full show in gallery and bar (from March 19)&#xA;Launch night!! drinks and chat (Sunday 19th March 1930 until 2100)&#xA;Come along and see you there!&#xA;Related Posts Hidden Treasures @ York Explore &amp;amp; City Screen&#xA;Moving Pictures @ City Screen, York</description>
     </item>
-    
     <item>
       <title>Small Gouache People</title>
-      <link>https://sbart.netlify.app/posts/2023-02-18-small-gouache-people/</link>
-      <pubDate>Sat, 18 Feb 2023 12:37:02 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-02-18-small-gouache-people/</guid>
-      <description>Doing little studies like this can really take the pressure off from the bigger or more important pieces. These are about 5 inch tall and I try..&amp;lsquo;try&amp;rsquo; to not spend too long on each. I&amp;rsquo;d recommend working small and moving on quickly if you&amp;rsquo;re trying to build a daily habit.</description>
+      <link>http://localhost:1313/posts/2023-02-18-small-gouache-people/</link>
+      <pubDate>Sat, 18 Feb 2023 12:37:02 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-02-18-small-gouache-people/</guid>
+      <description>Doing little studies like this can really take the pressure off from the bigger or more important pieces. These are about 5 inch tall and I try..&amp;rsquo;try&amp;rsquo; to not spend too long on each. I&amp;rsquo;d recommend working small and moving on quickly if you&amp;rsquo;re trying to build a daily habit.&#xA;Related Posts Oil Studies of Elders&#xA;Nora Durst&#xA;Shelby Brothers in Oil&#xA;Tooty Pipey Fella</description>
     </item>
-    
     <item>
       <title>A Beginners Guide: Getting Started With Doom Emacs</title>
-      <link>https://sbart.netlify.app/posts/2023-01-27-getting-started-with-doom-emacs/</link>
-      <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-01-27-getting-started-with-doom-emacs/</guid>
+      <link>http://localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/</link>
+      <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/</guid>
       <description>Introduction If your first thought on this is “Urrggh, really Emacs??.. Not for me..It&amp;rsquo;s ancient, bloated, complicated, full of features I don&amp;rsquo;t need..just give me a simple plain text editor“. Well that was me too. I was very much the Vim user because I&amp;rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits.</description>
     </item>
-    
     <item>
       <title>Lost Boys Painting: A Step by Step Process</title>
-      <link>https://sbart.netlify.app/posts/2023-01-17-lost-boys-painting-step-by-step/</link>
-      <pubDate>Tue, 17 Jan 2023 14:00:35 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-01-17-lost-boys-painting-step-by-step/</guid>
-      <description>Part 1 Sketchbook/Linework I am quite overdue on making this post. I’ve been meaning to get this blog rolling for a while. Hopefully now this little update is live we can a get some regularity going.
-I’ve been working on this project a while and the weeks have slowly slipped by me. I&amp;rsquo;ve repeatedly told my self..the work&amp;rsquo;s not ready to show..make it better! get further down the line with it.</description>
+      <link>http://localhost:1313/posts/2023-01-17-lost-boys-painting-step-by-step/</link>
+      <pubDate>Tue, 17 Jan 2023 14:00:35 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-01-17-lost-boys-painting-step-by-step/</guid>
+      <description>Part 1 Sketchbook/Linework I am quite overdue on making this post. I’ve been meaning to get this blog rolling for a while. Hopefully now this little update is live we can a get some regularity going.&#xA;I’ve been working on this project a while and the weeks have slowly slipped by me. I&amp;rsquo;ve repeatedly told my self..the work&amp;rsquo;s not ready to show..make it better! get further down the line with it.</description>
     </item>
-    
     <item>
       <title>Coney St Jam Ending Soon</title>
-      <link>https://sbart.netlify.app/posts/2023-01-13-coney-st-jam-ending-soon/</link>
-      <pubDate>Fri, 13 Jan 2023 12:39:25 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-01-13-coney-st-jam-ending-soon/</guid>
-      <description>It&amp;rsquo;s been a good ol&#39; run down at Coney St. but all things must come to an end. If you&amp;rsquo;ve not caught the show yet this is the final weekend coming up. This Saturday 14th from 10-5pm grab yourself a unique piece of original art, postcard, print or zine at a kind of impromptu Art Market in the space. Thanks a ton to StreetLife York for having us and check out this piece on @charleshutchpress (link below) to find out what Navigators Art are up to next.</description>
+      <link>http://localhost:1313/posts/2023-01-13-coney-st-jam-ending-soon/</link>
+      <pubDate>Fri, 13 Jan 2023 12:39:25 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-01-13-coney-st-jam-ending-soon/</guid>
+      <description>It&amp;rsquo;s been a good ol&amp;rsquo; run down at Coney St. but all things must come to an end. If you&amp;rsquo;ve not caught the show yet this is the final weekend coming up. This Saturday 14th from 10-5pm grab yourself a unique piece of original art, postcard, print or zine at a kind of impromptu Art Market in the space. Thanks a ton to StreetLife York for having us and check out this piece on @charleshutchpress (link below) to find out what Navigators Art are up to next.</description>
     </item>
-    
     <item>
       <title>Now Showing @ Helmsley Arts Centre</title>
-      <link>https://sbart.netlify.app/posts/2023-01-11-helmsley-arts-centre-now-showing/</link>
-      <pubDate>Wed, 11 Jan 2023 20:40:56 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-01-11-helmsley-arts-centre-now-showing/</guid>
+      <link>http://localhost:1313/posts/2023-01-11-helmsley-arts-centre-now-showing/</link>
+      <pubDate>Wed, 11 Jan 2023 20:40:56 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-01-11-helmsley-arts-centre-now-showing/</guid>
       <description>Pleased to be showing some of my works alongside fellow Navigators | @navigatorsart at the Helmsley Arts Centre Moving Pictures II runs until the 3rd March 2023.</description>
     </item>
-    
     <item>
       <title>Setting up Moving Pictures II @ Helmsley Arts Centre</title>
-      <link>https://sbart.netlify.app/posts/2023-01-09-moving-pictures-2-helmsley-arts-centre/</link>
-      <pubDate>Mon, 09 Jan 2023 12:43:50 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-01-09-moving-pictures-2-helmsley-arts-centre/</guid>
-      <description>Getting the year started with a lil show alongside fellow Navigators | @navigatorsart at Helmsley Arts Centre. Huge thanks to the volunteers there who got the whole thing up and looking great with amazing speed and efficiency. Moving Pictures II is open until 3rd March</description>
+      <link>http://localhost:1313/posts/2023-01-09-moving-pictures-2-helmsley-arts-centre/</link>
+      <pubDate>Mon, 09 Jan 2023 12:43:50 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-01-09-moving-pictures-2-helmsley-arts-centre/</guid>
+      <description>Getting the year started with a lil show alongside fellow Navigators | @navigatorsart at Helmsley Arts Centre. Huge thanks to the volunteers there who got the whole thing up and looking great with amazing speed and efficiency. Moving Pictures II is open until 3rd March&#xA;Related Posts Moving Pictures @ City Screen, York&#xA;Living Treasures Live Performance @ The Basement, City Screen York&#xA;The North Water</description>
     </item>
-    
+    <item>
+      <title>Nora Durst</title>
+      <link>http://localhost:1313/posts/2022-11-15-nora-durst/</link>
+      <pubDate>Tue, 15 Nov 2022 14:28:43 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-11-15-nora-durst/</guid>
+      <description>Acrylic painting of Nora Durst from the show &amp;lsquo;The Leftovers&amp;rsquo;.&#xA;Related Posts Oil Studies of Elders&#xA;Gracias Marcelo</description>
+    </item>
     <item>
       <title>Now Showing @ StreetLife, Coney St, York</title>
-      <link>https://sbart.netlify.app/posts/2022-11-01-coney-st-now-showing/</link>
-      <pubDate>Tue, 01 Nov 2022 19:08:12 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2022-11-01-coney-st-now-showing/</guid>
-      <description>&amp;ldquo;We are very excited to invite you down to Coney Street to see what we&amp;rsquo;ve been working on:
-StreetLife presents CONEY ST JAM: an art intervention by Navigators Art
-OPENING on Mon, 17 OCT 2022 ENDING Sat, 19 NOV 2022
-(10am – 5pm Mon-Sat except Weds, &amp;amp; Sun 11-4pm) 29-31 Coney Street, York
-&amp;lsquo;Inspired by StreetLife’s research and findings, this collective of 12 local artists are mounting a celebratory closing exhibition for the Project.</description>
+      <link>http://localhost:1313/posts/2022-11-01-coney-st-now-showing/</link>
+      <pubDate>Tue, 01 Nov 2022 19:08:12 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-11-01-coney-st-now-showing/</guid>
+      <description>&amp;ldquo;We are very excited to invite you down to Coney Street to see what we&amp;rsquo;ve been working on:&#xA;StreetLife presents CONEY ST JAM: an art intervention by Navigators Art&#xA;OPENING on Mon, 17 OCT 2022 ENDING Sat, 19 NOV 2022&#xA;(10am – 5pm Mon-Sat except Weds, &amp;amp; Sun 11-4pm) 29-31 Coney Street, York&#xA;&amp;lsquo;Inspired by StreetLife’s research and findings, this collective of 12 local artists are mounting a celebratory closing exhibition for the Project.</description>
     </item>
-    
+    <item>
+      <title>Zine Fest Crescent</title>
+      <link>http://localhost:1313/posts/2022-07-29-zine-fest-crescent/</link>
+      <pubDate>Fri, 29 Jul 2022 14:29:32 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-07-29-zine-fest-crescent/</guid>
+      <description>Get yer sen down to the Zine Fest this weekend at The Crescent, York. Navigators will be there in human and print format..&#xA;Sat 30th July 12-4 pm free entry&#xA;The Crescent York&#xA;York Zine Fest (@yorkzinefest)</description>
+    </item>
+    <item>
+      <title>Scruffy Street Sketches</title>
+      <link>http://localhost:1313/posts/2022-07-05-scruffy-street-sketch/</link>
+      <pubDate>Tue, 05 Jul 2022 14:30:07 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-07-05-scruffy-street-sketch/</guid>
+      <description>Pen and ink sketches of the area around Coney Street, York.</description>
+    </item>
+    <item>
+      <title>Ripley Oil Painting: WIP</title>
+      <link>http://localhost:1313/posts/2022-06-17-ripley-painting/</link>
+      <pubDate>Fri, 17 Jun 2022 14:30:58 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-06-17-ripley-painting/</guid>
+      <description>I can see there&amp;rsquo;s still a lot of work to do on this. It&amp;rsquo;s a really small piece so the hair on Newt is particularly stressing me out. I will probably put it aside for a while and return to it later. Couldn&amp;rsquo;t stop thinking that I&amp;rsquo;m making Ripley look like Michael Jackson.&#xA;Related Posts Small Gouache People&#xA;Village Elder</description>
+    </item>
     <item>
       <title>Moving Pictures @ City Screen, York</title>
-      <link>https://sbart.netlify.app/posts/2022-03-12-moving-pictures-now-showing/</link>
-      <pubDate>Sat, 12 Mar 2022 20:40:05 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2022-03-12-moving-pictures-now-showing/</guid>
-      <description>Pleased to announce that I will have some art work up in this group show, do come along!
-MOVING PICTURES at City Screen York
-13th March - 15th April 2022
-The first week from 13th March is a preview in the cafe with a selection of works
-LAUNCH NIGHT for the extended show is on Sunday 20th March 19:30 - 21:00 with wine, snacks and chat.
-City Screen Picturehouse, York</description>
+      <link>http://localhost:1313/posts/2022-03-12-moving-pictures-now-showing/</link>
+      <pubDate>Sat, 12 Mar 2022 20:40:05 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-03-12-moving-pictures-now-showing/</guid>
+      <description>Pleased to announce that I will have some art work up in this group show, do come along!&#xA;MOVING PICTURES at City Screen York&#xA;13th March - 15th April 2022&#xA;The first week from 13th March is a preview in the cafe with a selection of works&#xA;LAUNCH NIGHT for the extended show is on Sunday 20th March 19:30 - 21:00 with wine, snacks and chat.&#xA;City Screen Picturehouse, York</description>
     </item>
-    
+    <item>
+      <title>Village Elder</title>
+      <link>http://localhost:1313/posts/2022-03-12-village-elder/</link>
+      <pubDate>Sat, 12 Mar 2022 15:56:18 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-03-12-village-elder/</guid>
+      <description>Related Posts Oil Studies of Elders&#xA;Small Gouache People</description>
+    </item>
+    <item>
+      <title>Gracias Marcelo</title>
+      <link>http://localhost:1313/posts/2022-02-27-gracias-marcelo/</link>
+      <pubDate>Sun, 27 Feb 2022 16:03:48 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-02-27-gracias-marcelo/</guid>
+      <description>Thank you Marcelo..much more than a manager.&#xA;Related Posts Nora Durst&#xA;Shelby Brothers in Oil&#xA;Female Head in Oils</description>
+    </item>
+    <item>
+      <title>Smokey and Michelle</title>
+      <link>http://localhost:1313/posts/2022-01-21-smokey-and-michelle/</link>
+      <pubDate>Fri, 21 Jan 2022 16:15:12 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2022-01-21-smokey-and-michelle/</guid>
+      <description>Related Posts Girl Study in Krita&#xA;Shadow of the Vampire Study&#xA;The North Water</description>
+    </item>
+    <item>
+      <title>Sketchbook Stuff</title>
+      <link>http://localhost:1313/posts/2021-11-19-sketchbook-stuff/</link>
+      <pubDate>Fri, 19 Nov 2021 17:53:33 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-11-19-sketchbook-stuff/</guid>
+      <description>Related Posts 2023-04-25 Sketchbook Stuff&#xA;2023-07-16 Sketchbook Stuff</description>
+    </item>
+    <item>
+      <title>The North Water</title>
+      <link>http://localhost:1313/posts/2021-11-17-the-north-water/</link>
+      <pubDate>Wed, 17 Nov 2021 16:15:46 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-11-17-the-north-water/</guid>
+      <description>Related Posts Moving Pictures @ City Screen, York&#xA;Moving Pictures 2 @ Helmsley Arts Centre&#xA;Girl Study in Krita&#xA;Shelby Brothers in Oil&#xA;Smokey and Michelle</description>
+    </item>
+    <item>
+      <title>Vikings Watercolour (WIP)</title>
+      <link>http://localhost:1313/posts/2021-11-12-vikings-watercolour/</link>
+      <pubDate>Fri, 12 Nov 2021 18:01:31 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-11-12-vikings-watercolour/</guid>
+      <description>Related Posts Vikings Watercolour WIP&#xA;Moving Pictures @ City Screen, York&#xA;Lost Boys Painting step by step&#xA;The North Water&#xA;American Gods Watercolour</description>
+    </item>
+    <item>
+      <title>American Gods Watercolour</title>
+      <link>http://localhost:1313/posts/2021-09-20-american-gods-watercolour/</link>
+      <pubDate>Mon, 20 Sep 2021 18:07:45 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-09-20-american-gods-watercolour/</guid>
+      <description>Related Posts Vikings Watercolour&#xA;The North Water&#xA;Shelby Brothers in Oil</description>
+    </item>
+    <item>
+      <title>Tooty Pipey Fella</title>
+      <link>http://localhost:1313/posts/2021-09-03-tooty-pipey-fella/</link>
+      <pubDate>Fri, 03 Sep 2021 18:08:26 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-09-03-tooty-pipey-fella/</guid>
+      <description>Related Posts Small Gouache people&#xA;Oil Studies of Elders</description>
+    </item>
+    <item>
+      <title>Rockwell Sketchbook Studies</title>
+      <link>http://localhost:1313/posts/2021-08-24-rockwell-sketchbook-studies/</link>
+      <pubDate>Tue, 24 Aug 2021 21:52:52 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-08-24-rockwell-sketchbook-studies/</guid>
+      <description>Related Posts 2023-04-25 Sketchbook Stuff&#xA;2023-07-16 Sketchbook Stuff</description>
+    </item>
+    <item>
+      <title>Piccadilly Pop Up, York (Open Saturdays 12-6pm)</title>
+      <link>http://localhost:1313/posts/2021-07-23-piccadilly-pop-up-open/</link>
+      <pubDate>Fri, 23 Jul 2021 18:51:45 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-07-23-piccadilly-pop-up-open/</guid>
+      <description>I am arting here &amp;gt; been so very busy working with a team of local artists on making this a successful little art space. We open to the public as a gallery every Saturday 12-6pm so swing by and say hello if you are in York. Give the insta @piccadillypopupart a follow if you will. An exciting project in an interesting old building provided by @uthinkpdp which we are all very grateful for.</description>
+    </item>
+    <item>
+      <title>Rosemary and Co Brushes</title>
+      <link>http://localhost:1313/posts/2021-07-21-rosemary-and-co-brushes/</link>
+      <pubDate>Wed, 21 Jul 2021 18:53:23 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-07-21-rosemary-and-co-brushes/</guid>
+      <description>Really enjoying these Evergreen Filberts and Flats from Rosemary and Co Brushes They’re synthetic, soft and springy. May not be totally clear in the pic but they have green fibres and hold a good shape. I keep ‘em in good condition by suspending them in baby oil between painting sessions.&#xA;Related Posts Female Head in Oils&#xA;Shelby Brothers in Oils&#xA;Them Oil Study</description>
+    </item>
+    <item>
+      <title>Female Head in Oils</title>
+      <link>http://localhost:1313/posts/2021-07-08-female-head-in-oils/</link>
+      <pubDate>Thu, 08 Jul 2021 18:54:00 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-07-08-female-head-in-oils/</guid>
+      <description>Female head in oils with some progress shots &amp;gt; not sure how I feel about this one..Things I like/things I don’t.. that should have been locked down in the initial sketch. Sometimes with painting it’s best to learn from your mistakes and take it into the next one..&#xA;Related Posts The Hunt in Oil&#xA;Shelby Brothers&#xA;Gracias Marcelo</description>
+    </item>
+    <item>
+      <title>Them Oil Study</title>
+      <link>http://localhost:1313/posts/2021-06-23-them-oil-study/</link>
+      <pubDate>Wed, 23 Jun 2021 18:55:29 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-06-23-them-oil-study/</guid>
+      <description>THEM oil study. Watched this series recently - some heavy scenes (no spoilers) but it&amp;rsquo;s pretty great. It&amp;rsquo;s like a Stephen King story and the monster is racism.&#xA;Related Posts Shadow of the Vampire Study&#xA;Shelby Brothers in Oil&#xA;The Hunt in Oil</description>
+    </item>
+    <item>
+      <title>The Terror Watercolour</title>
+      <link>http://localhost:1313/posts/2021-06-17-the-terror-watercolour/</link>
+      <pubDate>Thu, 17 Jun 2021 18:57:06 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-06-17-the-terror-watercolour/</guid>
+      <description>Related Posts Vikings Watercolour&#xA;American Gods Watercolour&#xA;The North Water</description>
+    </item>
+    <item>
+      <title>The Hunt Oil Painting (WIP)</title>
+      <link>http://localhost:1313/posts/2021-06-06-the-hunt-oil/</link>
+      <pubDate>Sun, 06 Jun 2021 18:55:54 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-06-06-the-hunt-oil/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vikings Watercolour (WIP)</title>
+      <link>http://localhost:1313/posts/2021-05-28-vikings-watercolour-wip/</link>
+      <pubDate>Fri, 28 May 2021 18:56:42 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-05-28-vikings-watercolour-wip/</guid>
+      <description>Related Posts Vikings Watercolour&#xA;American Gods Watercolour</description>
+    </item>
     <item>
       <title>Now Showing @ Piccadilly Pop Up, York</title>
-      <link>https://sbart.netlify.app/posts/2020-09-04-piccadilly-pop-up-york-now-showing/</link>
-      <pubDate>Fri, 04 Sep 2020 11:29:44 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2020-09-04-piccadilly-pop-up-york-now-showing/</guid>
-      <description>PICCADILLY POP UP &amp;ldquo;Art - at - tax&amp;rdquo; creative gallery &amp;amp; artists&#39; studios Every Saturday 12-6pm FREE ENTRY
-Open studios, local artists exhibiting and selling work. Originals - Prints - Postcards - Photography - Books - Poetry - plus artefacts rare and strange … Come along this SATURDAY AND EVERY SATURDAY!
-@23 Piccadilly, York, YO1 9PG Swinson House (the old tax office just past SPARK)
-Facebook Event</description>
+      <link>http://localhost:1313/posts/2020-09-04-piccadilly-pop-up-york-now-showing/</link>
+      <pubDate>Fri, 04 Sep 2020 11:29:44 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2020-09-04-piccadilly-pop-up-york-now-showing/</guid>
+      <description>PICCADILLY POP UP &amp;ldquo;Art - at - tax&amp;rdquo; creative gallery &amp;amp; artists&amp;rsquo; studios Every Saturday 12-6pm FREE ENTRY&#xA;Open studios, local artists exhibiting and selling work. Originals - Prints - Postcards - Photography - Books - Poetry - plus artefacts rare and strange … Come along this SATURDAY AND EVERY SATURDAY!&#xA;@23 Piccadilly, York, YO1 9PG Swinson House (the old tax office just past SPARK)&#xA;Facebook Event</description>
     </item>
-    
     <item>
       <title>Etsy Shop Now Open!</title>
-      <link>https://sbart.netlify.app/posts/2020-07-21-etsy-shop-now-open/</link>
-      <pubDate>Tue, 21 Jul 2020 16:41:31 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2020-07-21-etsy-shop-now-open/</guid>
-      <description>Some of my ink and watercolour pieces are now available as postcards and my Etsy store is open!
-All postcards are high quality digital prints on Smooth White Silk Card 350gsm. They have a blank reverse and arrive sealed in a transparent plastic wrapper. I&amp;rsquo;m offering free delivery within the UK and all international postage for just £1.50. Larger prints and framed/unframed originals coming soon!
-Check it out, thanks :)</description>
+      <link>http://localhost:1313/posts/2020-07-21-etsy-shop-now-open/</link>
+      <pubDate>Tue, 21 Jul 2020 16:41:31 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2020-07-21-etsy-shop-now-open/</guid>
+      <description>Some of my ink and watercolour pieces are now available as postcards and my Etsy store is open!&#xA;All postcards are high quality digital prints on Smooth White Silk Card 350gsm. They have a blank reverse and arrive sealed in a transparent plastic wrapper. I&amp;rsquo;m offering free delivery within the UK and all international postage for just £1.50. Larger prints and framed/unframed originals coming soon!&#xA;Check it out, thanks :)</description>
     </item>
-    
     <item>
       <title>Navigators Close to the Edge, MA Fine Art Final Show</title>
-      <link>https://sbart.netlify.app/posts/2019-09-17-navigators-close-to-the-edge/</link>
-      <pubDate>Tue, 17 Sep 2019 07:18:37 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2019-09-17-navigators-close-to-the-edge/</guid>
-      <description>Pleased to announce I will be showing some mixed media paintings and sculpture in this show in York with fellow MA Fine Art students from York St John University
-Opening tonight! 17th September @5pm. The show runs until Friday 20th September 2019 and we will be moving on to take part with the Global Strike. We have a schedule of spoken word poetry performances and musical contribution on the opening night, with free wine and all that good stuff.</description>
+      <link>http://localhost:1313/posts/2019-09-17-navigators-close-to-the-edge/</link>
+      <pubDate>Tue, 17 Sep 2019 07:18:37 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2019-09-17-navigators-close-to-the-edge/</guid>
+      <description>Pleased to announce I will be showing some mixed media paintings and sculpture in this show in York with fellow MA Fine Art students from York St John University&#xA;Opening tonight! 17th September @5pm. The show runs until Friday 20th September 2019 and we will be moving on to take part with the Global Strike. We have a schedule of spoken word poetry performances and musical contribution on the opening night, with free wine and all that good stuff.</description>
     </item>
-    
     <item>
       <title>Navigators Crossing the Line @ Spark, York</title>
-      <link>https://sbart.netlify.app/posts/2019-06-04-navigators-crossing-the-line/</link>
-      <pubDate>Tue, 04 Jun 2019 14:27:54 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2019-06-04-navigators-crossing-the-line/</guid>
-      <description>Pleased to announce I will be showing some recent paintings in this art show at SPARK* in York with fellow MA Fine Art students from York St John University
-Opening night is 5th June @7pm with free wine and snacks for our first arrivals. The show runs until 11th June (10am&amp;gt;10pm). We have performances and contributions on Wednesday and Friday evening. Will be great to see you there! ✌️</description>
+      <link>http://localhost:1313/posts/2019-06-04-navigators-crossing-the-line/</link>
+      <pubDate>Tue, 04 Jun 2019 14:27:54 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2019-06-04-navigators-crossing-the-line/</guid>
+      <description>Pleased to announce I will be showing some recent paintings in this art show at SPARK* in York with fellow MA Fine Art students from York St John University&#xA;Opening night is 5th June @7pm with free wine and snacks for our first arrivals. The show runs until 11th June (10am&amp;gt;10pm). We have performances and contributions on Wednesday and Friday evening. Will be great to see you there! ✌️</description>
     </item>
-    
   </channel>
 </rss>

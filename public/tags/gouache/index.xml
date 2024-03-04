@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gouache on sba</title>
-    <link>https://sbart.netlify.app/tags/gouache/</link>
-    <description>Recent content in gouache on sba</description>
+    <title>Gouache on @stevebeadleart</title>
+    <link>http://localhost:1313/tags/gouache/</link>
+    <description>Recent content in Gouache on @stevebeadleart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>info@stevebeadleart.com (Steve Beadle)</managingEditor>
-    <webMaster>info@stevebeadleart.com (Steve Beadle)</webMaster>
-    <lastBuildDate>Sat, 18 Feb 2023 12:37:02 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/tags/gouache/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
+    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Thu, 01 Feb 2024 10:56:19 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gouache/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Watercolour &amp; Gouache Portraits</title>
+      <link>http://localhost:1313/posts/2024-02-08-watercolour-gouache-portraits/</link>
+      <pubDate>Thu, 01 Feb 2024 10:56:19 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2024-02-08-watercolour-gouache-portraits/</guid>
+      <description>Small studies painted with 90% watercolour and a little white Gouache. The white Gouache just helps for a few opaques and highlights and you can veer away from the more traditional watercolour technique of leaving your white highlights as untouched paper. Trying to get back into the flow of regular daily painting and watercolour is very easy to just pick up and dive right into. I have oil paintings on the go but it takes a little bit more cognitive load and resistance to get into that process.</description>
+    </item>
+    <item>
+      <title>Joe Strummer Gouache Painting</title>
+      <link>http://localhost:1313/posts/2023-08-08-joe-strummer-gouache-painting/</link>
+      <pubDate>Tue, 08 Aug 2023 13:38:11 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-08-08-joe-strummer-gouache-painting/</guid>
+      <description>I ended up taking this Joe Strummer sketch to a painting with Paynes Grey Watercolour and white Gouache. Unfortunately the paper got all chewy, which is unusual because this was on some very decent Hahnemuhle stuff. You may not be able to tell from the scan. There&amp;rsquo;s some parts I&amp;rsquo;d like to fix but I got to a point where it feels like I overcooked it, loaded it with too much water and indecision at some point.</description>
+    </item>
     <item>
       <title>Small Gouache People</title>
-      <link>https://sbart.netlify.app/posts/2023-02-18-small-gouache-people/</link>
-      <pubDate>Sat, 18 Feb 2023 12:37:02 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-02-18-small-gouache-people/</guid>
-      <description>Doing little studies like this can really take the pressure off from the bigger or more important pieces. These are about 5 inch tall and I try..&amp;lsquo;try&amp;rsquo; to not spend too long on each. I&amp;rsquo;d recommend working small and moving on quickly if you&amp;rsquo;re trying to build a daily habit.</description>
+      <link>http://localhost:1313/posts/2023-02-18-small-gouache-people/</link>
+      <pubDate>Sat, 18 Feb 2023 12:37:02 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-02-18-small-gouache-people/</guid>
+      <description>Doing little studies like this can really take the pressure off from the bigger or more important pieces. These are about 5 inch tall and I try..&amp;rsquo;try&amp;rsquo; to not spend too long on each. I&amp;rsquo;d recommend working small and moving on quickly if you&amp;rsquo;re trying to build a daily habit.&#xA;Related Posts Oil Studies of Elders&#xA;Nora Durst&#xA;Shelby Brothers in Oil&#xA;Tooty Pipey Fella</description>
     </item>
-    
+    <item>
+      <title>Tooty Pipey Fella</title>
+      <link>http://localhost:1313/posts/2021-09-03-tooty-pipey-fella/</link>
+      <pubDate>Fri, 03 Sep 2021 18:08:26 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-09-03-tooty-pipey-fella/</guid>
+      <description>Related Posts Small Gouache people&#xA;Oil Studies of Elders</description>
+    </item>
   </channel>
 </rss>

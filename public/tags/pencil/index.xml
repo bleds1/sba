@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pencil on sba</title>
-    <link>https://sbart.netlify.app/tags/pencil/</link>
-    <description>Recent content in pencil on sba</description>
+    <title>Pencil on @stevebeadleart</title>
+    <link>http://localhost:1313/tags/pencil/</link>
+    <description>Recent content in Pencil on @stevebeadleart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>info@stevebeadleart.com (Steve Beadle)</managingEditor>
-    <webMaster>info@stevebeadleart.com (Steve Beadle)</webMaster>
-    <lastBuildDate>Sun, 16 Jul 2023 12:26:03 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/tags/pencil/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
+    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Sun, 16 Jul 2023 12:26:03 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pencil/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2023-07-16 Sketchbook Stuff</title>
-      <link>https://sbart.netlify.app/posts/2023-07-16-sketchbook-stuff/</link>
-      <pubDate>Sun, 16 Jul 2023 12:26:03 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-07-16-sketchbook-stuff/</guid>
-      <description>Recent sketchbook pages.</description>
+      <title>Sketchbook Stuff</title>
+      <link>http://localhost:1313/posts/2023-07-16-sketchbook-stuff/</link>
+      <pubDate>Sun, 16 Jul 2023 12:26:03 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-07-16-sketchbook-stuff/</guid>
+      <description>Recent sketchbook pages.&#xA;Related Posts 2023-04-25 Sketchbook Stuff&#xA;2021-11-19 Sketchbook Stuff</description>
     </item>
-    
     <item>
-      <title>2023-04-25 Sketchbook Stuff</title>
-      <link>https://sbart.netlify.app/posts/2023-04-25-sketchbook-stuff/</link>
-      <pubDate>Tue, 25 Apr 2023 12:33:24 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-04-25-sketchbook-stuff/</guid>
-      <description></description>
+      <title>Sketchbook Stuff</title>
+      <link>http://localhost:1313/posts/2023-04-25-sketchbook-stuff/</link>
+      <pubDate>Tue, 25 Apr 2023 12:33:24 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-04-25-sketchbook-stuff/</guid>
+      <description>Ballpoint pen sketches of Joe Strummer and Paul Simonon from The Clash and a pencil drawing of a random model from Pinterest. From my sketchbook.&#xA;Related Posts 2023-07-16 Sketchbook Stuff&#xA;2021-11-19 Sketchbook Stuff</description>
     </item>
-    
     <item>
       <title>Lost Boys Painting: A Step by Step Process</title>
-      <link>https://sbart.netlify.app/posts/2023-01-17-lost-boys-painting-step-by-step/</link>
-      <pubDate>Tue, 17 Jan 2023 14:00:35 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-01-17-lost-boys-painting-step-by-step/</guid>
-      <description>Part 1 Sketchbook/Linework I am quite overdue on making this post. I’ve been meaning to get this blog rolling for a while. Hopefully now this little update is live we can a get some regularity going.
-I’ve been working on this project a while and the weeks have slowly slipped by me. I&amp;rsquo;ve repeatedly told my self..the work&amp;rsquo;s not ready to show..make it better! get further down the line with it.</description>
+      <link>http://localhost:1313/posts/2023-01-17-lost-boys-painting-step-by-step/</link>
+      <pubDate>Tue, 17 Jan 2023 14:00:35 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2023-01-17-lost-boys-painting-step-by-step/</guid>
+      <description>Part 1 Sketchbook/Linework I am quite overdue on making this post. I’ve been meaning to get this blog rolling for a while. Hopefully now this little update is live we can a get some regularity going.&#xA;I’ve been working on this project a while and the weeks have slowly slipped by me. I&amp;rsquo;ve repeatedly told my self..the work&amp;rsquo;s not ready to show..make it better! get further down the line with it.</description>
     </item>
-    
+    <item>
+      <title>Sketchbook Stuff</title>
+      <link>http://localhost:1313/posts/2021-11-19-sketchbook-stuff/</link>
+      <pubDate>Fri, 19 Nov 2021 17:53:33 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2021-11-19-sketchbook-stuff/</guid>
+      <description>Related Posts 2023-04-25 Sketchbook Stuff&#xA;2023-07-16 Sketchbook Stuff</description>
+    </item>
   </channel>
 </rss>

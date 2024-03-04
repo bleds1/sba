@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on sba</title>
-    <link>https://sbart.netlify.app/tags/linux/</link>
-    <description>Recent content in linux on sba</description>
+    <title>Linux&#39; on @stevebeadleart</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux&#39; on @stevebeadleart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>info@stevebeadleart.com (Steve Beadle)</managingEditor>
-    <webMaster>info@stevebeadleart.com (Steve Beadle)</webMaster>
-    <lastBuildDate>Fri, 27 Jan 2023 14:00:56 +0100</lastBuildDate><atom:link href="https://sbart.netlify.app/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
+    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
+    <lastBuildDate>Fri, 16 Feb 2024 09:56:24 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Beginners Guide: Getting Started With Doom Emacs</title>
-      <link>https://sbart.netlify.app/posts/2023-01-27-getting-started-with-doom-emacs/</link>
-      <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate>
-      <author>info@stevebeadleart.com (Steve Beadle)</author>
-      <guid>https://sbart.netlify.app/posts/2023-01-27-getting-started-with-doom-emacs/</guid>
-      <description>Introduction If your first thought on this is “Urrggh, really Emacs??.. Not for me..It&amp;rsquo;s ancient, bloated, complicated, full of features I don&amp;rsquo;t need..just give me a simple plain text editor“. Well that was me too. I was very much the Vim user because I&amp;rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits.</description>
+      <title>Returning to Neovim and Obsidian</title>
+      <link>http://localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</link>
+      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</guid>
+      <description>Neovim&#xA;I&amp;rsquo;ve been giving Logseq a really good go since the beginning of the year. I love the way it works actually but the thing that has made me return to Obsidian is VIM. Logseq lacks decent vim motions and all of those indented bullet points are not all that useful if you want to access your markdown elsewhere. I recently discovered the project obsidian.nvim and it really bridges a gap for me.</description>
     </item>
-    
   </channel>
 </rss>
