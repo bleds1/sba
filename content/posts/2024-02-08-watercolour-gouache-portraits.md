@@ -14,6 +14,6 @@ In the comment section somewhere I posted this I had an interesting micro discus
 
 [Shelby Brothers Oil on Paper](/posts/2022-02-19-shelby-brothers/)
 
-[Oil Studies of Elders](/posts/2023-04-11-oil-studies-of-elders/)
+[Girl Study in Krita](/posts/2023-06-14-girl-study-in-krita/)
 
 [Small Gouache People](/posts/2023-02-18-small-gouache-people/)
