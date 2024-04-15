@@ -22,7 +22,7 @@
       <link>http://localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</link>
       <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
       <guid>http://localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</guid>
-      <description>Neovim&#xA;I&amp;rsquo;ve been giving Logseq a really good go since the beginning of the year. I love the way it works actually but the thing that has made me return to Obsidian is VIM. Logseq lacks decent vim motions and all of those indented bullet points are not all that useful if you want to access your markdown elsewhere. I recently discovered the project obsidian.nvim and it really bridges a gap for me.</description>
+      <description>I&amp;rsquo;ve been giving Logseq a really good go since the beginning of the year. I love the way it works actually but the thing that has made me return to Obsidian is VIM. Logseq lacks decent vim motions and all of those indented bullet points are not all that useful if you want to access your markdown elsewhere. I recently discovered the project obsidian.nvim and it really bridges a gap for me.</description>
     </item>
     <item>
       <title>Callout: GUNA: Views and Voices Deadline 25th Feb 2024</title>
