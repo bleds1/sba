@@ -8,8 +8,29 @@
     <language>en-us</language>
     <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
     <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
-    <lastBuildDate>Fri, 16 Feb 2024 09:56:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 11:06:14 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Krita</title>
+      <link>http://localhost:1313/tags/krita/</link>
+      <pubDate>Mon, 15 Apr 2024 11:06:14 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/tags/krita/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Painting</title>
+      <link>http://localhost:1313/tags/painting/</link>
+      <pubDate>Mon, 15 Apr 2024 11:06:14 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/tags/painting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portrait</title>
+      <link>http://localhost:1313/tags/portrait/</link>
+      <pubDate>Mon, 15 Apr 2024 11:06:14 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/tags/portrait/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linux&#39;</title>
       <link>http://localhost:1313/tags/linux/</link>
@@ -95,13 +116,6 @@
       <description></description>
     </item>
     <item>
-      <title>Painting</title>
-      <link>http://localhost:1313/tags/painting/</link>
-      <pubDate>Fri, 12 Jan 2024 12:00:31 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
-      <guid>http://localhost:1313/tags/painting/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Peakyblinders</title>
       <link>http://localhost:1313/tags/peakyblinders/</link>
       <pubDate>Sat, 23 Dec 2023 16:10:12 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
@@ -120,13 +134,6 @@
       <link>http://localhost:1313/tags/sketchbook/</link>
       <pubDate>Fri, 29 Sep 2023 11:35:57 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
       <guid>http://localhost:1313/tags/sketchbook/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Krita</title>
-      <link>http://localhost:1313/tags/krita/</link>
-      <pubDate>Tue, 29 Aug 2023 12:45:32 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
-      <guid>http://localhost:1313/tags/krita/</guid>
       <description></description>
     </item>
     <item>
