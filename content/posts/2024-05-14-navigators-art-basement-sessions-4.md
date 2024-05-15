@@ -12,8 +12,6 @@ The Basement Sessions returns..
 
 [Navigators Art and Performance](https://www.instagram.com/navigatorsart) presents a very special lineup of local performers selected for their spirit of experimentality and community - and of course for being excellent!
 
-The Basement Sessions is back! - LIVE, LOCAL AND LOUD!
-
 The latest in our series showcasing some of the best of Alternative York's artists and performers is presented in association with the 2024 York Festival of Ideas and celebrates the power of the arts to entertain, connect, provoke, question, enrich,  inspire & change.
 
 A thrilling line-up of music, spoken word and comedy starring:
