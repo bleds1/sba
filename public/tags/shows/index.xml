@@ -4,12 +4,19 @@
     <title>Shows on @stevebeadleart</title>
     <link>http://localhost:1313/tags/shows/</link>
     <description>Recent content in Shows on @stevebeadleart</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
     <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
-    <lastBuildDate>Mon, 22 Jan 2024 18:56:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 May 2024 17:53:22 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/shows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basement Sessions #4 @ City Screen York 8th June 2024</title>
+      <link>http://localhost:1313/posts/2024-05-14-navigators-art-basement-sessions-4/</link>
+      <pubDate>Tue, 14 May 2024 17:53:22 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
+      <guid>http://localhost:1313/posts/2024-05-14-navigators-art-basement-sessions-4/</guid>
+      <description>The Basement Sessions returns..&#xA;LIVE, LOCAL AND LOUD!&#xA;Navigators Art and Performance presents a very special lineup of local performers selected for their spirit of experimentality and community - and of course for being excellent!&#xA;The Basement Sessions is back! - LIVE, LOCAL AND LOUD!&#xA;The latest in our series showcasing some of the best of Alternative York&amp;rsquo;s artists and performers is presented in association with the 2024 York Festival of Ideas and celebrates the power of the arts to entertain, connect, provoke, question, enrich, inspire &amp;amp; change.</description>
+    </item>
     <item>
       <title>Basement Sessions #3 @ City Screen York 23rd Feb 2024</title>
       <link>http://localhost:1313/posts/2024-01-12-navigators-art-basement-sessions-3/</link>
