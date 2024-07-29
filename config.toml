@@ -7,7 +7,7 @@ customCSS = ["css/custom_style.css"]
 
 [Author]
   name = "Bledley"
-  email = "stevebeadle@posteo.com"
+  email = "itsbledley@posteo.com"
 
 [markup]
   [markup.highlight]
@@ -17,7 +17,7 @@ customCSS = ["css/custom_style.css"]
 
 [params]
   mainSections = ["posts"]
-  email = "stevebeadle@posteo.com"
+  email = "itsbledley@posteo.com"
   favicon = "icons/favicon.png"
 #   about = """
 # This website is still under construction..Be patient.
@@ -47,8 +47,8 @@ customCSS = ["css/custom_style.css"]
 
 
     # [[params.links.link]]
-    #   name = "Etsy"
-    #   href = "https://www.etsy.com/uk/shop/stevebeadleart/"
+    #   name = "Youtube"
+    #   href = "https://www.youtube.com/@itsbledley/"
     #   new_tab = true
 
     [[params.links.link]]
