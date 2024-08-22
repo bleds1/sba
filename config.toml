@@ -1,7 +1,7 @@
 #baseURL = 'https://itsbledley.netlify.app/'
 languageCode = 'en-us'
-title = '@itsbledley'
-theme = 'hugo-theme-stack'
+title = 'itsbledley'
+theme = 'rocinante'
 paginate = 6
 customCSS = ["css/custom_style.css"]
 

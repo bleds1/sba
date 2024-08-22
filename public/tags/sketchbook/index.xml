@@ -1,224 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Sketchbook on @itsbledley</title>
-        <link>//localhost:1313/tags/sketchbook/</link>
-        <description>Recent content in Sketchbook on @itsbledley</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Fri, 29 Sep 2023 11:35:57 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/sketchbook/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Sketchy Blue Baldheads</title>
-        <link>//localhost:1313/posts/2023-09-15-sketchy-blue-baldheads/</link>
-        <pubDate>Fri, 29 Sep 2023 11:35:57 +0100</pubDate>
-        
-        <guid>//localhost:1313/posts/2023-09-15-sketchy-blue-baldheads/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-09-15-sketchy-blue-baldheads/2023-09-15-sketchy-blue-baldheads.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Sketchbook stuff in blue pencils&lt;/p&gt;
-&lt;h2 id=&#34;related&#34;&gt;Related
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-08-19-head-practice/&#34; &gt;Head Practice&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2021-08-24-rockwell-sketchbook-studies/&#34; &gt;Rockwell Sketchbook Studies&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-07-16-sketchbook-stuff&#34; &gt;2023-07-16 Sketchbook Stuff&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Sketchbook Stuff</title>
-        <link>//localhost:1313/posts/2023-07-16-sketchbook-stuff/</link>
-        <pubDate>Sun, 16 Jul 2023 12:26:03 +0100</pubDate>
-        
-        <guid>//localhost:1313/posts/2023-07-16-sketchbook-stuff/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-07-16-sketchbook-stuff/2023-06-30-0952-sketchbook-scans-1.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 1&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-07-16-sketchbook-stuff/2023-06-30-0952-sketchbook-scans-2.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 2&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-07-16-sketchbook-stuff/2023-06-30-0952-sketchbook-scans-3.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 3&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Recent sketchbook pages.&lt;/p&gt;
-&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-04-25-sketchbook-stuff/&#34; &gt;2023-04-25 Sketchbook Stuff&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2021-11-19-sketchbook-stuff/&#34; &gt;2021-11-19 Sketchbook Stuff&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Sketchbook Stuff</title>
-        <link>//localhost:1313/posts/2023-04-25-sketchbook-stuff/</link>
-        <pubDate>Tue, 25 Apr 2023 12:33:24 +0100</pubDate>
-        
-        <guid>//localhost:1313/posts/2023-04-25-sketchbook-stuff/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-04-25-sketchbook-stuff/2023-04-25-clash-sketchbook-1.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 1&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-04-25-sketchbook-stuff/2023-04-25-clash-sketchbook-2.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 2&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-04-25-sketchbook-stuff/2023-04-25-lady-sketchbook.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 3&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Ballpoint pen sketches of Joe Strummer and Paul Simonon from The Clash and a pencil drawing of a random model from Pinterest. From my sketchbook.&lt;/p&gt;
-&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-07-16-sketchbook-stuff/&#34; &gt;2023-07-16 Sketchbook Stuff&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2021-11-19-sketchbook-stuff/&#34; &gt;2021-11-19 Sketchbook Stuff&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Lost Boys Painting: A Step by Step Process</title>
-        <link>//localhost:1313/posts/2023-01-17-lost-boys-painting-step-by-step/</link>
-        <pubDate>Tue, 17 Jan 2023 14:00:35 +0100</pubDate>
-        
-        <guid>//localhost:1313/posts/2023-01-17-lost-boys-painting-step-by-step/</guid>
-        <description>&lt;h2 id=&#34;part-1-sketchbooklinework&#34;&gt;Part 1 Sketchbook/Linework
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-17-lost-boys-painting-step-by-step/frogs-lost-boys-sketchbook-scans.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 1&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;I am quite overdue on making this post. I’ve been meaning to get this blog rolling for a while. Hopefully now this little update is live we can a get some regularity going.&lt;/p&gt;
-&lt;p&gt;I’ve been working on this project a while and the weeks have slowly slipped by me. I&amp;rsquo;ve repeatedly told my self..the work&amp;rsquo;s not ready to show..make it better! get further down the line with it..keep shush til it’s done…what if I end up messing it up? Well..let&amp;rsquo;s be honest perfection is pointless and drawing and painting can take a really long time (especially if you work the way I do). Sharing something publicly can give you some momentum. Anyway - I&amp;rsquo;m actually well ahead in the process of what I will show you so far today.. this piece has been a particularly long road. I started with the intention of making a Lost Boys piece over a year ago now around Halloween..&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve been wanting to do a Lost Boys painting because most of all - me and lot of friends growing up absolutely love this movie..and oh my word..the soundtrack..I’m sure we&amp;rsquo;ll get to that. My direction with my art work recently is trying to push my portrait drawings and paintings in to the world of film posters, comic cover type montage images. As an 80&amp;rsquo;s kid I&amp;rsquo;m pretty nostalgic about the era and I also love the spookier side of things..old pulp horror covers, creatures and stuff. Lost Boys seems to sum up something of what I&amp;rsquo;m about as a subject matter.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-17-lost-boys-painting-step-by-step/michael-lost-boys-sketchbook-scans.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 2&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;I’ll start anything like this by studying each character in the sketchbook in pencil. It helps me to choose a pose, capture a likeness and begin to think about how I might compose the full piece. The sketchbook is where I think and figure things out. You could say &lt;a class=&#34;link&#34; href=&#34;https://piped.kavin.rocks/watch?v=eTviNc52igI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;faces just seem to come out of the rain..when you&amp;rsquo;re strange..&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The paper I particularly like to use is that quite light, off tone stuff that you get in ludicrously overpriced &lt;em&gt;Leutchtterm1917&lt;/em&gt; and &lt;em&gt;Moleskine&lt;/em&gt; books. It&amp;rsquo;s incredibly smooth and good for working details. My pencils of choice are 2H for roughing out and a HB for true-ing things up. I tend to us a lead-holder for sketching and sometimes introduce a mechanical pencil for those tighter lines and details. I made a study of every character&amp;rsquo;s portrait to be included in the painting, some of which I include here. The idea at this point isn&amp;rsquo;t actually completion..they can be a bit rough and wonky. I just take them to a point where they feel like a fairly solid likeness but can also be improved upon in later stages. By leaving things a little unfinished I feel like there&amp;rsquo;s still some challenge to pick up and work on further down the road.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-17-lost-boys-painting-step-by-step/grandpa-lost-boys-sketchbook-scans.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 3&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;The weird thing that happened with this piece is that I thought I was going to do it digitally at first. I scanned all my sketches in and arranged them in Photoshop into a composition and continued to work the characters up there. In fact I went waaayy down the line with it. I did a monochrome under-painting and started on the colours even. Life happened, stuff happened and I got really burned out working on the computer with it. I’m very conflicted about digital work actually, despite having done a lot of it. I think I realised it could be quite a good piece and really wanted to paint it traditionally like the old painted movie posters. So..yep&amp;hellip; I abandoned it..let it sit and moved onto something else..for about a year actually..&lt;a class=&#34;link&#34; href=&#34;https://piped.kavin.rocks/watch?v=9mk9MWei8MI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;lost in the shadows..lost in the loneliness.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;When I finally decided to go back to work on this project, it was like seeing it with fresh eyes. The composition was already worked out for the final and I just needed to resize and transfer my line-work to a board. The piece will be on ivory mount board that&amp;rsquo;s 45x64 cm. There are 12 characters in total. Printing a large image like this across sheets of A4 paper on your home printer can be a bit of a process. After some flustering about I read online that Microsoft Paint is a good option if you want to print a large picture across A4 sheets so I used a friends Windows machine to print it off. Good ol&amp;rsquo; Paint is still good for something. &lt;a class=&#34;link&#34; href=&#34;https://www.digitalcitizen.life/print-large-image-multiple-pages-4-steps-using-microsoft-paint/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;How to print a large image using Microsoft-Paint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I feel like I should maybe be showing the entire linework but I’m not quite ready to reveal the composition in the this post, but &lt;a class=&#34;link&#34; href=&#34;https://piped.kavin.rocks/watch?v=mrMLMV6E4CM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;don&amp;rsquo;t cry little sister&lt;/a&gt; because we&amp;rsquo;ll be going through the process in more depth next time. It&amp;rsquo;s going to be a painted poster in acrylic and maybe oils. I want to document the process and techniques as much as I can and if you have any questions, I&amp;rsquo;m very happy to answer. Next up - Line-work to board &amp;gt; The monochrome under-painting, a sweaty sexy sax man, what brushes will I use? and how the hell do you do backgrounds? etc.. &lt;strong&gt;See you next time!&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-17-lost-boys-painting-step-by-step/sam-lost-boys-sketchbook-scans.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 4&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2022-03-12-moving-pictures-now-showing/&#34; &gt;Moving Pictures @ City Screen, York&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2022-02-19-shelby-brothers/&#34; &gt;Shelby Brothers in Oil&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Sketchbook Stuff</title>
-        <link>//localhost:1313/posts/2021-11-19-sketchbook-stuff/</link>
-        <pubDate>Fri, 19 Nov 2021 17:53:33 +0100</pubDate>
-        
-        <guid>//localhost:1313/posts/2021-11-19-sketchbook-stuff/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2021-11-19-sketchbook-stuff/sketchbook-portrait-drawings-steve-beadle-art.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 1&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-04-25-sketchbook-stuff/&#34; &gt;2023-04-25 Sketchbook Stuff&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-07-16-sketchbook-stuff/&#34; &gt;2023-07-16 Sketchbook Stuff&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Rockwell Sketchbook Studies</title>
-        <link>//localhost:1313/posts/2021-08-24-rockwell-sketchbook-studies/</link>
-        <pubDate>Tue, 24 Aug 2021 21:52:52 +0100</pubDate>
-        
-        <guid>//localhost:1313/posts/2021-08-24-rockwell-sketchbook-studies/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2021-08-24-rockwell-sketchbook-studies/rockwell-sketchbook-steve-beadle-art.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 1&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-04-25-sketchbook-stuff/&#34; &gt;2023-04-25 Sketchbook Stuff&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-07-16-sketchbook-stuff/&#34; &gt;2023-07-16 Sketchbook Stuff&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Sketchbook on itsbledley</title>
+    <link>//localhost:1313/tags/sketchbook/</link>
+    <description>Recent content in Sketchbook on itsbledley</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>itsbledley@posteo.com (Bledley)</managingEditor>
+    <webMaster>itsbledley@posteo.com (Bledley)</webMaster>
+    <lastBuildDate>Fri, 29 Sep 2023 11:35:57 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/sketchbook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sketchy Blue Baldheads</title>
+      <link>//localhost:1313/posts/2023-09-15-sketchy-blue-baldheads/</link>
+      <pubDate>Fri, 29 Sep 2023 11:35:57 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <guid>//localhost:1313/posts/2023-09-15-sketchy-blue-baldheads/</guid>
+      <description>Sketchbook stuff in blue pencils&#xA;Related Head Practice&#xA;Rockwell Sketchbook Studies&#xA;2023-07-16 Sketchbook Stuff</description>
+    </item>
+    <item>
+      <title>Sketchbook Stuff</title>
+      <link>//localhost:1313/posts/2023-07-16-sketchbook-stuff/</link>
+      <pubDate>Sun, 16 Jul 2023 12:26:03 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <guid>//localhost:1313/posts/2023-07-16-sketchbook-stuff/</guid>
+      <description>Recent sketchbook pages.&#xA;Related Posts 2023-04-25 Sketchbook Stuff&#xA;2021-11-19 Sketchbook Stuff</description>
+    </item>
+    <item>
+      <title>Sketchbook Stuff</title>
+      <link>//localhost:1313/posts/2023-04-25-sketchbook-stuff/</link>
+      <pubDate>Tue, 25 Apr 2023 12:33:24 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <guid>//localhost:1313/posts/2023-04-25-sketchbook-stuff/</guid>
+      <description>Ballpoint pen sketches of Joe Strummer and Paul Simonon from The Clash and a pencil drawing of a random model from Pinterest. From my sketchbook.&#xA;Related Posts 2023-07-16 Sketchbook Stuff&#xA;2021-11-19 Sketchbook Stuff</description>
+    </item>
+    <item>
+      <title>Lost Boys Painting: A Step by Step Process</title>
+      <link>//localhost:1313/posts/2023-01-17-lost-boys-painting-step-by-step/</link>
+      <pubDate>Tue, 17 Jan 2023 14:00:35 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <guid>//localhost:1313/posts/2023-01-17-lost-boys-painting-step-by-step/</guid>
+      <description>Part 1 Sketchbook/Linework I am quite overdue on making this post. I’ve been meaning to get this blog rolling for a while. Hopefully now this little update is live we can a get some regularity going.&#xA;I’ve been working on this project a while and the weeks have slowly slipped by me. I&amp;rsquo;ve repeatedly told my self..the work&amp;rsquo;s not ready to show..make it better! get further down the line with it.</description>
+    </item>
+    <item>
+      <title>Sketchbook Stuff</title>
+      <link>//localhost:1313/posts/2021-11-19-sketchbook-stuff/</link>
+      <pubDate>Fri, 19 Nov 2021 17:53:33 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <guid>//localhost:1313/posts/2021-11-19-sketchbook-stuff/</guid>
+      <description>Related Posts 2023-04-25 Sketchbook Stuff&#xA;2023-07-16 Sketchbook Stuff</description>
+    </item>
+    <item>
+      <title>Rockwell Sketchbook Studies</title>
+      <link>//localhost:1313/posts/2021-08-24-rockwell-sketchbook-studies/</link>
+      <pubDate>Tue, 24 Aug 2021 21:52:52 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <guid>//localhost:1313/posts/2021-08-24-rockwell-sketchbook-studies/</guid>
+      <description>Related Posts 2023-04-25 Sketchbook Stuff&#xA;2023-07-16 Sketchbook Stuff</description>
+    </item>
+  </channel>
 </rss>

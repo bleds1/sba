@@ -1,49 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Callout on @itsbledley</title>
-        <link>//localhost:1313/tags/callout/</link>
-        <description>Recent content in Callout on @itsbledley</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Sat, 03 Feb 2024 17:58:07 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/callout/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Callout: GUNA: Views and Voices Deadline 25th Feb 2024</title>
-        <link>//localhost:1313/posts/2024-02-03-guna-views-and-voices/</link>
-        <pubDate>Sat, 03 Feb 2024 17:58:07 +0000</pubDate>
-        
-        <guid>//localhost:1313/posts/2024-02-03-guna-views-and-voices/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2024-02-03-GUNA/2024-02-03-GUNA-callout.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://linktr.ee/navigatorsart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Navigators Art&lt;/a&gt; are inviting submissions from visual artists based in York for our forthcoming exhibition between 10th March and 6th April 2024.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;GUNA&lt;/strong&gt; is a version of the ancient Greek word for &amp;lsquo;woman&amp;rsquo; and the show forms part of the city&amp;rsquo;s &lt;strong&gt;International Women&amp;rsquo;s Week&lt;/strong&gt; activities.&lt;/p&gt;
-&lt;p&gt;York Collective Navigators Art &amp;amp; Performance will accept submissions from &lt;strong&gt;visual artists based in York&lt;/strong&gt; for our forthcoming exhibition at the &lt;a class=&#34;link&#34; href=&#34;https://www.picturehouses.com/cinema/city-screen-picturehouse&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;City Screen Picturehouse&lt;/a&gt; gallery between 10th March and 6th April 2024.&lt;/p&gt;
-&lt;p&gt;We will also host a related live performance event of music, spoken word and comedy (independently but under the same title) in The Basement on March 23rd at 7.30 pm.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;We&amp;rsquo;d like to hear from artists (and performers too) whose work identifiably explores, promotes and celebrates the views and voices of women.&lt;/strong&gt; The venue requires visual art to be wall-based.&lt;/p&gt;
-&lt;p&gt;We welcome emerging and established artists equally and encourage new collaborators. Please include a link to your work online and/or examples of your previous work, and a social media link if different.&lt;/p&gt;
-&lt;p&gt;Submissions must be accompanied by a personal statement about how your work relates to the theme as well as the medium and dimensions of each piece you submit.&lt;/p&gt;
-&lt;p&gt;We are @navigatorsart on &lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/navigatorsart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Facebook&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://www.instagram.com/navigatorsart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Instagram&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Further details and application through Curatorspace:&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;www.curatorspace.com/opportunities/detail/guna-views-and-voices-of-women/7920&#34; &gt;GUNA: Views &amp;amp; Voices of Women | Curatorspace&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;related&#34;&gt;Related
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-12-13-york-zine-fest-the-crescent/&#34; &gt;York Zine Fest @ The Crescent&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2024-01-12-navigators-art-basement-sessions-3/&#34; &gt;Basement Sessions #3 at City Screen, York 23rd Feb 2024&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;links&#34;&gt;Links
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://charleshutchpress.co.uk/navigators-art-confirms-basement-session3-line-up-and-plans-for-york-international-womens-week-at-city-screen-picturehouse/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Navigators confirm Basement Sessions 3 and plans for International Womens Week at City Screen Picturehouse | charleshutchpress.co.uk&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Callout on itsbledley</title>
+    <link>//localhost:1313/tags/callout/</link>
+    <description>Recent content in Callout on itsbledley</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>itsbledley@posteo.com (Bledley)</managingEditor>
+    <webMaster>itsbledley@posteo.com (Bledley)</webMaster>
+    <lastBuildDate>Sat, 03 Feb 2024 17:58:07 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/callout/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Callout: GUNA: Views and Voices Deadline 25th Feb 2024</title>
+      <link>//localhost:1313/posts/2024-02-03-guna-views-and-voices/</link>
+      <pubDate>Sat, 03 Feb 2024 17:58:07 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <guid>//localhost:1313/posts/2024-02-03-guna-views-and-voices/</guid>
+      <description>Navigators Art are inviting submissions from visual artists based in York for our forthcoming exhibition between 10th March and 6th April 2024.&#xA;GUNA is a version of the ancient Greek word for &amp;lsquo;woman&amp;rsquo; and the show forms part of the city&amp;rsquo;s International Women&amp;rsquo;s Week activities.&#xA;York Collective Navigators Art &amp;amp; Performance will accept submissions from visual artists based in York for our forthcoming exhibition at the City Screen Picturehouse gallery between 10th March and 6th April 2024.</description>
+    </item>
+  </channel>
 </rss>
