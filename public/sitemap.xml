@@ -3,7 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-05-28T10:37:33+01:00</lastmod>
+    <lastmod>2024-08-22T18:43:59+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/kofi/</loc>
+    <lastmod>2024-08-22T18:43:59+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/contact/</loc>
+    <lastmod>2024-08-22T18:18:11+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/socials/</loc>
+    <lastmod>2024-08-22T18:15:01+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/2024-05-28-navigators-art-micklegate-art-trail/</loc>
     <lastmod>2024-05-28T10:37:33+01:00</lastmod>

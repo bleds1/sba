@@ -18,7 +18,7 @@ customCSS = ["css/custom_style.css"]
 [params]
   mainSections = ["posts"]
   email = "itsbledley@posteo.com"
-  favicon = "icons/favicon.png"
+  favicon = "icons/favicon.jpg"
 #   about = """
 # This website is still under construction..Be patient.
 # """
@@ -27,21 +27,22 @@ customCSS = ["css/custom_style.css"]
 
 [[params.links]]
 
-
     [[params.links.link]]
       name = "Home"
       href = "https://itsbledley.netlify.app/"
 
-
     [[params.links.link]]
-      name = "Contact"
+      name = "Message"
       href = "/contact"
       smart_email_link = true
 
     [[params.links.link]]
-      name = "Socials"
-      href = "/"
+      name = "Follow"
+      href = "/socials"
 
+    [[params.links.link]]
+      name = "Thanks"
+      href = "/kofi"
 
     # [[params.links.link]]
     #   name = "Youtube"
@@ -58,11 +59,11 @@ customCSS = ["css/custom_style.css"]
     #   href = "/navigators"
     #   new_tab = true
 
-    [[params.links.link]]
-      name = "RSS"
-      href = "/index.xml"
-      new_tab = true
+    #[[params.links.link]]
+    # name = "RSS"
+    # href = "/index.xml"
+    # new_tab = true
 
     [[params.links.link]]
-      name = "Links"
+      name = "Stuff"
       href = "/links"
