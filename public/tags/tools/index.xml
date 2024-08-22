@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tools on @stevebeadleart</title>
-    <link>http://localhost:1313/tags/tools/</link>
-    <description>Recent content in Tools on @stevebeadleart</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
-    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
-    <lastBuildDate>Wed, 21 Jul 2021 18:53:23 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tools/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Rosemary and Co Brushes</title>
-      <link>http://localhost:1313/posts/2021-07-21-rosemary-and-co-brushes/</link>
-      <pubDate>Wed, 21 Jul 2021 18:53:23 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
-      <guid>http://localhost:1313/posts/2021-07-21-rosemary-and-co-brushes/</guid>
-      <description>Really enjoying these Evergreen Filberts and Flats from Rosemary and Co Brushes They’re synthetic, soft and springy. May not be totally clear in the pic but they have green fibres and hold a good shape. I keep ‘em in good condition by suspending them in baby oil between painting sessions.&#xA;Related Posts Female Head in Oils&#xA;Shelby Brothers in Oils&#xA;Them Oil Study</description>
-    </item>
-  </channel>
+    <channel>
+        <title>Tools on @itsbledley</title>
+        <link>//localhost:1313/tags/tools/</link>
+        <description>Recent content in Tools on @itsbledley</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 21 Jul 2021 18:53:23 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/tools/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Rosemary and Co Brushes</title>
+        <link>//localhost:1313/posts/2021-07-21-rosemary-and-co-brushes/</link>
+        <pubDate>Wed, 21 Jul 2021 18:53:23 +0100</pubDate>
+        
+        <guid>//localhost:1313/posts/2021-07-21-rosemary-and-co-brushes/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2021-07-21-rosemary-and-co-brushes/rosemary-and-co-evergreen-brushes-pic.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 1&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Really enjoying these Evergreen Filberts and Flats from &lt;a class=&#34;link&#34; href=&#34;https://www.rosemaryandco.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Rosemary and Co Brushes&lt;/a&gt; They’re synthetic, soft and springy. May not be totally clear in the pic but they have green fibres and hold a good shape. I keep ‘em in good condition by suspending them in baby oil between painting sessions.&lt;/p&gt;
+&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2021-07-08-female-head-in-oils/&#34; &gt;Female Head in Oils&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2022-02-19-shelby-brothers/&#34; &gt;Shelby Brothers in Oils&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2021-06-23-them-oil-study/&#34; &gt;Them Oil Study&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

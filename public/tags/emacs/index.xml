@@ -1,35 +1,397 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Emacs on @stevebeadleart</title>
-    <link>http://localhost:1313/tags/emacs/</link>
-    <description>Recent content in Emacs on @stevebeadleart</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
-    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
-    <lastBuildDate>Fri, 01 Dec 2023 18:05:18 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>What the Hell Is Org Mode?</title>
-      <link>http://localhost:1313/posts/2023-12-01-what-the-hell-is-org-mode/</link>
-      <pubDate>Fri, 01 Dec 2023 18:05:18 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
-      <guid>http://localhost:1313/posts/2023-12-01-what-the-hell-is-org-mode/</guid>
-      <description>So what is it? Let me introduce you because of course, there&amp;rsquo;s far too much to cover in one post. I would like to get into the more advanced stuff ideally. One of the things that annoys me is that there are a ton of &amp;ldquo;Getting Started with the Basics&amp;rdquo; types posts and videos and not enough that go deeper into the features. It feels like I&amp;rsquo;ve absorbed a lot of the content that&amp;rsquo;s out there, however.</description>
-    </item>
-    <item>
-      <title>How to Install Doom Emacs on Termux</title>
-      <link>http://localhost:1313/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</link>
-      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
-      <guid>http://localhost:1313/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</guid>
-      <description>I used to think having Emacs on a phone was a bit much..but recently I&amp;rsquo;ve just started using Emacs and Org mode for nearly everything.. There&amp;rsquo;s not a great selection of apps on Android for accessing Org files, the best solution to me was to just get Emacs with it&amp;rsquo;s fully fledged Org on mobile. The newish GUI Android Emacs app is a bit strange and I swiftly uninstalled it.</description>
-    </item>
-    <item>
-      <title>A Beginners Guide: Getting Started With Doom Emacs</title>
-      <link>http://localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/</link>
-      <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
-      <guid>http://localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/</guid>
-      <description>Introduction If your first thought on this is “Urrggh, really Emacs??.. Not for me..It&amp;rsquo;s ancient, bloated, complicated, full of features I don&amp;rsquo;t need..just give me a simple plain text editor“. Well that was me too. I was very much the Vim user because I&amp;rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits.</description>
-    </item>
-  </channel>
+    <channel>
+        <title>Emacs on @itsbledley</title>
+        <link>//localhost:1313/tags/emacs/</link>
+        <description>Recent content in Emacs on @itsbledley</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 01 Dec 2023 18:05:18 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/emacs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>What the Hell Is Org Mode?</title>
+        <link>//localhost:1313/posts/2023-12-01-what-the-hell-is-org-mode/</link>
+        <pubDate>Fri, 01 Dec 2023 18:05:18 +0000</pubDate>
+        
+        <guid>//localhost:1313/posts/2023-12-01-what-the-hell-is-org-mode/</guid>
+        <description>&lt;p&gt;So what is it? Let me introduce you because of course, there&amp;rsquo;s far too much to cover in one post. I would like to get into the more advanced stuff ideally. One of the things that annoys me is that there are a ton of &lt;em&gt;&amp;ldquo;Getting Started with the Basics&amp;rdquo;&lt;/em&gt; types posts and videos and not enough that go deeper into the features. It feels like I&amp;rsquo;ve absorbed a lot of the content that&amp;rsquo;s out there, however..it only feels right to start with the basics and then build on top of that.&lt;/p&gt;
+&lt;h2 id=&#34;org-is-a-language&#34;&gt;Org is a language
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://orgmode.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Org-mode&lt;/a&gt; can do a lot of cool things. At it&amp;rsquo;s core Org is a plain text, Markdown type language. It has a slightly different but familiiar syntax to &lt;a class=&#34;link&#34; href=&#34;https://www.markdownguide.org/getting-started/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Markdown&lt;/a&gt; that straps on a ton of very useful features for organization and productivity. I&amp;rsquo;ve seen it referred to as &amp;lsquo;Org-down&amp;rsquo;. Many will be familiar with the idea of plain text, most of our text entry to the internet or through are phones is usually in plain text with  no special formatting . Most will also be aware of the Rich Text Format (.rft). You may have come across this is in your text editor of choice, writing an email, and certain other places where you have to write posts with more formatting. We might have options in a toolbar for Bold, Italics, Headings, Colours, Alignment etc. Markdown (.md) is a form of plain text with symbols that can be used to enhance the formatting when we publish text.&lt;/p&gt;
+&lt;p&gt;For example in Markdown..&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;# This is a level 1 heading
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;## This is a second level heading
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;*Bold*
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;_Italics_
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and in Org..&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt; This is a level 1 heading&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;**&lt;/span&gt; This is a second level heading
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;*Bold*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/Italics/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;org-as-an-outliner&#34;&gt;Org as an outliner
+&lt;/h2&gt;&lt;p&gt;Org has the functionality of an Outliner. You may have seen something similar in apps such as &lt;a class=&#34;link&#34; href=&#34;https://logseq.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Logseq&lt;/a&gt; or &lt;a class=&#34;link&#34; href=&#34;https://roamresearch.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Roam Research&lt;/a&gt;. Headings or bullet points are treated as seperate nodes or blocks that can be rearranged, indented, folded or given a hierarchy. If you&amp;rsquo;ve never written in this way, maybe try it out? Here&amp;rsquo;s an example use case; you could keep one super long journal file with headings for each day. When you are working on today&amp;rsquo;s entry every other heading can be folded and hidden away. Each note you make throughout the day could be a time stamped bullet-point that you give your entire focus to. Outliners are also particularly useful when writing long texts like a book or a literate configuration file with many sections.&lt;/p&gt;
+&lt;p&gt;(&lt;em&gt;Org headings in a journal file&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-12-01-what-the-hell-is-org-mode/2023-12-01-1829-org-headings-screenshot.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Org headings Screenshot&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;em&gt;Org headings folded with [TAB]&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-12-01-what-the-hell-is-org-mode/2023-12-01-1829-org-headings-screenshot-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Org headings Screenshot 2&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;org-in-emacs&#34;&gt;Org in Emacs
+&lt;/h2&gt;&lt;p&gt;Org-mode is not exclusive to use in &lt;a class=&#34;link&#34; href=&#34;https://www.gnu.org/software/emacs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Emacs&lt;/a&gt; but it is one of the built in major-modes. Other text editors may be able to open and edit .org files but we wouldn&amp;rsquo;t be even scratching the surface of it&amp;rsquo;s powers. Emacs is modal, I could be in Markdown-mode, Lisp-mode or Org-mode and the text entered will display the properties, features and highlighting for the corresponding syntax.&lt;/p&gt;
+&lt;p&gt;With Org we are able to add key words to headings i.e TODO, DOING and mark things DONE or LATER. You can set scheduled or deadline date properties, start timers on headings. This means you can have a fully functioning task management/note taking system, a journal, calendar, make a personal wiki and much more. All of this functionality in a lightweight free to use open source text based editor that&amp;rsquo;s been around for 40+ years. No sign up, cloud based account or subscriptions here - just a little bit of a learning curve.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#f00&#34;&gt; TODO&lt;/span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt; Post a blog&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt; NEXT Buy an Onion&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt; WAITING Establish world peace&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt; DONE&lt;/span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt; Run 5km&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;the-benefits-of-plain-text&#34;&gt;The benefits of plain text
+&lt;/h2&gt;&lt;p&gt;The great thing about keeping your life in plain text is that it&amp;rsquo;s reasonably future proof. With Org and Emacs you are in control of your files &amp;amp; information. Services like Evernote, Notion, maybe one of Microsoft or Google&amp;rsquo;s offerings - they have hold of your data, online in proprietary file formats that cannot transcend their medium. Org files may be lesser known but it&amp;rsquo;s just text and with a press of a few key-binds you can export to a variety of familiar file formats e.g (.pdf, .html, odt., .md, .txt).&lt;/p&gt;
+&lt;p&gt;There are some great apps out there that respect local first and I feel it&amp;rsquo;s worth mentioning that I&amp;rsquo;m also a big fan of &lt;a class=&#34;link&#34; href=&#34;https://obsidian.md/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Obsidian&lt;/a&gt;. The thing with Obsidian is that it only works with Markdown files. With Emacs I can navigate the entire file system of my computer and a variety of files and project types. Because everything is plain-text it&amp;rsquo;s lightning fast even on an old potato computer.&lt;/p&gt;
+&lt;p&gt;(&lt;em&gt;Org Export Dispatch Menu [SPC-m-e]&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-12-01-what-the-hell-is-org-mode/2023-12-01-1829-org-export-screenshot.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Org-export Screenshot&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;three-nice-features-of-org-mode&#34;&gt;Three nice features of Org-mode
+&lt;/h2&gt;&lt;p&gt;This post is intended to be a primer for my Emacs/Org-mode series. I&amp;rsquo;ve previously discussed getting started with &lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/&#34; &gt;Doom Emacs&lt;/a&gt; and I&amp;rsquo;ll dive a bit deeper in future posts. There are many great features but some of my favourites I&amp;rsquo;d like to cover are;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Quick capture templates&lt;/em&gt; - Add notes, tasks, bookmarks, links etc. with custom key-binds. I type SPC-n-n (in my mind that&amp;rsquo;s new note) to activate quick capture and am presented with a series of options t = todo item j = new timestamped journal entry e = an event for my agenda r = add something to my reading list etc.&lt;/p&gt;
+&lt;p&gt;(&lt;em&gt;Org Capture Menu [SPC-n-n]&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-12-01-what-the-hell-is-org-mode/2023-12-01-1829-org-export-screenshot-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Org-export Screenshot-2&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Task management&lt;/em&gt; - I keep my tasks in an org file called todo.org. These entries have different properties e.g TODO, NEXT, SOMEDAY, WAITING. I can open org-agenda (a calendar view) and see deadlines and what is on the schedule for the day, week etc.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Personal Knowledge Management&lt;/em&gt; - A digital notetaking system.. How to keep something akin to a &lt;a class=&#34;link&#34; href=&#34;https://zettelkasten.de/posts/overview/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Zettelkasten&lt;/a&gt; to manage Fleeting, Literature and Permanent notes.&lt;/p&gt;
+&lt;p&gt;Did I mention I can write and code for this website, read emails, books, news feeds, browse the web and view images? Hopefully this serves as a nice intro to Org/and or Emacs and maybe you can start to see how with all this under one roof you might be able to construct quite a powerful way of working.&lt;/p&gt;
+&lt;h3 id=&#34;related&#34;&gt;Related
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/&#34; &gt;Getting Started with Doom Emacs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-07-23-how-to-install-doom-emacs-on-termux/&#34; &gt;How to install Doom Emacs on Termux&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;resources&#34;&gt;Resources
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://orgmode.org/org.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Org-mode Manual&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://orgmode.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Org Mode - Your Life in Plain Text&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>How to Install Doom Emacs on Termux</title>
+        <link>//localhost:1313/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</link>
+        <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate>
+        
+        <guid>//localhost:1313/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-07-23-how-to-install-doom-emacs-on-termux/2023-07-23-doom-emacs-termux-screenshot.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 1&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;I used to think having Emacs on a phone was a bit much..but recently I&amp;rsquo;ve just started using Emacs and Org mode for nearly everything.. There&amp;rsquo;s not a great selection of apps on Android for accessing Org files, the best solution to me was to just get Emacs with it&amp;rsquo;s fully fledged Org on mobile. The newish GUI Android Emacs app is a bit strange and I swiftly uninstalled it. The Termux terminal version however, works much better. There&amp;rsquo;s not a whole load of info out there about how to run Doom Emacs on Termux but I managed to figure it out and have been impressed with how well it works. I&amp;rsquo;m not a &lt;em&gt;massive&lt;/em&gt; phone user and do the bulk of stuff on a laptop but It is pretty nice to be able to view my Org agenda or add something quick to my daily note from mobile. I&amp;rsquo;m also a big fan of just launching into a blank &amp;ldquo;&lt;em&gt;scratch&lt;/em&gt;&amp;rdquo; buffer to do any writing, drafting or quick capture.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.  Install Emacs on Termux&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t have Termux already, bookmark this post and get yourself set up with that from F-Droid. You may want to get to know it a little before getting into this stuff. When you&amp;rsquo;re ready for Emacs then..&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pkg install emacs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;2.  Install dependencies&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s possible you might be asked for some others depending on what you already have in your Termux installation.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pkg install gh fd ripgrep
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;3.  Install Doom&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll need to do things a bit differently from the usual install instructions on Github as Termux Emacs uses different directories..&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    git clone --depth &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt; https://github.com/doomemacs/doomemacs ~/.emacs.d
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ~/.emacs.d/bin/doom install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;4.  Setup your config files (config.el packages.el init.el)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you already have a config file on desktop I&amp;rsquo;d suggest rather than just dumping the whole thing into Termux, you take it chunk by chunk. The default included config is pretty much good to go if you haven&amp;rsquo;t used Doom before. Start with your basic settings and introduce elements to it gradually and make sure it works at each step with a doom sync or doom/reload. If you have a really complicated set up you may run into things that don’t work on mobile but I was surprised at how much works perfectly. Maybe you want to set up some slightly simpler keybinds in the mobile environment or live without certain packages. For example I haven’t yet dared install the Org-Roam package on mobile as I&amp;rsquo;m worried about conflicting database issues. I can still access and edit all those .org notes however and that&amp;rsquo;s totally enough for me.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5.  Set up some convienient aliases&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Adding something like this to your shell config can save a few keypresses on that fiddly litte keyboard. I use zsh so in my .zshrc I have..&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;alias&lt;/span&gt; doomsync=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;~/.emacs.d/bin/doom sync&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;alias&lt;/span&gt; emd=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;emacs --daemon&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;alias&lt;/span&gt; em=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;emacsclient -nw&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You&amp;rsquo;ll want to doom sync on the command line after adding any new packages. With most changes to config.el you can just hot reload &amp;ldquo;SPC-h-r-r&amp;rdquo; or &amp;ldquo;M-x doom/reload&amp;rdquo; and you should see your configuration changes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6.  Bonus&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Termux Extras&lt;/strong&gt;
+If you install some Termux extras - API and widgets. You can just set up a script which acts as a home screen app launcher with a custom icon. Install both from F-Droid, also install termux-api in Termux.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pkg install termux-api
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Vterm&lt;/strong&gt;
+The Vterm pop up terminal is pretty useful in Termux because of the lack of screen space. I didn&amp;rsquo;t expect it to work but it totally does. Uncomment it in packages.el, exit and doom sync. When you try to open it Doom will let you know it needs to compile the package so you&amp;rsquo;ll need the following build dependencies.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pkg install cmake libvterm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Keeping files in sync&lt;/strong&gt;
+I use Dropbox with Dropsync because the official Dropbox app on Android is weird and won’t let you store the directory offline on your device.. Syncthing would be another option to use here but you will only be able sync your files on a local wifi.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s about it for now. This should be enough to get you up and running. Enjoy your tiny little Emacs.&lt;/p&gt;
+&lt;h1 id=&#34;links&#34;&gt;Links
+&lt;/h1&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/doomemacs/doomemacs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Doom Emacs Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/termux/termux-app&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Termux Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://f-droid.org/packages/com.termux/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Termux on F-Droid&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/&#34; &gt;Getting Started with Doom Emacs&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>A Beginners Guide: Getting Started With Doom Emacs</title>
+        <link>//localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/</link>
+        <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate>
+        
+        <guid>//localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/</guid>
+        <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-27-getting-started-with-doom-emacs/dashboard-doom-emacs.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 1&#34;
+	
+	
+&gt;
+&lt;img src=&#34;//localhost:1313/2023-01-27-getting-started-with-doom-emacs/dashboard-doom-emacs-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 2&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;If your first thought on this is &lt;em&gt;“Urrggh, really Emacs??.. Not for me..It&amp;rsquo;s ancient, bloated, complicated, full of features I don&amp;rsquo;t need..just give me a simple plain text editor“&lt;/em&gt;. Well that was me too. I was very much the Vim user because I&amp;rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits. This tribal mentality that you must be on one team or the other seems massively dumb to me. So what turned me the way of Emacs? The short answer is Org-mode but I think that&amp;rsquo;s going to have to wait for another post..&lt;/p&gt;
+&lt;p&gt;So, I&amp;rsquo;m not a programmer and the most I know about Elisp is it&amp;rsquo;s got a hell of a lot of semicolons. I hack on a few Linux config files but I&amp;rsquo;m coming at Emacs from the perspective of a note taker. I mostly use it for writing, reading, digital notetaking and task organization.&lt;/p&gt;
+&lt;p&gt;Because Emacs is such a huge topic I&amp;rsquo;ll probably just give an &lt;em&gt;‘as brief as I can overview’&lt;/em&gt;* of some of the reasons and features I use in it. There’s a lot of info out there if it peeks your interest. This first post will be a total beginners guide and link to some resources at the end if you want to go further down the rabbit hole. I&amp;rsquo;ll talk more about the juicy specifics in future posts. I&amp;rsquo;m going to make the presumption that you, dear reader know a few things already. Like what Vim and the terminal is and what Emacs is. There is an internet if you need to get up to speed.&lt;/p&gt;
+&lt;p&gt;It started for me with Vim motions. I use Vim motions everywhere possible, any editor or browser must have them for me. If I hadn&amp;rsquo;t learnt Vim motions prior, I probably wouldn&amp;rsquo;t have got into Emacs at all. Doom Emacs uses the evil key bindings from Vim. I tried installing vanilla Emacs and was totally lost, it felt like an alien world. Doom makes a lot of sense to me because it&amp;rsquo;s Vimcentric. Doom is essentially a framework with a ton of configuration on top of base Emacs. They have done so much work and optimization for you it&amp;rsquo;s actually quite simple to get started with.&lt;/p&gt;
+&lt;p&gt;Another app on my road to Emacs that I previously thought was &amp;rsquo;the one&amp;rsquo; is Obsidian. I still think it’s super great actually and could easily go back to it one day. I&amp;rsquo;m very much into the idea of keeping all your files and projects in plain text or markdown, offline, without using some kind of paid syncing or subscription service. With Emacs you are in control of your files, it&amp;rsquo;s free software and your life in text feels safe and future proof. Obsidian has a lot of cool features for linking ideas together in your vault. I also liked that you can just edit the notes with any other text editor that can handle the markdown format. I would use Vim a lot to take my quick notes and Obsidian would be the master vault where I organize them into some kind of a system. Through learning Obsidian I learnt about the Zettlekasten method, PKM and &amp;lsquo;Building a Second Brain&amp;rsquo;. This in turn led to learning that Emacs can do all this stuff and much, much more..&lt;/p&gt;
+&lt;h2 id=&#34;how-to-install-doom-emacs&#34;&gt;How to install Doom Emacs
+&lt;/h2&gt;&lt;p&gt;Be sure to have Vanilla Emacs installed first and then git clone Doom Emacs;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone --depth &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt; https://github.com/doomemacs/doomemacs ~/.emacs.d ~/.emacs.d/bin/doom install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You may want to set up an alias, keyboard shortcut or startup script for launching Emacs with the emacsclient. It&amp;rsquo;s the best and fastest way to use Emacs trust me..&lt;/p&gt;
+&lt;p&gt;Start the daemon for the emacsclient from your terminal with;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/usr/bin/emacs --daemon &amp;amp;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Run the Emacs client;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;emacsclient -c -a &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;emacs&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you’re not on Linux you can find alternate install and setup instructions for Mac &amp;amp; Windows &lt;a class=&#34;link&#34; href=&#34;https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;basic-configuration&#34;&gt;Basic configuration
+&lt;/h2&gt;&lt;h3 id=&#34;configel&#34;&gt;config.el
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-27-getting-started-with-doom-emacs/terminal-dir-doom-emacs.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 3&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Most of your configuration will be taking place in &lt;strong&gt;~/.doom.d/config.el&lt;/strong&gt; You can run &lt;strong&gt;‘doom sync’&lt;/strong&gt; after any changes for them to take effect with &lt;strong&gt;(Space-h-r-r)&lt;/strong&gt;. That&amp;rsquo;s a keybind you&amp;rsquo;ll use a lot. I remember it as &lt;em&gt;&amp;ldquo;Hey, Reload, Reload!&amp;rdquo;&lt;/em&gt;. You don&amp;rsquo;t need to exit Doom when you make changes to this file but you will if you add any new packages. If you’ve added new packages to Doom you&amp;rsquo;ll want to exit and kill the daemon and run &lt;strong&gt;‘doom sync’&lt;/strong&gt; at the terminal.&lt;/p&gt;
+&lt;h3 id=&#34;initel&#34;&gt;init.el
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-27-getting-started-with-doom-emacs/init-doom-emacs.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 4&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;This file lists a bunch of modules/packages that are Doom ready just comment out those ;; things with &lt;strong&gt;x&lt;/strong&gt; to delete the character. Restart, sync as mentioned previously.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(org
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; +journal
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;+pretty
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;+roam2)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hl-todo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;treemacs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;word-wrap
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;syntax
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pdf
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;markdown
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;These above are the most important ones for emulating my set up that I have activated. You may want to activate programming languages you often use for nice coloured syntax here.&lt;/p&gt;
+&lt;h3 id=&#34;packagesel&#34;&gt;packages.el
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-27-getting-started-with-doom-emacs/packages-doom-emacs.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 5&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Any other packages are installed in packages.el. You add a package with (package! example) then exit Doom and run ‘doom sync’ in the terminal.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s some packages I enable;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Beacon&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://github.com/Malabarba/beacon&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(beacon! focus)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;This makes a cool little graphical pulse to show what line number you are on when you switch file or window.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Focus&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://github.com/larstvei/Focus&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(package! focus)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-27-getting-started-with-doom-emacs/focus-doom-emacs.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 6&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;M-x focus-mode&lt;/strong&gt; - greys out text in a file apart from the few lines you are editing. &lt;a class=&#34;link&#34; href=&#34;https://obsidian.md/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Obsidian&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://github.com/junegunn/limelight.vim&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;limelight.vim&lt;/a&gt; do something similar. I will be refering to the key &lt;strong&gt;META&lt;/strong&gt; from here as &lt;strong&gt;M&lt;/strong&gt; which is also known as &lt;strong&gt;ALT&lt;/strong&gt;. You can think of it as a leader key, &lt;strong&gt;Space&lt;/strong&gt; is the other main leader key.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;set-your-font&#34;&gt;Set your font
+&lt;/h2&gt;&lt;p&gt;I use &lt;a class=&#34;link&#34; href=&#34;https://www.jetbrains.com/lp/mono/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Jet Brains Mono&lt;/a&gt;. Your font of choice needs to be already installed on your system. You can set a larger version or different font to be used in different modes such as writeroom-mode.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; doom-font (font-spec &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:family&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;JetBrains Mono&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:size&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;13&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:weight&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;Medium&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      doom-big-font (font-spec &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:family&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;JetBrains Mono&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:size&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;14&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:weight&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;Medium&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      doom-variable-pitch-font (font-spec &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:family&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;JetBrains Mono&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:size&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;14&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;disable-line-numbers&#34;&gt;Disable Line Numbers
+&lt;/h2&gt;&lt;p&gt;I used to really like relative line numbers in Vim but because I&amp;rsquo;m doing more prose writing in Doom I disable them. It&amp;rsquo;s very easy to reactivate them if needs be with &lt;strong&gt;Space-t-l&lt;/strong&gt; or &lt;strong&gt;M-x toggle-line-numbers&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; display-line-numbers-type nil)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;set-a-theme&#34;&gt;Set a Theme
+&lt;/h2&gt;&lt;p&gt;We’ll be needing a cool theme if we&amp;rsquo;re going to use this thing regularly. I use an inbuilt doom-theme ‘wilmersdorf’. The default background for that is dark blue and I like it even darker than that so I add a few lines to make it a dark, dark grey.&lt;/p&gt;
+&lt;p&gt;Type &lt;strong&gt;M-x&lt;/strong&gt; and then &lt;strong&gt;load-theme&lt;/strong&gt;. You will see a list of availible themes in the buffer at the bottom of the screen. If you want to just change the background colour you can type &lt;strong&gt;M-x set-background-color&lt;/strong&gt;. These changes won&amp;rsquo;t be permanent until you add the commands to your config.el.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; doom-theme &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;doom-wilmersdorf&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(custom-set-faces
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;#39;(default ((t (&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:background&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;#1a1a1a&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;:foreground&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;#a9b1d6&amp;#34;&lt;/span&gt;)))))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;modeline&#34;&gt;Modeline
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-27-getting-started-with-doom-emacs/modeline-doom-emacs.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 7&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll want to get that Doom modeline at the bottom of the screen looking sweet too. Here&amp;rsquo;s the tweaks I use as there’s a bit too much going on down there by default for my taste..&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(after! doom-modeline
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(remove-hook &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;doom-modeline-mode-hook&lt;/span&gt; #&amp;#39;size-indication-mode) &lt;span style=&#34;color:#007f7f&#34;&gt;; removes filesize from modeline&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(remove-hook &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;doom-modeline-mode-hook&lt;/span&gt; #&amp;#39;column-number-mode)   &lt;span style=&#34;color:#007f7f&#34;&gt;; removes cursor column in modeline&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(line-number-mode &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;-1&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; doom-modeline-buffer-encoding nil))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; doom-modeline-enable-word-count t) &lt;span style=&#34;color:#007f7f&#34;&gt;; show word count in md &amp;amp; txt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; display-time-default-load-average nil) &lt;span style=&#34;color:#007f7f&#34;&gt;; remove load average&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; doom-modeline-height &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;15&lt;/span&gt;) &lt;span style=&#34;color:#007f7f&#34;&gt;; shorter bar height&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(display-time-mode &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#007f7f&#34;&gt;; show time and date&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;setq&lt;/span&gt; display-time-format &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;%Y-%m-%d %H:%M&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#007f7f&#34;&gt;; time and date format&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;keybinds-and-basic-navigation&#34;&gt;Keybinds and basic navigation
+&lt;/h2&gt;&lt;p&gt;Here’s some very basic beginner key binds to get you started. Thankfully Doom has which-key. This makes learning the key binds so much easier. Doom is based around having a leader key followed by a key chord. They are all quite literate for example;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space (the leader key) o-a&lt;/strong&gt; = Open Org-agenda - open (o)rg (a)genda.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space n-j&lt;/strong&gt; = (n)ew (j)ournal entry.&lt;/p&gt;
+&lt;p&gt;There are many more examples of this so when you know what you want to do these chords become memorable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space .&lt;/strong&gt; will get you into the file explorer to open any file or directory on your system.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space Enter&lt;/strong&gt; will access bookmarks. You can set bookmarks with &lt;strong&gt;M-x bookmark-set&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;M-x&lt;/strong&gt; is very powerful. This is the best way to learn because a lot of commands will have a keyboard shortcut shown next to it in the buffer at the bottom of the screen..or you can set one for it in your config. You can go crazy here because the auto completion works really well.. that&amp;rsquo;s how I picked up so much - try for example;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;M-x tetris&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-27-getting-started-with-doom-emacs/which-key-doom-emacs.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 8&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Every thing you open is a buffer. Even if it&amp;rsquo;s not on screen it&amp;rsquo;s open in the background as a buffer. To navigate buffers you can;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space b-n&lt;/strong&gt; - think (b)uffer (n)ext&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space b-p&lt;/strong&gt; - think (b)uffer (p)revious&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space b-k&lt;/strong&gt; - b(uffer) (k)ill&lt;/p&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Space b-i&lt;/strong&gt; to list all your open buffers.&lt;/p&gt;
+&lt;p&gt;Start writing, editing, Using the Vim keys - &lt;strong&gt;i and esc&lt;/strong&gt; to switch from INSERT mode to NORMAL mode. In normal mode you use &lt;strong&gt;h,j,k,l&lt;/strong&gt; to navigate around.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;:w&lt;/strong&gt; - save&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;:wa&lt;/strong&gt; - save all open buffers&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;:wq&lt;/strong&gt; - to save and quit&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;:q!&lt;/strong&gt; - quit without saving&lt;/p&gt;
+&lt;h2 id=&#34;outro&#34;&gt;Outro
+&lt;/h2&gt;&lt;p&gt;That&amp;rsquo;s probably enough word count for this first post about Doom Emacs. This should get you started at least. I&amp;rsquo;ll pick up where we left off in future posts because now we’re past the super basics I’m excited to talk about the killer feature that is &lt;strong&gt;org-mode&lt;/strong&gt; and &lt;strong&gt;org-agenda&lt;/strong&gt;. I&amp;rsquo;ll try to show you how I set up my GTD task system and the quick capture templates to make note taking and writing a quick and easy process.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s &lt;em&gt;quite the vast topic&lt;/em&gt;.. If you&amp;rsquo;ve got any questions, I&amp;rsquo;ll try my best to answer.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-27-getting-started-with-doom-emacs/doom-icon-128x128.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 9&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;resources&#34;&gt;Resources
+&lt;/h3&gt;&lt;p&gt;Find below resources I found useful and stole a lot of stuff from for my config. Maybe bookmark this for later.. Thanks for reading!&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/doomemacs/doomemacs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Doom Emacs on Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://discourse.doomemacs.org/t/emacs-for-writing-prose/515&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Emacs For Writing prose : A guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://discourse.doomemacs.org/c/guides/5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Doom Emacs Discourse&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://tecosaur.github.io/emacs-config/config.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tecosaur&amp;rsquo;s Doom Emacs Config&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://piped.kavin.rocks/channel/UCVls1GmFKf6WlTraIb_IaJg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Distrotube has many useful videos about Doom Emacs for beginners&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Zzamboni &amp;lsquo;My Doom Emacs configuration with commentary&amp;rsquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://tasshin.com/blog/implementing-a-second-brain-in-emacs-and-org-mode&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tasshin on Emacs and building a second brain&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://jethrokuan.github.io/org-roam-guide/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Jethro Kuan - &amp;lsquo;How I Take Notes with Org-Roam&amp;rsquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://doc.norang.ca/org-mode.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;A Comprehensive Org config&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://orgmode.org/org.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Org-mode Manual&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://hugocisneros.com/org-config&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Cisneros&amp;rsquo; Org config&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://koenig-haunstetten.de/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Rainer Koenig&amp;rsquo;s Blog (Org-mode)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://piped.kavin.rocks/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Rainer Koenig&amp;rsquo;s Videos on Org-mode&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-07-23-how-to-install-doom-emacs-on-termux/&#34; &gt;How to install Doom Emacs on Termux&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,21 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Linux&#39; on @stevebeadleart</title>
-    <link>http://localhost:1313/tags/linux/</link>
-    <description>Recent content in Linux&#39; on @stevebeadleart</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
-    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
-    <lastBuildDate>Fri, 16 Feb 2024 09:56:24 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Returning to Neovim and Obsidian</title>
-      <link>http://localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</link>
-      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
-      <guid>http://localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</guid>
-      <description>I&amp;rsquo;ve been giving Logseq a really good go since the beginning of the year. I love the way it works actually but the thing that has made me return to Obsidian is VIM. Logseq lacks decent vim motions and all of those indented bullet points are not all that useful if you want to access your markdown elsewhere. I recently discovered the project obsidian.nvim and it really bridges a gap for me.</description>
-    </item>
-  </channel>
+    <channel>
+        <title>Linux&#39; on @itsbledley</title>
+        <link>//localhost:1313/tags/linux/</link>
+        <description>Recent content in Linux&#39; on @itsbledley</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 16 Feb 2024 09:56:24 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Returning to Neovim and Obsidian</title>
+        <link>//localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</link>
+        <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate>
+        
+        <guid>//localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2024-02-16-returning-to-neovim-and-obsidian/2024-02-16-neovim-screenshot.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Neovim Screenshot&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been giving &lt;a class=&#34;link&#34; href=&#34;https://logseq.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Logseq&lt;/a&gt; a really good go since the beginning of the year. I love the way it works actually but the thing that has made me return to &lt;a class=&#34;link&#34; href=&#34;https://obsidian.md/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Obsidian&lt;/a&gt; is &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Vim_%28text_editor%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;VIM&lt;/a&gt;. Logseq lacks decent vim motions and all of those indented bullet points are not all that useful if you want to access your markdown elsewhere. I recently discovered the project &lt;a class=&#34;link&#34; href=&#34;https://github.com/epwalsh/obsidian.nvim&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;obsidian.nvim&lt;/a&gt; and it really bridges a gap for me. I&amp;rsquo;m returning to &lt;a class=&#34;link&#34; href=&#34;https://neovim.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Neovim&lt;/a&gt; as my primary editor and using the Obsidian GUI when needed.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll continue to keep tabs on Logseq&amp;rsquo;s development because as I say - I do enjoy the way it allows you to free roam and think. It works primarily as an outliner where everthing is a bullet point or node with levels of indentation that can be folded away or zoomed in to. This is great for brainstorming and linking ideas but what about when you need to publish something online, write an email or make a file for a project? All those indentations quickly become a problem that needs clearing up and I end up using something else to write the finished article.&lt;/p&gt;
+&lt;p&gt;The benefit of Vim or Neovim is that it&amp;rsquo;s so light and fast and instant. I can be into Vim with a keyboard shortcut and boom - capturing ideas. Once you have got used to Vim navigations for editing text everything else seems to be really inefficient. Obsidan has a fairly decent implemtation of the Vim motions and is a reasonably light and easy to use markdown editor, the bi-directional linking between notes and the beautiful graph view being the major selling point. With Obsidian.nvim we get that interlinking and exploration of our vault of notes right in Neovim. I can press Space-n-n and it generates a new note using my own predefined template. I can search the knowledge base with Space-o-s and follow those links or backlinks between files.&lt;/p&gt;
+&lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;https://github.com/epwalsh/obsidian.nvim&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;obsidian.nvim&lt;/a&gt; plugin allows me to do my writing, quick capture, and file searching in the terminal with Neovim blazingly fast. I can access my vault of notes on mobile with the Obsidian app. Or use the pretty GUI desktop version when I feel like it. It&amp;rsquo;s more ways to work on the same markdown files in a unified system basicly and it all feels quite nice. Thanks to the developers of these privacy respecting free and open source tools that make life and work just a little bit easier.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/2024-02-16-returning-to-neovim-and-obsidian/2024-02-16-obsidian-graph-view.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Obsidian Screenshot&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;related&#34;&gt;Related
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-12-01-what-the-hell-is-org-mode/&#34; &gt;What the hell is Org-Mode?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/&#34; &gt;Getting Started with Doom Emacs&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

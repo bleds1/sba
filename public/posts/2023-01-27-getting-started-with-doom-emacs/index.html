@@ -1,62 +1,235 @@
 <!DOCTYPE html>
-<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><link rel="alternate" type="application/rss+xml" href="http://localhost:1313//feed.xml" title="@stevebeadleart">
-    <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en-us" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Introduction If your first thought on this is “Urrggh, really Emacs??.. Not for me..It&rsquo;s ancient, bloated, complicated, full of features I don&rsquo;t need..just give me a simple plain text editor“. Well that was me too. I was very much the Vim user because I&rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits.">
+<title>A Beginners Guide: Getting Started With Doom Emacs</title>
 
-<title>A Beginners Guide: Getting Started With Doom Emacs · @stevebeadleart</title>
+<link rel='canonical' href='//localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/'>
 
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="A Beginners Guide: Getting Started With Doom Emacs">
+<meta property='og:description' content="Introduction If your first thought on this is “Urrggh, really Emacs??.. Not for me..It&rsquo;s ancient, bloated, complicated, full of features I don&rsquo;t need..just give me a simple plain text editor“. Well that was me too. I was very much the Vim user because I&rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits.">
+<meta property='og:url' content='//localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/'>
+<meta property='og:site_name' content='@itsbledley'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='emacs' /><meta property='article:tag' content='linux' /><meta property='article:published_time' content='2023-01-27T14:00:56&#43;01:00'/><meta property='article:modified_time' content='2023-01-27T14:00:56&#43;01:00'/>
+<meta name="twitter:title" content="A Beginners Guide: Getting Started With Doom Emacs">
+<meta name="twitter:description" content="Introduction If your first thought on this is “Urrggh, really Emacs??.. Not for me..It&rsquo;s ancient, bloated, complicated, full of features I don&rsquo;t need..just give me a simple plain text editor“. Well that was me too. I was very much the Vim user because I&rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits.">
+    <link rel="shortcut icon" href="/icons/favicon.png" />
 
-
-<link rel="stylesheet" href="/css/rocinante.css" />
-<link rel="shortcut icon" href="icons/favicon.png">
-
-
-<body>
-    <header><link rel="alternate"
-      type="application/rss+xml"
-      href="http://localhost:1313//index.xml"
-      title="@stevebeadleart">
-
-<h2>
   
-    <a href="http://localhost:1313/">‹ @stevebeadleart</a>
-  
-</h2>
-</header>
-    <main>
 
-    <div class="post">
-        <div class="title-group">
-            <div class="title">
-                <h1>A Beginners Guide: Getting Started With Doom Emacs</h1>
-            </div>
-            <div class="date"><h5>Jan 27, 2023</h5></div>
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu13739649187745961479.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="//localhost:1313/">@itsbledley</a></h1>
+            <h2 class="site-description"></h2>
         </div>
-        <article class="content">
-            <h2 id="introduction">Introduction</h2>
-<p><img src="/2023-01-27-getting-started-with-doom-emacs/dashboard-doom-emacs.png" alt="Image 1">
-<img src="/2023-01-27-getting-started-with-doom-emacs/dashboard-doom-emacs-2.png" alt="Image 2"></p>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/posts/2023-01-27-getting-started-with-doom-emacs/">A Beginners Guide: Getting Started With Doom Emacs</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 27, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    9 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="introduction">Introduction
+</h2><p><img src="/2023-01-27-getting-started-with-doom-emacs/dashboard-doom-emacs.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Image 1"
+	
+	
+>
+<img src="/2023-01-27-getting-started-with-doom-emacs/dashboard-doom-emacs-2.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Image 2"
+	
+	
+></p>
 <p>If your first thought on this is <em>“Urrggh, really Emacs??.. Not for me..It&rsquo;s ancient, bloated, complicated, full of features I don&rsquo;t need..just give me a simple plain text editor“</em>. Well that was me too. I was very much the Vim user because I&rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits. This tribal mentality that you must be on one team or the other seems massively dumb to me. So what turned me the way of Emacs? The short answer is Org-mode but I think that&rsquo;s going to have to wait for another post..</p>
 <p>So, I&rsquo;m not a programmer and the most I know about Elisp is it&rsquo;s got a hell of a lot of semicolons. I hack on a few Linux config files but I&rsquo;m coming at Emacs from the perspective of a note taker. I mostly use it for writing, reading, digital notetaking and task organization.</p>
 <p>Because Emacs is such a huge topic I&rsquo;ll probably just give an <em>‘as brief as I can overview’</em>* of some of the reasons and features I use in it. There’s a lot of info out there if it peeks your interest. This first post will be a total beginners guide and link to some resources at the end if you want to go further down the rabbit hole. I&rsquo;ll talk more about the juicy specifics in future posts. I&rsquo;m going to make the presumption that you, dear reader know a few things already. Like what Vim and the terminal is and what Emacs is. There is an internet if you need to get up to speed.</p>
 <p>It started for me with Vim motions. I use Vim motions everywhere possible, any editor or browser must have them for me. If I hadn&rsquo;t learnt Vim motions prior, I probably wouldn&rsquo;t have got into Emacs at all. Doom Emacs uses the evil key bindings from Vim. I tried installing vanilla Emacs and was totally lost, it felt like an alien world. Doom makes a lot of sense to me because it&rsquo;s Vimcentric. Doom is essentially a framework with a ton of configuration on top of base Emacs. They have done so much work and optimization for you it&rsquo;s actually quite simple to get started with.</p>
 <p>Another app on my road to Emacs that I previously thought was &rsquo;the one&rsquo; is Obsidian. I still think it’s super great actually and could easily go back to it one day. I&rsquo;m very much into the idea of keeping all your files and projects in plain text or markdown, offline, without using some kind of paid syncing or subscription service. With Emacs you are in control of your files, it&rsquo;s free software and your life in text feels safe and future proof. Obsidian has a lot of cool features for linking ideas together in your vault. I also liked that you can just edit the notes with any other text editor that can handle the markdown format. I would use Vim a lot to take my quick notes and Obsidian would be the master vault where I organize them into some kind of a system. Through learning Obsidian I learnt about the Zettlekasten method, PKM and &lsquo;Building a Second Brain&rsquo;. This in turn led to learning that Emacs can do all this stuff and much, much more..</p>
-<h2 id="how-to-install-doom-emacs">How to install Doom Emacs</h2>
-<p>Be sure to have Vanilla Emacs installed first and then git clone Doom Emacs;</p>
+<h2 id="how-to-install-doom-emacs">How to install Doom Emacs
+</h2><p>Be sure to have Vanilla Emacs installed first and then git clone Doom Emacs;</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>git clone --depth <span style="color:#ff0;font-weight:bold">1</span> https://github.com/doomemacs/doomemacs ~/.emacs.d ~/.emacs.d/bin/doom install
 </span></span></code></pre></div><p>You may want to set up an alias, keyboard shortcut or startup script for launching Emacs with the emacsclient. It&rsquo;s the best and fastest way to use Emacs trust me..</p>
 <p>Start the daemon for the emacsclient from your terminal with;</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>/usr/bin/emacs --daemon &amp;
 </span></span></code></pre></div><p>Run the Emacs client;</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>emacsclient -c -a <span style="color:#0ff;font-weight:bold">&#39;emacs&#39;</span>
-</span></span></code></pre></div><p>If you’re not on Linux you can find alternate install and setup instructions for Mac &amp; Windows <a href="https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org" target="_blank">here</a>.</p>
-<h2 id="basic-configuration">Basic configuration</h2>
-<h3 id="configel">config.el</h3>
-<p><img src="/2023-01-27-getting-started-with-doom-emacs/terminal-dir-doom-emacs.png" alt="Image 3"></p>
+</span></span></code></pre></div><p>If you’re not on Linux you can find alternate install and setup instructions for Mac &amp; Windows <a class="link" href="https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org"  target="_blank" rel="noopener"
+    >here</a>.</p>
+<h2 id="basic-configuration">Basic configuration
+</h2><h3 id="configel">config.el
+</h3><p><img src="/2023-01-27-getting-started-with-doom-emacs/terminal-dir-doom-emacs.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Image 3"
+	
+	
+></p>
 <p>Most of your configuration will be taking place in <strong>~/.doom.d/config.el</strong> You can run <strong>‘doom sync’</strong> after any changes for them to take effect with <strong>(Space-h-r-r)</strong>. That&rsquo;s a keybind you&rsquo;ll use a lot. I remember it as <em>&ldquo;Hey, Reload, Reload!&rdquo;</em>. You don&rsquo;t need to exit Doom when you make changes to this file but you will if you add any new packages. If you’ve added new packages to Doom you&rsquo;ll want to exit and kill the daemon and run <strong>‘doom sync’</strong> at the terminal.</p>
-<h3 id="initel">init.el</h3>
-<p><img src="/2023-01-27-getting-started-with-doom-emacs/init-doom-emacs.png" alt="Image 4"></p>
+<h3 id="initel">init.el
+</h3><p><img src="/2023-01-27-getting-started-with-doom-emacs/init-doom-emacs.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Image 4"
+	
+	
+></p>
 <p>This file lists a bunch of modules/packages that are Doom ready just comment out those ;; things with <strong>x</strong> to delete the character. Restart, sync as mentioned previously.</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(org
 </span></span><span style="display:flex;"><span> +journal
@@ -69,37 +242,69 @@
 </span></span><span style="display:flex;"><span>pdf
 </span></span><span style="display:flex;"><span>markdown
 </span></span></code></pre></div><p>These above are the most important ones for emulating my set up that I have activated. You may want to activate programming languages you often use for nice coloured syntax here.</p>
-<h3 id="packagesel">packages.el</h3>
-<p><img src="/2023-01-27-getting-started-with-doom-emacs/packages-doom-emacs.png" alt="Image 5"></p>
+<h3 id="packagesel">packages.el
+</h3><p><img src="/2023-01-27-getting-started-with-doom-emacs/packages-doom-emacs.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Image 5"
+	
+	
+></p>
 <p>Any other packages are installed in packages.el. You add a package with (package! example) then exit Doom and run ‘doom sync’ in the terminal.</p>
 <p>Here&rsquo;s some packages I enable;</p>
-<p><strong>Beacon</strong> <a href="https://github.com/Malabarba/beacon" target="_blank">link</a></p>
+<p><strong>Beacon</strong> <a class="link" href="https://github.com/Malabarba/beacon"  target="_blank" rel="noopener"
+    >link</a></p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(beacon! focus)
 </span></span></code></pre></div><ul>
 <li>This makes a cool little graphical pulse to show what line number you are on when you switch file or window.</li>
 </ul>
-<p><strong>Focus</strong> <a href="https://github.com/larstvei/Focus" target="_blank">link</a></p>
+<p><strong>Focus</strong> <a class="link" href="https://github.com/larstvei/Focus"  target="_blank" rel="noopener"
+    >link</a></p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(package! focus)
-</span></span></code></pre></div><p><img src="/2023-01-27-getting-started-with-doom-emacs/focus-doom-emacs.png" alt="Image 6"></p>
+</span></span></code></pre></div><p><img src="/2023-01-27-getting-started-with-doom-emacs/focus-doom-emacs.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Image 6"
+	
+	
+></p>
 <ul>
-<li><strong>M-x focus-mode</strong> - greys out text in a file apart from the few lines you are editing. <a href="https://obsidian.md/" target="_blank">Obsidian</a> and <a href="https://github.com/junegunn/limelight.vim" target="_blank">limelight.vim</a> do something similar. I will be refering to the key <strong>META</strong> from here as <strong>M</strong> which is also known as <strong>ALT</strong>. You can think of it as a leader key, <strong>Space</strong> is the other main leader key.</li>
+<li><strong>M-x focus-mode</strong> - greys out text in a file apart from the few lines you are editing. <a class="link" href="https://obsidian.md/"  target="_blank" rel="noopener"
+    >Obsidian</a> and <a class="link" href="https://github.com/junegunn/limelight.vim"  target="_blank" rel="noopener"
+    >limelight.vim</a> do something similar. I will be refering to the key <strong>META</strong> from here as <strong>M</strong> which is also known as <strong>ALT</strong>. You can think of it as a leader key, <strong>Space</strong> is the other main leader key.</li>
 </ul>
-<h2 id="set-your-font">Set your font</h2>
-<p>I use <a href="https://www.jetbrains.com/lp/mono/" target="_blank">Jet Brains Mono</a>. Your font of choice needs to be already installed on your system. You can set a larger version or different font to be used in different modes such as writeroom-mode.</p>
+<h2 id="set-your-font">Set your font
+</h2><p>I use <a class="link" href="https://www.jetbrains.com/lp/mono/"  target="_blank" rel="noopener"
+    >Jet Brains Mono</a>. Your font of choice needs to be already installed on your system. You can set a larger version or different font to be used in different modes such as writeroom-mode.</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(<span style="color:#fff;font-weight:bold">setq</span> doom-font (font-spec <span style="color:#fff;font-weight:bold">:family</span> <span style="color:#0ff;font-weight:bold">&#34;JetBrains Mono&#34;</span> <span style="color:#fff;font-weight:bold">:size</span> <span style="color:#ff0;font-weight:bold">13</span> <span style="color:#fff;font-weight:bold">:weight</span> <span style="color:#0ff;font-weight:bold">&#39;Medium</span>)
 </span></span><span style="display:flex;"><span>      doom-big-font (font-spec <span style="color:#fff;font-weight:bold">:family</span> <span style="color:#0ff;font-weight:bold">&#34;JetBrains Mono&#34;</span> <span style="color:#fff;font-weight:bold">:size</span> <span style="color:#ff0;font-weight:bold">14</span> <span style="color:#fff;font-weight:bold">:weight</span> <span style="color:#0ff;font-weight:bold">&#39;Medium</span>)
 </span></span><span style="display:flex;"><span>      doom-variable-pitch-font (font-spec <span style="color:#fff;font-weight:bold">:family</span> <span style="color:#0ff;font-weight:bold">&#34;JetBrains Mono&#34;</span> <span style="color:#fff;font-weight:bold">:size</span> <span style="color:#ff0;font-weight:bold">14</span>))
-</span></span></code></pre></div><h2 id="disable-line-numbers">Disable Line Numbers</h2>
-<p>I used to really like relative line numbers in Vim but because I&rsquo;m doing more prose writing in Doom I disable them. It&rsquo;s very easy to reactivate them if needs be with <strong>Space-t-l</strong> or <strong>M-x toggle-line-numbers</strong>.</p>
+</span></span></code></pre></div><h2 id="disable-line-numbers">Disable Line Numbers
+</h2><p>I used to really like relative line numbers in Vim but because I&rsquo;m doing more prose writing in Doom I disable them. It&rsquo;s very easy to reactivate them if needs be with <strong>Space-t-l</strong> or <strong>M-x toggle-line-numbers</strong>.</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(<span style="color:#fff;font-weight:bold">setq</span> display-line-numbers-type nil)
-</span></span></code></pre></div><h2 id="set-a-theme">Set a Theme</h2>
-<p>We’ll be needing a cool theme if we&rsquo;re going to use this thing regularly. I use an inbuilt doom-theme ‘wilmersdorf’. The default background for that is dark blue and I like it even darker than that so I add a few lines to make it a dark, dark grey.</p>
+</span></span></code></pre></div><h2 id="set-a-theme">Set a Theme
+</h2><p>We’ll be needing a cool theme if we&rsquo;re going to use this thing regularly. I use an inbuilt doom-theme ‘wilmersdorf’. The default background for that is dark blue and I like it even darker than that so I add a few lines to make it a dark, dark grey.</p>
 <p>Type <strong>M-x</strong> and then <strong>load-theme</strong>. You will see a list of availible themes in the buffer at the bottom of the screen. If you want to just change the background colour you can type <strong>M-x set-background-color</strong>. These changes won&rsquo;t be permanent until you add the commands to your config.el.</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(<span style="color:#fff;font-weight:bold">setq</span> doom-theme <span style="color:#0ff;font-weight:bold">&#39;doom-wilmersdorf</span>)
 </span></span><span style="display:flex;"><span>(custom-set-faces
 </span></span><span style="display:flex;"><span>&#39;(default ((t (<span style="color:#fff;font-weight:bold">:background</span> <span style="color:#0ff;font-weight:bold">&#34;#1a1a1a&#34;</span> <span style="color:#fff;font-weight:bold">:foreground</span> <span style="color:#0ff;font-weight:bold">&#34;#a9b1d6&#34;</span>)))))
-</span></span></code></pre></div><h2 id="modeline">Modeline</h2>
-<p><img src="/2023-01-27-getting-started-with-doom-emacs/modeline-doom-emacs.png" alt="Image 7"></p>
+</span></span></code></pre></div><h2 id="modeline">Modeline
+</h2><p><img src="/2023-01-27-getting-started-with-doom-emacs/modeline-doom-emacs.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Image 7"
+	
+	
+></p>
 <p>You&rsquo;ll want to get that Doom modeline at the bottom of the screen looking sweet too. Here&rsquo;s the tweaks I use as there’s a bit too much going on down there by default for my taste..</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(after! doom-modeline
 </span></span><span style="display:flex;"><span>(remove-hook <span style="color:#0ff;font-weight:bold">&#39;doom-modeline-mode-hook</span> #&#39;size-indication-mode) <span style="color:#007f7f">; removes filesize from modeline</span>
@@ -111,8 +316,8 @@
 </span></span><span style="display:flex;"><span>(<span style="color:#fff;font-weight:bold">setq</span> doom-modeline-height <span style="color:#ff0;font-weight:bold">15</span>) <span style="color:#007f7f">; shorter bar height</span>
 </span></span><span style="display:flex;"><span>(display-time-mode <span style="color:#ff0;font-weight:bold">1</span>) <span style="color:#007f7f">; show time and date</span>
 </span></span><span style="display:flex;"><span>(<span style="color:#fff;font-weight:bold">setq</span> display-time-format <span style="color:#0ff;font-weight:bold">&#34;%Y-%m-%d %H:%M&#34;</span>) <span style="color:#007f7f">; time and date format</span>
-</span></span></code></pre></div><h2 id="keybinds-and-basic-navigation">Keybinds and basic navigation</h2>
-<p>Here’s some very basic beginner key binds to get you started. Thankfully Doom has which-key. This makes learning the key binds so much easier. Doom is based around having a leader key followed by a key chord. They are all quite literate for example;</p>
+</span></span></code></pre></div><h2 id="keybinds-and-basic-navigation">Keybinds and basic navigation
+</h2><p>Here’s some very basic beginner key binds to get you started. Thankfully Doom has which-key. This makes learning the key binds so much easier. Doom is based around having a leader key followed by a key chord. They are all quite literate for example;</p>
 <p><strong>Space (the leader key) o-a</strong> = Open Org-agenda - open (o)rg (a)genda.</p>
 <p><strong>Space n-j</strong> = (n)ew (j)ournal entry.</p>
 <p>There are many more examples of this so when you know what you want to do these chords become memorable.</p>
@@ -120,7 +325,16 @@
 <p><strong>Space Enter</strong> will access bookmarks. You can set bookmarks with <strong>M-x bookmark-set</strong>.</p>
 <p><strong>M-x</strong> is very powerful. This is the best way to learn because a lot of commands will have a keyboard shortcut shown next to it in the buffer at the bottom of the screen..or you can set one for it in your config. You can go crazy here because the auto completion works really well.. that&rsquo;s how I picked up so much - try for example;</p>
 <p><strong>M-x tetris</strong></p>
-<p><img src="/2023-01-27-getting-started-with-doom-emacs/which-key-doom-emacs.png" alt="Image 8"></p>
+<p><img src="/2023-01-27-getting-started-with-doom-emacs/which-key-doom-emacs.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Image 8"
+	
+	
+></p>
 <p>Every thing you open is a buffer. Even if it&rsquo;s not on screen it&rsquo;s open in the background as a buffer. To navigate buffers you can;</p>
 <p><strong>Space b-n</strong> - think (b)uffer (n)ext</p>
 <p><strong>Space b-p</strong> - think (b)uffer (p)revious</p>
@@ -132,81 +346,189 @@
 <p><strong>:wa</strong> - save all open buffers</p>
 <p><strong>:wq</strong> - to save and quit</p>
 <p><strong>:q!</strong> - quit without saving</p>
-<h2 id="outro">Outro</h2>
-<p>That&rsquo;s probably enough word count for this first post about Doom Emacs. This should get you started at least. I&rsquo;ll pick up where we left off in future posts because now we’re past the super basics I’m excited to talk about the killer feature that is <strong>org-mode</strong> and <strong>org-agenda</strong>. I&rsquo;ll try to show you how I set up my GTD task system and the quick capture templates to make note taking and writing a quick and easy process.</p>
+<h2 id="outro">Outro
+</h2><p>That&rsquo;s probably enough word count for this first post about Doom Emacs. This should get you started at least. I&rsquo;ll pick up where we left off in future posts because now we’re past the super basics I’m excited to talk about the killer feature that is <strong>org-mode</strong> and <strong>org-agenda</strong>. I&rsquo;ll try to show you how I set up my GTD task system and the quick capture templates to make note taking and writing a quick and easy process.</p>
 <p>It&rsquo;s <em>quite the vast topic</em>.. If you&rsquo;ve got any questions, I&rsquo;ll try my best to answer.</p>
-<p><img src="/2023-01-27-getting-started-with-doom-emacs/doom-icon-128x128.png" alt="Image 9"></p>
-<h3 id="resources">Resources</h3>
-<p>Find below resources I found useful and stole a lot of stuff from for my config. Maybe bookmark this for later.. Thanks for reading!</p>
-<p><a href="https://github.com/doomemacs/doomemacs" target="_blank">Doom Emacs on Github</a></p>
-<p><a href="https://discourse.doomemacs.org/t/emacs-for-writing-prose/515" target="_blank">Emacs For Writing prose : A guide</a></p>
-<p><a href="https://discourse.doomemacs.org/c/guides/5" target="_blank">Doom Emacs Discourse</a></p>
-<p><a href="https://tecosaur.github.io/emacs-config/config.html" target="_blank">Tecosaur&rsquo;s Doom Emacs Config</a></p>
-<p><a href="https://piped.kavin.rocks/channel/UCVls1GmFKf6WlTraIb_IaJg" target="_blank">Distrotube has many useful videos about Doom Emacs for beginners</a></p>
-<p><a href="https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/" target="_blank">Zzamboni &lsquo;My Doom Emacs configuration with commentary&rsquo;</a></p>
-<p><a href="https://tasshin.com/blog/implementing-a-second-brain-in-emacs-and-org-mode" target="_blank">Tasshin on Emacs and building a second brain</a></p>
-<p><a href="https://jethrokuan.github.io/org-roam-guide/" target="_blank">Jethro Kuan - &lsquo;How I Take Notes with Org-Roam&rsquo;</a></p>
-<p><a href="http://doc.norang.ca/org-mode.html" target="_blank">A Comprehensive Org config</a></p>
-<p><a href="https://orgmode.org/org.html" target="_blank">The Org-mode Manual</a></p>
-<p><a href="https://hugocisneros.com/org-config" target="_blank">Hugo Cisneros&rsquo; Org config</a></p>
-<p><a href="https://koenig-haunstetten.de/" target="_blank">Rainer Koenig&rsquo;s Blog (Org-mode)</a></p>
-<p><a href="https://piped.kavin.rocks/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE" target="_blank">Rainer Koenig&rsquo;s Videos on Org-mode</a></p>
-<h2 id="related-posts">Related Posts</h2>
-<p><a href="/posts/2023-07-23-how-to-install-doom-emacs-on-termux/">How to install Doom Emacs on Termux</a></p>
+<p><img src="/2023-01-27-getting-started-with-doom-emacs/doom-icon-128x128.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Image 9"
+	
+	
+></p>
+<h3 id="resources">Resources
+</h3><p>Find below resources I found useful and stole a lot of stuff from for my config. Maybe bookmark this for later.. Thanks for reading!</p>
+<p><a class="link" href="https://github.com/doomemacs/doomemacs"  target="_blank" rel="noopener"
+    >Doom Emacs on Github</a></p>
+<p><a class="link" href="https://discourse.doomemacs.org/t/emacs-for-writing-prose/515"  target="_blank" rel="noopener"
+    >Emacs For Writing prose : A guide</a></p>
+<p><a class="link" href="https://discourse.doomemacs.org/c/guides/5"  target="_blank" rel="noopener"
+    >Doom Emacs Discourse</a></p>
+<p><a class="link" href="https://tecosaur.github.io/emacs-config/config.html"  target="_blank" rel="noopener"
+    >Tecosaur&rsquo;s Doom Emacs Config</a></p>
+<p><a class="link" href="https://piped.kavin.rocks/channel/UCVls1GmFKf6WlTraIb_IaJg"  target="_blank" rel="noopener"
+    >Distrotube has many useful videos about Doom Emacs for beginners</a></p>
+<p><a class="link" href="https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/"  target="_blank" rel="noopener"
+    >Zzamboni &lsquo;My Doom Emacs configuration with commentary&rsquo;</a></p>
+<p><a class="link" href="https://tasshin.com/blog/implementing-a-second-brain-in-emacs-and-org-mode"  target="_blank" rel="noopener"
+    >Tasshin on Emacs and building a second brain</a></p>
+<p><a class="link" href="https://jethrokuan.github.io/org-roam-guide/"  target="_blank" rel="noopener"
+    >Jethro Kuan - &lsquo;How I Take Notes with Org-Roam&rsquo;</a></p>
+<p><a class="link" href="http://doc.norang.ca/org-mode.html"  target="_blank" rel="noopener"
+    >A Comprehensive Org config</a></p>
+<p><a class="link" href="https://orgmode.org/org.html"  target="_blank" rel="noopener"
+    >The Org-mode Manual</a></p>
+<p><a class="link" href="https://hugocisneros.com/org-config"  target="_blank" rel="noopener"
+    >Hugo Cisneros&rsquo; Org config</a></p>
+<p><a class="link" href="https://koenig-haunstetten.de/"  target="_blank" rel="noopener"
+    >Rainer Koenig&rsquo;s Blog (Org-mode)</a></p>
+<p><a class="link" href="https://piped.kavin.rocks/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE"  target="_blank" rel="noopener"
+    >Rainer Koenig&rsquo;s Videos on Org-mode</a></p>
+<h2 id="related-posts">Related Posts
+</h2><p><a class="link" href="/posts/2023-07-23-how-to-install-doom-emacs-on-termux/" >How to install Doom Emacs on Termux</a></p>
 
-        </article>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
         
-            <div class="tags">
-                <span title="Tags">🏷</span>
-                <div class="horizontal-links links">
-                    <a href="/tags/emacs/">Emacs</a><a href="/tags/linux/">Linux</a>
+            <a href="/tags/emacs/">Emacs</a>
+        
+            <a href="/tags/linux/">Linux</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 @itsbledley
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        
-    </article>
-<strong><a href="mailto:stevebeadle@posteo.com?cc=mail@example.com&subject=A%20Beginners%20Guide%3a%20Getting%20Started%20With%20Doom%20Emacs">✉️ Reply by Email </a></strong>
-</div>
-<strong><a href="https://ko-fi.com/stevebeadleart">🍵 Buy Me A Coffee</a></strong>
 
-    </main>
-    <footer>
-  <div class="content-container">
-    <div class="content">
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
 
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
 
-  <p class="horizontal-links"><a href="/about"
-       
-       
-      >About</a><a href="/posts"
-       
-       
-      >Posts</a><a href="/contact"
-       
-        class="email-hook" id="about-email" title="Click to show email" 
-      >Email</a><a href="https://www.etsy.com/uk/shop/stevebeadleart/"
-        target="_blank" 
-       
-      >Etsy</a><a href="https://instagram.com/stevebeadleart/"
-        target="_blank" 
-       
-      >Instagram</a><a href="/navigators"
-        target="_blank" 
-       
-      >Navigators</a><a href="/index.xml"
-        target="_blank" 
-       
-      >RSS</a><a href="/links"
-       
-       
-      >Links</a></p>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
 
-</div>
-  </div>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
 
-</footer>
-    
-    <script>
-      const emailId = atob("c3RldmViZWFkbGVAcG9zdGVvLmNvbQ==");
-    </script>
-      <script src="/js/rocinante.min.js"></script></body>
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
 </html>

@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Events on @stevebeadleart</title>
-    <link>http://localhost:1313/tags/events/</link>
-    <description>Recent content in Events on @stevebeadleart</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <managingEditor>stevebeadle@posteo.com (Steve Beadle)</managingEditor>
-    <webMaster>stevebeadle@posteo.com (Steve Beadle)</webMaster>
-    <lastBuildDate>Tue, 01 Aug 2023 19:57:46 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/events/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Navigators</title>
-      <link>http://localhost:1313/navigators/</link>
-      <pubDate>Tue, 01 Aug 2023 19:57:46 +0100</pubDate><author>stevebeadle@posteo.com (Steve Beadle)</author>
-      <guid>http://localhost:1313/navigators/</guid>
-      <description>Navigators Art and Performance | Linktree&#xA;Navigators Art &amp;amp; Performance is a group of York-based creatives first established in 2019 and now a 12-piece collective comprising artists, writers, performers and musicians. Our mission is to work with community groups and projects, to enhance and creatively interpret their activities for as wide an audience as possible. We encourage enquiries from potential collaborators, particularly those who are less established or underrepresented.</description>
-    </item>
-  </channel>
+    <channel>
+        <title>Events on @itsbledley</title>
+        <link>//localhost:1313/tags/events/</link>
+        <description>Recent content in Events on @itsbledley</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 01 Aug 2023 19:57:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/events/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Navigators</title>
+        <link>//localhost:1313/navigators/</link>
+        <pubDate>Tue, 01 Aug 2023 19:57:46 +0100</pubDate>
+        
+        <guid>//localhost:1313/navigators/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/navigators-logo-hi-res-white-transparent.png/&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://linktr.ee/navigatorsart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Navigators Art and Performance | Linktree&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Navigators Art &amp;amp; Performance is a group of York-based creatives first established in 2019 and now a 12-piece collective comprising artists, writers, performers and musicians.
+Our mission is to work with community groups and projects, to enhance and creatively interpret their activities for as wide an audience as possible.
+We encourage enquiries from potential collaborators, particularly those who are less established or underrepresented.&lt;/p&gt;
+&lt;p&gt;Follow us on:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://instagram.com/navigatorsart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Instagram @navigatorsart&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://facebook.com/navigatorsart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Facebook @navigatorsart&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-06-07-living-treasures-live-performance/&#34; &gt;Living Treasures Live Performance @ The Basement City Screen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-03-15-dreamtime-now-showing-city-screen-york/&#34; &gt;Dreamtime Now Showing @ City Screen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2023-01-09-moving-pictures-2-helmsley-arts-centre/&#34; &gt;Moving Pictures II @ Helmsley Arts Centre&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2022-11-01-coney-st-now-showing/&#34; &gt;Coney St Art Intervention&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;//localhost:1313/posts/2022-07-29-zine-fest-crescent/&#34; &gt;Zine Fest @ The Crescent&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
