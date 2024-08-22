@@ -1,14 +1,14 @@
 <link rel="alternate"
       type="application/rss+xml"
-      href="https://itsbledley/netifly.app/posts"
+      href="{{.Site.BaseURL }}/posts"
       title="{{ .Site.Title }}">
 {{ if .Site.Params.googlefonts }}
  <link rel="stylesheet" href="{{ .Site.Params.googlefonts }}" type="text/css" media="all" />
  {{ end }}
 <h2>
   {{ if and (.IsHome) (not (.Scratch.Get "pagenumber")) }}
-    › {{ .Site.Title }}
+    {{ .Site.Title }}
   {{ else }}
-    <a href="{{ .Site.BaseURL }}">‹ {{ .Site.Title }}</a>
+    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   {{ end }}
 </h2>
