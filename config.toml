@@ -48,7 +48,7 @@ customCSS = ["css/custom_style.css"]
 
     [[params.links.link]]
       name = "Youtube"
-      href = "https://www.youtube.com/@itsbledley/"
+      href = "https://www.youtube.com/@itsbledley_tv/"
       new_tab = true
 
     [[params.links.link]]
