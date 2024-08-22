@@ -30,7 +30,7 @@ customCSS = ["css/custom_style.css"]
 
     [[params.links.link]]
       name = "Home"
-      href = "/posts"
+      href = "https://itsbledley.netlify.app/"
 
 
     [[params.links.link]]
