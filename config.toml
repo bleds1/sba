@@ -27,39 +27,36 @@ customCSS = ["css/custom_style.css"]
 
 [[params.links]]
 
-    [[params.links.link]]
-      name = "About"
-      href = "/about"
 
     [[params.links.link]]
-      name = "Posts"
+      name = "Home"
       href = "/posts"
 
 
-    # [[params.links.link]]
-    #   name = "Gallery"
-    #   href = "/photos"
-
     [[params.links.link]]
-      name = "Email"
+      name = "Contact"
       href = "/contact"
       smart_email_link = true
 
-
     [[params.links.link]]
-      name = "Youtube"
-      href = "https://www.youtube.com/@itsbledley_tv/"
-      new_tab = true
+      name = "Socials"
+      href = "/"
 
-    [[params.links.link]]
-      name = "Instagram"
-      href = "https://instagram.com/itsbledley/"
-      new_tab = true
 
-    [[params.links.link]]
-      name = "Navigators"
-      href = "/navigators"
-      new_tab = true
+    # [[params.links.link]]
+    #   name = "Youtube"
+    #   href = "https://www.youtube.com/@itsbledley_tv/"
+    #   new_tab = true
+
+    # [[params.links.link]]
+    #   name = "Instagram"
+    #   href = "https://instagram.com/itsbledley/"
+    #   new_tab = true
+
+    # [[params.links.link]]
+    #   name = "Navigators"
+    #   href = "/navigators"
+    #   new_tab = true
 
     [[params.links.link]]
       name = "RSS"
