@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pixelart on itsbledley</title>
+    <link>//localhost:1313/tags/pixelart/</link>
+    <description>Recent content in Pixelart on itsbledley</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>itsbledley@posteo.com (Bledley)</managingEditor>
+    <webMaster>itsbledley@posteo.com (Bledley)</webMaster>
+    <lastBuildDate>Sun, 28 Jul 2024 13:59:28 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/pixelart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Insert Disk Two</title>
+      <link>//localhost:1313/posts/2024-07-28-insert-disk-two/</link>
+      <pubDate>Sun, 28 Jul 2024 13:59:28 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <guid>//localhost:1313/posts/2024-07-28-insert-disk-two/</guid>
+      <description>The Amiga was an essential part of my art journey.&#xA;The art I saw as a kid on the first computer we had was a huge part in me wanting to become an artist. Those graphics, loading screens, the box art and the music was an incredible multimedia experience at the time. Cartoons and comics had a similar role in firing me up but I will always have a soft spot for the charms of the Amiga and the late 80&amp;rsquo;s and early 90&amp;rsquo;s.</description>
+    </item>
+  </channel>
+</rss>

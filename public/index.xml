@@ -19,7 +19,7 @@
 		<author>itsbledley@posteo.com (Bledley)</author>
 		<guid>//localhost:1313/kofi/</guid>
 		<description>&lt;p&gt;If you found anything I&amp;rsquo;ve done useful and want to show some support then feel free to send a tip through my &lt;a href=&#34;https://ko-fi.com/itsbledley&#34; target=&#34;_blank&#34;&gt;Ko-fi Page&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Just sharing or commenting on my work is also a way to help that I really appreciate. Please link back to me or credit any images you share online.&lt;/p&gt;
+&lt;p&gt;Sharing or commenting on my work is also a way to help that I really appreciate. Please link back to me or credit any images you share online.&lt;/p&gt;
 </description>
 	</item>
 	
@@ -38,12 +38,25 @@
 		<pubDate>Thu, 22 Aug 2024 18:15:01 +0100</pubDate>
 		<author>itsbledley@posteo.com (Bledley)</author>
 		<guid>//localhost:1313/socials/</guid>
-		<description>&lt;p&gt;You may have noticed this is a very bare bones blog..It&amp;rsquo;s an incredibly lightweight site made out of plain text markdown and html files. It&amp;rsquo;s a work in progress as I learn how to code the pages and tinker with &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;. I wanted it to be almost as minimal and distraction free as a text editor to just focus on the content. Because of this I have no tracking, comment or follow system. The best way to follow this blog is by using an RSS reader and adding the .xml link below. That&amp;rsquo;s a little old school for some.. so another way to follow is to just add me on a social network and see posts when I share them. Of course you could also just bookmark the page in your browser.&lt;/p&gt;
-&lt;p&gt;There is a reply by email button under every post if you have any comments or questions I am happy to answer them there (I like email). You could also leave a comment on the social media post relating to the blog post.&lt;/p&gt;
-&lt;p&gt;My preferred social network is &lt;a href=&#34;https://mastodon.art/@bledley&#34; target=&#34;_blank&#34;&gt;Mastodon&lt;/a&gt;&lt;/p&gt;
+		<description>&lt;p&gt;You may have noticed this is a very bare bones blog..It&amp;rsquo;s an incredibly lightweight site made out of plain text markdown, html and css files. It&amp;rsquo;s very much a work in progress as I learn how to code the pages and tinker with &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;. I wanted it to be almost as minimal and distraction free as a text editor to just focus on the content. Because of this I have no tracking, comment or follow system. The best way to follow this blog is by using an RSS reader and adding the .xml link below. That&amp;rsquo;s a little old school for some.. so another way to follow is to just add me on a social network and see posts when I share them. Of course you could also just bookmark the page in your browser.&lt;/p&gt;
+&lt;p&gt;There is a reply by email button under every post if you have any comments or questions I am happy to answer them there privately (I like email). You could also leave a comment on the social media post relating to the blog post.&lt;/p&gt;
 &lt;p&gt;I post video content on my &lt;a href=&#34;https://www.youtube.com/@itsbledley_tv&#34; target=&#34;_blank&#34;&gt;Youtube Channel&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I use &lt;a href=&#34;https://www.instagram.com/itsbledley&#34; target=&#34;_blank&#34;&gt;Instagram&lt;/a&gt; as a portfolio of sorts&lt;/p&gt;
+&lt;p&gt;My preferred social network is probably &lt;a href=&#34;https://mastodon.art/@bledley&#34; target=&#34;_blank&#34;&gt;Mastodon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I use &lt;a href=&#34;https://www.instagram.com/itsbledley&#34; target=&#34;_blank&#34;&gt;Instagram&lt;/a&gt;for images&lt;/p&gt;
 &lt;p&gt;Subscribe with an &lt;a href=&#34;//localhost:1313/index.xml&#34;&gt;RSS&lt;/a&gt; reader&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Insert Disk Two</title>
+		<link>//localhost:1313/posts/2024-07-28-insert-disk-two/</link>
+		<pubDate>Sun, 28 Jul 2024 13:59:28 +0100</pubDate>
+		<author>itsbledley@posteo.com (Bledley)</author>
+		<guid>//localhost:1313/posts/2024-07-28-insert-disk-two/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2024-07-28-insert-disk-two/20240728-amiga-disk-square.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Amiga&#34; target=&#34;_blank&#34;&gt;Amiga&lt;/a&gt; was an essential part of my art journey.&lt;/p&gt;
+&lt;p&gt;The art I saw as a kid on the first computer we had was a huge part in me wanting to become an artist. Those graphics, loading screens, the box art and the music was an incredible multimedia experience at the time. Cartoons and comics had a similar role in firing me up but I will always have a soft spot for the charms of the Amiga and the late 80&amp;rsquo;s and early 90&amp;rsquo;s. I spent a lot of time thumbing through those plastic cases of copied Floppy disks with mysterious names scrawled on their labels. Each felt like a journey into a little world of imagination. The Amiga graphics might seem primitive now but the amount of creativity loaded into these little disks was insane to me. I still emulate the Amiga today and probably get more of a dopamine boost from the nostalgia than I do more modern day games. I even setup my modern desktop environment to have a retro feel of those simpler times.&lt;/p&gt;
+&lt;p&gt;Because we had an Amiga growing up I&amp;rsquo;ve always been quite handy with computer stuff and pick up digital tools pretty quickly. I&amp;rsquo;m learning pixel art as almost a side project. I enjoy learning and experimenting with new ways of working. It&amp;rsquo;s nice to have that beginner&amp;rsquo;s mind with something again. I&amp;rsquo;ve been playing around with more recent pixel art programs like &lt;a href=&#34;https://aseprite.org/&#34; target=&#34;_blank&#34;&gt;Aseprite&lt;/a&gt; and &lt;a href=&#34;http://grafx2.chez.com/&#34; target=&#34;_blank&#34;&gt;Grafx2&lt;/a&gt;. Even trying to use the old stuff like &lt;a href=&#34;https://en.wikipedia.org/wiki/Deluxe_Paint&#34; target=&#34;_blank&#34;&gt;Deluxe Paint&lt;/a&gt; with a mouse through emulation. It almost feels like revisiting my childhood and remembering what made me want to do art in the first place.&lt;/p&gt;
 </description>
 	</item>
 	
