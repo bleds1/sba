@@ -11,6 +11,6 @@ I post video content on my [Youtube Channel](https://www.youtube.com/@itsbledley
 
 My preferred social network is probably [Mastodon](https://mastodon.art/@bledley)
 
-I use [Instagram](https://www.instagram.com/itsbledley)for images 
+I use [Instagram](https://www.instagram.com/itsbledley) for images 
 
 Subscribe with an [RSS](/index.xml) reader
