@@ -9,8 +9,6 @@ There is a reply by email button under every post if you have any comments or qu
 
 I post video content on my [Youtube Channel](https://www.youtube.com/@itsbledley_tv)
 
-My preferred social network is probably [Mastodon](https://mastodon.art/@bledley)
-
-I use [Instagram](https://www.instagram.com/itsbledley) for images 
+My preferred social network is probably [Bluesky](https://bsky.app/profile/itsbledley.bsky.social) at the moment. I'm also on [Mastodon](https://mastodon.art/@bledley)
 
 Subscribe with an [RSS](/index.xml) reader
