@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux&#39; on itsbledley</title>
+    <title>Linux&#39; on @itsbledley</title>
     <link>//localhost:1313/tags/linux/</link>
-    <description>Recent content in Linux&#39; on itsbledley</description>
+    <description>Recent content in Linux&#39; on @itsbledley</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>itsbledley@posteo.com (Bledley)</managingEditor>
-    <webMaster>itsbledley@posteo.com (Bledley)</webMaster>
     <lastBuildDate>Fri, 16 Feb 2024 09:56:24 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Returning to Neovim and Obsidian</title>
       <link>//localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</link>
-      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate>
       <guid>//localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</guid>
-      <description>I&amp;rsquo;ve been giving Logseq a really good go since the beginning of the year. I love the way it works actually but the thing that has made me return to Obsidian is VIM. Logseq lacks decent vim motions and all of those indented bullet points are not all that useful if you want to access your markdown elsewhere. I recently discovered the project obsidian.nvim and it really bridges a gap for me.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2024-02-16-returning-to-neovim-and-obsidian/2024-02-16-neovim-screenshot.png&#34; alt=&#34;Neovim Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been giving &lt;a href=&#34;https://logseq.com/&#34; target=&#34;_blank&#34;&gt;Logseq&lt;/a&gt; a really good go since the beginning of the year. I love the way it works actually but the thing that has made me return to &lt;a href=&#34;https://obsidian.md/&#34; target=&#34;_blank&#34;&gt;Obsidian&lt;/a&gt; is &lt;a href=&#34;https://en.wikipedia.org/wiki/Vim_%28text_editor%29&#34; target=&#34;_blank&#34;&gt;VIM&lt;/a&gt;. Logseq lacks decent vim motions and all of those indented bullet points are not all that useful if you want to access your markdown elsewhere. I recently discovered the project &lt;a href=&#34;https://github.com/epwalsh/obsidian.nvim&#34; target=&#34;_blank&#34;&gt;obsidian.nvim&lt;/a&gt; and it really bridges a gap for me. I&amp;rsquo;m returning to &lt;a href=&#34;https://neovim.io/&#34; target=&#34;_blank&#34;&gt;Neovim&lt;/a&gt; as my primary editor and using the Obsidian GUI when needed.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

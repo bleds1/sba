@@ -1,278 +1,276 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on itsbledley</title>
+    <title>Tags on @itsbledley</title>
     <link>//localhost:1313/tags/</link>
-    <description>Recent content in Tags on itsbledley</description>
+    <description>Recent content in Tags on @itsbledley</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>itsbledley@posteo.com (Bledley)</managingEditor>
-    <webMaster>itsbledley@posteo.com (Bledley)</webMaster>
-    <lastBuildDate>Sun, 28 Jul 2024 13:59:28 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2024 10:32:28 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Amiga</title>
-      <link>//localhost:1313/tags/amiga/</link>
-      <pubDate>Sun, 28 Jul 2024 13:59:28 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
-      <guid>//localhost:1313/tags/amiga/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pixelart</title>
-      <link>//localhost:1313/tags/pixelart/</link>
-      <pubDate>Sun, 28 Jul 2024 13:59:28 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
-      <guid>//localhost:1313/tags/pixelart/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Navigators</title>
       <link>//localhost:1313/tags/navigators/</link>
-      <pubDate>Tue, 28 May 2024 10:37:33 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Wed, 02 Oct 2024 10:32:28 +0100</pubDate>
       <guid>//localhost:1313/tags/navigators/</guid>
       <description></description>
     </item>
     <item>
       <title>Shows</title>
       <link>//localhost:1313/tags/shows/</link>
-      <pubDate>Tue, 28 May 2024 10:37:33 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Wed, 02 Oct 2024 10:32:28 +0100</pubDate>
       <guid>//localhost:1313/tags/shows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amiga</title>
+      <link>//localhost:1313/tags/amiga/</link>
+      <pubDate>Sun, 28 Jul 2024 13:59:28 +0100</pubDate>
+      <guid>//localhost:1313/tags/amiga/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pixelart</title>
+      <link>//localhost:1313/tags/pixelart/</link>
+      <pubDate>Sun, 28 Jul 2024 13:59:28 +0100</pubDate>
+      <guid>//localhost:1313/tags/pixelart/</guid>
       <description></description>
     </item>
     <item>
       <title>Krita</title>
       <link>//localhost:1313/tags/krita/</link>
-      <pubDate>Mon, 15 Apr 2024 11:06:14 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Mon, 15 Apr 2024 11:06:14 +0100</pubDate>
       <guid>//localhost:1313/tags/krita/</guid>
       <description></description>
     </item>
     <item>
       <title>Painting</title>
       <link>//localhost:1313/tags/painting/</link>
-      <pubDate>Mon, 15 Apr 2024 11:06:14 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Mon, 15 Apr 2024 11:06:14 +0100</pubDate>
       <guid>//localhost:1313/tags/painting/</guid>
       <description></description>
     </item>
     <item>
       <title>Portrait</title>
       <link>//localhost:1313/tags/portrait/</link>
-      <pubDate>Mon, 15 Apr 2024 11:06:14 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Mon, 15 Apr 2024 11:06:14 +0100</pubDate>
       <guid>//localhost:1313/tags/portrait/</guid>
       <description></description>
     </item>
     <item>
       <title>Watercolour</title>
       <link>//localhost:1313/tags/watercolour/</link>
-      <pubDate>Mon, 15 Apr 2024 11:06:14 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Mon, 15 Apr 2024 11:06:14 +0100</pubDate>
       <guid>//localhost:1313/tags/watercolour/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux&#39;</title>
       <link>//localhost:1313/tags/linux/</link>
-      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate>
       <guid>//localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Obsidian</title>
       <link>//localhost:1313/tags/obsidian/</link>
-      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate>
       <guid>//localhost:1313/tags/obsidian/</guid>
       <description></description>
     </item>
     <item>
       <title>Pkm</title>
       <link>//localhost:1313/tags/pkm/</link>
-      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate>
       <guid>//localhost:1313/tags/pkm/</guid>
       <description></description>
     </item>
     <item>
       <title>Vim</title>
       <link>//localhost:1313/tags/vim/</link>
-      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate>
       <guid>//localhost:1313/tags/vim/</guid>
       <description></description>
     </item>
     <item>
       <title>Callout</title>
       <link>//localhost:1313/tags/callout/</link>
-      <pubDate>Sat, 03 Feb 2024 17:58:07 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Sat, 03 Feb 2024 17:58:07 +0000</pubDate>
       <guid>//localhost:1313/tags/callout/</guid>
       <description></description>
     </item>
     <item>
       <title>Gouache</title>
       <link>//localhost:1313/tags/gouache/</link>
-      <pubDate>Thu, 01 Feb 2024 10:56:19 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Thu, 01 Feb 2024 10:56:19 +0000</pubDate>
       <guid>//localhost:1313/tags/gouache/</guid>
       <description></description>
     </item>
     <item>
       <title>Portraits</title>
       <link>//localhost:1313/tags/portraits/</link>
-      <pubDate>Thu, 01 Feb 2024 10:56:19 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Thu, 01 Feb 2024 10:56:19 +0000</pubDate>
       <guid>//localhost:1313/tags/portraits/</guid>
       <description></description>
     </item>
     <item>
       <title>Film</title>
       <link>//localhost:1313/tags/film/</link>
-      <pubDate>Fri, 12 Jan 2024 12:00:31 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 12 Jan 2024 12:00:31 +0000</pubDate>
       <guid>//localhost:1313/tags/film/</guid>
       <description></description>
     </item>
     <item>
       <title>Oil</title>
       <link>//localhost:1313/tags/oil/</link>
-      <pubDate>Fri, 12 Jan 2024 12:00:31 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 12 Jan 2024 12:00:31 +0000</pubDate>
       <guid>//localhost:1313/tags/oil/</guid>
       <description></description>
     </item>
     <item>
       <title>Peakyblinders</title>
       <link>//localhost:1313/tags/peakyblinders/</link>
-      <pubDate>Sat, 23 Dec 2023 16:10:12 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Sat, 23 Dec 2023 16:10:12 +0100</pubDate>
       <guid>//localhost:1313/tags/peakyblinders/</guid>
       <description></description>
     </item>
     <item>
       <title>Emacs</title>
       <link>//localhost:1313/tags/emacs/</link>
-      <pubDate>Fri, 01 Dec 2023 18:05:18 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 01 Dec 2023 18:05:18 +0000</pubDate>
       <guid>//localhost:1313/tags/emacs/</guid>
       <description></description>
     </item>
     <item>
       <title>Sketchbook</title>
       <link>//localhost:1313/tags/sketchbook/</link>
-      <pubDate>Fri, 29 Sep 2023 11:35:57 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 29 Sep 2023 11:35:57 +0100</pubDate>
       <guid>//localhost:1313/tags/sketchbook/</guid>
       <description></description>
     </item>
     <item>
       <title>Events</title>
       <link>//localhost:1313/tags/events/</link>
-      <pubDate>Tue, 01 Aug 2023 19:57:46 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Tue, 01 Aug 2023 19:57:46 +0100</pubDate>
       <guid>//localhost:1313/tags/events/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
       <link>//localhost:1313/tags/android/</link>
-      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate>
       <guid>//localhost:1313/tags/android/</guid>
       <description></description>
     </item>
     <item>
       <title>Pencil</title>
       <link>//localhost:1313/tags/pencil/</link>
-      <pubDate>Sun, 16 Jul 2023 12:26:03 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Sun, 16 Jul 2023 12:26:03 +0100</pubDate>
       <guid>//localhost:1313/tags/pencil/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital Painting</title>
       <link>//localhost:1313/tags/digital-painting/</link>
-      <pubDate>Sat, 17 Jun 2023 12:28:07 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Sat, 17 Jun 2023 12:28:07 +0100</pubDate>
       <guid>//localhost:1313/tags/digital-painting/</guid>
       <description></description>
     </item>
     <item>
       <title>Ballpoint</title>
       <link>//localhost:1313/tags/ballpoint/</link>
-      <pubDate>Tue, 25 Apr 2023 12:33:24 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Tue, 25 Apr 2023 12:33:24 +0100</pubDate>
       <guid>//localhost:1313/tags/ballpoint/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
       <link>//localhost:1313/tags/linux/</link>
-      <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate>
       <guid>//localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Acrylic</title>
       <link>//localhost:1313/tags/acrylic/</link>
-      <pubDate>Tue, 15 Nov 2022 14:28:43 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Tue, 15 Nov 2022 14:28:43 +0100</pubDate>
       <guid>//localhost:1313/tags/acrylic/</guid>
       <description></description>
     </item>
     <item>
       <title>Zines</title>
       <link>//localhost:1313/tags/zines/</link>
-      <pubDate>Fri, 29 Jul 2022 14:29:32 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 29 Jul 2022 14:29:32 +0100</pubDate>
       <guid>//localhost:1313/tags/zines/</guid>
       <description></description>
     </item>
     <item>
       <title>Ink</title>
       <link>//localhost:1313/tags/ink/</link>
-      <pubDate>Tue, 05 Jul 2022 14:30:07 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Tue, 05 Jul 2022 14:30:07 +0100</pubDate>
       <guid>//localhost:1313/tags/ink/</guid>
       <description></description>
     </item>
     <item>
       <title>Urbansketching</title>
       <link>//localhost:1313/tags/urbansketching/</link>
-      <pubDate>Tue, 05 Jul 2022 14:30:07 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Tue, 05 Jul 2022 14:30:07 +0100</pubDate>
       <guid>//localhost:1313/tags/urbansketching/</guid>
       <description></description>
     </item>
     <item>
       <title>Wip</title>
       <link>//localhost:1313/tags/wip/</link>
-      <pubDate>Fri, 17 Jun 2022 14:30:58 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 17 Jun 2022 14:30:58 +0100</pubDate>
       <guid>//localhost:1313/tags/wip/</guid>
       <description></description>
     </item>
     <item>
       <title>Digitalpainting</title>
       <link>//localhost:1313/tags/digitalpainting/</link>
-      <pubDate>Fri, 21 Jan 2022 16:15:12 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 21 Jan 2022 16:15:12 +0100</pubDate>
       <guid>//localhost:1313/tags/digitalpainting/</guid>
       <description></description>
     </item>
     <item>
       <title>Pencils</title>
       <link>//localhost:1313/tags/pencils/</link>
-      <pubDate>Tue, 24 Aug 2021 21:52:52 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Tue, 24 Aug 2021 21:52:52 +0100</pubDate>
       <guid>//localhost:1313/tags/pencils/</guid>
       <description></description>
     </item>
     <item>
       <title>Studies</title>
       <link>//localhost:1313/tags/studies/</link>
-      <pubDate>Tue, 24 Aug 2021 21:52:52 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Tue, 24 Aug 2021 21:52:52 +0100</pubDate>
       <guid>//localhost:1313/tags/studies/</guid>
       <description></description>
     </item>
     <item>
       <title>Oils</title>
       <link>//localhost:1313/tags/oils/</link>
-      <pubDate>Wed, 21 Jul 2021 18:53:23 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Wed, 21 Jul 2021 18:53:23 +0100</pubDate>
       <guid>//localhost:1313/tags/oils/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
       <link>//localhost:1313/tags/tools/</link>
-      <pubDate>Wed, 21 Jul 2021 18:53:23 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Wed, 21 Jul 2021 18:53:23 +0100</pubDate>
       <guid>//localhost:1313/tags/tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Animals</title>
       <link>//localhost:1313/tags/animals/</link>
-      <pubDate>Sun, 06 Jun 2021 18:55:54 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Sun, 06 Jun 2021 18:55:54 +0100</pubDate>
       <guid>//localhost:1313/tags/animals/</guid>
       <description></description>
     </item>
     <item>
       <title>Etsy</title>
       <link>//localhost:1313/tags/etsy/</link>
-      <pubDate>Tue, 21 Jul 2020 16:41:31 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Tue, 21 Jul 2020 16:41:31 +0100</pubDate>
       <guid>//localhost:1313/tags/etsy/</guid>
       <description></description>
     </item>

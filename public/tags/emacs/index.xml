@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Emacs on itsbledley</title>
+    <title>Emacs on @itsbledley</title>
     <link>//localhost:1313/tags/emacs/</link>
-    <description>Recent content in Emacs on itsbledley</description>
+    <description>Recent content in Emacs on @itsbledley</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>itsbledley@posteo.com (Bledley)</managingEditor>
-    <webMaster>itsbledley@posteo.com (Bledley)</webMaster>
     <lastBuildDate>Fri, 01 Dec 2023 18:05:18 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What the Hell Is Org Mode?</title>
       <link>//localhost:1313/posts/2023-12-01-what-the-hell-is-org-mode/</link>
-      <pubDate>Fri, 01 Dec 2023 18:05:18 +0000</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 01 Dec 2023 18:05:18 +0000</pubDate>
       <guid>//localhost:1313/posts/2023-12-01-what-the-hell-is-org-mode/</guid>
-      <description>So what is it? Let me introduce you because of course, there&amp;rsquo;s far too much to cover in one post. I would like to get into the more advanced stuff ideally. One of the things that annoys me is that there are a ton of &amp;ldquo;Getting Started with the Basics&amp;rdquo; types posts and videos and not enough that go deeper into the features. It feels like I&amp;rsquo;ve absorbed a lot of the content that&amp;rsquo;s out there, however.</description>
+      <description>&lt;p&gt;So what is it? Let me introduce you because of course, there&amp;rsquo;s far too much to cover in one post. I would like to get into the more advanced stuff ideally. One of the things that annoys me is that there are a ton of &lt;em&gt;&amp;ldquo;Getting Started with the Basics&amp;rdquo;&lt;/em&gt; types posts and videos and not enough that go deeper into the features. It feels like I&amp;rsquo;ve absorbed a lot of the content that&amp;rsquo;s out there, however..it only feels right to start with the basics and then build on top of that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Install Doom Emacs on Termux</title>
       <link>//localhost:1313/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</link>
-      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Sun, 23 Jul 2023 15:00:18 +0100</pubDate>
       <guid>//localhost:1313/posts/2023-07-23-how-to-install-doom-emacs-on-termux/</guid>
-      <description>I used to think having Emacs on a phone was a bit much..but recently I&amp;rsquo;ve just started using Emacs and Org mode for nearly everything.. There&amp;rsquo;s not a great selection of apps on Android for accessing Org files, the best solution to me was to just get Emacs with it&amp;rsquo;s fully fledged Org on mobile. The newish GUI Android Emacs app is a bit strange and I swiftly uninstalled it.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-07-23-how-to-install-doom-emacs-on-termux/2023-07-23-doom-emacs-termux-screenshot.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I used to think having Emacs on a phone was a bit much..but recently I&amp;rsquo;ve just started using Emacs and Org mode for nearly everything.. There&amp;rsquo;s not a great selection of apps on Android for accessing Org files, the best solution to me was to just get Emacs with it&amp;rsquo;s fully fledged Org on mobile. The newish GUI Android Emacs app is a bit strange and I swiftly uninstalled it. The Termux terminal version however, works much better. There&amp;rsquo;s not a whole load of info out there about how to run Doom Emacs on Termux but I managed to figure it out and have been impressed with how well it works. I&amp;rsquo;m not a &lt;em&gt;massive&lt;/em&gt; phone user and do the bulk of stuff on a laptop but It is pretty nice to be able to view my Org agenda or add something quick to my daily note from mobile. I&amp;rsquo;m also a big fan of just launching into a blank &amp;ldquo;&lt;em&gt;scratch&lt;/em&gt;&amp;rdquo; buffer to do any writing, drafting or quick capture.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Beginners Guide: Getting Started With Doom Emacs</title>
       <link>//localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/</link>
-      <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate>
       <guid>//localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/</guid>
-      <description>Introduction If your first thought on this is “Urrggh, really Emacs??.. Not for me..It&amp;rsquo;s ancient, bloated, complicated, full of features I don&amp;rsquo;t need..just give me a simple plain text editor“. Well that was me too. I was very much the Vim user because I&amp;rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/2023-01-27-getting-started-with-doom-emacs/dashboard-doom-emacs.png&#34; alt=&#34;Image 1&#34;&gt;&#xA;&lt;img src=&#34;//localhost:1313/2023-01-27-getting-started-with-doom-emacs/dashboard-doom-emacs-2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If your first thought on this is &lt;em&gt;“Urrggh, really Emacs??.. Not for me..It&amp;rsquo;s ancient, bloated, complicated, full of features I don&amp;rsquo;t need..just give me a simple plain text editor“&lt;/em&gt;. Well that was me too. I was very much the Vim user because I&amp;rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits. This tribal mentality that you must be on one team or the other seems massively dumb to me. So what turned me the way of Emacs? The short answer is Org-mode but I think that&amp;rsquo;s going to have to wait for another post..&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

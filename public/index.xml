@@ -1,16 +1,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-	<title>itsbledley</title>
+	<title>@itsbledley</title>
 	<link>//localhost:1313/</link>
-	<description>Recent content on itsbledley</description>
+	<description>Recent content on @itsbledley</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<managingEditor>itsbledley@posteo.com (Bledley)</managingEditor>
 	<webMaster>itsbledley@posteo.com (Bledley)</webMaster>
-	<lastBuildDate>Thu, 22 Aug 2024 18:43:59 +0100</lastBuildDate>
+	<lastBuildDate>Wed, 02 Oct 2024 10:32:28 +0100</lastBuildDate>
     
         <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Co-Audenation @ City Screen York 19th October 2024</title>
+		<link>//localhost:1313/posts/2024-10-02-co-audenation-city-screen/</link>
+		<pubDate>Wed, 02 Oct 2024 10:32:28 +0100</pubDate>
+		<author>itsbledley@posteo.com (Bledley)</author>
+		<guid>//localhost:1313/posts/2024-10-02-co-audenation-city-screen/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2024-10-02-co-audenation/NA-co-audenation-flyer.jpg&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.instagram.com/navigatorsart&#34; target=&#34;_blank&#34;&gt;Navigators Art and Performance&lt;/a&gt; Presents:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CO-AUDENATION: A creative exploration of W. H. Auden&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A new expanded version of our sold-out summer show..&lt;/p&gt;
+&lt;p&gt;SPOKEN WORD, LIVE MUSIC &amp;amp; PERFORMANCE ART&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Born in Bootham in 1907, this &amp;ldquo;Picasso of modern poetry&amp;rdquo; became a controversial star of the avant-garde..&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Featuring: Anthony Vahni Capildeo, Antony Dunn, Carrieanne Vivianette, Elizabeth Chadwick Pywell, Ian Parks, Jane Stockdale, Janet Dean, JT Welsch, Richard Kitchen, Alan Gillott, Hugh Bernays + more&lt;/p&gt;
+&lt;p&gt;EXPECT THE UNEXPECTED!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SAT 19th OCTOBER&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;THE BASEMENT, CITY SCREEN, YORK&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DOORS 7:00pm&lt;/strong&gt;
+Ticket holders are invited to a pre-show discusssion from 6PM&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TICKETSOURCE BOOKING&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;£10&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;✨ &lt;a href=&#34;https://bit.ly/nav-auden&#34; target=&#34;_blank&#34;&gt;bit.ly/nav-auden&lt;/a&gt; ✨&lt;/p&gt;
+&lt;h2 id=&#34;related&#34;&gt;Related&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;//localhost:1313/posts/2024-05-14-navigators-art-basement-sessions-4/&#34;&gt;Basement Sesssions #4 @ City Screen York&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;//localhost:1313/posts/2024-01-02-navigators-art-a-feast-of-fools-black-swan/&#34;&gt;A Feast of Fools @ The Black Swan&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bit.ly/nav-events&#34; target=&#34;_blank&#34;&gt;Ticketsource booking&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://charleshutchpress.co.uk/navigators-art-confirms-basement-session3-line-up-and-plans-for-york-international-womens-week-at-city-screen-picturehouse/&#34; target=&#34;_blank&#34;&gt;Navigators confirm Basement Sessions 3 and plans for International Womens Week at City Screen Picturehouse | charleshutchpress.co.uk&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Support</title>
@@ -41,8 +71,7 @@
 		<description>&lt;p&gt;You may have noticed this is a very bare bones blog..It&amp;rsquo;s an incredibly lightweight site made out of plain text markdown, html and css files. It&amp;rsquo;s very much a work in progress as I learn how to code the pages and tinker with &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;. I wanted it to be almost as minimal and distraction free as a text editor to just focus on the content. Because of this I have no tracking, comment or follow system. The best way to follow this blog is by using an RSS reader and adding the .xml link below. That&amp;rsquo;s a little old school for some.. so another way to follow is to just add me on a social network and see posts when I share them. Of course you could also just bookmark the page in your browser.&lt;/p&gt;
 &lt;p&gt;There is a reply by email button under every post if you have any comments or questions I am happy to answer them there privately (I like email). You could also leave a comment on the social media post relating to the blog post.&lt;/p&gt;
 &lt;p&gt;I post video content on my &lt;a href=&#34;https://www.youtube.com/@itsbledley_tv&#34; target=&#34;_blank&#34;&gt;Youtube Channel&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;My preferred social network is probably &lt;a href=&#34;https://mastodon.art/@bledley&#34; target=&#34;_blank&#34;&gt;Mastodon&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I use &lt;a href=&#34;https://www.instagram.com/itsbledley&#34; target=&#34;_blank&#34;&gt;Instagram&lt;/a&gt; for images&lt;/p&gt;
+&lt;p&gt;My preferred social network is probably &lt;a href=&#34;https://bsky.app/profile/itsbledley.bsky.social&#34; target=&#34;_blank&#34;&gt;Bluesky&lt;/a&gt; at the moment. I&amp;rsquo;m also on &lt;a href=&#34;https://mastodon.art/@bledley&#34; target=&#34;_blank&#34;&gt;Mastodon&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Subscribe with an &lt;a href=&#34;//localhost:1313/index.xml&#34;&gt;RSS&lt;/a&gt; reader&lt;/p&gt;
 </description>
 	</item>

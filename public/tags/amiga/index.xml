@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Amiga on itsbledley</title>
+    <title>Amiga on @itsbledley</title>
     <link>//localhost:1313/tags/amiga/</link>
-    <description>Recent content in Amiga on itsbledley</description>
+    <description>Recent content in Amiga on @itsbledley</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>itsbledley@posteo.com (Bledley)</managingEditor>
-    <webMaster>itsbledley@posteo.com (Bledley)</webMaster>
     <lastBuildDate>Sun, 28 Jul 2024 13:59:28 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/tags/amiga/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Insert Disk Two</title>
       <link>//localhost:1313/posts/2024-07-28-insert-disk-two/</link>
-      <pubDate>Sun, 28 Jul 2024 13:59:28 +0100</pubDate><author>itsbledley@posteo.com (Bledley)</author>
+      <pubDate>Sun, 28 Jul 2024 13:59:28 +0100</pubDate>
       <guid>//localhost:1313/posts/2024-07-28-insert-disk-two/</guid>
-      <description>The Amiga was an essential part of my art journey.&#xA;The art I saw as a kid on the first computer we had was a huge part in me wanting to become an artist. Those graphics, loading screens, the box art and the music was an incredible multimedia experience at the time. Cartoons and comics had a similar role in firing me up but I will always have a soft spot for the charms of the Amiga and the late 80&amp;rsquo;s and early 90&amp;rsquo;s.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2024-07-28-insert-disk-two/20240728-amiga-disk-square.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Amiga&#34; target=&#34;_blank&#34;&gt;Amiga&lt;/a&gt; was an essential part of my art journey.&lt;/p&gt;&#xA;&lt;p&gt;The art I saw as a kid on the first computer we had was a huge part in me wanting to become an artist. Those graphics, loading screens, the box art and the music was an incredible multimedia experience at the time. Cartoons and comics had a similar role in firing me up but I will always have a soft spot for the charms of the Amiga and the late 80&amp;rsquo;s and early 90&amp;rsquo;s. I spent a lot of time thumbing through those plastic cases of copied Floppy disks with mysterious names scrawled on their labels. Each felt like a journey into a little world of imagination. The Amiga graphics might seem primitive now but the amount of creativity loaded into these little disks was insane to me. I still emulate the Amiga today and probably get more of a dopamine boost from the nostalgia than I do more modern day games. I even setup my modern desktop environment to have a retro feel of those simpler times.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
