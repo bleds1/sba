@@ -2,7 +2,7 @@
 languageCode = 'en-us'
 title = '@itsbledley'
 theme = 'rocinante'
-paginate = 6
+pagination.pagerSize = 6
 customCSS = ["css/custom_style.css"]
 
 [Author]
@@ -28,20 +28,20 @@ customCSS = ["css/custom_style.css"]
 [[params.links]]
 
     [[params.links.link]]
-      name = "Home"
+      name = "🏠 Home"
       href = "https://itsbledley.netlify.app/"
 
     [[params.links.link]]
-      name = "Message"
+      name = "✉ Message"
       href = "/contact"
       smart_email_link = true
 
     [[params.links.link]]
-      name = "Follow"
+      name = "↪ Follow"
       href = "/socials"
 
     [[params.links.link]]
-      name = "Thanks"
+      name = "🙏 Thanks"
       href = "/kofi"
 
     # [[params.links.link]]
@@ -65,5 +65,5 @@ customCSS = ["css/custom_style.css"]
     # new_tab = true
 
     [[params.links.link]]
-      name = "Stuff"
+      name = "📁 Stuff"
       href = "/links"
