@@ -1,6 +1,6 @@
 baseURL = 'https://itsbledley.netlify.app/'
 languageCode = 'en-us'
-title = '@bledley'
+title = 'bledley blog'
 theme = 'rocinante'
 pagination_pagerSize = 6
 customCSS = ["css/custom_style.css"]
@@ -19,29 +19,31 @@ unsafe = true
 mainSections = ["posts"]
 email = "itsbledley@posteo.com"
 favicon = "icons/favicon.jpg"
-#   about = """
-# This website is still under construction..Be patient.
-# """
+
+about = """
+what of it..
+"""
+
 google_fonts = ["//fonts.googleapis.com/css?family=JetBrains+Mono"]
 body_font = "JetBrains+Mono"
 
 [[params.links]]
 
 [[params.links.link]]
-name = "Home"
+name = "🏠 Home"
 href = "https://itsbledley.netlify.app/"
 
 [[params.links.link]]
-name = "Message"
+name = "💬 Message"
 href = "/contact"
 smart_email_link = true
 
 [[params.links.link]]
-name = "Follow"
+name = "↪️ Follow"
 href = "/socials"
 
 [[params.links.link]]
-name = "Thanks"
+name = "☕ Thanks"
 href = "/kofi"
 
 # [[params.links.link]]
@@ -65,5 +67,5 @@ href = "/kofi"
 # new_tab = true
 
 [[params.links.link]]
-name = "Stuff"
+name = "💭 Stuff"
 href = "/links"
