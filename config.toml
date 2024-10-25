@@ -1,8 +1,10 @@
+title = 'bledley's blog'
+theme = 'rocinante'
 baseURL = 'https://itsbledley.netlify.app/'
 languageCode = 'en-us'
-title = 'bledley blog'
-theme = 'rocinante'
+
 pagination_pagerSize = 6
+
 customCSS = ["css/custom_style.css"]
 
 [Author]
@@ -20,9 +22,9 @@ mainSections = ["posts"]
 email = "itsbledley@posteo.com"
 favicon = "icons/favicon.jpg"
 
-about = """
-what of it..
-"""
+# about = """
+# what of it..
+# """
 
 google_fonts = ["//fonts.googleapis.com/css?family=JetBrains+Mono"]
 body_font = "JetBrains+Mono"
