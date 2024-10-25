@@ -2,7 +2,7 @@ baseURL = 'https://itsbledley.netlify.app/'
 languageCode = 'en-us'
 title = '@bledley'
 theme = 'rocinante'
-pagination.pagerSize = 6
+pagination_pagerSize = 6
 customCSS = ["css/custom_style.css"]
 
 [Author]
