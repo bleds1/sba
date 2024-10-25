@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zines on @itsbledley</title>
-    <link>//localhost:1313/tags/zines/</link>
-    <description>Recent content in Zines on @itsbledley</description>
+    <title>Zines on @bledley</title>
+    <link>http://localhost:1313/tags/zines/</link>
+    <description>Recent content in Zines on @bledley</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Jul 2022 14:29:32 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/zines/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/zines/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zine Fest Crescent</title>
-      <link>//localhost:1313/posts/2022-07-29-zine-fest-crescent/</link>
+      <link>http://localhost:1313/posts/2022-07-29-zine-fest-crescent/</link>
       <pubDate>Fri, 29 Jul 2022 14:29:32 +0100</pubDate>
-      <guid>//localhost:1313/posts/2022-07-29-zine-fest-crescent/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/2022-07-29-zine-fest-crescent/zine-crescent-image-1.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/2022-07-29-zine-fest-crescent/zine-crescent-image-2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Get yer sen down to the Zine Fest this weekend at The Crescent, York. &lt;a href=&#34;https://linktr.ee/navigatorsart&#34; target=&#34;_blank&#34;&gt;Navigators&lt;/a&gt; will be there in human and print format..&lt;/p&gt;&#xA;&lt;p&gt;Sat 30th July 12-4 pm free entry&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://thecrescentyork.com/&#34; target=&#34;_blank&#34;&gt;The Crescent York&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.instagram.com/yorkzinefest/&#34; target=&#34;_blank&#34;&gt;York Zine Fest (@yorkzinefest)&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/2022-07-29-zine-fest-crescent/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2022-07-29-zine-fest-crescent/zine-crescent-image-1.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2022-07-29-zine-fest-crescent/zine-crescent-image-2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Get yer sen down to the Zine Fest this weekend at The Crescent, York. &lt;a href=&#34;https://linktr.ee/navigatorsart&#34; target=&#34;_blank&#34;&gt;Navigators&lt;/a&gt; will be there in human and print format..&lt;/p&gt;&#xA;&lt;p&gt;Sat 30th July 12-4 pm free entry&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://thecrescentyork.com/&#34; target=&#34;_blank&#34;&gt;The Crescent York&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.instagram.com/yorkzinefest/&#34; target=&#34;_blank&#34;&gt;York Zine Fest (@yorkzinefest)&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
