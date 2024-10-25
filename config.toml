@@ -1,6 +1,6 @@
 baseURL = 'https://itsbledley.netlify.app/'
 languageCode = 'en-us'
-title = 'bledley blog'
+title = '📝 bledleys blog'
 theme = 'rocinante'
 pagination_pagerSize = 6
 customCSS = ["css/custom_style.css"]
