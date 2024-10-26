@@ -1,4 +1,4 @@
-baseURL = 'https://itsbledley.netlify.app/'
+baseURL = 'https://bledley.xyz/'
 languageCode = 'en-us'
 title = '📝 bledleys blog'
 theme = 'rocinante'
@@ -31,7 +31,7 @@ body_font = "JetBrains+Mono"
 
 [[params.links.link]]
 name = "🏠 Home"
-href = "https://itsbledley.netlify.app/"
+href = "https://bledley.xyz/"
 
 [[params.links.link]]
 name = "💬 Message"
