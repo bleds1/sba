@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on @bledley</title>
+    <title>Linux&#39; on 📝 bledleys blog</title>
     <link>http://localhost:1313/tags/linux/</link>
-    <description>Recent content in Linux on @bledley</description>
+    <description>Recent content in Linux&#39; on 📝 bledleys blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Jan 2023 14:00:56 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 16 Feb 2024 09:56:24 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Beginners Guide: Getting Started With Doom Emacs</title>
-      <link>http://localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/</link>
-      <pubDate>Fri, 27 Jan 2023 14:00:56 +0100</pubDate>
-      <guid>http://localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2023-01-27-getting-started-with-doom-emacs/dashboard-doom-emacs.png&#34; alt=&#34;Image 1&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/2023-01-27-getting-started-with-doom-emacs/dashboard-doom-emacs-2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If your first thought on this is &lt;em&gt;“Urrggh, really Emacs??.. Not for me..It&amp;rsquo;s ancient, bloated, complicated, full of features I don&amp;rsquo;t need..just give me a simple plain text editor“&lt;/em&gt;. Well that was me too. I was very much the Vim user because I&amp;rsquo;m a bit of a minimilist. I enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits. This tribal mentality that you must be on one team or the other seems massively dumb to me. So what turned me the way of Emacs? The short answer is Org-mode but I think that&amp;rsquo;s going to have to wait for another post..&lt;/p&gt;</description>
+      <title>Returning to Neovim and Obsidian</title>
+      <link>http://localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</link>
+      <pubDate>Fri, 16 Feb 2024 09:56:24 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-02-16-returning-to-neovim-and-obsidian/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2024-02-16-returning-to-neovim-and-obsidian/2024-02-16-neovim-screenshot.png&#34; alt=&#34;Neovim Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been giving &lt;a href=&#34;https://logseq.com/&#34; target=&#34;_blank&#34;&gt;Logseq&lt;/a&gt; a really good go since the beginning of the year. I love the way it works actually but the thing that has made me return to &lt;a href=&#34;https://obsidian.md/&#34; target=&#34;_blank&#34;&gt;Obsidian&lt;/a&gt; is &lt;a href=&#34;https://en.wikipedia.org/wiki/Vim_%28text_editor%29&#34; target=&#34;_blank&#34;&gt;VIM&lt;/a&gt;. Logseq lacks decent vim motions and all of those indented bullet points are not all that useful if you want to access your markdown elsewhere. I recently discovered the project &lt;a href=&#34;https://github.com/epwalsh/obsidian.nvim&#34; target=&#34;_blank&#34;&gt;obsidian.nvim&lt;/a&gt; and it really bridges a gap for me. I&amp;rsquo;m returning to &lt;a href=&#34;https://neovim.io/&#34; target=&#34;_blank&#34;&gt;Neovim&lt;/a&gt; as my primary editor and using the Obsidian GUI when needed.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
