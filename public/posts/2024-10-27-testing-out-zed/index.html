@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><link rel="alternate" type="application/rss+xml" href="http://localhost:1313//feed.xml" title="📝 bledleys blog">
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Trying out the Zed editor · 📝 bledleys blog</title>
+
+
+
+<link rel="stylesheet" href="/css/rocinante.css" />
+<link rel="shortcut icon" href="icons/favicon.jpg">
+
+
+<body>
+    <header><link rel="alternate"
+      type="application/rss+xml"
+      href="http://localhost:1313//posts"
+      title="📝 bledleys blog">
+
+<h2>
+  
+    <a href="http://localhost:1313/">📝 bledleys blog</a>
+  
+</h2>
+</header>
+    <main>
+
+    <div class="post">
+        <div class="title-group">
+            <div class="title">
+                <h1>Trying out the Zed editor</h1>
+            </div>
+            <div class="date"><h5>Oct 27, 2024</h5></div>
+        </div>
+        <article class="content">
+            <h2 id="what-is-zed-editor">What is Zed editor?</h2>
+<ul>
+<li><a href="">Zed</a> is a fairly new code or text editor on the block. Cool name right?</li>
+<li>It&rsquo;s written in <a href="">Rust</a> and claims to be fast and light with an emphasis on using AI and collaborative features.</li>
+<li>I&rsquo;ll be straight with you though - I have no interest in the AI features or collaboration tools. I&rsquo;m not a programmer, I just tinker around with my computers configuration files and theming etc and work on some basic code for my website. I usually use Emacs or Neovim for that purpose.</li>
+<li>Why would you want to try it?</li>
+<li>I kind of believe that you should have a terminal based and a GUI based solution for doing the same tasks on your system. I recently moved to the Gnome desktop environment and there&rsquo;s a kind of polish and unified look to that which has led to me investigating more GUI based solutions that fit nicely into my system. My first though on seeing Zed was - that looks pretty, let&rsquo;s give it a spin as my default text editor</li>
+</ul>
+<h2 id="how-to-install-zed">How to install Zed</h2>
+<ul>
+<li>The Linux version only came out a couple of months ago, you can get in MacOS but Windows users will have to wait.</li>
+<li>On Arch Linux you can find Zed in the main repositories. See their <a href="">documentation</a> for alternative installation methods.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo pacman -S zed
+</span></span></code></pre></div><h2 id="first-launch">First launch</h2>
+<ul>
+<li>You can launch zed in the way you usually launch programs</li>
+<li>On first launch you will see a little pop up that asks for a few default options. You can opt in or out of telemetry, set a theme and change your base keymap type here. You can also enable Vim mode here or set it later.</li>
+<li>Enable cli</li>
+<li>One of the first things you may want to do it is enable cli access so you can launch the editor in the terminal. You can do this in the graphical menu or through the control panel searching for cli::install</li>
+<li>Accessing the Control pallette</li>
+<li>The idea of a control or command pallette will be familiar to some from other programs and can be activated with Ctrl+Shift+p.</li>
+<li>So now in the terminal you will be able to type</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>zeditor ~/myproject
+</span></span></code></pre></div><p>to open a directory as a project
+or</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>zeditor myfile.txt
+</span></span></code></pre></div><p>to open a single file
+-</p>
+<ul>
+<li>Set an alias</li>
+<li>The first thing I thought here was &ldquo;no way am I typing zeditor everytime&rdquo; and promptly headed to my bash alias and set</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">alias</span> z=<span style="color:#0ff;font-weight:bold">&#34;zeditor&#34;</span>
+</span></span></code></pre></div><p>So I can instead just..</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>z myfile
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>z ~/myproject
+</span></span></code></pre></div><h2 id="basic-settings">Basic settings</h2>
+<ul>
+<li>I was impressed with the amount and quality of the themes installed my default. You&rsquo;ll probably be able to find something you like in there but if not you can search extensions or <a href="https://zedthemes.com" target="_blank"></a> to find more. I wanted mine to feel at home in my Gnome environment so installed on called &lsquo;Adwaita Pastel&rsquo; that I think looks pretty smart.</li>
+<li>Installing extensions</li>
+<li>search for extensions in the command pallette. This eco system of plugins/extensions seems to mostly consist of themes right now but is an understandable as a fairly young editor. I would expect to see this grow quite rapidly.</li>
+<li>Access the settings</li>
+<li>Your going to want to tweak some settings to your liking. Access the settings file with Ctrl , or by using the command pallette and settings. This will open the .json file - you should see some things you already set through using the graphical ui already if you changed theme or disabled telemetry for example. You can add a comma to a line and continue to add more options here.</li>
+<li>Access the keybinds</li>
+<li>The other file you may want to edit regularly is the keymap.json. Search keymap in the command pallette or access directly with the keybind (for me this is Ctrl k Ctrl S)</li>
+<li>Hiding or disabling things</li>
+<li>One of the first things I think about it getting the editor to look the way I want. As I said I&rsquo;m not interested in the collaborative, co-pilot stuff and I wanted to hide the icons for those. The following code should help with hiding, showing or moving things into different parts of the UI.</li>
+<li>Some settings &amp; keybinds</li>
+<li>I need Vim mode and have a set of keybinds that are automatic for me in both Neovim and Doom Emacs. Basic stuff like saving a file. I&rsquo;m particularly addicted to space f s. I&rsquo;m really happy you can implement these kind of leader key, key chords. Find more happy defaults for me personally below. One area I haven&rsquo;t sorted out yet is my keybinds for splits and navigating splits. This is just because I&rsquo;ve been using the regular tabbed mode primarily and not really seen the need for it yet.</li>
+<li>Some things I like
+<ul>
+<li>speed</li>
+<li>Looks</li>
+<li>I think it looks great, it&rsquo;s not clutters and helps you just focus on the text. Rounded corners in the Gnome, Adwaita environment feels almost native and fits nicely.</li>
+<li>Markdown previews</li>
+<li>The majority of my writing, note taking and blog work is in the markdown format. The Markdown mode feels nice to write in. Being able to generate a live preview in another tab or a split works really well.</li>
+<li>Project search</li>
+<li>This is essential to me for example I made need to find and replace a word across a whole bunch of folders in my website or search for a mention of something in my Zettelkasten notes. Sure you can grep and stuff but I find this kind of task nice to do in a GUI and search and search across projects is implemented well.</li>
+</ul>
+</li>
+</ul>
+<h2 id="improvements-id-like-to-see">Improvements I&rsquo;d like to see</h2>
+<ul>
+<li>as a markdown editor <a href="">Obsidian</a> and <a href="">Emacs</a> still feel more featureful</li>
+<li>I&rsquo;d like to see a few more features for pure writing. A word count feature, spell checking in non code files. Some kind of zen mode that puts you into a pure clean writing state. It&rsquo;s those kind of features that could lead to me choosing to use something else..</li>
+<li>You can go fullscreen and use the centered mode which works quite nicely for me. One things I&rsquo;d like to be able to do is disable line numbers only in markdown mode. That&rsquo;s something I can achieve in other editors.</li>
+<li>Understandably Zed&rsquo;s focus is coding but it&rsquo;s competitors do this well. I imagine these kind of things may appear in the form of extensions at some point.</li>
+<li>Option to hide the co-pilot sign in</li>
+<li>Being able to hide the icons for these features is a good start but that&rsquo;s not actually deactivating it&rsquo;s functionality. We can&rsquo;t get rid of that sign in button at the top and it seems the devs have no interest in making it a possibility.</li>
+<li>More extensions</li>
+<li>Zed is still a young editor and I expect as the extensions ecosystem grows we may see more features that we have grown accustomed to from other editors.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<ul>
+<li>Zed is a very good editor, I love it&rsquo;s simplicity, speed and it just feels good to work in.</li>
+<li>If the emphasis on AI and collaboration is something holding you back don&rsquo;t worry you can work around those features and never login or connect to such things. If you want a code editor something akin to VSCode/or Codium without the bloat that comes with it. Zed feels more light and fast and more like Sublime Text really.
+I&rsquo;m trialling it as my default editor but there are still some things I would prefer to use Emacs for as primarily a writer. It may be that I&rsquo;ve still not discovered many features - it would only be fair to keep using it as my default for a while and see how it develops.</li>
+<li>Let me know what you think? How are you finding Zed?</li>
+</ul>
+<h2 id="related">Related</h2>
+<p><a href="">Doom Emacs Post</a></p>
+<h2 id="links">Links</h2>
+<p><a href="">Zed website</a></p>
+<p><a href="">zedthemes</a></p>
+
+        </article>
+        
+            <div class="tags">
+                <span title="Tags">🏷</span>
+                <div class="horizontal-links links">
+                    <a href="/tags/writing/">Writing</a><a href="/tags/tech/">Tech</a>
+                </div>
+            </div>
+        
+    </article>
+<strong><a href="mailto:itsbledley@posteo.com?cc=mail@example.com&subject=Trying%20out%20the%20Zed%20editor">✉️ Reply by Email </a></strong>
+</div>
+<strong><a href="https://bledley.xyz/posts/">⬅️ Back to Posts</a></strong>
+<div>
+
+    </main>
+    <footer>
+  <div class="content-container">
+    <div class="content">
+
+
+  <p class="horizontal-links"><a href="https://bledley.xyz/"
+       
+       
+      >🏠 Home</a><a href="/contact"
+       
+        class="email-hook" id="about-email" title="Click to show email" 
+      >💬 Message</a><a href="/socials"
+       
+       
+      >↪️ Follow</a><a href="/kofi"
+       
+       
+      >☕ Thanks</a><a href="/links"
+       
+       
+      >💭 Stuff</a></p>
+
+</div>
+  </div>
+
+</footer>
+    
+    <script>
+      const emailId = atob("aXRzYmxlZGxleUBwb3N0ZW8uY29t");
+    </script>
+      <script src="/js/rocinante.min.js"></script></body>
+</html>

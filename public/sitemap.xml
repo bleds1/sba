@@ -3,21 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-02T10:32:28+01:00</lastmod>
+    <lastmod>2024-12-16T13:27:05+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2024-10-02-co-audenation-city-screen/</loc>
-    <lastmod>2024-10-02T10:32:28+01:00</lastmod>
+    <loc>http://localhost:1313/posts/2024-12-16-navigators-feast-of-fools-2-black-swan/</loc>
+    <lastmod>2024-12-16T13:27:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/navigators/</loc>
-    <lastmod>2024-10-02T10:32:28+01:00</lastmod>
+    <lastmod>2024-12-16T13:27:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-10-02T10:32:28+01:00</lastmod>
+    <lastmod>2024-12-16T13:27:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/shows/</loc>
-    <lastmod>2024-10-02T10:32:28+01:00</lastmod>
+    <lastmod>2024-12-16T13:27:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-16T13:27:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tech/</loc>
+    <lastmod>2024-10-27T12:36:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-10-27-testing-out-zed/</loc>
+    <lastmod>2024-10-27T12:36:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/writing/</loc>
+    <lastmod>2024-10-27T12:36:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-10-02-co-audenation-city-screen/</loc>
     <lastmod>2024-10-02T10:32:28+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kofi/</loc>
@@ -212,11 +224,17 @@
     <loc>http://localhost:1313/posts/2023-01-13-coney-st-jam-ending-soon/</loc>
     <lastmod>2023-01-13T12:39:25+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/2023-01-12-sketchbook-flick-through/</loc>
+    <lastmod>2023-01-12T12:42:17+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2023-01-11-helmsley-arts-centre-now-showing/</loc>
     <lastmod>2023-01-11T20:40:56+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2023-01-09-moving-pictures-2-helmsley-arts-centre/</loc>
     <lastmod>2023-01-09T12:43:50+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2022-11-18-coney-st-jam-live-show/</loc>
+    <lastmod>2022-11-18T14:04:56+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/acrylic/</loc>
     <lastmod>2022-11-15T14:28:43+01:00</lastmod>
@@ -248,6 +266,12 @@
     <loc>http://localhost:1313/tags/wip/</loc>
     <lastmod>2022-06-17T14:30:58+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/digitalpainting/</loc>
+    <lastmod>2022-04-08T15:48:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2022-04-08-shadow-of-the-vampire/</loc>
+    <lastmod>2022-04-08T15:48:07+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2022-03-12-moving-pictures-now-showing/</loc>
     <lastmod>2022-03-12T20:40:05+01:00</lastmod>
   </url><url>
@@ -256,9 +280,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/2022-02-27-gracias-marcelo/</loc>
     <lastmod>2022-02-27T16:03:48+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/digitalpainting/</loc>
-    <lastmod>2022-01-21T16:15:12+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2022-01-21-smokey-and-michelle/</loc>
     <lastmod>2022-01-21T16:15:12+01:00</lastmod>
@@ -332,8 +353,20 @@
     <loc>http://localhost:1313/posts/2019-06-04-navigators-crossing-the-line/</loc>
     <lastmod>2019-06-04T14:27:54+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/photos/drawings/</loc>
+    <lastmod>2017-09-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/photos/</loc>
     <lastmod>2017-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photos/urban-sketching/</loc>
+    <lastmod>2017-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photos/paintings/</loc>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photos/digital-painting/</loc>
+    <lastmod>2017-07-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>
