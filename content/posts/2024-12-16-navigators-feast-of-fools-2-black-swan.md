@@ -4,7 +4,7 @@ date: 2024-12-16T13:27:05Z
 tags: ['navigators','shows']
 ---
 
-![Image](/2024-12-06-navigators-feast-of-fools-2/feast-fools-web.jpg)
+![Image](/2024-12-06-navigators-feast-of-fools-2/feast-of-fools-web.jpg)
 
 [Navigators Art and Performance](https://www.instagram.com/navigatorsart) Presents:
 

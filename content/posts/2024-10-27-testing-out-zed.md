@@ -2,6 +2,7 @@
 title: "Trying out the Zed editor"
 date: 2024-10-27T12:36:01Z
 tags: ['writing','tech']
+draft: true
 ---
 
 ## What is Zed editor?
