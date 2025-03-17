@@ -52,7 +52,7 @@ href = "/kofi"
 #   new_tab = true
 
 [[params.links.link]]
-  name = "Gallery"
+  name = "🎨 Gallery"
   href = "https://portfolio.pixelfed.social/bledley"
   new_tab = true
 
