@@ -51,10 +51,10 @@ href = "/kofi"
 #   href = "https://www.youtube.com/@itsbledley_tv/"
 #   new_tab = true
 
-# [[params.links.link]]
-#   name = "Instagram"
-#   href = "https://instagram.com/itsbledley/"
-#   new_tab = true
+[[params.links.link]]
+  name = "Gallery"
+  href = "https://portfolio.pixelfed.social/bledley"
+  new_tab = true
 
 # [[params.links.link]]
 #   name = "Navigators"
