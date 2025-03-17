@@ -34,6 +34,11 @@ name = "🏠 Home"
 href = "https://bledley.xyz/"
 
 [[params.links.link]]
+  name = "🎨 Gallery"
+  href = "https://portfolio.pixelfed.social/bledley"
+  new_tab = true
+
+[[params.links.link]]
 name = "💬 Message"
 href = "/contact"
 smart_email_link = true
@@ -50,11 +55,6 @@ href = "/kofi"
 #   name = "Youtube"
 #   href = "https://www.youtube.com/@itsbledley_tv/"
 #   new_tab = true
-
-[[params.links.link]]
-  name = "🎨 Gallery"
-  href = "https://portfolio.pixelfed.social/bledley"
-  new_tab = true
 
 # [[params.links.link]]
 #   name = "Navigators"
