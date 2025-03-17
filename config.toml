@@ -1,6 +1,6 @@
 baseURL = 'https://bledley.xyz/'
 languageCode = 'en-us'
-title = '📝 bledleys blog'
+title = '🌀 bledley.xyz'
 theme = 'rocinante'
 pagination_pagerSize = 6
 customCSS = ["css/custom_style.css"]
