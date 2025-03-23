@@ -1,5 +1,5 @@
 ---
-title: "Significantly reduce video size with ffmpeg"
+title: "Significantly reduce video file size with ffmpeg"
 date: 2025-03-23T10:42:48Z
 tags: ['linux','video']
 ---
@@ -10,7 +10,7 @@ Anyways, I got it across to computer and ran some noise reduction processes on i
 
 Thankfully I have this nice little piece of code bookmarked for such situations and I thought I should share it here for your use and easy reference. Make sure you have ffmpeg installed and run this command on your file in the terminal. Replace input and output.mp4 with the name of your file. Be warned this process needs to be allowed to run in the terminal without being disturbed and can take quite some time. I can't explain the technicals of it but it goes through frame and frame and runs some compression on it. It  may take a quite a long time even on a short video depending on the power of your machine. 
 
-I managed to get a 5 gig file down to under 500 mb! with absolutely no noticeable difference in resolution or sound quality. For me that's worth the processing time. Try it out and be patient -  It just works.
+I managed to get a 5 gig file down to under 500 mb! with absolutely no noticeable difference in resolution or sound quality. For me that's worth the waiting time. Try it out and be patient -  It just works.
 
 ```sh
 ffmpeg -i input.mp4  -vcodec libx265 -crf 28 output.mp4
