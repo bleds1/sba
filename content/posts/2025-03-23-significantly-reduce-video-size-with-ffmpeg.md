@@ -1,7 +1,7 @@
 ---
 title: "Significantly reduce video size with ffmpeg"
 date: 2025-03-23T10:42:48Z
-tags: ['linux,'video']
+tags: ['linux','video']
 ---
 
 I was recently asked to record someones short performance at a gig on my phone. I obliged of course but I've got to admit dealing with video footage on phones is not all that fun to me. Mostly because of the huge file sizes. Then we've got to work out how we're going to transfer it to a computer for some post processing and send it on. The piece of video in question was around 5 gigs in size. You take this on an Android phone with Google Photos or something and that's a pretty nasty chunk out of your free storage allowance. Anyways, I got it across to computer and ran some noise reduction processes on it in Kdenlive. The final output was still a massive file and I needed to send it via wetransfer where it was still way, way over the file size limitation of 2 gigs.
