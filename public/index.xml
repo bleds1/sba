@@ -1,21 +1,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-	<title>📝 bledleys blog</title>
+	<title>🌀 bledleys blog</title>
 	<link>http://localhost:1313/</link>
-	<description>Recent content on 📝 bledleys blog</description>
+	<description>Recent content on 🌀 bledleys blog</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Mon, 16 Dec 2024 13:58:25 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 26 Mar 2025 11:55:25 +0000</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
+		<title>Image previews in lf with sixel and chafa</title>
+		<link>http://localhost:1313/posts/2025-03-26-image-previews-in-lf-file-manager/</link>
+		<pubDate>Wed, 26 Mar 2025 11:55:25 +0000</pubDate>
+		
+		<guid>http://localhost:1313/posts/2025-03-26-image-previews-in-lf-file-manager/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2025-03-26-image-previews-in-lf-file-manager/screenshot1.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Despite swearing by &lt;a href=&#34;https://github.com/ranger/ranger&#34; target=&#34;_blank&#34;&gt;ranger&lt;/a&gt; for quite a few years I am a recent convert to the very similar &lt;a href=&#34;https://github.com/gokcehan/lf&#34; target=&#34;_blank&#34;&gt;lf file manager&lt;/a&gt;. It just feels a little lighter, faster and simpler and lets me fly around my system super fast. Today I finally got image previews working and very nicely too. I can do away with Ranger and the no longer maintained &lt;a href=&#34;https://github.com/seebye/ueberzug&#34; target=&#34;_blank&#34;&gt;ueberzug&lt;/a&gt; for terminal image previews.&lt;/p&gt;
+&lt;p&gt;The answer for me was that I needed to install &lt;a href=&#34;https://github.com/hpjansson/chafa&#34; target=&#34;_blank&#34;&gt;chafa&lt;/a&gt;. You may also need to install libsixel - I already had this installed so maybe go look into that. We need to make a previewer script that uses chafa for pictures and bat when it&amp;rsquo;s text/not an image file. &lt;a href=&#34;https://github.com/sharkdp/bat&#34; target=&#34;_blank&#34;&gt;bat&lt;/a&gt; gives you nicely coloured previews of text files with syntax highlighting. I&amp;rsquo;m using the &lt;a href=&#34;https://codeberg.org/dnkl/foot&#34; target=&#34;_blank&#34;&gt;foot terminal&lt;/a&gt; on Wayland in &lt;a href=&#34;https://hyprland.org/&#34; target=&#34;_blank&#34;&gt;hyprland&lt;/a&gt; and on Arch Linux. If you want to implement it this way you will need to use a terminal with &lt;a href=&#34;https://www.arewesixelyet.com/&#34; target=&#34;_blank&#34;&gt;sixel support&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2025-03-26-image-previews-in-lf-file-manager/screenshot2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Feel free to use this code below or check out my dotfiles repo on &lt;a href=&#34;https://github.com/bleds1/dotfiles&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;First up install chafa via your package manager. On Arch Linux you should find this in the regular repos. Installation may vary on different distros.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sudo pacman -S chafa
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next up create a bash script. I&amp;rsquo;ve called it pv.sh but name it as you like. It can be placed in any directory so long as you include it&amp;rsquo;s full path in your lf config. I keep my scripts in a &lt;em&gt;~/.scripts&lt;/em&gt; folder or sometimes in &lt;em&gt;~/.local/bin&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#007f7f&#34;&gt;#!/bin/sh&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#007f7f&#34;&gt;# use chafa/sixel to preview images in lf. If it&amp;#39;s not an image use bat with colour&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#007f7f&#34;&gt;# chmod +x on the command line to make the script executable.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;$(&lt;/span&gt;file -Lb --mime-type -- &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;&lt;/span&gt; in
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        image/*)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            chafa -f sixel -s &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;&lt;/span&gt;$2&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;x&lt;/span&gt;$3&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;&lt;/span&gt; --animate off --polite on &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;exit&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        *)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            bat --color=always --style=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;numbers,snip&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;esac&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now in your lf config &lt;em&gt;(~/.config/lfrc)&lt;/em&gt; you will need the following options set. Save and launch a new instance of lf and you should be in business.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;set&lt;/span&gt; preview &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;set&lt;/span&gt; previewer ~/.config/lf/pv.sh &lt;span style=&#34;color:#007f7f&#34;&gt;#full path the above script&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;set&lt;/span&gt; sixel &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2025-03-23-significantly-reduce-video-size-with-ffmpeg/&#34;&gt;Significantly reduce video file size with ffmpeg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/&#34;&gt;Getting Started with Doom Emacs&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Significantly reduce video file size with ffmpeg</title>
+		<link>http://localhost:1313/posts/2025-03-23-significantly-reduce-video-size-with-ffmpeg/</link>
+		<pubDate>Sun, 23 Mar 2025 10:42:48 +0000</pubDate>
+		
+		<guid>http://localhost:1313/posts/2025-03-23-significantly-reduce-video-size-with-ffmpeg/</guid>
+		<description>&lt;p&gt;I was recently asked to record someones short performance at a gig on my phone. I obliged of course but I&amp;rsquo;ve got to admit dealing with video footage on phones is not all that fun to me. Mostly because of the huge file sizes. Then we&amp;rsquo;ve got to work out how we&amp;rsquo;re going to transfer it to a computer for some post processing and send it on. The piece of video in question was around 5 gigs in size. You take this on an Android phone with Google Photos or something and that&amp;rsquo;s a pretty nasty chunk out of your free storage allowance.&lt;/p&gt;
+&lt;p&gt;Anyways, I got it across to computer and ran some noise reduction processes on it in Kdenlive. The final output was still a massive file and I needed to send it via wetransfer where it was still way, way over the file size limitation of 2 gigs.&lt;/p&gt;
+&lt;p&gt;Thankfully I have this nice little piece of code bookmarked for such situations and I thought I should share it here for your use and easy reference. Make sure you have ffmpeg installed and run this command on your file in the terminal. Replace input and output.mp4 with the name of your file. Be warned this process needs to be allowed to run in the terminal without being disturbed and can take quite some time. I can&amp;rsquo;t explain the technicals of it but it goes through frame and frame and runs some compression on it. It  may take a quite a long time even on a short video depending on the power of your machine.&lt;/p&gt;
+&lt;p&gt;I managed to get a 5 gig file down to under 500 mb! with absolutely no noticeable difference in resolution or sound quality. For me that&amp;rsquo;s worth the waiting time. Try it out and be patient -  It just works.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ffmpeg -i input.mp4  -vcodec libx265 -crf &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;28&lt;/span&gt; output.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;related&#34;&gt;Related&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/&#34;&gt;Getting Started with Doom Emacs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2023-12-01-what-the-hell-is-org-mode/&#34;&gt;What the hell is Org-Mode?&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>2024 16 12 Testing</title>
-		<link>http://localhost:1313/2024-16-12-testing/</link>
+		<link>http://localhost:1313/posts/2024-16-12-testing/</link>
 		<pubDate>Mon, 16 Dec 2024 13:58:25 +0000</pubDate>
 		
-		<guid>http://localhost:1313/2024-16-12-testing/</guid>
+		<guid>http://localhost:1313/posts/2024-16-12-testing/</guid>
 		<description></description>
 	</item>
 	
@@ -25,7 +79,7 @@
 		<pubDate>Mon, 16 Dec 2024 13:27:05 +0000</pubDate>
 		
 		<guid>http://localhost:1313/posts/2024-12-16-navigators-feast-of-fools-2-black-swan/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2024-12-06-navigators-feast-of-fools-2/feast-fools-web.jpg&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;
+		<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2024-12-06-navigators-feast-of-fools-2/feast-of-fools-web.jpg&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.instagram.com/navigatorsart&#34; target=&#34;_blank&#34;&gt;Navigators Art and Performance&lt;/a&gt; Presents:&lt;/p&gt;
 &lt;h2 id=&#34;a-feast-of-fools-ii&#34;&gt;&lt;strong&gt;A FEAST OF FOOLS II&lt;/strong&gt;&lt;/h2&gt;
 &lt;h2 id=&#34;folk-music-and-words-to-celebrate-old-christmas-and-twelfth-night&#34;&gt;&lt;strong&gt;Folk Music and words to Celebrate Old Christmas and Twelfth Night&lt;/strong&gt;&lt;/h2&gt;
@@ -204,10 +258,12 @@ Ticket holders are invited to a pre-show discusssion from 6PM&lt;/p&gt;
 		<pubDate>Thu, 22 Aug 2024 18:15:01 +0100</pubDate>
 		
 		<guid>http://localhost:1313/socials/</guid>
-		<description>&lt;p&gt;You may have noticed this is a very bare bones blog..It&amp;rsquo;s an incredibly lightweight site made out of plain text markdown, html and css files. It&amp;rsquo;s very much a work in progress as I learn how to code the pages and tinker with &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;. I wanted it to be almost as minimal and distraction free as a text editor to just focus on the content. Because of this I have no tracking, comment or follow system. The best way to follow this blog is by using an RSS reader and adding the .xml link below. That&amp;rsquo;s a little old school for some.. so another way to follow is to just add me on a social network and see posts when I share them or of course you could also just bookmark the page in your browser.&lt;/p&gt;
-&lt;p&gt;There is a reply by email button under every post if you have any comments or questions I am happy to answer them there.&lt;/p&gt;
-&lt;p&gt;I post video content on my &lt;a href=&#34;https://www.youtube.com/@itsbledley_tv&#34; target=&#34;_blank&#34;&gt;Youtube Channel&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;My preferred social network is &lt;a href=&#34;https://bsky.app/profile/itsbledley.bsky.social&#34; target=&#34;_blank&#34;&gt;Bluesky&lt;/a&gt; at the moment.&lt;/p&gt;
+		<description>&lt;p&gt;You may have noticed this is a very bare bones blog..It&amp;rsquo;s an incredibly lightweight site made out of plain text markdown, html and css files. It&amp;rsquo;s very much a work in progress as I learn how to use &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have no tracking, comment or follow system. The best way to follow this blog is by using an RSS reader and adding the .xml link below or just bookmark the page in your browser.&lt;/p&gt;
+&lt;p&gt;There is a reply by email button under every post if you have any comments or questions I&amp;rsquo;m happy to answer them there.&lt;/p&gt;
+&lt;p&gt;I post video content on my &lt;a href=&#34;https://www.youtube.com/@bledleysworld&#34; target=&#34;_blank&#34;&gt;Youtube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The only social network I&amp;rsquo;m on is &lt;a href=&#34;https://bsky.app/profile/itsbledley.bsky.social&#34; target=&#34;_blank&#34;&gt;Bluesky&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My dotfiles and configs can be found on &lt;a href=&#34;https://github.com/bleds1&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Subscribe with an &lt;a href=&#34;http://localhost:1313/index.xml&#34;&gt;RSS&lt;/a&gt; reader&lt;/p&gt;
 </description>
 	</item>
@@ -218,24 +274,16 @@ Ticket holders are invited to a pre-show discusssion from 6PM&lt;/p&gt;
 		<pubDate>Wed, 21 Aug 2024 11:55:34 +0100</pubDate>
 		
 		<guid>http://localhost:1313/posts/2024-08-21-drawing-and-painting-in-krita-youtube/</guid>
-		<description>
-
-    
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/f5pQRD5O4B0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-      &gt;&lt;/iframe&gt;
+		<description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/f5pQRD5O4B0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
 &lt;p&gt;I launched my &lt;a href=&#34;https://www.youtube.com/@itsbledley_tv&#34; target=&#34;_blank&#34;&gt;YouTube channel&lt;/a&gt; a little while ago, starting initially with just some time-lapse videos of my digital process. I was trying to just get in the habit of recording, editing, adding some audio and posting online. My first attempt with some kind of vocal commentary was a bit let down by poor audio quality but I think I&amp;rsquo;ve been levelling them up a little each time. I recently got a better quality mic and the last couple seem like something I can share.&lt;/p&gt;
 &lt;p&gt;In &lt;a href=&#34;https://youtu.be/f5pQRD5O4B0&#34; target=&#34;_blank&#34;&gt;Part One&lt;/a&gt; of this series I show my process in &lt;a href=&#34;https://krita.org/en/&#34; target=&#34;_blank&#34;&gt;Krita&lt;/a&gt; for taking a traditional sketch from your sketchbook, scanning it in and doing digital inks and flats on top.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://youtu.be/2pVRKmWywNw&#34; target=&#34;_blank&#34;&gt;Part Two&lt;/a&gt; discusses blocking in a tonal monochrome under painting and hard and soft edges.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m using Krita mostly because this is the easiest way for me to make videos right now. I wouldn&amp;rsquo;t say they are totally digital tool specific.. the things discussed are more general art theory that you could apply to other mediums. As for direction of the channel - I&amp;rsquo;m just learning as I go and do like that are many possibilities for the type of content I could make there. I&amp;rsquo;m enjoying the editing process and the medium - YouTube is one of the better and more creative social networks at the moment in my opinion.&lt;/p&gt;
-
-
-    
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/2pVRKmWywNw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-      &gt;&lt;/iframe&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/2pVRKmWywNw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
 </description>
@@ -445,8 +493,7 @@ Look for the sign in the windows.&lt;/p&gt;
 &lt;p&gt;Watched &lt;a href=&#34;https://en.wikipedia.org/wiki/Pet_Sematary_%281989_film%29&#34; target=&#34;_blank&#34;&gt;Pet Sematary 1989&lt;/a&gt; again recently and was quite struck by the face of Judd Crandall aka &lt;a href=&#34;https://en.wikipedia.org/wiki/Fred_Gwynne&#34; target=&#34;_blank&#34;&gt;Fred Gwynne&lt;/a&gt; aka Herman Munster. Those Zelda scenes still creep me out. Quite often I need a bit of escapism from this crazy old techno future we find ourselves in and a slightly crappy 80&amp;rsquo;s/90&amp;rsquo;s movie seems to hit just the right spot.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m working with oils at the moment and this horrific thing keeps happening whereby I think something&amp;rsquo;s starting to look pretty decent so I take a photo..then instantly I see it with an overly critical eye that stops me from ever sharing it. Enjoyment of the creation process comes to an end I will quite often noodle all the energy out of it. It&amp;rsquo;s a habit I&amp;rsquo;m trying to beat by just saying to myself I&amp;rsquo;m going to work on something for a week then post it, wish it goodbye and move on to the next thing. I&amp;rsquo;m not seeking perfection, I&amp;rsquo;m after momentum. I just finished &lt;a href=&#34;https://en.wikipedia.org/wiki/Rick_Rubin&#34; target=&#34;_blank&#34;&gt;Rick Rubin&amp;rsquo;s&lt;/a&gt; book &lt;a href=&#34;https://www.goodreads.com/en/book/show/60965426&#34; target=&#34;_blank&#34;&gt;&amp;lsquo;The Creative Act&amp;rsquo;&lt;/a&gt; and this quote seemed to nail the kind of thing I&amp;rsquo;m thinking about right now.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;Releasing a work into the world becomes easier when we remember that each piece can never be a total reflection of us..If we wait, it’s no longer today’s reflection..There is a timeliness to the work. Hanging on to your work is like spending years writing the same entry in a diary. Moments and opportunities are lost. The next works are robbed of being brought to life.&amp;rdquo; ~ Rubin2023&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Releasing a work into the world becomes easier when we remember that each piece can never be a total reflection of us..If we wait, it’s no longer today’s reflection..There is a timeliness to the work. Hanging on to your work is like spending years writing the same entry in a diary. Moments and opportunities are lost. The next works are robbed of being brought to life.&amp;rdquo; ~ Rubin2023&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2022-02-19-shelby-brothers/&#34;&gt;Shelbys Brothers Oil on Paper&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2023-04-11-oil-studies-of-elders/&#34;&gt;Oil Studies of Elders&lt;/a&gt;&lt;/p&gt;
@@ -809,8 +856,10 @@ We encourage enquiries from potential collaborators, particularly those who are 
 		<pubDate>Sun, 30 Jul 2023 00:24:54 +0100</pubDate>
 		
 		<guid>http://localhost:1313/links/</guid>
-		<description>&lt;p&gt;I&amp;rsquo;ve not done this bit yet..check back soon..&lt;/p&gt;
-&lt;p&gt;Useful and interesting links and resources will live here..it&amp;rsquo;s gonna be awesome.&lt;/p&gt;
+		<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/proboscic-monkey.jpg&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve not done this bit yet..check back soon..&lt;/p&gt;
+&lt;p&gt;I think useful and interesting links and resources will live here..&lt;/p&gt;
+&lt;p&gt;it&amp;rsquo;s gonna be awesome.&lt;/p&gt;
 </description>
 	</item>
 	

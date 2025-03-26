@@ -3,7 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-16T13:27:05+00:00</lastmod>
+    <lastmod>2025-03-26T11:55:25+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025-03-26-image-previews-in-lf-file-manager/</loc>
+    <lastmod>2025-03-26T11:55:25+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/lf/</loc>
+    <lastmod>2025-03-26T11:55:25+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2025-03-26T11:55:25+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-03-26T11:55:25+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-03-26T11:55:25+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025-03-23-significantly-reduce-video-size-with-ffmpeg/</loc>
+    <lastmod>2025-03-23T10:42:48+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/video/</loc>
+    <lastmod>2025-03-23T10:42:48+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-16-12-testing/</loc>
+    <lastmod>2024-12-16T13:58:25+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2024-12-16-navigators-feast-of-fools-2-black-swan/</loc>
     <lastmod>2024-12-16T13:27:05+00:00</lastmod>
@@ -11,13 +35,7 @@
     <loc>http://localhost:1313/tags/navigators/</loc>
     <lastmod>2024-12-16T13:27:05+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-12-16T13:27:05+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/shows/</loc>
-    <lastmod>2024-12-16T13:27:05+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-12-16T13:27:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tech/</loc>
@@ -213,9 +231,6 @@
     <lastmod>2023-02-18T12:37:02+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/</loc>
-    <lastmod>2023-01-27T14:00:56+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2023-01-27T14:00:56+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2023-01-17-lost-boys-painting-step-by-step/</loc>

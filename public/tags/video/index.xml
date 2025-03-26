@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on 🌀 bledleys blog</title>
+    <link>http://localhost:1313/tags/video/</link>
+    <description>Recent content in Video on 🌀 bledleys blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Mar 2025 10:42:48 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Significantly reduce video file size with ffmpeg</title>
+      <link>http://localhost:1313/posts/2025-03-23-significantly-reduce-video-size-with-ffmpeg/</link>
+      <pubDate>Sun, 23 Mar 2025 10:42:48 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-03-23-significantly-reduce-video-size-with-ffmpeg/</guid>
+      <description>&lt;p&gt;I was recently asked to record someones short performance at a gig on my phone. I obliged of course but I&amp;rsquo;ve got to admit dealing with video footage on phones is not all that fun to me. Mostly because of the huge file sizes. Then we&amp;rsquo;ve got to work out how we&amp;rsquo;re going to transfer it to a computer for some post processing and send it on. The piece of video in question was around 5 gigs in size. You take this on an Android phone with Google Photos or something and that&amp;rsquo;s a pretty nasty chunk out of your free storage allowance.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

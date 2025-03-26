@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><link rel="alternate" type="application/rss+xml" href="http://localhost:1313//feed.xml" title="🌀 bledleys blog">
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Significantly reduce video file size with ffmpeg · 🌀 bledleys blog</title>
+
+
+
+<link rel="stylesheet" href="/css/rocinante.css" />
+<link rel="shortcut icon" href="icons/favicon.jpg">
+
+
+<body>
+    <header><link rel="alternate"
+      type="application/rss+xml"
+      href="http://localhost:1313//posts"
+      title="🌀 bledleys blog">
+
+<h2>
+  
+    <a href="http://localhost:1313/">🌀 bledleys blog</a>
+  
+</h2>
+</header>
+    <main>
+
+    <div class="post">
+        <div class="title-group">
+            <div class="title">
+                <h1>Significantly reduce video file size with ffmpeg</h1>
+            </div>
+            <div class="date"><h5>Mar 23, 2025</h5></div>
+        </div>
+        <article class="content">
+            <p>I was recently asked to record someones short performance at a gig on my phone. I obliged of course but I&rsquo;ve got to admit dealing with video footage on phones is not all that fun to me. Mostly because of the huge file sizes. Then we&rsquo;ve got to work out how we&rsquo;re going to transfer it to a computer for some post processing and send it on. The piece of video in question was around 5 gigs in size. You take this on an Android phone with Google Photos or something and that&rsquo;s a pretty nasty chunk out of your free storage allowance.</p>
+<p>Anyways, I got it across to computer and ran some noise reduction processes on it in Kdenlive. The final output was still a massive file and I needed to send it via wetransfer where it was still way, way over the file size limitation of 2 gigs.</p>
+<p>Thankfully I have this nice little piece of code bookmarked for such situations and I thought I should share it here for your use and easy reference. Make sure you have ffmpeg installed and run this command on your file in the terminal. Replace input and output.mp4 with the name of your file. Be warned this process needs to be allowed to run in the terminal without being disturbed and can take quite some time. I can&rsquo;t explain the technicals of it but it goes through frame and frame and runs some compression on it. It  may take a quite a long time even on a short video depending on the power of your machine.</p>
+<p>I managed to get a 5 gig file down to under 500 mb! with absolutely no noticeable difference in resolution or sound quality. For me that&rsquo;s worth the waiting time. Try it out and be patient -  It just works.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ffmpeg -i input.mp4  -vcodec libx265 -crf <span style="color:#ff0;font-weight:bold">28</span> output.mp4
+</span></span></code></pre></div><h2 id="related">Related</h2>
+<p><a href="/posts/2023-01-27-getting-started-with-doom-emacs/">Getting Started with Doom Emacs</a></p>
+<p><a href="/posts/2023-12-01-what-the-hell-is-org-mode/">What the hell is Org-Mode?</a></p>
+
+        </article>
+        
+            <div class="tags">
+                <span title="Tags">🏷</span>
+                <div class="horizontal-links links">
+                    <a href="/tags/linux/">Linux</a><a href="/tags/video/">Video</a>
+                </div>
+            </div>
+        
+    </article>
+<strong><a href="mailto:itsbledley@posteo.com?cc=mail@example.com&subject=Significantly%20reduce%20video%20file%20size%20with%20ffmpeg">✉️ Reply by Email </a></strong>
+</div>
+<strong><a href="https://bledley.xyz/posts/">⬅️ Back to Posts</a></strong>
+<div>
+
+    </main>
+    <footer>
+  <div class="content-container">
+    <div class="content">
+
+
+  <p class="horizontal-links"><a href="https://bledley.xyz/"
+       
+       
+      >🏠 Home</a><a href="https://portfolio.pixelfed.social/bledley"
+        target="_blank" 
+       
+      >🎨 Gallery</a><a href="/contact"
+       
+        class="email-hook" id="about-email" title="Click to show email" 
+      >💬 Message</a><a href="/socials"
+       
+       
+      >↪️ Follow</a><a href="/kofi"
+       
+       
+      >☕ Thanks</a><a href="/links"
+       
+       
+      >💭 Stuff</a></p>
+
+</div>
+  </div>
+
+</footer>
+    
+    <script>
+      const emailId = atob("aXRzYmxlZGxleUBwb3N0ZW8uY29t");
+    </script>
+      <script src="/js/rocinante.min.js"></script></body>
+</html>

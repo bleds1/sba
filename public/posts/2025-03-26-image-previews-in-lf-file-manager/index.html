@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><link rel="alternate" type="application/rss+xml" href="http://localhost:1313//feed.xml" title="🌀 bledleys blog">
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Image previews in lf with sixel and chafa · 🌀 bledleys blog</title>
+
+
+
+<link rel="stylesheet" href="/css/rocinante.css" />
+<link rel="shortcut icon" href="icons/favicon.jpg">
+
+
+<body>
+    <header><link rel="alternate"
+      type="application/rss+xml"
+      href="http://localhost:1313//posts"
+      title="🌀 bledleys blog">
+
+<h2>
+  
+    <a href="http://localhost:1313/">🌀 bledleys blog</a>
+  
+</h2>
+</header>
+    <main>
+
+    <div class="post">
+        <div class="title-group">
+            <div class="title">
+                <h1>Image previews in lf with sixel and chafa</h1>
+            </div>
+            <div class="date"><h5>Mar 26, 2025</h5></div>
+        </div>
+        <article class="content">
+            <p><img src="/2025-03-26-image-previews-in-lf-file-manager/screenshot1.png" alt="Image 1"></p>
+<p>Despite swearing by <a href="https://github.com/ranger/ranger" target="_blank">ranger</a> for quite a few years I am a recent convert to the very similar <a href="https://github.com/gokcehan/lf" target="_blank">lf file manager</a>. It just feels a little lighter, faster and simpler and lets me fly around my system super fast. Today I finally got image previews working and very nicely too. I can do away with Ranger and the no longer maintained <a href="https://github.com/seebye/ueberzug" target="_blank">ueberzug</a> for terminal image previews.</p>
+<p>The answer for me was that I needed to install <a href="https://github.com/hpjansson/chafa" target="_blank">chafa</a>. You may also need to install libsixel - I already had this installed so maybe go look into that. We need to make a previewer script that uses chafa for pictures and bat when it&rsquo;s text/not an image file. <a href="https://github.com/sharkdp/bat" target="_blank">bat</a> gives you nicely coloured previews of text files with syntax highlighting. I&rsquo;m using the <a href="https://codeberg.org/dnkl/foot" target="_blank">foot terminal</a> on Wayland in <a href="https://hyprland.org/" target="_blank">hyprland</a> and on Arch Linux. If you want to implement it this way you will need to use a terminal with <a href="https://www.arewesixelyet.com/" target="_blank">sixel support</a></p>
+<p><img src="/2025-03-26-image-previews-in-lf-file-manager/screenshot2.png" alt="Image 2"></p>
+<p>Feel free to use this code below or check out my dotfiles repo on <a href="https://github.com/bleds1/dotfiles" target="_blank">GitHub</a></p>
+<p>First up install chafa via your package manager. On Arch Linux you should find this in the regular repos. Installation may vary on different distros.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>    sudo pacman -S chafa
+</span></span></code></pre></div><p>Next up create a bash script. I&rsquo;ve called it pv.sh but name it as you like. It can be placed in any directory so long as you include it&rsquo;s full path in your lf config. I keep my scripts in a <em>~/.scripts</em> folder or sometimes in <em>~/.local/bin</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>    <span style="color:#007f7f">#!/bin/sh</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007f7f"># use chafa/sixel to preview images in lf. If it&#39;s not an image use bat with colour</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007f7f"># chmod +x on the command line to make the script executable.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">case</span> <span style="color:#0ff;font-weight:bold">&#34;</span><span style="color:#fff;font-weight:bold">$(</span>file -Lb --mime-type -- <span style="color:#0ff;font-weight:bold">&#34;</span>$1<span style="color:#0ff;font-weight:bold">&#34;</span><span style="color:#fff;font-weight:bold">)</span><span style="color:#0ff;font-weight:bold">&#34;</span> in
+</span></span><span style="display:flex;"><span>        image/*)
+</span></span><span style="display:flex;"><span>            chafa -f sixel -s <span style="color:#0ff;font-weight:bold">&#34;</span>$2<span style="color:#0ff;font-weight:bold">x</span>$3<span style="color:#0ff;font-weight:bold">&#34;</span> --animate off --polite on <span style="color:#0ff;font-weight:bold">&#34;</span>$1<span style="color:#0ff;font-weight:bold">&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">exit</span> <span style="color:#ff0;font-weight:bold">1</span>
+</span></span><span style="display:flex;"><span>            ;;
+</span></span><span style="display:flex;"><span>        *)
+</span></span><span style="display:flex;"><span>            bat --color=always --style=<span style="color:#0ff;font-weight:bold">&#34;numbers,snip&#34;</span> <span style="color:#0ff;font-weight:bold">&#34;</span>$1<span style="color:#0ff;font-weight:bold">&#34;</span>
+</span></span><span style="display:flex;"><span>            ;;
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">esac</span>
+</span></span></code></pre></div><p>Now in your lf config <em>(~/.config/lfrc)</em> you will need the following options set. Save and launch a new instance of lf and you should be in business.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">set</span> preview <span style="color:#fff;font-weight:bold">true</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">set</span> previewer ~/.config/lf/pv.sh <span style="color:#007f7f">#full path the above script</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">set</span> sixel <span style="color:#fff;font-weight:bold">true</span>
+</span></span></code></pre></div><h2 id="related-posts">Related Posts</h2>
+<p><a href="/posts/2025-03-23-significantly-reduce-video-size-with-ffmpeg/">Significantly reduce video file size with ffmpeg</a></p>
+<p><a href="/posts/2023-01-27-getting-started-with-doom-emacs/">Getting Started with Doom Emacs</a></p>
+
+        </article>
+        
+            <div class="tags">
+                <span title="Tags">🏷</span>
+                <div class="horizontal-links links">
+                    <a href="/tags/linux/">Linux</a><a href="/tags/lf/">Lf</a>
+                </div>
+            </div>
+        
+    </article>
+<strong><a href="mailto:itsbledley@posteo.com?cc=mail@example.com&subject=Image%20previews%20in%20lf%20with%20sixel%20and%20chafa">✉️ Reply by Email </a></strong>
+</div>
+<strong><a href="https://bledley.xyz/posts/">⬅️ Back to Posts</a></strong>
+<div>
+
+    </main>
+    <footer>
+  <div class="content-container">
+    <div class="content">
+
+
+  <p class="horizontal-links"><a href="https://bledley.xyz/"
+       
+       
+      >🏠 Home</a><a href="https://portfolio.pixelfed.social/bledley"
+        target="_blank" 
+       
+      >🎨 Gallery</a><a href="/contact"
+       
+        class="email-hook" id="about-email" title="Click to show email" 
+      >💬 Message</a><a href="/socials"
+       
+       
+      >↪️ Follow</a><a href="/kofi"
+       
+       
+      >☕ Thanks</a><a href="/links"
+       
+       
+      >💭 Stuff</a></p>
+
+</div>
+  </div>
+
+</footer>
+    
+    <script>
+      const emailId = atob("aXRzYmxlZGxleUBwb3N0ZW8uY29t");
+    </script>
+      <script src="/js/rocinante.min.js"></script></body>
+</html>
