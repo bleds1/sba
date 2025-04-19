@@ -5,10 +5,33 @@
 	<description>Recent content on 🌀 bledleys blog</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Wed, 26 Mar 2025 11:55:25 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 19 Apr 2025 13:13:28 +0100</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Recent works and quick update</title>
+		<link>http://localhost:1313/posts/2025-04-19-recent-works-and-update/</link>
+		<pubDate>Sat, 19 Apr 2025 13:13:28 +0100</pubDate>
+		
+		<guid>http://localhost:1313/posts/2025-04-19-recent-works-and-update/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2025-04-19-recent-works-and-update/20250419-portrait-1.jpg&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2025-04-19-recent-works-and-update/20250419-portrait-2.jpg&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2025-04-19-recent-works-and-update/20250419-rockateer.jpg&#34; alt=&#34;Image 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2025-04-19-recent-works-and-update/20250419-study-sheet.jpg&#34; alt=&#34;Image 4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Not going to lie to you folks my artistic productivity has gone off the cliff.&lt;/p&gt;
+&lt;p&gt;I am in pursuit of some other priorities to try and make my life a little more stable. A little bit of sacrifice now for the greater good but honestly it feels pretty gross to not be doing art stuff. It&amp;rsquo;s probably the first time in my life that I&amp;rsquo;ve almost put a full stop on things for a while.&lt;/p&gt;
+&lt;p&gt;I even got a new drawing tablet - a screen tablet that I will discuss setting up on &lt;a href=&#34;https://archlinux.org/&#34; target=&#34;_blank&#34;&gt;Arch Linux&lt;/a&gt; in future posts. I figured it would be an in my face commitment that would get me back into art habits. Even that has not really been enough to make any serious work - just a little play.&lt;/p&gt;
+&lt;p&gt;Anyways when I do get back to posting work I&amp;rsquo;m primarily using &lt;a href=&#34;https://pixelfed.org/&#34; target=&#34;_blank&#34;&gt;Pixelfed&lt;/a&gt; for my art &amp;lsquo;portfolio&amp;rsquo; of sorts. I don&amp;rsquo;t use Instagram as I hate all the Meta stuff, Pixelfed seems like my best option for posting images right now. It definitely has a little way to go as an &amp;lsquo;app&amp;rsquo; but I think it&amp;rsquo;s going to stick around and has good ethics. I particularly like that you can set up a portfolio/gallery type page. You can see that &lt;a href=&#34;https://portfolio.pixelfed.social/bledley&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; or at the top of this page and then click through to my profile.&lt;/p&gt;
+&lt;p&gt;I also have some ideas brewing for &lt;a href=&#34;https://www.youtube.com/@bledleysworld&#34; target=&#34;_blank&#34;&gt;Youtube videos&lt;/a&gt; - probably more system orientated stuff as I moved to &lt;a href=&#34;https://hyprland.org/&#34; target=&#34;_blank&#34;&gt;Hyprland&lt;/a&gt; and am doing all the things through &lt;a href=&#34;https://github.com/doomemacs/doomemacs&#34; target=&#34;_blank&#34;&gt;Doom Emacs&lt;/a&gt; and &lt;a href=&#34;https://orgmode.org/&#34; target=&#34;_blank&#34;&gt;Org mode&lt;/a&gt; again. I feel I have some things to write about or make video content on there.&lt;/p&gt;
+&lt;p&gt;Including above some rough around the edges study stuff in &lt;a href=&#34;https://krita.org/en/&#34; target=&#34;_blank&#34;&gt;Krita&lt;/a&gt; that I haven&amp;rsquo;t posted here yet.&lt;/p&gt;
+&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2023-06-14-girl-study-in-krita/&#34;&gt;Girl Study in Krita&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2021-08-24-rockwell-sketchbook-studies/&#34;&gt;Rockwell Sketchbook Studies&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2023-01-27-getting-started-with-doom-emacs/&#34;&gt;Getting Started with Doom Emacs&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Image previews in lf with sixel and chafa</title>
@@ -65,15 +88,6 @@
 	</item>
 	
 	<item>
-		<title>2024 16 12 Testing</title>
-		<link>http://localhost:1313/posts/2024-16-12-testing/</link>
-		<pubDate>Mon, 16 Dec 2024 13:58:25 +0000</pubDate>
-		
-		<guid>http://localhost:1313/posts/2024-16-12-testing/</guid>
-		<description></description>
-	</item>
-	
-	<item>
 		<title>A Feast of Fools II @ The Black Swan York 5th January 2025</title>
 		<link>http://localhost:1313/posts/2024-12-16-navigators-feast-of-fools-2-black-swan/</link>
 		<pubDate>Mon, 16 Dec 2024 13:27:05 +0000</pubDate>
@@ -104,101 +118,6 @@
 &lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2024-01-02-navigators-art-a-feast-of-fools-black-swan/&#34;&gt;A Feast of Fools @ The Black Swan&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://bit.ly/nav-feast2&#34; target=&#34;_blank&#34;&gt;Ticketsource booking&lt;/a&gt;&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Trying out the Zed editor</title>
-		<link>http://localhost:1313/posts/2024-10-27-testing-out-zed/</link>
-		<pubDate>Sun, 27 Oct 2024 12:36:01 +0000</pubDate>
-		
-		<guid>http://localhost:1313/posts/2024-10-27-testing-out-zed/</guid>
-		<description>&lt;h2 id=&#34;what-is-zed-editor&#34;&gt;What is Zed editor?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;Zed&lt;/a&gt; is a fairly new code or text editor on the block. Cool name right?&lt;/li&gt;
-&lt;li&gt;It&amp;rsquo;s written in &lt;a href=&#34;&#34;&gt;Rust&lt;/a&gt; and claims to be fast and light with an emphasis on using AI and collaborative features.&lt;/li&gt;
-&lt;li&gt;I&amp;rsquo;ll be straight with you though - I have no interest in the AI features or collaboration tools. I&amp;rsquo;m not a programmer, I just tinker around with my computers configuration files and theming etc and work on some basic code for my website. I usually use Emacs or Neovim for that purpose.&lt;/li&gt;
-&lt;li&gt;Why would you want to try it?&lt;/li&gt;
-&lt;li&gt;I kind of believe that you should have a terminal based and a GUI based solution for doing the same tasks on your system. I recently moved to the Gnome desktop environment and there&amp;rsquo;s a kind of polish and unified look to that which has led to me investigating more GUI based solutions that fit nicely into my system. My first though on seeing Zed was - that looks pretty, let&amp;rsquo;s give it a spin as my default text editor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;how-to-install-zed&#34;&gt;How to install Zed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;The Linux version only came out a couple of months ago, you can get in MacOS but Windows users will have to wait.&lt;/li&gt;
-&lt;li&gt;On Arch Linux you can find Zed in the main repositories. See their &lt;a href=&#34;&#34;&gt;documentation&lt;/a&gt; for alternative installation methods.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S zed
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;first-launch&#34;&gt;First launch&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;You can launch zed in the way you usually launch programs&lt;/li&gt;
-&lt;li&gt;On first launch you will see a little pop up that asks for a few default options. You can opt in or out of telemetry, set a theme and change your base keymap type here. You can also enable Vim mode here or set it later.&lt;/li&gt;
-&lt;li&gt;Enable cli&lt;/li&gt;
-&lt;li&gt;One of the first things you may want to do it is enable cli access so you can launch the editor in the terminal. You can do this in the graphical menu or through the control panel searching for cli::install&lt;/li&gt;
-&lt;li&gt;Accessing the Control pallette&lt;/li&gt;
-&lt;li&gt;The idea of a control or command pallette will be familiar to some from other programs and can be activated with Ctrl+Shift+p.&lt;/li&gt;
-&lt;li&gt;So now in the terminal you will be able to type&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;zeditor ~/myproject
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to open a directory as a project
-or&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;zeditor myfile.txt
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to open a single file
--&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Set an alias&lt;/li&gt;
-&lt;li&gt;The first thing I thought here was &amp;ldquo;no way am I typing zeditor everytime&amp;rdquo; and promptly headed to my bash alias and set&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;alias&lt;/span&gt; z=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;zeditor&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So I can instead just..&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;z myfile
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;z ~/myproject
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;basic-settings&#34;&gt;Basic settings&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;I was impressed with the amount and quality of the themes installed my default. You&amp;rsquo;ll probably be able to find something you like in there but if not you can search extensions or &lt;a href=&#34;https://zedthemes.com&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt; to find more. I wanted mine to feel at home in my Gnome environment so installed on called &amp;lsquo;Adwaita Pastel&amp;rsquo; that I think looks pretty smart.&lt;/li&gt;
-&lt;li&gt;Installing extensions&lt;/li&gt;
-&lt;li&gt;search for extensions in the command pallette. This eco system of plugins/extensions seems to mostly consist of themes right now but is an understandable as a fairly young editor. I would expect to see this grow quite rapidly.&lt;/li&gt;
-&lt;li&gt;Access the settings&lt;/li&gt;
-&lt;li&gt;Your going to want to tweak some settings to your liking. Access the settings file with Ctrl , or by using the command pallette and settings. This will open the .json file - you should see some things you already set through using the graphical ui already if you changed theme or disabled telemetry for example. You can add a comma to a line and continue to add more options here.&lt;/li&gt;
-&lt;li&gt;Access the keybinds&lt;/li&gt;
-&lt;li&gt;The other file you may want to edit regularly is the keymap.json. Search keymap in the command pallette or access directly with the keybind (for me this is Ctrl k Ctrl S)&lt;/li&gt;
-&lt;li&gt;Hiding or disabling things&lt;/li&gt;
-&lt;li&gt;One of the first things I think about it getting the editor to look the way I want. As I said I&amp;rsquo;m not interested in the collaborative, co-pilot stuff and I wanted to hide the icons for those. The following code should help with hiding, showing or moving things into different parts of the UI.&lt;/li&gt;
-&lt;li&gt;Some settings &amp;amp; keybinds&lt;/li&gt;
-&lt;li&gt;I need Vim mode and have a set of keybinds that are automatic for me in both Neovim and Doom Emacs. Basic stuff like saving a file. I&amp;rsquo;m particularly addicted to space f s. I&amp;rsquo;m really happy you can implement these kind of leader key, key chords. Find more happy defaults for me personally below. One area I haven&amp;rsquo;t sorted out yet is my keybinds for splits and navigating splits. This is just because I&amp;rsquo;ve been using the regular tabbed mode primarily and not really seen the need for it yet.&lt;/li&gt;
-&lt;li&gt;Some things I like
-&lt;ul&gt;
-&lt;li&gt;speed&lt;/li&gt;
-&lt;li&gt;Looks&lt;/li&gt;
-&lt;li&gt;I think it looks great, it&amp;rsquo;s not clutters and helps you just focus on the text. Rounded corners in the Gnome, Adwaita environment feels almost native and fits nicely.&lt;/li&gt;
-&lt;li&gt;Markdown previews&lt;/li&gt;
-&lt;li&gt;The majority of my writing, note taking and blog work is in the markdown format. The Markdown mode feels nice to write in. Being able to generate a live preview in another tab or a split works really well.&lt;/li&gt;
-&lt;li&gt;Project search&lt;/li&gt;
-&lt;li&gt;This is essential to me for example I made need to find and replace a word across a whole bunch of folders in my website or search for a mention of something in my Zettelkasten notes. Sure you can grep and stuff but I find this kind of task nice to do in a GUI and search and search across projects is implemented well.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;improvements-id-like-to-see&#34;&gt;Improvements I&amp;rsquo;d like to see&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;as a markdown editor &lt;a href=&#34;&#34;&gt;Obsidian&lt;/a&gt; and &lt;a href=&#34;&#34;&gt;Emacs&lt;/a&gt; still feel more featureful&lt;/li&gt;
-&lt;li&gt;I&amp;rsquo;d like to see a few more features for pure writing. A word count feature, spell checking in non code files. Some kind of zen mode that puts you into a pure clean writing state. It&amp;rsquo;s those kind of features that could lead to me choosing to use something else..&lt;/li&gt;
-&lt;li&gt;You can go fullscreen and use the centered mode which works quite nicely for me. One things I&amp;rsquo;d like to be able to do is disable line numbers only in markdown mode. That&amp;rsquo;s something I can achieve in other editors.&lt;/li&gt;
-&lt;li&gt;Understandably Zed&amp;rsquo;s focus is coding but it&amp;rsquo;s competitors do this well. I imagine these kind of things may appear in the form of extensions at some point.&lt;/li&gt;
-&lt;li&gt;Option to hide the co-pilot sign in&lt;/li&gt;
-&lt;li&gt;Being able to hide the icons for these features is a good start but that&amp;rsquo;s not actually deactivating it&amp;rsquo;s functionality. We can&amp;rsquo;t get rid of that sign in button at the top and it seems the devs have no interest in making it a possibility.&lt;/li&gt;
-&lt;li&gt;More extensions&lt;/li&gt;
-&lt;li&gt;Zed is still a young editor and I expect as the extensions ecosystem grows we may see more features that we have grown accustomed to from other editors.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Zed is a very good editor, I love it&amp;rsquo;s simplicity, speed and it just feels good to work in.&lt;/li&gt;
-&lt;li&gt;If the emphasis on AI and collaboration is something holding you back don&amp;rsquo;t worry you can work around those features and never login or connect to such things. If you want a code editor something akin to VSCode/or Codium without the bloat that comes with it. Zed feels more light and fast and more like Sublime Text really.
-I&amp;rsquo;m trialling it as my default editor but there are still some things I would prefer to use Emacs for as primarily a writer. It may be that I&amp;rsquo;ve still not discovered many features - it would only be fair to keep using it as my default for a while and see how it develops.&lt;/li&gt;
-&lt;li&gt;Let me know what you think? How are you finding Zed?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;related&#34;&gt;Related&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;&#34;&gt;Doom Emacs Post&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;&#34;&gt;Zed website&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;&#34;&gt;zedthemes&lt;/a&gt;&lt;/p&gt;
 </description>
 	</item>
 	
@@ -1245,16 +1164,6 @@ Booking: &lt;a href=&#34;https://www.eventbrite.co.uk/e/living-treasures-tickets
 	</item>
 	
 	<item>
-		<title>2023-01-12 Sketchbook Flick Through</title>
-		<link>http://localhost:1313/posts/2023-01-12-sketchbook-flick-through/</link>
-		<pubDate>Thu, 12 Jan 2023 12:42:17 +0100</pubDate>
-		
-		<guid>http://localhost:1313/posts/2023-01-12-sketchbook-flick-through/</guid>
-		<description>&lt;p&gt;[vid]&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
 		<title>Now Showing @ Helmsley Arts Centre</title>
 		<link>http://localhost:1313/posts/2023-01-11-helmsley-arts-centre-now-showing/</link>
 		<pubDate>Wed, 11 Jan 2023 20:40:56 +0100</pubDate>
@@ -1279,34 +1188,6 @@ Booking: &lt;a href=&#34;https://www.eventbrite.co.uk/e/living-treasures-tickets
 &lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2022-03-12-moving-pictures-now-showing&#34;&gt;Moving Pictures @ City Screen, York&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2023-06-07-living-treasures-live-performance/&#34;&gt;Living Treasures Live Performance @ The Basement, City Screen York&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2021-11-17-the-north-water/&#34;&gt;The North Water&lt;/a&gt;&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Coney St Jam Live Show</title>
-		<link>http://localhost:1313/posts/2022-11-18-coney-st-jam-live-show/</link>
-		<pubDate>Fri, 18 Nov 2022 14:04:56 +0100</pubDate>
-		
-		<guid>http://localhost:1313/posts/2022-11-18-coney-st-jam-live-show/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2022-11-18-coney-st-jam-live-show/coney-st-jam-live-show-navigators-flyer.png/&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
-&lt;p&gt;This&amp;rsquo;ll be good. Saturday, York! come on down..&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;CONEY STREET LIVE JAM: MUSIC, SPOKEN WORD &amp;amp; COMEDY FROM YORK AND LEEDS a special performance event for @streetlifeyork celebrating our artists and some talented friends.&lt;/p&gt;
-&lt;p&gt;7 till 10 pm
-Saturday 19th November.
-StreetLife Hub,
-29-31 Coney Street,
-York YO1 9QL&lt;/p&gt;
-&lt;p&gt;Refreshments available.&lt;/p&gt;
-&lt;p&gt;Free entry/donations invited to &lt;a href=&#34;https://www.sash-uk.org.uk&#34; target=&#34;_blank&#34;&gt;SASH (Safe &amp;amp; Sound Homes): Preventing Youth Homelessness Together&lt;/a&gt;
-&lt;a href=&#34;https://streetlifeyork.uk/events/coney-st-live-jam-performance-night&#34; target=&#34;_blank&#34;&gt;Details &amp;amp; free booking:&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;CONEY ST JAM: AN ART INTERVENTION exhibition continues till December
-(10am – 5pm Mon-Sat except Weds, &amp;amp; Sun 11-4pm)
-Read all about it here: &lt;a href=&#34;https://charleshutchpress.co.uk/navigators-arts-art-intervention-coney-st-jam-goes-on-show-at-streetlife-project-hub/&#34; target=&#34;_blank&#34;&gt;Navigators Art&amp;rsquo;s art intervention Coney St Jam goes on show at StreetLife project hub | charleshutchpress&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Navigators Art : Creative in Community&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2022-11-18-coney-st-jam-live-show/coney-st-jam-live-show-navigators-performers.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2023-07-10-punk-jazz-call-out/&#34;&gt;Call out for Art: Punk/Jazz&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2023-06-07-living-treasures-live-performance/&#34;&gt;Living Treasures Live Performance @ The Basement, City Screen York&lt;/a&gt;&lt;/p&gt;
 </description>
 	</item>
 	
@@ -1389,19 +1270,6 @@ StreetLife Hub,
 &lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2023-02-18-small-gouache-people/&#34;&gt;Small Gouache People&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2022-03-12-village-elder/&#34;&gt;Village Elder&lt;/a&gt;&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Shadow of the Vampire Study</title>
-		<link>http://localhost:1313/posts/2022-04-08-shadow-of-the-vampire/</link>
-		<pubDate>Fri, 08 Apr 2022 15:48:07 +0100</pubDate>
-		
-		<guid>http://localhost:1313/posts/2022-04-08-shadow-of-the-vampire/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/2022-04-08-shadow-of-the-vampire/shadow-of-the-vampire-digital-painting.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Digital painting from a screengrab of the movie &amp;lsquo;Shadow of the Vampire&amp;rsquo;. I did this in Photoshop and Corel Painter.&lt;/p&gt;
-&lt;h2 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/2023-06-14-girl-study-in-krita/&#34;&gt;Girl Study in Krita&lt;/a&gt;&lt;/p&gt;
 </description>
 	</item>
 	
@@ -1719,46 +1587,6 @@ Swinson House (the old tax office just past SPARK)&lt;/p&gt;
 &lt;p&gt;Pleased to announce I will be showing some recent paintings in this art show at &lt;a href=&#34;https://www.sparkyork.org/&#34; target=&#34;_blank&#34;&gt;SPARK*&lt;/a&gt; in York with fellow MA Fine Art students from &lt;a href=&#34;https://www.yorksj.ac.uk/&#34; target=&#34;_blank&#34;&gt;York St John University&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Opening night is 5th June @7pm with free wine and snacks for our first arrivals. The show runs until 11th June (10am&amp;gt;10pm). We have performances and contributions on Wednesday and Friday evening. Will be great to see you there! ✌️&lt;/p&gt;
 </description>
-	</item>
-	
-	<item>
-		<title>Drawings</title>
-		<link>http://localhost:1313/photos/drawings/</link>
-		<pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
-		
-		<guid>http://localhost:1313/photos/drawings/</guid>
-		<description>&lt;p&gt;Here are some photos for your viewing pleasure.&lt;/p&gt;</description>
-	</item>
-	
-	<item>
-		<title>Urban Sketching</title>
-		<link>http://localhost:1313/photos/urban-sketching/</link>
-		<pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
-		
-		<guid>http://localhost:1313/photos/urban-sketching/</guid>
-		<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;</description>
-	</item>
-	
-	<item>
-		<title>Paintings</title>
-		<link>http://localhost:1313/photos/paintings/</link>
-		<pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
-		
-		<guid>http://localhost:1313/photos/paintings/</guid>
-		<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.&lt;/p&gt;</description>
-	</item>
-	
-	<item>
-		<title>Digital Painting</title>
-		<link>http://localhost:1313/photos/digital-painting/</link>
-		<pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
-		
-		<guid>http://localhost:1313/photos/digital-painting/</guid>
-		<description>&lt;p&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;</description>
 	</item>
 	
 	</channel>
