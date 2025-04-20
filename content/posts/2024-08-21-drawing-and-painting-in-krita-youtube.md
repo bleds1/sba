@@ -5,7 +5,7 @@ date: 2024-08-21T11:55:34+01:00
 
 {{< youtube f5pQRD5O4B0 >}}
 
-I launched my [YouTube channel](https://www.youtube.com/@itsbledley_tv) a little while ago, starting initially with just some time-lapse videos of my digital process. I was trying to just get in the habit of recording, editing, adding some audio and posting online. My first attempt with some kind of vocal commentary was a bit let down by poor audio quality but I think I've been levelling them up a little each time. I recently got a better quality mic and the last couple seem like something I can share. 
+I launched my [YouTube channel](https://www.youtube.com/@bledleysworld) a little while ago, starting initially with just some time-lapse videos of my digital process. I was trying to just get in the habit of recording, editing, adding some audio and posting online. My first attempt with some kind of vocal commentary was a bit let down by poor audio quality but I think I've been levelling them up a little each time. I recently got a better quality mic and the last couple seem like something I can share. 
 
 In [Part One](https://youtu.be/f5pQRD5O4B0) of this series I show my process in [Krita](https://krita.org/en/) for taking a traditional sketch from your sketchbook, scanning it in and doing digital inks and flats on top.
 

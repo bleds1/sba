@@ -7,7 +7,7 @@ customCSS = ["css/custom_style.css"]
 
 [Author]
 name = "Bledley"
-email = "itsbledley@posteo.com"
+email = "bledley@posteo.com"
 
 [markup]
 [markup.highlight]
@@ -17,7 +17,7 @@ unsafe = true
 
 [params]
 mainSections = ["posts"]
-email = "itsbledley@posteo.com"
+email = "bledley@posteo.com"
 favicon = "icons/favicon.jpg"
 
 # about = """
@@ -53,7 +53,7 @@ href = "/kofi"
 
 # [[params.links.link]]
 #   name = "Youtube"
-#   href = "https://www.youtube.com/@itsbledley_tv/"
+#   href = "https://www.youtube.com/@bledleysworldv/"
 #   new_tab = true
 
 # [[params.links.link]]
