@@ -26,7 +26,7 @@ For an interview and audio previewing the event please check out >> [Navigators 
 
 **TICKETSOURCE BOOKING**
 
-**£10**
+**£8 ADV/£10 OTD**
 
 🔗 [bit.ly/nav-open](https://bit.ly/nav-open)
 
