@@ -26,24 +26,24 @@ For an interview and audio previewing the event please check out >> [Navigators 
 
 **TICKETSOURCE BOOKING**
 
-**£8 ADV/£10 OTD**
+**£10 ADV/£12 OTD**
 
 🔗 [bit.ly/nav-open](https://bit.ly/nav-open)
 
 
-FEATURING:
+**FEATURING:**
 
-York Poet OLIVER LEWIS
+York Poet **OLIVER LEWIS**
 
-Mythical/mystical song and storytelling duo ADDERSTONE
+Mythical/mystical song and storytelling duo **ADDERSTONE**
 
-The fresh voice of newly published AIMEE DONNELL
+The fresh voice of newly published **AIMEE DONNELL**
 
-Lyrical folk duo WHERE THE DEER GO
+Lyrical folk duo **WHERE THE DEER GO**
 
-"The finest love poet of his generation" - and a damn fine political one too! - IAN PARKS
+"The finest love poet of his generation" - and a damn fine political one too! - **IAN PARKS**
 
-Singer and multi-instrumentalist JANE STOCKDALE from alt-folk legends White Sail
+Singer and multi-instrumentalist **JANE STOCKDALE** from alt-folk legends White Sail
 
 
 ## Related
