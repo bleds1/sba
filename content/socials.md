@@ -11,7 +11,9 @@ There is a reply by email button under every post if you have any comments or qu
 
 I post video content on my [Youtube Channel](https://www.youtube.com/@bledleysworld)
 
-The only social network I'm on is [Bluesky](https://bsky.app/profile/bledley.bsky.social) 
+My main social network use is on [Bluesky](https://bsky.app/profile/bledley.bsky.social) 
+
+I also have a [Mastodon](https://mastodon.social/@bledley) but it's kinda quiet on there
 
 My dotfiles and configs can be found on [Github](https://github.com/bleds1)
 
