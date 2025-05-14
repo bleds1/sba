@@ -7,7 +7,7 @@ tags: ['navigators','shows']
 ![Image](/2025-05-11-YO-Underground-3-city-screen/NA-YOG3-flyer.jpg)
 
 
-📣[Navigators Art](https://www.instagram.com/navigatorsart) Presents:
+📣 [Navigators Art](https://www.instagram.com/navigatorsart) Presents:
 
 **YO UNDERGROUND 3**
 
