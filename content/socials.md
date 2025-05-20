@@ -9,11 +9,9 @@ I have no tracking, comment or follow system. The best way to follow this blog i
 
 There is a reply by email button under every post if you have any comments or questions I'm happy to answer them there. 
 
-I post video content on my [Youtube Channel](https://www.youtube.com/@bledleysworld)
-
-I'm on [Bluesky](https://bsky.app/profile/bledley.bsky.social) 
-
 I have a [Mastodon](https://mastodon.social/@bledley)
+
+I post video content on my [Youtube Channel](https://www.youtube.com/@bledleysworld)
 
 My dotfiles and configs can be found on [Github](https://github.com/bleds1)
 
