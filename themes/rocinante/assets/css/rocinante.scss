@@ -4,8 +4,8 @@
 $fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "JetBrains Mono";
 
 body {
-	font-family: "Helvetica";
-	background: #c4c4c4 ;
+	font-family: "JetBrains Mono";
+	background: #efefef ;
 	color: #181a1b;
   font-size: 14px;
   line-height: 1.6;
@@ -55,7 +55,7 @@ h4, h5, h6 {
 }
 
 a {
-  color: #C280A0;
+  color: #6EA4E1;
   transition: color 0.1s ease;
 
   &:hover {
@@ -154,7 +154,7 @@ th {
 }
 
 tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th {
-  background-color: #c4c4c4;
+  background-color: #efefef;
 }
 
 sup, sub {
@@ -178,7 +178,7 @@ header h2 {
     color: #181a1b !important;
 
     &:hover {
-      color: #C280A0 !important;
+      color: #6EA4E1 !important;
     }
 
     &:active {
@@ -216,7 +216,7 @@ header h2 {
 footer {
   margin-top: 3em;
   .content-container {
-    background: #c4c4c4;
+    background: #efefef;
     padding: 2em 0;
     .content {
       max-width: 740px;
