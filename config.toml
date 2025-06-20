@@ -30,6 +30,9 @@ favicon = "icons/favicon.jpg"
 google_fonts = ["//fonts.googleapis.com/css?family=Fira+Sans"]
 body_font = "Fira+Sans"
 
+google_fonts = ["//fonts.googleapis.com/css?family=IBM+Plex+Serif"]
+body_font = "IBM+Plex+Serif"
+
 [[params.links]]
 
 [[params.links.link]]
