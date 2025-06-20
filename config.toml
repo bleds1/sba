@@ -51,11 +51,11 @@ smart_email_link = true
 
 [[params.links.link]]
 name = "↪ Follow"
-href = "/socials"
+href = "/follow"
 
 [[params.links.link]]
 name = "☕ Thanks"
-href = "/kofi"
+href = "/thanks"
 
 # [[params.links.link]]
 #   name = "Youtube"
@@ -74,4 +74,4 @@ href = "/kofi"
 
 [[params.links.link]]
 name = "💭 Stuff"
-href = "/links"
+href = "/stuff"
