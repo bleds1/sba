@@ -5,8 +5,8 @@ $fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-se
 
 body {
 	font-family: "JetBrains Mono";
-	background: #181a1b ;
-	color: #d8d8d8 ;
+	background: #d8d8d8 ;
+	color: #181a1b;
   font-size: 14px;
   line-height: 1.6;
 }
@@ -216,7 +216,7 @@ header h2 {
 footer {
   margin-top: 3em;
   .content-container {
-    background: #181a1b;
+    background: #d8d8d8;
     padding: 2em 0;
     .content {
       max-width: 740px;
