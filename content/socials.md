@@ -9,10 +9,10 @@ I have no tracking, comment or follow system. The best way to follow this blog i
 
 There is a reply by email button under every post if you have any comments or questions I'm happy to answer them there. 
 
-I have a 🐘[Mastodon](https://mastodon.social/@bledley)
+I have a 🐘 [Mastodon](https://mastodon.social/@bledley)
 
-I post video content on my 📺[Youtube Channel](https://www.youtube.com/@bledleysworld)
+I post video content on my 📺 [Youtube Channel](https://www.youtube.com/@bledleysworld)
 
-My dotfiles and configs can be found on 🤖[Github](https://github.com/bleds1)
+My dotfiles and configs can be found on 🤖 [Github](https://github.com/bleds1)
 
-Subscribe with an 📰[RSS](/index.xml) reader
+Subscribe with an 📰 [RSS](/index.xml) reader
