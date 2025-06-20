@@ -11,7 +11,7 @@ email = "bledley@posteo.com"
 
 [markup]
 [markup.highlight]
-style = "monokaidark"
+style = "monokailight"
 [markup.goldmark.renderer]
 unsafe = true
 
