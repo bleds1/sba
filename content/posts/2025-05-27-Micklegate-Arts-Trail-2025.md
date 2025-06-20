@@ -10,9 +10,9 @@ tags: ['navigators','events']
 
 You can see the work of 35 local artists in 20+ shops, restaurants, cafes and more all over Micklegate, York! 
 
-Chosen and hosted by the traders themselves, this is a true community event, devised by Navigators Art for the York Festival of Ideas. This year we’ve added music, spoken word and art demonstrations in The Artful Dodger Bar, The Falcon and The Hooting Owl Distillery York throughout the two weeks of the project. 
+Chosen and hosted by the traders themselves, this is a true community event, devised by [Navigators Art ](https://www.instagram.com/navigatorsart/) for the [York Festival of Ideas](https://yorkfestivalofideas.com/2025/). This year we’ve added music, spoken word and art demonstrations in [The Artful Dodger Bar](https://the-artful-dodger.co.uk/), [The Falcon](https://www.thefalconyork.com/) and [The Hooting Owl Distillery](https://hootingowl.co.uk/) throughout the two weeks of the project. 
 
-A visitor's guide with a map and events schedule is available from Visit York, City Screen, York Explore, and participating venues along Micklegate. 
+A visitor's guide with a map and events schedule is available from [Visit York](https://visityork.org/), [City Screen ](https://www.picturehouses.com/cinema/city-screen-picturehouse), [York Explore](https://exploreyork.org.uk/), and participating venues along [Micklegate](https://duckduckgo.com/?t=ffab&q=micklegate+york&iaxm=maps). 
 
 **LAUNCH DAY is 12 till 5 pm on SATURDAY 31st MAY.** 
 
@@ -32,9 +32,13 @@ All Navigators Art events are posted on 🔗 [bit.ly/nav-events](https://bit.ly/
 
 ## Related
 
+[YO Underground #3 at City Screen, York 31st May 2025](/posts/2025-05-11-YO-Underground-3-city-screen/)
+
 
 ## Links
 
 [Ticketsource booking](https://bit.ly/nav-events)
+
+[Micklegate Arts Trail | charleshutchpress.co.uk](https://charleshutchpress.co.uk/micklegate-arts-trail-combines-art-with-music-spoken-word-and-film-from-today-to-june-15/)
 
 [Navigators Art |Instagram](https://www.instagram.com/navigatorsart/)
