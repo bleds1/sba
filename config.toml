@@ -40,17 +40,17 @@ name = "🏠 Home"
 href = "https://bledley.xyz/"
 
 [[params.links.link]]
-  name = "🎨 Gallery"
+  name = "🖼 Gallery"
   href = "https://portfolio.pixelfed.social/bledley"
   new_tab = true
 
 [[params.links.link]]
-name = "💬 Message"
+name = "✉ Message"
 href = "/contact"
 smart_email_link = true
 
 [[params.links.link]]
-name = "↪️ Follow"
+name = "↪ Follow"
 href = "/socials"
 
 [[params.links.link]]
