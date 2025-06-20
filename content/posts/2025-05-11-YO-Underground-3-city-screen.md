@@ -7,7 +7,7 @@ tags: ['navigators','shows']
 ![Image](/2025-05-11-YO-Underground-3-city-screen/NA-YOG3-flyer.jpg)
 
 
-📣 [Navigators Art](https://www.instagram.com/navigatorsart) Presents:
+[Navigators Art](https://www.instagram.com/navigatorsart) Presents:
 
 **YO UNDERGROUND 3**
 
@@ -18,7 +18,7 @@ regional innovators.
 "Outside the box creativity... filling a gap in the York events scene."
 (BBC UPLOAD)
 
-✨ FEATURING:
+FEATURING:
 
 **DESMOND CLARKE** - *electronic/acoustic musician* @des_r_clarke
 

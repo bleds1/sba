@@ -4,7 +4,7 @@ date: 2025-05-27T12:02:54+01:00
 tags: ['navigators','events']
 ---
 
-![Image]()
+![Image](/MAT-2025-flyer-promo-red-1080sq.jpg)
 
 **The Micklegate Arts Trail is launching this Saturday 31st May!**
 
@@ -18,9 +18,11 @@ A visitor's guide with a map and events schedule is available from [Visit York](
 
 There’ll be street music, a busking poet, solo improvisations alongside the sculptures in Holy Trinity, and a demonstration of Giant Knitting in the church grounds. 
 
-**YO UNDERGROUND**
+![Image](/MAT-2025-flyer-inlay.jpg)
 
-To round things off, at 7.30pm we have the live event YO Underground, featuring new music and words by local and regional performers. This one is ticketed, and full details can be found on our events page.
+**YO UNDERGROUND 3**
+
+To round things off, at 7.30pm we have the live event [YO Underground #3 ](/posts/2025-05-11-YO-Underground-3-city-screen/), featuring new music and words by local and regional performers. This one is ticketed, and full details can be found on our events page.
 
 **MAKING WAVES EXHIBITION** 
 
@@ -34,10 +36,12 @@ All Navigators Art events are posted on 🔗 [bit.ly/nav-events](https://bit.ly/
 
 [YO Underground #3 at City Screen, York 31st May 2025](/posts/2025-05-11-YO-Underground-3-city-screen/)
 
+[Micklegate Art Trail 2024](/posts/2024-05-28-navigators-art-micklegate-art-trail/)
+
 
 ## Links
 
-[Ticketsource booking](https://bit.ly/nav-events)
+[Ticketsource booking](https://bit.ly/nav-events/)
 
 [Micklegate Arts Trail | charleshutchpress.co.uk](https://charleshutchpress.co.uk/micklegate-arts-trail-combines-art-with-music-spoken-word-and-film-from-today-to-june-15/)
 
