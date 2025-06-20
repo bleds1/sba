@@ -4,7 +4,7 @@ date: 2025-05-27T12:02:54+01:00
 tags: ['navigators','events']
 ---
 
-![Image](/MAT-2025-flyer-promo-red-1080sq.jpg)
+![Image](/2025-05-27-Micklegate-Arts-Trail-2025/MAT-2025-flyer-promo-red-1080sq.jpg)
 
 **The Micklegate Arts Trail is launching this Saturday 31st May!**
 
@@ -18,7 +18,7 @@ A visitor's guide with a map and events schedule is available from [Visit York](
 
 There’ll be street music, a busking poet, solo improvisations alongside the sculptures in Holy Trinity, and a demonstration of Giant Knitting in the church grounds. 
 
-![Image](/MAT-2025-flyer-inlay.jpg)
+![Image](/2025-05-27-Micklegate-Arts-Trail-2025/MAT-2025-flyer-inlay.jpg)
 
 **YO UNDERGROUND 3**
 
