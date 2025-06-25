@@ -115,6 +115,7 @@ The options I'm presented with there are;
 
 **Todo (t)**
 
+
 *(Nested beneath t)*
 
 **-(p) Personal**      - add a new todo to *per.org* under the heading *"INBOX:"*
@@ -127,6 +128,7 @@ The options I'm presented with there are;
 
 **Event (e)**              - add an entry to *event.org*. This file is synced with org-cal-dav so appointments show up everywhere I access my calendar.
 
+
 **Watch (w)**
 
 *(Nested beneath w)*
@@ -134,6 +136,7 @@ The options I'm presented with there are;
 **-(t) To Watch**      - films or shows I want to watch added to *watch.org*
 
 **-(d) Watched**       - when I watch something it gets logged as done with timestamp that shows on agenda views
+
 
 **Planning (p)**
 
@@ -165,7 +168,6 @@ The options I'm presented with there are;
 
            ("e" " Event" entry (file "~/org/events.org")
              "* %? \n %^t")
-
           ("w" " Watch")
            ("wt" "󰿎 To Watch" entry (file+headline "~/org/watch.org" "TO WATCH:")
             (file "~/org/tpl/tpl-towatch.txt"))
@@ -229,7 +231,7 @@ That covers the basic foundation of my system in org mode. I hope this starts to
 
 I keep my org-files in sync with my mobile with [Syncthing](https://syncthing.net/) and access them there for some basic editing with [Orgro](https://orgro.org/). Of course we don't have all the features of Emacs there but I can quickly take a few notes to one of my files if needs be. My calendar events in *events.org* sync with [org-cal-dav](https://github.com/dengste/org-caldav/blob/master/doc/org-caldav.org) to the [Fossify Calendar](https://www.fossify.org/) app with [Davx5](https://www.davx5.com/). 
 
-A big part of my system not mentioned here is that I folders related to note-taking with [Org-Roam](https://www.orgroam.com/). I feel my [Zettelkasten](https://zettelkasten.de/introduction/) system is a separate one to my GTD related things although there can be some cross-over.
+A big part of my system not mentioned here is that I have some other folders related to note-taking with [Org-Roam](https://www.orgroam.com/). I feel my [Zettelkasten](https://zettelkasten.de/introduction/) system is a separate one to my GTD related things although there can be some cross-over.
 
 If you want to dive into my full messy [Doom Emacs config](https://github.com/bleds1/dotfiles/tree/main/.doom.d) then you can find my dotfiles [here on Github](https://github.com/bleds1).. I push changes quite often and I will discussing my Org-Roam note taking system in a future post.
 
