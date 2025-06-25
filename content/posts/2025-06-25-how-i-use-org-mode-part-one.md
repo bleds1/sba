@@ -49,8 +49,7 @@ All created tasks have a state, the default being TODO. States can be as follows
 
 **CANC (c)**          - these just aren't happening or don't need to be done anymore for whatever reason
 
-I have some slightly modified todo statuses in my *watch.org* and *read.org* files as you can set status on a file by file basis. I don't think we need to go into that use certain things like WATC or READ instead of the usual TODO. 
-
+I have some slightly modified todo statuses in my *watch.org* and *read.org* files as you can set status on a file by file basis. I don't think we need to go into that here but I use things like WATC or READ instead of the usual TODO. 
 ```lisp
 (setq! org-todo-keywords
       '((sequence
@@ -74,7 +73,7 @@ I have some slightly modified todo statuses in my *watch.org* and *read.org* fil
 
 ![Image 2](/2025-06-25-how-i-use-org-mode-part-one/org-part-one-2.png)
 
-I try to keep my tags for these todo's quite limited but the first area I think about it priority. Priorities are a little odd in org, in a system where you can mark things as A,B,C priority every un-prioritised task defaults to B which I'm not keen on. One approach we can take is give every task an A,B or C priority. Sometimes I just think of it as the next 3 things I'm going to do. Do A then B then C. Priorities are set very easily with Shift up and down.
+I try to keep my tags for these todo's quite limited but the first area I think about it priority. Priorities are a little odd in org. By default it's a system where you can mark things as A,B,C priority. When searching for tasks every un-prioritised todo defaults to B which I'm not keen on. One approach we can take to deal with that is to give every single task an A,B or C priority. Another way is a shift in thinking -  sometimes I just think of it as the next 3 things I'm going to do.. Do A, then B, then C. These priorities are set very easily with shift up and down.
 
 ![Image 3](/2025-06-25-how-i-use-org-mode-part-one/org-part-one-3.png)
 
@@ -104,41 +103,41 @@ I try to keep my tags for these todo's quite limited but the first area I think 
                ))
 ```
 
-These are my current tags I use for todos and fleeting thoughts. The ones beginning with *@* symbol are contexts. So say I am working on domestic tasks around the house I can filter things down by searching for the *@home* tag. If I'm working at my computer on my system I can pull up the *@sys* tagged tasks.
+These are my current tags I use for todos and fleeting thoughts. The ones beginning with *@* symbol are contexts. So, say I am working on domestic tasks around the house I can filter things down by searching for the *@home* tag. If I'm working at my computer (system) I can pull up the *@sys* tagged tasks.
 
 ## Org capture templates
 
 ![Image 4](/2025-06-25-how-i-use-org-mode-part-one/org-part-one-4.png)
 
-Capturing new tasks to the system is fast and easy using org-capture-templates. A dialogue for more specific org-capture will pop up with *'C-c-c' or <f6>*
+Capturing new tasks is fast and easy using org-capture-templates. A dialogue for more specific org-capture will pop up with *'C-c-c' or F6*
 
 The options I'm presented with there are;
 
 **Todo (t)**
 
-**-(p) Personal**      - add a new todo to per.org under the heading "INBOX:"
+**-(p) Personal**      - add a new todo to *per.org* under the heading *"INBOX:"*
 
-**-(n) NA**               - add a new todo to work.org under the heading "INBOX:"
+**-(n) NA**               - add a new todo to *work.org* under the heading *"INBOX:"*
 
-**-(w) Work**          - add a new todo to work.org under the heading "INBOX:"
+**-(w) Work**          - add a new todo to *work.org* under the heading *"INBOX:"*
 
-**-(d) Done**            - add some task immediately with DONE status to archive.org. This is for things that come up and get completed that are not already in the system. By logging them they show what time they got completed on agenda views.
+**-(d) Done**            - add some task immediately with DONE status to *archive.org*. This is for things that come up and get completed that are not already in the system. By logging these they show the time they got completed on agenda views.
 
-**Event (e)**              - add an entry to event.org. This file is synced with org-cal-dav so appointments show up everywhere I access my calendar.
+**Event (e)**              - add an entry to *event.org*. This file is synced with org-cal-dav so appointments show up everywhere I access my calendar.
 
 **Watch (w)**
 
-**-(t) To Watch**      - films or shows I want to watch added to watch.org
+**-(t) To Watch**      - films or shows I want to watch added to *watch.org*
 
 **-(d) Watched**       - when I watch something it gets logged as done with timestamp that shows on agenda views
 
 **Planning (p)**
 
-**-(p) Day Plan**       - add a quick checklist to my log.org (Primary Objectives for the day)
+**-(p) Day Plan**       - add a quick checklist to my *log.org* (Primary Objectives for the day)
 
 **-(r) End of day review** - A few questions for EOD, What did I get done? what will I do next? etc. I don't use as often as I should. I tend to use the following more consistently.
 
-**-(w) End of week review** - Same but with regards to the whole week
+**-(w) End of week review** - Same as above but with regards to the whole week
 
 ```lisp
 (after! org
@@ -181,14 +180,13 @@ The options I'm presented with there are;
            ))
 ```
 
-Most thoughts throughout the day will be captured to my journal *log.org*. Tasks will be captured to the relevant todo file for refiling, tagging, scheduling and organisation. Each todo file (*personal/na/work*) has the following headings *INBOX:* and *NEXT:*. INBOX is where things sit until they have been prioritised, scheduled or tagged, by default they have one tag *:refile:* inherited from the heading making them easy to locate from agenda views. They get queued up under the *NEXT:* heading suggesting the order I want to complete things in. An agenda view search for the *:refile:* tag is then a unified inbox where I can sort tasks across the different areas.
+Most thoughts throughout the day will be captured to my journal *log.org*. Tasks will be captured to the relevant todo file for refiling, tagging, scheduling and organisation. Each todo file (*personal/na/work*) has the following headings *INBOX:* and *NEXT:*. *INBOX* is where things sit until they have been prioritised, scheduled or tagged, by default they have one tag *:refile:* inherited from the heading making them easy to locate from agenda views. They get queued up under the *NEXT:* heading suggesting the order I want to complete things in. An agenda view search for the *:refile:* tag is then a unified inbox where I can sort tasks across the different areas.
 
 ## Agenda views
 
-![Image 5](/2025-06-25-how-i-use-org-mode-part-one/)
+![Image 5](/2025-06-25-how-i-use-org-mode-part-one/org-part-one-5.png)
 
-I don't go to crazy with these. *C-c-TAB* brings up my default agenda view. A timeline of the current day. I leave the agenda view open and sticky in the background and have set up a key to toggle back and forth from whatever file I'm in with *C-c 9*
-
+I don't go to crazy with these. *C-c-TAB* brings up my default agenda view. A timeline of the current day that shows both events and scheduled tasks or deadlines. I leave the agenda view open and sticky in the background and have set up a key to toggle back and forth from whatever file I'm in with *C-c 9*
 ```lisp
 ;; Note this keybind requires that the agenda is already open in the background or it will just go to an empty buffer
 (global-set-key (kbd "C-c 9") (lambda ()
@@ -198,7 +196,7 @@ I don't go to crazy with these. *C-c-TAB* brings up my default agenda view. A ti
 
 ## The daily log.org
 
-[Image 6]
+![Image 6](/2025-06-25-how-i-use-org-mode-part-one/org-part-one-6.png)
 
 My main go to file during the day is my *log.org*. It's one long file that uses org-roam-dailies to create a date-tree journal with timestamped entries.
 ```lisp
@@ -210,7 +208,7 @@ My main go to file during the day is my *log.org*. It's one long file that uses 
       )
 ```
 
-I have a keyboard shortcut that can quick capture an entry to the log from anywhere throughout the day. The default org-roam-dailies create a separate file for each day and I started to find that counter productive. I would rarely ever look back on the individual files. With one long log I can quickly scan back over the past few days or weeks and information stays fresh unless I decide to fold a heading away or narrow the buffer to just today's date. Sometimes I create a little check list here at the beginning of the day for my main objectives, often I just ramble and capture fleeting thoughts throughout the day.
+I have a keyboard shortcut that can quick capture an entry to the log from anywhere throughout the day. The default *'org-roam-dailies'* create a separate file for each day and I started to find that counter productive. I would rarely ever look back on the individual files. With one long log I can quickly scan back over the past few days or weeks and information stays fresh unless I decide to fold a heading away or narrow the buffer to just today's date. Sometimes I create a little check list here at the beginning of the day for my main objectives, often I just ramble and capture fleeting thoughts throughout the day.
 
 ```lisp
 ;; Keyboard shortcut to get to my daily log on today's date
@@ -221,7 +219,7 @@ I have a keyboard shortcut that can quick capture an entry to the log from anywh
       "d" #'org-roam-dailies-goto-today)
 ```
 
-That covers the basic foundation of my system in org mode. I hope this starts to show why no other app or editor comes close for me. Being able to have my notes, journal, tasks and calendar all under the one roof whilst also being able to navigate my entire file system with Vim keybindings in Emacs is very efficient and endlessly customizable. 
+That covers the basic foundation of my system in org mode. I hope this starts to show why no other app or text editor comes close for me. Being able to have my notes, journal, tasks and calendar all under the one roof whilst also being able to navigate my entire file system with Vim keybindings in Emacs is very efficient and endlessly customizable. We're barely even scratching the surface of all the things Emacs is capable of here.
 
 I keep my org-files in sync with my mobile with [Syncthing](https://syncthing.net/) and access them there for some basic editing with [Orgro](https://orgro.org/). Of course we don't have all the features of Emacs there but I can quickly take a few notes to one of my files if needs be. My calendar events in *events.org* sync with [org-cal-dav](https://github.com/dengste/org-caldav/blob/master/doc/org-caldav.org) to the [Fossify Calendar](https://www.fossify.org/) app with [Davx5](https://www.davx5.com/). 
 
