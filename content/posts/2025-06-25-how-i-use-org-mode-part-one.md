@@ -115,6 +115,8 @@ The options I'm presented with there are;
 
 **Todo (t)**
 
+*(Nested beneath t)*
+
 **-(p) Personal**      - add a new todo to *per.org* under the heading *"INBOX:"*
 
 **-(n) NA**               - add a new todo to *work.org* under the heading *"INBOX:"*
@@ -127,11 +129,15 @@ The options I'm presented with there are;
 
 **Watch (w)**
 
+*(Nested beneath w)*
+
 **-(t) To Watch**      - films or shows I want to watch added to *watch.org*
 
 **-(d) Watched**       - when I watch something it gets logged as done with timestamp that shows on agenda views
 
 **Planning (p)**
+
+*(Nested beneath p)*
 
 **-(p) Day Plan**       - add a quick checklist to my *log.org* (Primary Objectives for the day)
 
