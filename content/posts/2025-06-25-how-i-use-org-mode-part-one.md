@@ -7,7 +7,7 @@ tags: ['emacs','org']
 Since the last time I wrote about [Org mode](https://orgmode.org/) and my [Doom Emacs](https://github.com/doomemacs/doomemacs) set up I feel like some things will have changed. In fact, who am I kidding.. it's always changing. The basic principles of my [GTD](https://gettingthingsdone.com/) and note taking would be the same anywhere but little things get tweaked and optimized all the time. I think I'm at a good place to record my current process and way of working here. 
 
 ## File structure
-Currently my org files for GTD and directory look like this;
+Currently my org files for GTD look like this in the directory;
 
 **~/org**
 
