@@ -120,13 +120,13 @@ The options I'm presented with there are;
 
 **-(p) Personal**      - add a new todo to *per.org* under the heading *"INBOX:"*
 
-**-(n) NA**               - add a new todo to *work.org* under the heading *"INBOX:"*
+**-(n) NA**               - add a new todo to *na.org* under the heading *"INBOX:"*
 
 **-(w) Work**          - add a new todo to *work.org* under the heading *"INBOX:"*
 
 **-(d) Done**            - add some task immediately with DONE status to *archive.org*. This is for things that come up and get completed that are not already in the system. By logging these they show the time they got completed on agenda views.
 
-**Event (e)**              - add an entry to *event.org*. This file is synced with org-cal-dav so appointments show up everywhere I access my calendar.
+**Event (e)**              - add an entry to *event.org*. This file is synced with org-cal-dav so appointments show up everywhere I access my calendar. They are headlines without a todo status but have a *SCHEDULED* date stamp.
 
 
 **Watch (w)**
@@ -144,9 +144,9 @@ The options I'm presented with there are;
 
 **-(p) Day Plan**       - add a quick checklist to my *log.org* (Primary Objectives for the day)
 
-**-(r) End of day review** - A few questions for EOD, What did I get done? what will I do next? etc. I don't use as often as I should. I tend to use the following more consistently.
+**-(r) End of day review** - A few questions for EOD, What did I get done? what will I do next? etc. I don't use this as often as I should. I tend to use the following more consistently.
 
-**-(w) End of week review** - Same as above but with regards to the whole week
+**-(w) End of week review** - Same as above but with regards to the whole week. After a review of what I got done this becomes a plan for the next week as it has a prompt "What's next?".
 
 ```lisp
 (after! org
@@ -194,7 +194,7 @@ Most thoughts throughout the day will be captured to my journal *log.org*. Tasks
 
 ![Image 5](/2025-06-25-how-i-use-org-mode-part-one/org-part-one-5.png)
 
-I don't go to crazy with these. *C-c-TAB* brings up my default agenda view. A timeline of the current day that shows both events and scheduled tasks or deadlines. I leave the agenda view open and sticky in the background and have set up a key to toggle back and forth from whatever file I'm in with *C-c 9*
+I don't go to crazy with these. *C-c-TAB* or *C-c-a-a* brings up my default agenda view. A timeline of the current day that shows both events and scheduled tasks or deadlines. I leave the agenda view open and sticky in the background and have set up a key to toggle back and forth from whatever file I'm in with *C-c 9*
 ```lisp
 ;; Note this keybind requires that the agenda is already open in the background or it will just go to an empty buffer
 (global-set-key (kbd "C-c 9") (lambda ()
@@ -216,7 +216,7 @@ My main go to file during the day is my *log.org*. It's one long file that uses 
       )
 ```
 
-I have a keyboard shortcut that can quick capture an entry to the log from anywhere throughout the day. The default *'org-roam-dailies'* create a separate file for each day and I started to find that counter productive. I would rarely ever look back on the individual files. With one long log I can quickly scan back over the past few days or weeks and information stays fresh unless I decide to fold a heading away or narrow the buffer to just today's date. Sometimes I create a little check list here at the beginning of the day for my main objectives, often I just ramble and capture fleeting thoughts throughout the day.
+I have a keyboard shortcut that can quick capture an entry to the log from anywhere throughout the day. The default *'org-roam-dailies'* capture a separate file for each day and I started to find that counter productive. I would rarely ever look back on the individual files. With one long log I can quickly scan back over the past few days or weeks and information stays fresh unless I decide to fold a heading away or narrow the buffer to just today's date. Sometimes I create a little check list here at the beginning of the day for my main objectives, often I just ramble and capture fleeting thoughts throughout the day.
 
 ```lisp
 ;; Keyboard shortcut to get to my daily log on today's date
@@ -227,13 +227,13 @@ I have a keyboard shortcut that can quick capture an entry to the log from anywh
       "d" #'org-roam-dailies-goto-today)
 ```
 
-That covers the basic foundation of my system in org mode. I hope this starts to show why no other app or text editor comes close for me. Being able to have my notes, journal, tasks and calendar all under the one roof whilst also being able to navigate my entire file system with Vim keybindings in Emacs is very efficient and endlessly customizable. We're barely even scratching the surface of all the things Emacs is capable of here.
+So that covers the basic foundation of my system in org mode. Hopefully, this starts to show why no other program, app or text editor comes close for me. Being able to have my notes, journal, tasks and calendar all under the one roof, whilst also being able to navigate my entire file system with Vim keybindings in Emacs is incredibly efficient and endlessly customizable. The reason I haven't gone explicitly in to all the keybinds and functions I use is that you will likely want to design your own based on the way you do things. We've barely even scratched the surface of all the things Emacs and Org-mode is capable of here.
 
 I keep my org-files in sync with my mobile with [Syncthing](https://syncthing.net/) and access them there for some basic editing with [Orgro](https://orgro.org/). Of course we don't have all the features of Emacs there but I can quickly take a few notes to one of my files if needs be. My calendar events in *events.org* sync with [org-cal-dav](https://github.com/dengste/org-caldav/blob/master/doc/org-caldav.org) to the [Fossify Calendar](https://www.fossify.org/) app with [Davx5](https://www.davx5.com/). 
 
 A big part of my system not mentioned here is that I have some other folders related to note-taking with [Org-Roam](https://www.orgroam.com/). I feel my [Zettelkasten](https://zettelkasten.de/introduction/) system is a separate one to my GTD related things although there can be some cross-over.
 
-If you want to dive into my full messy [Doom Emacs config](https://github.com/bleds1/dotfiles/tree/main/.doom.d) then you can find my dotfiles [here on Github](https://github.com/bleds1).. I push changes quite often and I will discussing my Org-Roam note taking system in a future post.
+If you want to dive into my full messy [Doom Emacs config](https://github.com/bleds1/dotfiles/tree/main/.doom.d) then you can find my dotfiles [here on Github](https://github.com/bleds1).. I push changes quite often and I will cover my Org-Roam note taking system in a future post.
 
 ## Related
 
