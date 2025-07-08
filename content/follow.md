@@ -12,7 +12,6 @@ There is a reply by email button under every post if you have any comments or qu
 I have socials accounts on:
 - 🐘 [Mastodon](https://mastodon.social/@bledley)
 - 📷 [Pixelfed](https://pixelfed.social/bledley)
-- 🦋 [Bluesky](https://bsky.app/profile/bledley.xyz)
 
 I post video content on:
 - 📺 [Youtube](https://www.youtube.com/@bledleysworld)
