@@ -4,7 +4,7 @@ date: 2025-07-08T14:18:09+01:00
 tags: ['emacs', 'linux']
 ---
 
-![Image 1](/2025-07-08-being-less-evil/202507091223-emacs-grim.png)
+![Image 1](/2025-07-08-being-less-evil/202507091223-emacs-grim.jpg)
 
 Something unexpected has happened. I'm not sure what possessed me to undertake this but I have disabled ['evil-mode'](https://github.com/emacs-evil/evil) in [Doom Emacs](https://github.com/doomemacs/doomemacs). Curiosity I suppose? maybe the chance to learn more about Emacs through understanding it's default behaviours? As a long time evil user I guess I just wanted a little change..
 
@@ -28,7 +28,7 @@ So, I will be continuing with the default bindings. Are there more key presses? 
 
 It's a bit like picking up and learning a new game. You don't know the buttons at first.. slowly but surely, through playing around and experimentation you start to figure out how the game works. Before you know it you're fluid with the controls and don't even think about it any more.
 
-There's a huge amount of learning materials about Emacs out there online and the majority of it is based around the default key-binds. I was feeling a bit like I'd absorbed all the Doom content out there. I'm currently looking at [Mickey Peterson's Mastering Emacs](https://www.masteringemacs.org/) book and watching video content from [Protesilaus](https://protesilaos.com/) and [System Crafters](https://systemcrafters.net/).. there's so many things to learn about Emacs that have just opened up to me.
+There's a huge amount of learning materials about Emacs out there online and the majority of it is based around the default key-binds. I was feeling a bit like I'd absorbed all the Doom content out there. I'm currently looking at [Mickey Peterson's Mastering Emacs](https://www.masteringemacs.org/) book and watching video content from [Protesilaos](https://protesilaos.com/) and [System Crafters](https://systemcrafters.net/).. there's so many things to learn about Emacs that have just opened up to me.
 
 
 ## Related
